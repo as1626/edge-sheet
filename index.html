@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Edge Sheet</title>
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;800;900&family=Instrument+Sans:wght@400;500;600&family=Martian+Mono:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+/* layout: masthead + tote-board record strip, then ticket-stub cards on a 2-col grid, ledger + method below */
+:root{
+  --paper:#e9eef1; --card:#f8fafb; --ink:#0c1a26; --mute:#56677a; --rule:#c4ced6;
+  --sig:#ff4f1a; --won:#0f7a52; --lost:#c22c3a; --push:#7a6a12;
+  --display:"Big Shoulders Display","Oswald","Arial Narrow",sans-serif;
+  --body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  --mono:"Martian Mono","SFMono-Regular",Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --paper:#08121b; --card:#0f1d29; --ink:#e7eef4; --mute:#8fa1b3; --rule:#22364a;
+  --sig:#ff6a3d; --won:#3cc48d; --lost:#ff6b77; --push:#e0c860; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#08121b; --card:#0f1d29; --ink:#e7eef4; --mute:#8fa1b3; --rule:#22364a;
+  --sig:#ff6a3d; --won:#3cc48d; --lost:#ff6b77; --push:#e0c860; color-scheme:dark}
+*{box-sizing:border-box}
+html{background:var(--paper)}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 var(--body);-webkit-font-smoothing:antialiased}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px 72px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--sig);outline-offset:2px}
+
+/* masthead */
+.mast{display:grid;grid-template-columns:1fr auto;gap:6px 24px;align-items:end;padding:32px 0 20px;border-bottom:1px solid var(--rule)}
+.kick{font:600 11px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--mute);display:flex;gap:14px;flex-wrap:wrap}
+.kick b{color:var(--sig);font-weight:600}
+h1{font:800 clamp(44px,6.5vw,72px)/.9 var(--display);letter-spacing:.005em;text-transform:uppercase;margin:12px 0 0;text-wrap:balance}
+h1 span{color:var(--sig)}
+.mast .dek{grid-column:1/-1;max-width:70ch;color:var(--mute);margin:8px 0 0;font-size:14.5px}
+.stamp{font:600 11px/1.5 var(--mono);text-transform:uppercase;letter-spacing:.08em;text-align:right;color:var(--mute)}
+.stamp b{display:block;color:var(--ink);font-size:13px}
+
+/* tote board */
+.tote{display:grid;grid-template-columns:repeat(5,1fr);border-bottom:1px solid var(--rule);margin-bottom:8px}
+.tote div{padding:16px 16px 14px;border-right:1px solid var(--rule)}
+.tote div:last-child{border-right:0}
+.tote span{display:block;font:600 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.tote b{display:block;font:700 clamp(28px,3.6vw,38px)/1 var(--display);margin-top:8px;font-variant-numeric:tabular-nums}
+.tote small{display:block;color:var(--mute);font-size:12px;margin-top:4px}
+.tote .pos{color:var(--won)} .tote .neg{color:var(--lost)}
+
+/* section heads */
+.sh{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:36px 0 12px;flex-wrap:wrap}
+.sh h2{font:700 22px/1 var(--display);text-transform:uppercase;letter-spacing:.03em;margin:0}
+.sh p{margin:0;color:var(--mute);font-size:13.5px;max-width:60ch}
+.sh .count{font:600 12px var(--mono);color:var(--sig)}
+
+/* tickets */
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.tix{display:grid;grid-template-columns:56px 1fr;background:var(--card);border:1px solid var(--rule);border-radius:8px;position:relative;
+  animation:deal .5s cubic-bezier(.2,.8,.2,1) both;animation-delay:calc(var(--i) * 45ms)}
+@keyframes deal{from{transform:translateY(6px)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.tix{animation:none}}
+.stub{border-right:1px dashed var(--rule);display:flex;flex-direction:column;align-items:center;justify-content:flex-start;padding:16px 0;gap:4px;position:relative}
+.gl{font:800 34px/1 var(--display)}
+.gk{font:600 9px/1 var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--mute)}
+.g-A .gl{color:var(--sig)}
+.g-B .gl{color:var(--ink)}
+.g-Price .gl{color:var(--sig)}
+.body{padding:14px 16px 14px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font:600 10.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
+.pill{font:600 9.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:4px 7px;border-radius:999px;border:1px solid currentColor}
+.pill.pend{color:var(--mute)} .pill.won{color:var(--won)} .pill.lost{color:var(--lost)} .pill.push{color:var(--push)}
+.res{font:700 12px var(--mono)} .res.won{color:var(--won)} .res.lost{color:var(--lost)}
+.pick{font:700 clamp(24px,2.8vw,30px)/1.05 var(--display);text-transform:uppercase;letter-spacing:.01em;margin:10px 0 2px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;text-wrap:balance}
+.pick em{font-style:normal;color:var(--sig)}
+.px{font:600 13px var(--mono);color:var(--mute);align-self:center}
+.game{color:var(--mute);font-size:13.5px}
+.game i{font-style:normal;opacity:.7}
+.score{font:600 12px var(--mono);margin-top:4px}
+.s-won{border-color:color-mix(in srgb,var(--won) 55%,var(--rule))}
+.s-lost{opacity:.82}
+.nl{width:100%;height:auto;margin:10px 0 4px;display:block;overflow:visible}
+.nl .ax{stroke:var(--rule);stroke-width:2}
+.nl .tk{stroke:var(--rule);stroke-width:1.5}
+.nl .gapbar{fill:var(--sig);opacity:.18}
+.nl .m-fd{fill:var(--sig)}
+.nl .m-md{fill:var(--card);stroke:var(--ink);stroke-width:2.5}
+.nl .m-pn{fill:var(--mute)}
+.nl text{font:600 11px var(--mono)}
+.nl .l-fd{fill:var(--sig)} .nl .l-md{fill:var(--ink)} .nl .l-pn{fill:var(--mute);font-size:10px}
+.why{margin:4px 0 10px;font-size:13px;color:var(--mute);max-width:62ch}
+.facts{list-style:none;margin:0;padding:10px 0 0;border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;gap:8px 18px}
+.facts li{display:flex;flex-direction:column;gap:3px}
+.facts span{font:600 9.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.facts b{font:600 13px var(--mono);font-variant-numeric:tabular-nums}
+.sig.with{color:var(--won)} .sig.against{color:var(--lost)} .sig.neutral{color:var(--mute)}
+
+/* tracking strip */
+.track{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;border:1px solid var(--rule);border-radius:8px;background:var(--card)}
+.track div{padding:12px 14px;border-right:1px solid var(--rule)}
+.track div:last-child{border-right:0}
+.track b{font:700 17px/1.2 var(--display);text-transform:uppercase;letter-spacing:.02em;display:block}
+.track span{font:600 11px var(--mono);color:var(--mute)}
+
+/* chart + ledger */
+.two{display:grid;grid-template-columns:1.1fr .9fr;gap:16px}
+.panel{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:16px}
+.panel h4{font:600 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute);margin:0 0 12px}
+.units{width:100%;height:auto;display:block}
+.units .gr{stroke:var(--rule)} .units .gt{font:600 10px var(--mono);fill:var(--mute)}
+.units .ln{fill:none;stroke-width:2.5} .units .ln.up{stroke:var(--won)} .units .ln.dn{stroke:var(--lost)}
+.units .ar.up{fill:var(--won);opacity:.12} .units .ar.dn{fill:var(--lost);opacity:.12}
+.units .dot.up{fill:var(--won)} .units .dot.dn{fill:var(--lost)} .units .endl{font:700 12px var(--mono);fill:var(--ink)}
+.chart-empty{min-height:180px;display:flex;flex-direction:column;justify-content:center;gap:6px;border:1px dashed var(--rule);border-radius:3px;padding:20px;
+  background:repeating-linear-gradient(90deg,transparent 0 39px,color-mix(in srgb,var(--rule) 45%,transparent) 39px 40px)}
+.chart-empty b{font:700 18px/1.1 var(--display);text-transform:uppercase;letter-spacing:.03em}
+.chart-empty span{color:var(--mute);font-size:13.5px;max-width:44ch}
+.split{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.split th,.split td{padding:9px 6px;border-bottom:1px solid var(--rule);text-align:left;font-size:13.5px}
+.split th{font:600 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.split td.n,.split th.n{text-align:right;font-family:var(--mono);font-size:12.5px}
+.logwrap{overflow-x:auto;background:var(--card);border:1px solid var(--rule);border-radius:8px}
+.log{width:100%;border-collapse:collapse;min-width:760px;font-variant-numeric:tabular-nums}
+.log th{font:600 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute);text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule)}
+.log td{padding:10px 12px;border-bottom:1px solid var(--rule);font-size:13.5px;vertical-align:top}
+.log td.n{font-family:var(--mono);font-size:12.5px;text-align:right}
+.log td.won{color:var(--won)} .log td.lost{color:var(--lost)}
+.log .empty{color:var(--mute);text-align:center;padding:26px}
+.mut{color:var(--mute)} .sm{font-size:12px}
+.gchip{font:800 16px/1 var(--display);display:inline-block;min-width:22px;text-align:center}
+.gchip.g-A{color:var(--sig)}
+
+
+.parlay{background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:16px}
+.ph{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;padding-bottom:12px;border-bottom:1px solid var(--rule)}
+.ph .kk{display:block;font:600 10.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute)}
+.ph b{display:block;font:700 34px/1 var(--display);color:var(--sig);margin-top:6px}
+.ph .pr{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.parlay ul{list-style:none;margin:0;padding:0}
+.parlay li{display:grid;grid-template-columns:1fr auto auto;gap:14px;align-items:center;padding:10px 0;border-bottom:1px solid var(--rule)}
+.parlay li:last-child{border-bottom:0;padding-bottom:0}
+.parlay .lg{font:700 16px/1.2 var(--display);text-transform:uppercase;letter-spacing:.02em}
+.parlay .lg small{display:block;font:500 12px/1.4 var(--body);text-transform:none;letter-spacing:0;color:var(--mute);margin-top:2px}
+.parlay .mut{font:600 11.5px var(--mono)}
+
+/* method */
+.method{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.method section{border-top:1px solid var(--rule);padding-top:14px}
+.method h3{font:700 16px/1.1 var(--display);text-transform:uppercase;letter-spacing:.04em;margin:0 0 8px}
+.method p,.method li{font-size:13.5px;color:var(--mute);max-width:62ch;margin:0 0 8px}
+.method ul{padding-left:18px;margin:6px 0}
+.formula{font:500 12px/1.7 var(--mono);background:var(--card);border:1px solid var(--rule);border-left:3px solid var(--sig);padding:10px 12px;border-radius:2px;margin:8px 0;overflow-x:auto;white-space:nowrap}
+.scale{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.scale div{display:grid;grid-template-columns:24px 1fr;gap:10px;align-items:baseline;font-size:13.5px;color:var(--mute)}
+.scale b{font:700 20px/1 var(--display)}
+.scale div:first-child b{color:var(--sig)}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--rule);display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--mute);font-size:12.5px}
+.foot b{color:var(--ink)}
+
+@media (max-width:860px){
+  .tote{grid-template-columns:repeat(2,1fr)} .tote div:nth-child(2){border-right:0} .tote div:nth-child(-n+4){border-bottom:1px solid var(--rule)}
+  .tote div:last-child{grid-column:1/-1}
+  .grid,.two,.method{grid-template-columns:1fr}
+  .track{grid-template-columns:1fr} .track div{border-right:0;border-bottom:1px solid var(--rule)} .track div:last-child{border-bottom:0}
+  .mast{grid-template-columns:1fr} .stamp{text-align:left}
+}
+@media (max-width:420px){ .tix{grid-template-columns:48px 1fr} .gl{font-size:36px} }
+</style></head>
+<body><div class="wrap">
+
+<header class="mast">
+  <div>
+    <div class="kick"><b>Tuesday, November 3</b><span>NCAAM · NCAAF · NFL</span></div>
+    <h1>The Edge <span>Sheet</span></h1>
+  </div>
+  <div class="stamp">Updated<b>Tue Nov 3 · 6:40 PM ET</b></div>
+  <p class="dek">Model projections compared with FanDuel (Ohio) lines. Every play is logged before tip and graded on result and closing-line value.</p>
+</header>
+
+<div class="tote" aria-label="Season record">
+  <div><span>Record</span><b>0–0</b><small>9 pending</small></div>
+  <div><span>Units</span><b class="">0.00u</b><small>1u = 1% bankroll</small></div>
+  <div><span>ROI</span><b>—</b><small>0u settled</small></div>
+  <div><span>Avg CLV</span><b class="pos">+0.06</b><small>pts vs. Pinnacle · 2 better, 5 even, 1 worse</small></div>
+  <div><span>Tonight</span><b>8 plays</b><small>7u · first tip 7:00 PM ET</small></div>
+</div>
+
+<div class="sh"><h2>Tonight's card</h2><p>FanDuel lines as of 6:26 PM ET.</p></div>
+<div class="grid">
+<article class="tix g-A s-pend" style="--i:0">
+  <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>7:00 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">Duquesne <em>−9.5</em><span class="px">−115</span></h3>
+    <div class="game">Fort Wayne <i>at</i> Duquesne</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel -9.5, model -15.1, Pinnacle -9.5 (points, from the pick's side)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="102.4" y="33" width="315.2" height="10" rx="2" class="gapbar"/><line x1="51.8" y1="35" x2="51.8" y2="41" class="tk"/><line x1="108.0" y1="35" x2="108.0" y2="41" class="tk"/><line x1="164.3" y1="35" x2="164.3" y2="41" class="tk"/><line x1="220.6" y1="35" x2="220.6" y2="41" class="tk"/><line x1="276.9" y1="35" x2="276.9" y2="41" class="tk"/><line x1="333.2" y1="35" x2="333.2" y2="41" class="tk"/><line x1="389.4" y1="35" x2="389.4" y2="41" class="tk"/><line x1="445.7" y1="35" x2="445.7" y2="41" class="tk"/><line x1="502.0" y1="35" x2="502.0" y2="41" class="tk"/><circle cx="417.6" cy="38" r="6.5" class="m-fd"/><text x="417.6" y="18" class="l-fd" text-anchor="middle">FD −9.5</text><circle cx="102.4" cy="38" r="6.5" class="m-md"/><text x="102.4" y="66" class="l-md" text-anchor="middle">Model −15.1</text><path d="M417.6 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="417.6" y="66" class="l-pn" text-anchor="middle">PIN −9.5</text></svg>
+    <p class="why">Projection: Duquesne by 15.1, total 155.3</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>1u</b></li>
+      <li><span>EV</span><b>+6.1%</b></li>
+      <li><span>Model gap</span><b>5.6 pts</b></li>
+      <li><span>Sharp move</span><b class="sig neutral">neutral</b></li>
+      <li><span>CLV</span><b>0 pts</b></li>
+      
+    </ul>
+  </div>
+</article><article class="tix g-A s-pend" style="--i:1">
+  <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>7:00 PM ET</span><span>Total</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">Over <em>143.5</em><span class="px">−110</span></h3>
+    <div class="game">Wagner <i>at</i> Boston College</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel 143.5, model 148.1, Pinnacle 143.5 (total points)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="113.5" y="33" width="292.9" height="10" rx="2" class="gapbar"/><line x1="18.0" y1="35" x2="18.0" y2="41" class="tk"/><line x1="81.7" y1="35" x2="81.7" y2="41" class="tk"/><line x1="145.4" y1="35" x2="145.4" y2="41" class="tk"/><line x1="209.1" y1="35" x2="209.1" y2="41" class="tk"/><line x1="272.7" y1="35" x2="272.7" y2="41" class="tk"/><line x1="336.4" y1="35" x2="336.4" y2="41" class="tk"/><line x1="400.1" y1="35" x2="400.1" y2="41" class="tk"/><line x1="463.8" y1="35" x2="463.8" y2="41" class="tk"/><circle cx="113.5" cy="38" r="6.5" class="m-fd"/><text x="113.5" y="18" class="l-fd" text-anchor="middle">FD 143.5</text><circle cx="406.5" cy="38" r="6.5" class="m-md"/><text x="406.5" y="66" class="l-md" text-anchor="middle">Model 148.1</text><path d="M113.5 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="113.5" y="66" class="l-pn" text-anchor="middle">PIN 143.5</text></svg>
+    <p class="why">Projection: Boston College by 22.1, total 148.1</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>1u</b></li>
+      <li><span>EV</span><b>+4.4%</b></li>
+      <li><span>Model gap</span><b>4.6 pts</b></li>
+      <li><span>Sharp move</span><b class="sig neutral">neutral</b></li>
+      <li><span>CLV</span><b>0 pts</b></li>
+      
+    </ul>
+  </div>
+</article><article class="tix g-A s-pend" style="--i:2">
+  <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>7:30 PM ET</span><span>Total</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">Under <em>142.5</em><span class="px">−110</span></h3>
+    <div class="game">Drexel <i>at</i> Virginia</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel 142.5, model 138.0, Pinnacle 142.5 (total points)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="114.8" y="33" width="290.4" height="10" rx="2" class="gapbar"/><line x1="50.3" y1="35" x2="50.3" y2="41" class="tk"/><line x1="114.8" y1="35" x2="114.8" y2="41" class="tk"/><line x1="179.3" y1="35" x2="179.3" y2="41" class="tk"/><line x1="243.9" y1="35" x2="243.9" y2="41" class="tk"/><line x1="308.4" y1="35" x2="308.4" y2="41" class="tk"/><line x1="372.9" y1="35" x2="372.9" y2="41" class="tk"/><line x1="437.5" y1="35" x2="437.5" y2="41" class="tk"/><line x1="502.0" y1="35" x2="502.0" y2="41" class="tk"/><circle cx="405.2" cy="38" r="6.5" class="m-fd"/><text x="405.2" y="18" class="l-fd" text-anchor="middle">FD 142.5</text><circle cx="114.8" cy="38" r="6.5" class="m-md"/><text x="114.8" y="66" class="l-md" text-anchor="middle">Model 138</text><path d="M405.2 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="405.2" y="66" class="l-pn" text-anchor="middle">PIN 142.5</text></svg>
+    <p class="why">Projection: Virginia by 29.4, total 138.0</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>1u</b></li>
+      <li><span>EV</span><b>+4.2%</b></li>
+      <li><span>Model gap</span><b>4.5 pts</b></li>
+      <li><span>Sharp move</span><b class="sig neutral">neutral</b></li>
+      <li><span>CLV</span><b>0 pts</b></li>
+      
+    </ul>
+  </div>
+</article><article class="tix g-A s-pend" style="--i:3">
+  <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>8:00 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">Kansas St <em>−10.5</em><span class="px">−120</span></h3>
+    <div class="game">South Dakota St <i>at</i> Kansas St</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel -10.5, model -20.0, Pinnacle -11 (points, from the pick's side)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="82.1" y="33" width="355.9" height="10" rx="2" class="gapbar"/><line x1="82.1" y1="35" x2="82.1" y2="41" class="tk"/><line x1="157.0" y1="35" x2="157.0" y2="41" class="tk"/><line x1="231.9" y1="35" x2="231.9" y2="41" class="tk"/><line x1="306.8" y1="35" x2="306.8" y2="41" class="tk"/><line x1="381.7" y1="35" x2="381.7" y2="41" class="tk"/><line x1="456.7" y1="35" x2="456.7" y2="41" class="tk"/><circle cx="437.9" cy="38" r="6.5" class="m-fd"/><text x="437.9" y="18" class="l-fd" text-anchor="middle">FD −10.5</text><circle cx="82.1" cy="38" r="6.5" class="m-md"/><text x="82.1" y="66" class="l-md" text-anchor="middle">Model −20</text><path d="M419.2 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="419.2" y="66" class="l-pn" text-anchor="middle">PIN −11</text></svg>
+    <p class="why">Projection: Kansas St by 20.0, total 159.4</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>1u</b></li>
+      <li><span>EV</span><b>+12.5%</b></li>
+      <li><span>Model gap</span><b>9.5 pts</b></li>
+      <li><span>Sharp move</span><b class="sig neutral">neutral</b></li>
+      <li><span>CLV</span><b>+0.5 pts</b></li>
+      
+    </ul>
+  </div>
+</article><article class="tix g-A s-pend" style="--i:4">
+  <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>8:00 PM ET</span><span>Total</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">Under <em>166.5</em><span class="px">−110</span></h3>
+    <div class="game">Arkansas-Pine Bluff <i>at</i> Arkansas</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel 166.5, model 160.2, Pinnacle 166.5 (total points)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="96.1" y="33" width="327.9" height="10" rx="2" class="gapbar"/><line x1="33.6" y1="35" x2="33.6" y2="41" class="tk"/><line x1="85.7" y1="35" x2="85.7" y2="41" class="tk"/><line x1="137.7" y1="35" x2="137.7" y2="41" class="tk"/><line x1="189.7" y1="35" x2="189.7" y2="41" class="tk"/><line x1="241.8" y1="35" x2="241.8" y2="41" class="tk"/><line x1="293.8" y1="35" x2="293.8" y2="41" class="tk"/><line x1="345.9" y1="35" x2="345.9" y2="41" class="tk"/><line x1="397.9" y1="35" x2="397.9" y2="41" class="tk"/><line x1="450.0" y1="35" x2="450.0" y2="41" class="tk"/><line x1="502.0" y1="35" x2="502.0" y2="41" class="tk"/><circle cx="423.9" cy="38" r="6.5" class="m-fd"/><text x="423.9" y="18" class="l-fd" text-anchor="middle">FD 166.5</text><circle cx="96.1" cy="38" r="6.5" class="m-md"/><text x="96.1" y="66" class="l-md" text-anchor="middle">Model 160.2</text><path d="M423.9 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="423.9" y="66" class="l-pn" text-anchor="middle">PIN 166.5</text></svg>
+    <p class="why">Projection: Arkansas by 40.2, total 160.2</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>1u</b></li>
+      <li><span>EV</span><b>+7.6%</b></li>
+      <li><span>Model gap</span><b>6.3 pts</b></li>
+      <li><span>Sharp move</span><b class="sig neutral">neutral</b></li>
+      <li><span>CLV</span><b>0 pts</b></li>
+      
+    </ul>
+  </div>
+</article><article class="tix g-A s-pend" style="--i:5">
+  <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>8:00 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">Alabama St <em>+32.5</em><span class="px">−115</span></h3>
+    <div class="game">Alabama St <i>at</i> Texas A&amp;M</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel 32.5, model 27.2, Pinnacle 32.5 (points, from the pick's side)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="105.5" y="33" width="309.1" height="10" rx="2" class="gapbar"/><line x1="35.5" y1="35" x2="35.5" y2="41" class="tk"/><line x1="93.8" y1="35" x2="93.8" y2="41" class="tk"/><line x1="152.1" y1="35" x2="152.1" y2="41" class="tk"/><line x1="210.4" y1="35" x2="210.4" y2="41" class="tk"/><line x1="268.7" y1="35" x2="268.7" y2="41" class="tk"/><line x1="327.1" y1="35" x2="327.1" y2="41" class="tk"/><line x1="385.4" y1="35" x2="385.4" y2="41" class="tk"/><line x1="443.7" y1="35" x2="443.7" y2="41" class="tk"/><line x1="502.0" y1="35" x2="502.0" y2="41" class="tk"/><circle cx="414.5" cy="38" r="6.5" class="m-fd"/><text x="414.5" y="18" class="l-fd" text-anchor="middle">FD +32.5</text><circle cx="105.5" cy="38" r="6.5" class="m-md"/><text x="105.5" y="66" class="l-md" text-anchor="middle">Model +27.2</text><path d="M414.5 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="414.5" y="66" class="l-pn" text-anchor="middle">PIN +32.5</text></svg>
+    <p class="why">Projection: Texas A&amp;M by 27.2, total 162.8</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>1u</b></li>
+      <li><span>EV</span><b>+5.5%</b></li>
+      <li><span>Model gap</span><b>5.3 pts</b></li>
+      <li><span>Sharp move</span><b class="sig neutral">neutral</b></li>
+      <li><span>CLV</span><b>0 pts</b></li>
+      
+    </ul>
+  </div>
+</article><article class="tix g-B s-pend" style="--i:6">
+  <div class="stub"><span class="gl">B</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>7:00 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">Virginia Tech <em>−30.5</em><span class="px">−110</span></h3>
+    <div class="game">Coppin St <i>at</i> Virginia Tech</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel -30.5, model -34.1, Pinnacle -31.5 (points, from the pick's side)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="128.0" y="33" width="264.0" height="10" rx="2" class="gapbar"/><line x1="62.0" y1="35" x2="62.0" y2="41" class="tk"/><line x1="135.3" y1="35" x2="135.3" y2="41" class="tk"/><line x1="208.7" y1="35" x2="208.7" y2="41" class="tk"/><line x1="282.0" y1="35" x2="282.0" y2="41" class="tk"/><line x1="355.3" y1="35" x2="355.3" y2="41" class="tk"/><line x1="428.7" y1="35" x2="428.7" y2="41" class="tk"/><line x1="502.0" y1="35" x2="502.0" y2="41" class="tk"/><circle cx="392.0" cy="38" r="6.5" class="m-fd"/><text x="392.0" y="18" class="l-fd" text-anchor="middle">FD −30.5</text><circle cx="128.0" cy="38" r="6.5" class="m-md"/><text x="128.0" y="66" class="l-md" text-anchor="middle">Model −34.1</text><path d="M318.7 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="318.7" y="66" class="l-pn" text-anchor="middle">PIN −31.5</text></svg>
+    <p class="why">Projection: Virginia Tech by 34.1, total 154.4</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>0.5u</b></li>
+      <li><span>EV</span><b>+8.3%</b></li>
+      <li><span>Model gap</span><b>3.6 pts</b></li>
+      <li><span>Sharp move</span><b class="sig with">with us</b></li>
+      <li><span>CLV</span><b>+1 pts</b></li>
+      
+    </ul>
+  </div>
+</article><article class="tix g-B s-pend" style="--i:7">
+  <div class="stub"><span class="gl">B</span><span class="gk">Grade</span></div>
+  <div class="body">
+    <div class="meta"><span>NCAAM</span><span>8:00 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">New Orleans <em>+26.5</em><span class="px">−102</span></h3>
+    <div class="game">New Orleans <i>at</i> LSU</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel 26.5, model 19.4, Pinnacle 27.5 (points, from the pick's side)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="83.4" y="33" width="309.6" height="10" rx="2" class="gapbar"/><line x1="22.4" y1="35" x2="22.4" y2="41" class="tk"/><line x1="66.0" y1="35" x2="66.0" y2="41" class="tk"/><line x1="109.6" y1="35" x2="109.6" y2="41" class="tk"/><line x1="153.2" y1="35" x2="153.2" y2="41" class="tk"/><line x1="196.8" y1="35" x2="196.8" y2="41" class="tk"/><line x1="240.4" y1="35" x2="240.4" y2="41" class="tk"/><line x1="284.0" y1="35" x2="284.0" y2="41" class="tk"/><line x1="327.6" y1="35" x2="327.6" y2="41" class="tk"/><line x1="371.2" y1="35" x2="371.2" y2="41" class="tk"/><line x1="414.8" y1="35" x2="414.8" y2="41" class="tk"/><line x1="458.4" y1="35" x2="458.4" y2="41" class="tk"/><line x1="502.0" y1="35" x2="502.0" y2="41" class="tk"/><circle cx="393.0" cy="38" r="6.5" class="m-fd"/><text x="393.0" y="18" class="l-fd" text-anchor="middle">FD +26.5</text><circle cx="83.4" cy="38" r="6.5" class="m-md"/><text x="83.4" y="66" class="l-md" text-anchor="middle">Model +19.4</text><path d="M436.6 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="436.6" y="66" class="l-pn" text-anchor="middle">PIN +27.5</text></svg>
+    <p class="why">Projection: LSU by 19.4, total 157.2</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>0.5u</b></li>
+      <li><span>EV</span><b>+11.2%</b></li>
+      <li><span>Model gap</span><b>7.1 pts</b></li>
+      <li><span>Sharp move</span><b class="sig against">against us</b></li>
+      <li><span>CLV</span><b>−1 pts</b></li>
+      
+    </ul>
+  </div>
+</article>
+</div>
+
+<div class="sh"><h2>For fun</h2><p>Light model leans from games not on the main card. Long odds, small stake.</p></div><div class="parlay s-pend"><div class="ph"><div><span class="kk">5-leg lotto · 0.1u</span><b>+2651</b></div><div class="pr"><span class="pill pend">Pending</span><span class="mut sm">Pays 2.65u · not counted in record</span></div></div><ul><li><span class="lg">Hampton +13.5<small>Hampton at Georgia Tech · Model GT by 10.4</small></span><span class="mut">−105 · 7:00 PM</span><span class="pill pend">Pending</span></li><li><span class="lg">Sam Houston +26.5<small>Sam Houston at Alabama · Model Bama by 23.9</small></span><span class="mut">−110 · 7:30 PM</span><span class="pill pend">Pending</span></li><li><span class="lg">Missouri −26.5<small>Cleveland St at Missouri · Model Mizzou by 29.1</small></span><span class="mut">−110 · 8:00 PM</span><span class="pill pend">Pending</span></li><li><span class="lg">Cal Baptist −11.5<small>North Florida at Cal Baptist · Model CBU by 14.5</small></span><span class="mut">−105 · 10:00 PM</span><span class="pill pend">Pending</span></li><li><span class="lg">Buffalo +6.5<small>Buffalo at Miami (OH) · Ratings Miami by 5.9</small></span><span class="mut">−102 · 8:00 PM</span><span class="pill pend">Pending</span></li></ul></div>
+
+<div class="sh"><h2>Tracking</h2><p>Grade C. Graded for the record, no stake.</p></div>
+<div class="track">
+<div><b>Stetson +20.5 −110</b><span>Stetson at South Carolina · 7:00 PM · CLV +0.5 · FD now +18.5</span></div><div><b>Hampton +13.5 −105</b><span>Hampton at Georgia Tech · 7:00 PM · CLV −0.5</span></div><div><b>Missouri -26.5 −110</b><span>Cleveland St at Missouri · 8:00 PM · CLV 0</span></div>
+</div>
+
+<div class="sh"><h2>Upcoming</h2><p>Price edges: FanDuel is paying above the no-vig fair price.</p></div><div class="grid"><article class="tix g-Price s-pend" style="--i:0">
+  <div class="stub"><span class="gl">$</span><span class="gk">Price</span></div>
+  <div class="body">
+    <div class="meta"><span>NFL</span><span>Sun Nov 8 · 1:00 PM ET</span><span>Moneyline</span><span class="pill pend">Pending</span></div>
+    <h3 class="pick">New York Jets <em>ML</em><span class="px">+430</span></h3>
+    <div class="game">New York Jets <i>at</i> Kansas City Chiefs</div>
+    
+    <svg class="nl" viewBox="0 0 520 74" role="img" aria-label="FanDuel 430, model 402, Pinnacle 339 (American odds)"><line x1="18" y1="38" x2="502" y2="38" class="ax"/><rect x="328.4" y="33" width="109.5" height="10" rx="2" class="gapbar"/><line x1="86.0" y1="35" x2="86.0" y2="41" class="tk"/><line x1="164.2" y1="35" x2="164.2" y2="41" class="tk"/><line x1="242.4" y1="35" x2="242.4" y2="41" class="tk"/><line x1="320.6" y1="35" x2="320.6" y2="41" class="tk"/><line x1="398.8" y1="35" x2="398.8" y2="41" class="tk"/><line x1="477.0" y1="35" x2="477.0" y2="41" class="tk"/><circle cx="437.9" cy="38" r="6.5" class="m-fd"/><text x="437.9" y="18" class="l-fd" text-anchor="middle">FD +430</text><circle cx="328.4" cy="38" r="6.5" class="m-md"/><text x="328.4" y="66" class="l-md" text-anchor="middle">Fair +402</text><path d="M82.1 31 l5 7 l-5 7 l-5 -7z" class="m-pn"/><text x="82.1" y="18" class="l-pn" text-anchor="middle">PIN +339</text></svg>
+    <p class="why">Pinnacle no-vig fair price +402 (19.9%). FanDuel +430 is the best of 8 books.</p>
+    <ul class="facts">
+      <li><span>Stake</span><b>0.32u</b></li>
+      <li><span>EV</span><b>+5.53%</b></li>
+      
+      <li><span>Sharp move</span><b class="sig neutral">neutral</b></li>
+      <li><span>CLV</span><b>—</b></li>
+      
+    </ul>
+  </div>
+</article></div>
+
+<div class="sh"><h2>Performance</h2><p>Closing-line value is the leading indicator; units take hundreds of plays to mean much.</p></div>
+<div class="two">
+  <div class="panel"><h4>Running units</h4><div class="chart-empty"><b>No graded plays yet</b><span>Running unit total appears after tonight's games are graded.</span></div></div>
+  <div class="panel"><h4>By grade</h4>
+    <table class="split"><thead><tr><th>Grade</th><th class="n">Plays</th><th class="n">W–L</th><th class="n">Units</th></tr></thead><tbody>
+      <tr><td><span class="gchip g-A">A</span> 1u</td><td class="n">6</td><td class="n">0–0</td><td class="n">—</td></tr>
+      <tr><td><span class="gchip">B</span> 0.5u</td><td class="n">2</td><td class="n">0–0</td><td class="n">—</td></tr>
+      <tr><td><span class="gchip">C</span> tracked</td><td class="n">3</td><td class="n">0–0</td><td class="n">—</td></tr>
+    </tbody></table>
+  </div>
+</div>
+
+<div class="sh"><h2>Ledger</h2><p>All graded plays, newest first.</p></div>
+<div class="logwrap"><table class="log"><thead><tr><th>Date</th><th>Gr</th><th>Play</th><th>Final</th><th>Stake</th><th>CLV</th><th>Result</th><th>Units</th></tr></thead><tbody><tr><td colspan="8" class="empty">No graded plays yet.</td></tr></tbody></table></div>
+
+<div class="sh"><h2>Method</h2></div>
+<div class="method">
+  <section><h3>Projection</h3>
+    <p>Possession-based efficiency model for college basketball.</p>
+    <div class="formula">poss = tempo<sub>A</sub> × tempo<sub>B</sub> ÷ 71.1<br>pts = AdjO × opp AdjD ÷ 105.3 × poss ÷ 100<br>home court = ±1.8% efficiency</div>
+    <p>College football: power ratings with 2.5 points home field.</p></section>
+  <section><h3>Market calibration</h3>
+    <p>Each slate, raw projections are fit to Pinnacle lines to remove systematic bias. Fair line = ⅓ calibrated model + ⅔ Pinnacle.</p>
+    <p>Plays drop one grade when Pinnacle has moved against them.</p></section>
+  <section><h3>Grading</h3>
+    <div class="scale">
+      <div><b>A</b><span>Gap ≥ 4 pts, EV ≥ 3% · 1u</span></div>
+      <div><b>B</b><span>Gap ≥ 3 pts, EV ≥ 1.5% · 0.5u</span></div>
+      <div><b>C</b><span>Gap ≥ 2 pts · tracked only</span></div>
+      <div><b>$</b><span>Price edge vs. no-vig fair line · ¼ Kelly</span></div>
+    </div></section>
+</div>
+
+<footer class="foot">
+  <span>For informational purposes only. Not financial advice. 21+ where legal.</span>
+  <span>Problem gambling help: <b>1-800-GAMBLER</b></span>
+</footer>
+</div></body></html>
