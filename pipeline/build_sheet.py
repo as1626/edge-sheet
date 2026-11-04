@@ -55,8 +55,11 @@ def by_grade(g):
 
 # ---------- number line ----------
 def numline(b):
+    if b.get("engine") == "Price edge" and b["market"] != "Moneyline": return ""
+    if b["market"] == "Moneyline" and (b.get("fair_line") is None or b.get("price") is None): return ""
+    if b["market"] != "Moneyline" and (b.get("line") is None or b.get("model_line") is None): return ""
     if b["market"] == "Moneyline":
-        pts = [("FanDuel", b["price"], "fd"), ("Fair", b["fair_line"], "md"), ("Pinnacle", b["pinnacle_open"], "pn")]
+        pts = [("FanDuel", b["price"], "fd"), ("Fair", b["fair_line"], "md"), ("Pinnacle", b["pinnacle_open"] if b["pinnacle_open"] is not None else b["fair_line"], "pn")]
         vals = [v for _, v, _ in pts]
         unit = "American odds"
     else:

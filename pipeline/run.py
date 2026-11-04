@@ -126,6 +126,25 @@ def multi_card(nba_odds):
     log(f"multi: {len(bets)} model plays, {len(sc)} price plays, credits {S.CREDITS['remaining']}")
     return bets + sc
 
+def probe2():
+    import io, re
+    for lg in ("nfl", "college-football"):
+        try:
+            d, _ = S.get_json(f"https://site.web.api.espn.com/apis/fitt/v3/sports/football/{lg}/powerindex?region=us&lang=en&limit=500")
+            log(lg, "keys", list(d.keys()))
+            cats = d.get("categories") or []
+            log(lg, "categories", json.dumps(cats)[:600])
+            t0 = (d.get("teams") or [None])[0]
+            log(lg, "team0", json.dumps(t0)[:1500])
+            log(lg, "n teams", len(d.get("teams") or []))
+        except Exception as ex: log(lg, "powerindex failed", repr(ex))
+    html, _ = S.get("https://www.hockey-reference.com/leagues/NHL_2027.html")
+    html = html.replace("<!--", "").replace("-->", "")
+    log("nhl table ids", re.findall(r'<table[^>]*id="([^"]+)"', html))
+    import pandas as pd
+    for i, t in enumerate(pd.read_html(io.StringIO(html))[:8]):
+        log("nhl tab", i, t.shape, [str(c) for c in t.columns][:20], t.head(2).astype(str).values.tolist()[:2])
+
 def card():
     import nba_model as M
     day = now_et().date(); ds = day.isoformat()
@@ -334,6 +353,7 @@ if __name__ == "__main__":
         elif cmd == "grade": grade()
         elif cmd == "dry": dry()
         elif cmd == "rebuild": rebuild()
+        elif cmd == "probe2": probe2()
         elif cmd == "multi":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             add_multi(L, multi_card([]), ds); L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
