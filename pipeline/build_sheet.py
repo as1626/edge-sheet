@@ -120,10 +120,10 @@ def ticket(b, i):
         pick_html = f'{esc(b["player"])} <em>{esc(b["side"][0])} {b["line"]:g}</em> <span class="stat">{esc(b["stat"].upper())}</span>'
     else:
         pick_html = f'{esc(pick.replace(" ML",""))} <em>ML</em>'
-    return f'''<article class="tix g-{b["grade"]} s-{cls}" style="--i:{i}">
+    return f'''<article class="tix g-{b["grade"]} s-{cls}" data-sport="{esc(b["sport"])}" style="--i:{i}">
   <div class="stub"><span class="gl">{b["grade"] if len(b["grade"])==1 else "$"}</span><span class="gk">{"Grade" if len(b["grade"])==1 else "Price"}</span></div>
   <div class="body">
-    <div class="meta"><span>{esc(b["sport"])}</span><span>{when} ET</span><span>{esc(b["market"])}</span><span class="pill {cls}">{st}</span>{res}</div>
+    <div class="meta"><span>{esc(b["sport"])}</span>{('<span class="note">' + esc(b["engine"]) + '</span>') if b.get("engine") in ("Price edge", "Team model") else ""}<span>{when} ET</span><span>{esc(b["market"])}</span><span class="pill {cls}">{st}</span>{res}</div>
     <h3 class="pick">{pick_html}<span class="px">{am(b["price"])}</span></h3>
     <div class="game">{esc(b["away"])} <i>at</i> {esc(b["home"])}{(" · " + esc(b["projection"])) if b.get("projection") else ""}</div>
     {score}
@@ -143,7 +143,8 @@ def ticket(b, i):
 </article>'''
 
 today = [b for b in BETS if b["date"] == SLATE_DATE and b["stake"] > 0]
-today.sort(key=lambda b: ("AB".index(b["grade"]), b["start"], -b["ev_pct"]))
+ORDER = {"A": 0, "B": 1, "Price": 2}
+today.sort(key=lambda b: (ORDER.get(b["grade"], 3), b["start"], -(b["ev_pct"] or 0)))
 later = [b for b in BETS if b["date"] > SLATE_DATE]
 track_today = sorted([b for b in BETS if b["date"] == SLATE_DATE and b["stake"] == 0], key=lambda b: -(b["ev_pct"] or 0))[:6]
 
@@ -338,6 +339,10 @@ h1 span{color:var(--sig)}
 .parlay .lg small{display:block;font:500 12px/1.4 var(--body);text-transform:none;letter-spacing:0;color:var(--mute);margin-top:2px}
 .parlay .mut{font:600 11.5px var(--mono)}
 
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.chip{font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:7px 11px;border-radius:999px;border:1px solid var(--rule);background:var(--card);color:var(--ink);cursor:pointer}
+.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.note{font:600 10px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--push)}
 /* method */
 .method{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .method section{border-top:1px solid var(--rule);padding-top:14px}
@@ -373,7 +378,7 @@ page = f"""<!DOCTYPE html>
 
 <header class="mast">
   <div>
-    <div class="kick"><b>{esc(SLATE_LABEL)}</b><span>NBA sides · totals · player props</span></div>
+    <div class="kick"><b>{esc(SLATE_LABEL)}</b><span>NBA · NHL · NFL · NCAAF · NCAAM</span></div>
     <h1>The Edge <span>Sheet</span></h1>
   </div>
   <div class="stamp">Updated<b>{esc(UPDATED)}</b></div>
@@ -389,6 +394,7 @@ page = f"""<!DOCTYPE html>
 </div>
 
 <div class="sh"><h2>{esc(SLATE_LABEL)} card</h2><p>FanDuel lines as of {esc(UPDATED)}. {esc(L.get("run_note",""))}</p></div>
+<div class="chips" role="group" aria-label="Filter by sport">{''.join(f'<button type="button" class="chip{" on" if s_=="All" else ""}" data-s="{s_}">{s_}</button>' for s_ in ["All"] + sorted({b["sport"] for b in today + later}))}</div>
 <div class="grid">
 {''.join(ticket(b, i) for i, b in enumerate(today))}
 </div>
@@ -441,6 +447,11 @@ page = f"""<!DOCTYPE html>
   <span>For informational purposes only. Not financial advice. 21+ where legal.</span>
   <span>Problem gambling help: <b>1-800-GAMBLER</b></span>
 </footer>
-</div></body></html>"""
+</div>
+<script>
+document.querySelectorAll('.chips').forEach(function(g){{g.addEventListener('click',function(e){{var b=e.target.closest('.chip');if(!b)return;
+g.querySelectorAll('.chip').forEach(function(x){{x.classList.toggle('on',x===b)}});var s=b.dataset.s;
+document.querySelectorAll('.tix').forEach(function(t){{t.style.display=(s==='All'||t.dataset.sport===s)?'':'none'}});}});}});
+</script></body></html>"""
 open(os.path.join(ROOT, "index.html"), "w").write(page)
 print("ok", len(page), "bytes;", len(today), "plays,", len(track_today), "tracked,", len(later), "later; CLV", clvs)

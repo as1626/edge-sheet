@@ -145,6 +145,10 @@ h1 span{color:var(--sig)}
 .parlay .lg small{display:block;font:500 12px/1.4 var(--body);text-transform:none;letter-spacing:0;color:var(--mute);margin-top:2px}
 .parlay .mut{font:600 11.5px var(--mono)}
 
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 12px}
+.chip{font:600 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;padding:7px 11px;border-radius:999px;border:1px solid var(--rule);background:var(--card);color:var(--ink);cursor:pointer}
+.chip.on{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.note{font:600 10px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--push)}
 /* method */
 .method{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .method section{border-top:1px solid var(--rule);padding-top:14px}
@@ -172,7 +176,7 @@ h1 span{color:var(--sig)}
 
 <header class="mast">
   <div>
-    <div class="kick"><b>Wed Nov 4</b><span>NBA sides · totals · player props</span></div>
+    <div class="kick"><b>Wed Nov 4</b><span>NBA · NHL · NFL · NCAAF · NCAAM</span></div>
     <h1>The Edge <span>Sheet</span></h1>
   </div>
   <div class="stamp">Updated<b>Wed Nov 4 · 3:01 PM ET</b></div>
@@ -188,8 +192,9 @@ h1 span{color:var(--sig)}
 </div>
 
 <div class="sh"><h2>Wed Nov 4 card</h2><p>FanDuel lines as of Wed Nov 4 · 3:01 PM ET. Props priced for 14 games.</p></div>
+<div class="chips" role="group" aria-label="Filter by sport"><button type="button" class="chip on" data-s="All">All</button><button type="button" class="chip" data-s="NBA">NBA</button><button type="button" class="chip" data-s="NFL">NFL</button></div>
 <div class="grid">
-<article class="tix g-A s-pend" style="--i:0">
+<article class="tix g-A s-pend" data-sport="NBA" style="--i:0">
   <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>7:00 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
@@ -209,7 +214,7 @@ h1 span{color:var(--sig)}
       
     </ul>
   </div>
-</article><article class="tix g-A s-pend" style="--i:1">
+</article><article class="tix g-A s-pend" data-sport="NBA" style="--i:1">
   <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>7:10 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
@@ -229,7 +234,7 @@ h1 span{color:var(--sig)}
       
     </ul>
   </div>
-</article><article class="tix g-A s-pend" style="--i:2">
+</article><article class="tix g-A s-pend" data-sport="NBA" style="--i:2">
   <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>7:40 PM ET</span><span>Prop</span><span class="pill pend">Pending</span></div>
@@ -249,7 +254,7 @@ h1 span{color:var(--sig)}
       
     </ul>
   </div>
-</article><article class="tix g-A s-pend" style="--i:3">
+</article><article class="tix g-A s-pend" data-sport="NBA" style="--i:3">
   <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>8:00 PM ET</span><span>Prop</span><span class="pill pend">Pending</span></div>
@@ -269,7 +274,7 @@ h1 span{color:var(--sig)}
       
     </ul>
   </div>
-</article><article class="tix g-A s-pend" style="--i:4">
+</article><article class="tix g-A s-pend" data-sport="NBA" style="--i:4">
   <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>8:10 PM ET</span><span>Prop</span><span class="pill pend">Pending</span></div>
@@ -289,7 +294,7 @@ h1 span{color:var(--sig)}
       
     </ul>
   </div>
-</article><article class="tix g-A s-pend" style="--i:5">
+</article><article class="tix g-A s-pend" data-sport="NBA" style="--i:5">
   <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>8:10 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
@@ -309,7 +314,7 @@ h1 span{color:var(--sig)}
       
     </ul>
   </div>
-</article><article class="tix g-A s-pend" style="--i:6">
+</article><article class="tix g-A s-pend" data-sport="NBA" style="--i:6">
   <div class="stub"><span class="gl">A</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>8:30 PM ET</span><span>Prop</span><span class="pill pend">Pending</span></div>
@@ -329,7 +334,7 @@ h1 span{color:var(--sig)}
       
     </ul>
   </div>
-</article><article class="tix g-B s-pend" style="--i:7">
+</article><article class="tix g-B s-pend" data-sport="NBA" style="--i:7">
   <div class="stub"><span class="gl">B</span><span class="gk">Grade</span></div>
   <div class="body">
     <div class="meta"><span>NBA</span><span>8:10 PM ET</span><span>Spread</span><span class="pill pend">Pending</span></div>
@@ -361,10 +366,10 @@ h1 span{color:var(--sig)}
 <div><b>Keldon Johnson Over 9.5 Pts +102</b><span>Dallas Mavericks at San Antonio Spurs · 9:30 PM · CLV —</span></div><div><b>Paul George Over 21.5 Pts −108</b><span>Milwaukee Bucks at Boston Celtics · 7:40 PM · CLV —</span></div><div><b>Jaylen Wells Over 11.5 Pts +102</b><span>Indiana Pacers at Memphis Grizzlies · 8:10 PM · CLV —</span></div><div><b>Derik Queen Over 10.5 Pts −104</b><span>Utah Jazz at New Orleans Pelicans · 8:10 PM · CLV —</span></div><div><b>Donovan Mitchell Over 5.5 Ast +124</b><span>Cleveland Cavaliers at Oklahoma City Thunder · 8:00 PM · CLV —</span></div><div><b>Paul George Over 5.5 Reb +110</b><span>Milwaukee Bucks at Boston Celtics · 7:40 PM · CLV —</span></div>
 </div>
 
-<div class="sh"><h2>Upcoming</h2><p>Price edges: FanDuel is paying above the no-vig fair price.</p></div><div class="grid"><article class="tix g-Price s-pend" style="--i:0">
+<div class="sh"><h2>Upcoming</h2><p>Price edges: FanDuel is paying above the no-vig fair price.</p></div><div class="grid"><article class="tix g-Price s-pend" data-sport="NFL" style="--i:0">
   <div class="stub"><span class="gl">$</span><span class="gk">Price</span></div>
   <div class="body">
-    <div class="meta"><span>NFL</span><span>Sun Nov 8 · 1:00 PM ET</span><span>Moneyline</span><span class="pill pend">Pending</span></div>
+    <div class="meta"><span>NFL</span><span class="note">Price edge</span><span>Sun Nov 8 · 1:00 PM ET</span><span>Moneyline</span><span class="pill pend">Pending</span></div>
     <h3 class="pick">New York Jets <em>ML</em><span class="px">+430</span></h3>
     <div class="game">New York Jets <i>at</i> Kansas City Chiefs</div>
     
@@ -424,4 +429,9 @@ h1 span{color:var(--sig)}
   <span>For informational purposes only. Not financial advice. 21+ where legal.</span>
   <span>Problem gambling help: <b>1-800-GAMBLER</b></span>
 </footer>
-</div></body></html>
+</div>
+<script>
+document.querySelectorAll('.chips').forEach(function(g){g.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;
+g.querySelectorAll('.chip').forEach(function(x){x.classList.toggle('on',x===b)});var s=b.dataset.s;
+document.querySelectorAll('.tix').forEach(function(t){t.style.display=(s==='All'||t.dataset.sport===s)?'':'none'});});});
+</script></body></html>

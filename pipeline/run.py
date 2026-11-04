@@ -45,11 +45,94 @@ def bet_from_prop(r, day):
                 market_signal="neutral", mkt_src=r["mkt_src"], close_line=None, close_src=None, status="pending", score=None,
                 result_units=None)
 
+def add_multi(L, bets, ds):
+    started = lambda b: to_et(b["start"]) <= now_et()
+    refreshable = lambda b: b.get("engine") == "Team model" or b["id"].endswith("|scan")
+    L["bets"] = [b for b in L["bets"] if not (refreshable(b) and b["status"] == "pending" and not started(b) and b["date"] >= ds)]
+    have = {b["id"] for b in L["bets"]}
+    L["bets"] += [b for b in bets if b["id"] not in have]
+    L["slate_date"] = ds; L["slate_label"] = now_et().strftime("%a %b %-d"); L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
+
+def bet_from_multi(r, policy):
+    a, h = r["game"]; d = to_et(r["start"]).date().isoformat()
+    kind = r["kind"]
+    if kind == "Spread": pick = f'{r["team"]} {r["line"]:+g}'
+    elif kind == "Total": pick = f'{r["side"].title()} {r["line"]:g}'
+    else: pick = f'{r["team"]} ML'
+    stake = STAKE.get(r["grade"], 0) * policy
+    why = " · ".join(f"{k.title()} {fmt(v)}" for k, v in (r.get("factors") or {}).items() if abs(v) >= 0.05) or r.get("proj", "")
+    return dict(id=f'{d}|{a} @ {h}|{kind}', date=d, start=r["start"], sport=r["sport"], engine="Team model", game=f"{a} @ {h}",
+                away=a, home=h, market=kind, pick=pick, pick_team=r["team"], side=r["side"], line=r["line"], price=r["price"],
+                grade=r["grade"], stake=round(stake, 2), model_line=r["model_line"] if kind != "Moneyline" else None,
+                fair_line=r["fair_line"] if kind != "Moneyline" else None, pinnacle_open=r.get("mkt_line") if kind != "Moneyline" else None,
+                ev_pct=round(r["ev"] * 100, 1), gap=r["gap"], why=why, projection=r.get("proj"), signals=[],
+                market_signal="neutral", close_line=None, close_src=None, status="pending", score=None, result_units=None,
+                note=("Tracked until this model is validated" if policy == 0 else None))
+
+def bet_from_scan(f):
+    a, h = f["game"]; d = to_et(f["start"]).date().isoformat()
+    kind = {"h2h": "Moneyline", "spreads": "Spread", "totals": "Total"}[f["key"]]
+    pick = f["pick"] if kind != "Total" else f'{f["side"]} {f["line"]:g}'
+    return dict(id=f'{d}|{a} @ {h}|{kind}|{f["side"]}|scan', date=d, start=f["start"], sport=f["sport"], engine="Price edge",
+                game=f"{a} @ {h}", away=a, home=h, market=kind, pick=pick, pick_team=f["team"], side=f["side"].lower(), line=f["line"],
+                price=f["price"], grade="Price", stake=f["stake"], model_line=None, fair_line=f["fair_price"] if kind == "Moneyline" else None,
+                pinnacle_open=None, ev_pct=round(f["ev"] * 100, 1), gap=None,
+                why=f'{f["src"]} no-vig fair {("+" if f["fair_price"] > 0 else "")}{f["fair_price"]} ({f["fair_prob"]:.1%}) vs FanDuel {("+" if f["price"] > 0 else "")}{f["price"]}' + (" · verify: edge this large is often a stale line" if f["stale"] else ""),
+                signals=[], market_signal="neutral", close_line=None, close_src=None, status="pending", score=None, result_units=None)
+
+MULTI = [("icehockey_nhl", 1), ("americanfootball_nfl", 6), ("americanfootball_ncaaf", 4), ("basketball_ncaab", 1)]
+def multi_card(nba_odds):
+    import multi as X
+    bets, scans = [], []
+    if nba_odds: scans += X.price_scan(nba_odds, "NBA")
+    for key, days in MULTI:
+        label = X.SPORTS[key][0]
+        try:
+            odds = S.odds_window(key, days) if days > 1 else S.odds_games(key, now_et().date())
+        except Exception as ex:
+            log(f"{label} odds failed: {ex}"); continue
+        if not odds: log(f"{label}: no games"); continue
+        scans += X.price_scan(odds, label)
+        try:
+            if label == "NHL":
+                cur = S.nhl_teams(SEASON); prev = cached(f"data/cache/nhl_{PREV}.json", lambda: S.nhl_teams(PREV))
+                R, lg = X.blend(cur, prev, X.CFG["NHL"]["prior_g"], ["gf", "ga"])
+                rows = X.nhl_model(odds, R, lg, X.resolver(list(R)))
+            elif label == "NFL":
+                cur = S.nfl_teams(2026); prev = cached("data/cache/nfl_2025.json", lambda: S.nfl_teams(2025))
+                R, lg = X.blend(cur, prev, X.CFG["NFL"]["prior_g"], ["osrs", "dsrs", "ppg"])
+                rows = X.point_model("NFL", odds, R, lg, X.resolver(list(R)))
+            elif label == "NCAAF":
+                cur = S.cfb_teams(2026); prev = cached("data/cache/cfb_2025.json", lambda: S.cfb_teams(2025))
+                R, lg = X.blend(cur, prev, X.CFG["NCAAF"]["prior_g"], ["osrs", "dsrs", "ppg"])
+                rows = X.point_model("NCAAF", odds, R, lg, X.resolver(list(R)))
+            else:
+                cur = S.cbb_teams(SEASON); prev = cached(f"data/cache/cbb_{PREV}.json", lambda: S.cbb_teams(PREV))
+                R, lg = X.blend(cur, prev, X.CFG["NCAAM"]["prior_g"], ["ortg", "drtg", "pace"])
+                rows = X.point_model("NCAAM", odds, R, lg, X.resolver(list(R)))
+            unmatched = sorted({n for e in odds for n in (S.team(e["home_team"]), S.team(e["away_team"])) if not X.resolver(list(R))(n)})
+            if unmatched: log(f"{label} unmatched teams ({len(unmatched)}): {unmatched[:12]}")
+            pol = X.STAKE_POLICY.get(label, 0)
+            rows.sort(key=lambda r: -r["ev"])
+            ab = [r for r in rows if r["grade"] in ("A", "B")][:4]
+            bets += [bet_from_multi(r, pol) for r in ab]
+            bets += [bet_from_multi(r, 0) for r in [r for r in rows if r["grade"] == "C"][:4]]
+        except Exception as ex:
+            log(f"{label} model failed: {traceback.format_exc()[-800:]}")
+    # price-scan plays: top 6 by EV, skip any that duplicate a model play's side
+    taken = {(b["game"], b["market"], (b.get("side") or "").lower()) for b in bets}
+    sc = [bet_from_scan(f) for f in scans]
+    sc = [b for b in sc if (b["game"], b["market"], b["side"]) not in taken][:6]
+    log(f"multi: {len(bets)} model plays, {len(sc)} price plays, credits {S.CREDITS['remaining']}")
+    return bets + sc
+
 def card():
     import nba_model as M
     day = now_et().date(); ds = day.isoformat()
     odds = S.odds_games("basketball_nba", day)
-    if not odds: log("no NBA games today"); return
+    if not odds:
+        log("no NBA games today")
+        L = load(LEDGER, {"bets": [], "snapshots": []}); add_multi(L, multi_card([]), ds); save(LEDGER, L); return
     an = S.action_network(day)
     inj = S.espn_injuries()
     t_cur = S.bbref_teams(SEASON); t_prev = cached(f"data/cache/teams_{PREV}.json", lambda: S.bbref_teams(PREV))
@@ -80,6 +163,7 @@ def card():
     new = [bet_from_side(r, ds) for r in sides if r["grade"]] + [bet_from_prop(r, ds) for r in props if r["grade"] in ("A", "B")]
     new += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
     L["bets"] += [b for b in new if b["id"] not in have]
+    add_multi(L, multi_card(odds), ds)
     L["slate_date"] = ds; L["slate_label"] = day.strftime("%a %b %-d")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     L["run_note"] = note_props
@@ -124,23 +208,30 @@ def rebuild():
 def close():
     day = now_et().date(); ds = day.isoformat()
     L = load(LEDGER, {"bets": []})
-    soon = [b for b in L["bets"] if b["date"] == ds and b["status"] == "pending" and b["market"] in ("Spread", "Total")
+    soon = [b for b in L["bets"] if b["status"] == "pending" and b["market"] in ("Spread", "Total", "Moneyline")
             and -15 <= (to_et(b["start"]) - now_et()).total_seconds() / 60 <= 80]
     if not soon: log("close: nothing tipping soon"); return
-    odds = S.odds_games("basketball_nba", day)
-    import nba_model as M
-    for e in odds:
-        m = M.market_lines(e)
-        if not m: continue
-        for b in soon:
-            if (b["away"], b["home"]) != (m["away"], m["home"]): continue
-            if b["market"] == "Spread" and m.get("pn_spread_home") is not None:
-                b["close_line"] = m["pn_spread_home"] if b["side"] == "home" else -m["pn_spread_home"]
-                b["fd_close"] = m.get("fd_spread_home") if b["side"] == "home" else -m.get("fd_spread_home", 0)
-            elif b["market"] == "Total" and m.get("pn_total") is not None:
-                b["close_line"] = m["pn_total"]; b["fd_close"] = m.get("fd_total")
-            b["close_src"] = "Pinnacle close"
-            log(f"close {b['pick']}: {b.get('close_line')}")
+    import multi as X
+    keys = {v[0]: k for k, v in X.SPORTS.items()}
+    for sport in sorted({b["sport"] for b in soon}):
+        try: odds = S.odds_games(keys[sport], day)
+        except Exception as ex: log(f"close {sport} failed: {ex}"); continue
+        for e in odds:
+            h, a = S.team(e["home_team"]), S.team(e["away_team"])
+            pn = next((bk for bk in e.get("bookmakers", []) if bk["key"] == "pinnacle"), None)
+            if not pn: continue
+            for b in soon:
+                if b["sport"] != sport or (b["away"], b["home"]) != (a, h): continue
+                mk = {"Spread": "spreads", "Total": "totals", "Moneyline": "h2h"}[b["market"]]
+                mm = next((m for m in pn["markets"] if m["key"] == mk), None)
+                if not mm: continue
+                for o in mm["outcomes"]:
+                    nm = o["name"]
+                    hit = (nm.lower() == (b.get("side") or "").lower()) if b["market"] == "Total" else (S.team(nm) == S.team(b["pick_team"] or ""))
+                    if hit:
+                        b["close_line"] = o.get("point") if b["market"] != "Moneyline" else None
+                        b["close_price"] = o["price"]; b["close_src"] = "Pinnacle close"
+                        log(f"close {b['pick']}: {o.get('point')} {o['price']}")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     save(LEDGER, L)
 
@@ -151,7 +242,7 @@ def grade():
     L = load(LEDGER, {"bets": []})
     due = [b for b in L["bets"] if b["status"] == "pending" and b.get("engine") != "Parlay"
            and (now_et() - to_et(b["start"])).total_seconds() > 3.5 * 3600]
-    path = {"NBA": "basketball/nba", "NFL": "football/nfl", "NCAAM": "basketball/mens-college-basketball", "NCAAF": "football/college-football"}
+    path = {"NBA": "basketball/nba", "NHL": "hockey/nhl", "NFL": "football/nfl", "NCAAM": "basketball/mens-college-basketball", "NCAAF": "football/college-football"}
     cache, boxes = {}, {}
     for b in due:
         d = to_et(b["start"]).date(); key = (b["sport"], d)
@@ -159,7 +250,8 @@ def grade():
             pth = path.get(b["sport"], "basketball/nba")
             try: cache[key] = S.espn_scoreboard(d, pth)
             except Exception as ex: log(f"scoreboard {key} failed: {ex}"); cache[key] = []
-        g = next((x for x in cache[key] if x["home"] == S.team(b["home"]) or x["away"] == S.team(b["away"])), None)
+        same = lambda x, y: S.pname(x) == S.pname(y) or S.pname(x).startswith(S.pname(y) + " ") or S.pname(y).startswith(S.pname(x) + " ")
+        g = next((x for x in cache[key] if same(x["home"], b["home"]) and same(x["away"], b["away"])), None)
         if not g or not g["final"]: continue
         hp, ap = g["home_pts"], g["away_pts"]
         if b["market"] == "Prop":
@@ -173,10 +265,10 @@ def grade():
                 b["result_units"] = settle(None, b["price"], b["stake"], b["status"])
             continue
         b["score"] = f'{b["away"]} {ap}, {b["home"]} {hp}'
-        if b["market"] == "Total":
-            diff = (hp + ap - b["line"]) * (1 if b["pick"].lower().startswith("over") else -1)
+        if b["market"] == "Total" or (b.get("side") or "").lower() in ("over", "under"):
+            diff = (hp + ap - b["line"]) * (1 if (b.get("side") or b["pick"]).lower().startswith("over") else -1)
         else:
-            mine, theirs = (hp, ap) if S.team(b["pick_team"]) == g["home"] else (ap, hp)
+            mine, theirs = (hp, ap) if same(b["pick_team"], g["home"]) else (ap, hp)
             diff = mine - theirs + (b["line"] if b["market"] == "Spread" else 0)
         b["status"] = "won" if diff > 0 else "lost" if diff < 0 else "push"
         b["result_units"] = settle(None, b["price"], b["stake"], b["status"])
@@ -242,6 +334,9 @@ if __name__ == "__main__":
         elif cmd == "grade": grade()
         elif cmd == "dry": dry()
         elif cmd == "rebuild": rebuild()
+        elif cmd == "multi":
+            L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
+            add_multi(L, multi_card([]), ds); L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
         elif cmd == "preview": preview()
     except Exception:
         ok = False; log(traceback.format_exc())

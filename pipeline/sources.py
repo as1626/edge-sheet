@@ -142,3 +142,80 @@ def bbref_players(season):
                       bpm=float(bpm.iloc[0]) if len(bpm) else None)
     log(f"bbref players {season}: {len(out)}")
     return out
+
+# ---------- other sports: Sports-Reference ratings ----------
+def _flat(t):
+    t = t.copy(); t.columns = [c[-1] if isinstance(c, tuple) else c for c in t.columns]
+    t = t.loc[:, ~t.columns.duplicated()]
+    return t
+
+def _find(tabs, need):
+    for t in tabs:
+        t = _flat(t)
+        if all(c in t.columns for c in need): return t
+    return None
+
+def odds_window(sport, days):
+    """All games for `sport` starting from now through `days` days ahead."""
+    start = now_et().astimezone(__import__("datetime").timezone.utc)
+    end = start + timedelta(days=days)
+    q = urllib.parse.urlencode({"apiKey": _key(), "bookmakers": BOOKS, "markets": "h2h,spreads,totals", "oddsFormat": "american",
+                                "commenceTimeFrom": start.strftime("%Y-%m-%dT%H:%M:%SZ"), "commenceTimeTo": end.strftime("%Y-%m-%dT%H:%M:%SZ")})
+    data, h = get_json(f"{ODDS}/sports/{sport}/odds?{q}"); _track(h)
+    log(f"odds {sport}: {len(data)} games, credits remaining {CREDITS['remaining']}")
+    return data
+
+def nhl_teams(season):
+    _, tabs = _tables(f"https://www.hockey-reference.com/leagues/NHL_{season}.html")
+    t = _find(tabs, ["GP", "GF", "GA"])
+    if t is None: raise RuntimeError("NHL team table not found")
+    tcol = "Team" if "Team" in t.columns else t.columns[1]
+    t = _num(t[t[tcol].notna() & (t[tcol] != "League Average")], ["GP", "GF", "GA"])
+    out = {}
+    for r in t.to_dict("records"):
+        if not r["GP"] or r["GP"] != r["GP"]: continue
+        out[team(str(r[tcol]))] = dict(gf=r["GF"] / r["GP"], ga=r["GA"] / r["GP"], g=r["GP"])
+    log(f"NHL teams {season}: {len(out)}")
+    return out
+
+def nfl_teams(season):
+    _, tabs = _tables(f"https://www.pro-football-reference.com/years/{season}/")
+    out = {}
+    for t in tabs:
+        t = _flat(t)
+        if not all(c in t.columns for c in ("Tm", "OSRS", "DSRS", "PF")): continue
+        t = _num(t, ["W", "L", "T", "PF", "OSRS", "DSRS"])
+        for r in t.to_dict("records"):
+            if r["OSRS"] != r["OSRS"]: continue
+            g = (r.get("W") or 0) + (r.get("L") or 0) + (r.get("T") or 0 if r.get("T") == r.get("T") else 0)
+            out[team(re.sub(r"[*+]", "", str(r["Tm"])).strip())] = dict(osrs=r["OSRS"], dsrs=r["DSRS"], ppg=r["PF"] / g if g else None, g=g)
+    log(f"NFL teams {season}: {len(out)}")
+    return out
+
+def cfb_teams(season):
+    _, tabs = _tables(f"https://www.sports-reference.com/cfb/years/{season}-ratings.html")
+    t = _find(tabs, ["School", "OSRS", "DSRS"])
+    if t is None: raise RuntimeError("CFB ratings table not found")
+    t = _num(t[t["School"].notna() & (t["School"] != "School")], ["W", "L", "OSRS", "DSRS"])
+    out = {str(r["School"]): dict(osrs=r["OSRS"], dsrs=r["DSRS"], g=(r.get("W") or 0) + (r.get("L") or 0), ppg=28.5)
+           for r in t.to_dict("records") if r["OSRS"] == r["OSRS"]}
+    log(f"CFB teams {season}: {len(out)}")
+    return out
+
+def cbb_teams(season):
+    _, tabs = _tables(f"https://www.sports-reference.com/cbb/seasons/men/{season}-ratings.html")
+    t = _find(tabs, ["School", "ORtg", "DRtg"])
+    if t is None: raise RuntimeError("CBB ratings table not found")
+    t = _num(t[t["School"].notna() & (t["School"] != "School")], ["W", "L", "ORtg", "DRtg"])
+    _, tabs2 = _tables(f"https://www.sports-reference.com/cbb/seasons/men/{season}-advanced-school-stats.html")
+    a = _find(tabs2, ["School", "Pace"])
+    pace = {}
+    if a is not None:
+        a = _num(a, ["Pace"]); pace = {re.sub(r"\s*NCAA$", "", str(r["School"])).strip(): r["Pace"] for r in a.to_dict("records") if r["Pace"] == r["Pace"]}
+    out = {}
+    for r in t.to_dict("records"):
+        if r["ORtg"] != r["ORtg"]: continue
+        s = re.sub(r"\s*NCAA$", "", str(r["School"])).strip()
+        out[s] = dict(ortg=r["ORtg"], drtg=r["DRtg"], pace=pace.get(s, 68.0), g=(r.get("W") or 0) + (r.get("L") or 0))
+    log(f"CBB teams {season}: {len(out)}")
+    return out
