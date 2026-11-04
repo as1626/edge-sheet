@@ -1,0 +1,2004 @@
+{
+ "an_keys": [
+  "league",
+  "games",
+  "content_live_count"
+ ],
+ "an_ngames": 14,
+ "an_game_keys": [
+  "id",
+  "league_id",
+  "status",
+  "real_status",
+  "status_display",
+  "start_time",
+  "away_team_id",
+  "home_team_id",
+  "winning_team_id",
+  "league_name",
+  "type",
+  "season",
+  "week",
+  "attendance",
+  "coverage",
+  "is_free",
+  "trending",
+  "away_rotation_number",
+  "home_rotation_number",
+  "teams",
+  "meta",
+  "num_bets",
+  "odds",
+  "broadcast"
+ ],
+ "an_teams0": {
+  "id": 170,
+  "full_name": "Detroit Pistons",
+  "display_name": "Pistons",
+  "short_name": "Pistons",
+  "location": "Detroit",
+  "abbr": "DET",
+  "logo": "https://assets.actionnetwork.com/343538_pistons.png",
+  "primary_color": "ED174C",
+  "secondary_color": "006BB6",
+  "conference_type": "EASTERN",
+  "division_type": "CENTRAL",
+  "url_slug": "detroit-pistons",
+  "standings": {
+   "win": 6,
+   "loss": 1,
+   "ties": null,
+   "overtime_losses": null,
+   "draw": null
+  }
+ },
+ "an_odds": [
+  {
+   "ml_away": 110,
+   "ml_home": -133,
+   "spread_away": 2.5,
+   "spread_home": -2.5,
+   "spread_away_line": -114,
+   "spread_home_line": -105,
+   "over": -113,
+   "under": -110,
+   "draw": null,
+   "total": 218,
+   "away_total": 108.5,
+   "away_over": -107,
+   "away_under": -115,
+   "home_total": 109.5,
+   "home_over": -117,
+   "home_under": -105,
+   "ml_home_public": null,
+   "ml_away_public": null,
+   "spread_home_public": null,
+   "spread_away_public": null,
+   "total_under_public": null,
+   "total_over_public": null,
+   "ml_home_money": null,
+   "ml_away_money": null,
+   "spread_home_money": null,
+   "spread_away_money": null,
+   "total_over_money": null,
+   "total_under_money": null,
+   "meta": {
+    "draw": null,
+    "over": null,
+    "under": null,
+    "ml_away": null,
+    "ml_home": null,
+    "away_over": null,
+    "home_over": null,
+    "away_under": null,
+    "home_under": null,
+    "spread_away": null,
+    "spread_home": null
+   },
+   "num_bets": null,
+   "book_id": 15,
+   "type": "game",
+   "inserted": "2026-11-04T07:52:26.382197+00:00",
+   "line_status": {
+    "draw": null,
+    "over": 0,
+    "under": 0,
+    "ml_away": 0,
+    "ml_home": 0,
+    "away_over": 0,
+    "home_over": 0,
+    "away_under": 0,
+    "home_under": 0,
+    "spread_away": 0,
+    "spread_home": 0
+   }
+  },
+  {
+   "ml_away": 106,
+   "ml_home": -124,
+   "spread_away": 1.5,
+   "spread_home": -1.5,
+   "spread_away_line": -105,
+   "spread_home_line": -116,
+   "over": -116,
+   "under": -111,
+   "draw": null,
+   "total": 219.5,
+   "away_total": 109.5,
+   "away_over": -110,
+   "away_under": -118,
+   "home_total": 110.5,
+   "home_over": -110,
+   "home_under": -115,
+   "ml_home_public": null,
+   "ml_away_public": null,
+   "spread_home_public": null,
+   "spread_away_public": null,
+   "total_under_public": null,
+   "total_over_public": null,
+   "ml_home_money": null,
+   "ml_away_money": null,
+   "spread_home_money": null,
+   "spread_away_money": null,
+   "total_over_money": null,
+   "total_under_money": null,
+   "meta": null,
+   "num_bets": null,
+   "book_id": 30,
+   "type": "game",
+   "inserted": "2026-11-03T06:42:26.627168+00:00",
+   "line_status": {
+    "draw": null,
+    "over": 0,
+    "under": 0,
+    "ml_away": 0,
+    "ml_home": 0,
+    "away_over": 0,
+    "home_over": 0,
+    "away_under": 0,
+    "home_under": 0,
+    "spread_away": 0,
+    "spread_home": 0
+   }
+  },
+  {
+   "ml_away": 110,
+   "ml_home": -130,
+   "spread_away": 2.5,
+   "spread_home": -2.5,
+   "spread_away_line": -114,
+   "spread_home_line": -106,
+   "over": -110,
+   "under": -110,
+   "draw": null,
+   "total": 218.5,
+   "away_total": 108.5,
+   "away_over": -105,
+   "away_under": -115,
+   "home_total": 109.5,
+   "home_over": -115,
+   "home_under": -105,
+   "ml_home_public": null,
+   "ml_away_public": null,
+   "spread_home_public": null,
+   "spread_away_public": null,
+   "total_under_public": null,
+   "total_over_public": null,
+   "ml_home_money": null,
+   "ml_away_money": null,
+   "spread_home_money": null,
+   "spread_away_money": null,
+   "total_over_money": null,
+   "total_under_money": null,
+   "meta": {
+    "draw": null,
+    "over": {
+     "line_id": "0OU87027686O21850_1",
+     "event_id": "34936983",
+     "outcome_id": 3161136905,
+     "deeplink_id": "ML3161136905"
+    },
+    "under": {
+     "line_id": "0OU87027686U21850_3",
+     "event_id": "34936983",
+     "outcome_id": 3161136906,
+     "deeplink_id": "ML3161136906"
+    },
+    "ml_away": {
+     "line_id": "0ML87027686_3",
+     "event_id": "34936983",
+     "outcome_id": 3161136895,
+     "deeplink_id": "ML3161136895"
+    },
+    "ml_home": {
+     "line_id": "0ML87027686_1",
+     "event_id": "34936983",
+     "outcome_id": 3161136893,
+     "deeplink_id": "ML3161136893"
+    },
+    "away_over": {
+     "line_id": "0OU87087598O10850_1",
+     "event_id": "34936983",
+     "outcome_id": 3166399165,
+     "deeplink_id": "ML3166399165"
+    },
+    "home_over": {
+     "line_id": "0OU87087597O10950_1",
+     "event_id": "34936983",
+     "outcome_id": 3166399162,
+     "deeplink_id": "ML3166399162"
+    },
+    "away_under": {
+     "line_id": "0OU87087598U10850_3",
+     "event_id": "34936983",
+     "outcome_id": 3166399167,
+     "deeplink_id": "ML3166399167"
+    },
+    "home_under": {
+     "line_id": "0OU87087597U10950_3",
+     "event_id": "34936983",
+     "outcome_id": 3166399163,
+     "deeplink_id": "ML3166399163"
+    },
+    "spread_away": {
+     "line_id": "0HC87027686P250_3",
+     "event_id": "34936983",
+     "outcome_id": 3161136899,
+     "deeplink_id": "ML3161136899"
+    },
+    "spread_home": {
+     "line_id": "0HC87027686N250_1",
+     "event_id": "34936983",
+     "outcome_id": 3161136898,
+     "deeplink_id": "ML3161136898"
+    }
+   },
+   "num_bets": null,
+   "book_id": 68,
+   "type": "game",
+   "inserted": "2026-11-04T07:53:50.410207+00:00",
+   "line_status": {
+    "draw": null,
+    "over": 0,
+    "under": 0,
+    "ml_away": 0,
+    "ml_home": 0,
+    "away_over": 0,
+    "home_over": 0,
+    "away_under": 0,
+    "home_under": 0,
+    "spread_away": 0,
+    "spread_home": 0
+   }
+  },
+  {
+   "ml_away": 110,
+   "ml_home": -130,
+   "spread_away": 2.5,
+   "spread_home": -2.5,
+   "spread_away_line": -118,
+   "spread_home_line": -104,
+   "over": -110,
+   "under": -110,
+   "draw": null,
+   "total": 217.5,
+   "away_total": 108.5,
+   "away_over": -105,
+   "away_under": -115,
+   "home_total": 109.5,
+   "home_over": -112,
+   "home_under": -108,
+   "ml_home_public": null,
+   "ml_away_public": null,
+   "spread_home_public": null,
+   "spread_away_public": null,
+   "total_under_public": null,
+   "total_over_public": null,
+   "ml_home_money": null,
+   "ml_away_money": null,
+   "spread_home_money": null,
+   "spread_away_money": null,
+   "total_over_money": null,
+   "total_under_money": null,
+   "meta": {
+    "draw": null,
+    "over": {
+     "event_id": 36266779,
+     "market_id": "42.622123451",
+     "outcome_id": 3161115030,
+     "deeplink_id": "ML3161115030",
+     "selection_id": 7017823,
+     "fanduel_market_id": "754.195669033"
+    },
+    "under": {
+     "event_id": 36266779,
+     "market_id": "42.622123451",
+     "outcome_id": 3161115031,
+     "deeplink_id": "ML3161115031",
+     "selection_id": 7017824,
+     "fanduel_market_id": "754.195669033"
+    },
+    "ml_away": {
+     "event_id": 36266779,
+     "market_id": "42.621646033",
+     "outcome_id": 3161115027,
+     "deeplink_id": "ML3161115027",
+     "selection_id": 40274538,
+     "fanduel_market_id": "754.195347379"
+    },
+    "ml_home": {
+     "event_id": 36266779,
+     "market_id": "42.621646033",
+     "outcome_id": 3161115029,
+     "deeplink_id": "ML3161115029",
+     "selection_id": 237474,
+     "fanduel_market_id": "754.195347379"
+    },
+    "away_over": {
+     "event_id": 36266779,
+     "market_id": "42.622499680",
+     "outcome_id": 3166239287,
+     "deeplink_id": "ML3166239287",
+     "selection_id": 7017823,
+     "fanduel_market_id": "754.195933996"
+    },
+    "home_over": {
+     "event_id": 36266779,
+     "market_id": "42.622499692",
+     "outcome_id": 3166238023,
+     "deeplink_id": "ML3166238023",
+     "selection_id": 7017823,
+     "fanduel_market_id": "754.195933963"
+    },
+    "away_under": {
+     "event_id": 36266779,
+     "market_id": "42.622499680",
+     "outcome_id": 3166239288,
+     "deeplink_id": "ML3166239288",
+     "selection_id": 7017824,
+     "fanduel_market_id": "754.195933996"
+    },
+    "home_under": {
+     "event_id": 36266779,
+     "market_id": "42.622499692",
+     "outcome_id": 3166238024,
+     "deeplink_id": "ML3166238024",
+     "selection_id": 7017824,
+     "fanduel_market_id": "754.195933963"
+    },
+    "spread_away": {
+     "event_id": 36266779,
+     "market_id": "42.621646031",
+     "outcome_id": 3161115024,
+     "deeplink_id": "ML3161115024",
+     "selection_id": 40274538,
+     "fanduel_market_id": "754.195347380"
+    },
+    "spread_home": {
+     "event_id": 36266779,
+     "market_id": "42.621646031",
+     "outcome_id": 3161115025,
+     "deeplink_id": "ML3161115025",
+     "selection_id": 237474,
+     "fanduel_market_id": "754.195347380"
+    }
+   },
+   "num_bets": null,
+   "book_id": 69,
+   "type": "game",
+   "inserted": "2026-11-04T07:36:21.407481+00:00",
+   "line_status": {
+    "draw": null,
+    "over": 0,
+    "under": 0,
+    "ml_away": 0,
+    "ml_home": 0,
+    "away_over": 0,
+    "home_over": 0,
+    "away_under": 0,
+    "home_under": 0,
+    "spread_away": 0,
+    "spread_home": 0
+   }
+  },
+  {
+   "ml_away": 110,
+   "ml_home": -135,
+   "spread_away": 2.5,
+   "spread_home": -2.5,
+   "spread_away_line": -115,
+   "spread_home_line": -105,
+   "over": -110,
+   "under": -110,
+   "draw": null,
+   "total": 218.5,
+   "away_total": 108.5,
+   "away_over": -110,
+   "away_under": -115,
+   "home_total": 109.5,
+   "home_over": -120,
+   "home_under": -105,
+   "ml_home_public": null,
+   "ml_away_public": null,
+   "spread_home_public": null,
+   "spread_away_public": null,
+   "total_under_public": null,
+   "total_over_public": null,
+   "ml_home_money": null,
+   "ml_away_money": null,
+   "spread_home_money": null,
+   "spread_away_money": null,
+   "total_over_money": null,
+   "total_under_money": null,
+   "meta": {
+    "draw": null,
+    "over": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572566,
+     "result_id": 2340513313,
+     "outcome_id": 3161321922,
+     "deeplink_id": "ML3161321922",
+     "linked_tv2_fixture_id": "6:48987"
+    },
+    "under": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572566,
+     "result_id": 2340513314,
+     "outcome_id": 3161321931,
+     "deeplink_id": "ML3161321931",
+     "linked_tv2_fixture_id": "6:48987"
+    },
+    "ml_away": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1571821624,
+     "result_id": 2333060856,
+     "outcome_id": 3161321892,
+     "deeplink_id": "ML3161321892",
+     "linked_tv2_fixture_id": null
+    },
+    "ml_home": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1571821624,
+     "result_id": 2333060857,
+     "outcome_id": 3161321900,
+     "deeplink_id": "ML3161321900",
+     "linked_tv2_fixture_id": null
+    },
+    "away_over": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572590,
+     "result_id": 2340513357,
+     "outcome_id": 3161322287,
+     "deeplink_id": "ML3161322287",
+     "linked_tv2_fixture_id": null
+    },
+    "home_over": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572571,
+     "result_id": 2340513319,
+     "outcome_id": 3161322138,
+     "deeplink_id": "ML3161322138",
+     "linked_tv2_fixture_id": null
+    },
+    "away_under": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572590,
+     "result_id": 2340513373,
+     "outcome_id": 3161322291,
+     "deeplink_id": "ML3161322291",
+     "linked_tv2_fixture_id": null
+    },
+    "home_under": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572571,
+     "result_id": 2340513320,
+     "outcome_id": 3161322144,
+     "deeplink_id": "ML3161322144",
+     "linked_tv2_fixture_id": null
+    },
+    "spread_away": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572626,
+     "result_id": 2340513457,
+     "outcome_id": 3161322404,
+     "deeplink_id": "ML3161322404",
+     "linked_tv2_fixture_id": null
+    },
+    "spread_home": {
+     "full_id": "20049570",
+     "game_id": 20049570,
+     "market_id": 1574572626,
+     "result_id": 2340513458,
+     "outcome_id": 3161322414,
+     "deeplink_id": "ML3161322414",
+     "linked_tv2_fixture_id": null
+    }
+   },
+   "num_bets": null,
+   "book_id": 75,
+   "type": "game",
+   "inserted": "2026-11-04T07:50:45.356145+00:00",
+   "line_status": {
+    "draw": null,
+    "over": 0,
+    "under": 0,
+    "ml_away": 0,
+    "ml_home": 0,
+    "away_over": 0,
+    "home_over": 0,
+    "away_under": 0,
+    "home_under": 0,
+    "spread_away": 0,
+    "spread_home": 0
+   }
+  },
+  {
+   "ml_away": 110,
+   "ml_home": -130,
+   "spread_away": 2,
+   "spread_home": -2,
+   "spread_away_line": -105,
+   "spread_home_line": -115,
+   "over": -110,
+   "under": -110,
+   "draw": null,
+   "total": 218,
+   "away_total": null,
+   "away_over": null,
+   "away_under": null,
+   "home_total": null,
+   "home_over": null,
+   "home_under": null,
+   "ml_home_public": null,
+   "ml_away_public": null,
+   "spread_home_public": null,
+   "spread_away_public": null,
+   "total_under_public": null,
+   "total_over_public": null,
+   "ml_home_money": null,
+   "ml_away_money": null,
+   "spread_home_money": null,
+   "spread_away_money": null,
+   "total_over_money": null,
+   "total_under_money": null,
+   "meta": {
+    "draw": null,
+    "over": {
+     "event_id": null,
+     "market_id": null,
+     "outcome_id": 3161128120,
+     "deeplink_id": "ML3161128120",
+     "selection_id": "2eb5b552-663b-3af2-9e9a-c74e2dff8258"
+    },
+    "under": {
+     "event_id": null,
+     "market_id": null,
+     "outcome_id": 3161128121,
+     "deeplink_id": "ML3161128121",
+     "selection_id": "df139a27-e370-32c6-a9a1-fde481bc79b0"
+    },
+    "ml_away": {
+     "event_id": null,
+     "market_id": null,
+     "outcome_id": 3161128116,
+     "deeplink_id": "ML3161128116",
+     "selection_id": "bcfed173-3eb2-33f3-8f53-9726e149d32e"
+    },
+    "ml_home": {
+     "event_id": null,
+     "market_id": null,
+     "outcome_id": 3161128117,
+     "deeplink_id": "ML3161128117",
+     "selection_id": "403ca953-2731-31ce-8771-b9e16bd844db"
+    },
+    "away_over": null,
+    "home_over": null,
+    "away_under": null,
+    "home_under": null,
+    "spread_away": {
+     "event_id": null,
+     "market_id": null,
+     "outcome_id": 3161128124,
+     "deeplink_id": "ML3161128124",
+     "selection_id": "abfbbe72-3616-375b-b272-b481e66fe9af"
+    },
+    "spread_home": {
+     "event_id": null,
+     "market_id": null,
+     "outcome_id": 3161128125,
+     "deeplink_id": "ML3161128125",
+     "selection_id": "f25bbb5a-c5c4-3ec9-9662-0e25715a28cb"
+    }
+   },
+   "num_bets": null,
+   "book_id": 123,
+   "type": "game",
+   "inserted": "2026-11-04T07:53:49.366736+00:00",
+   "line_status": {
+    "draw": null,
+    "over": 0,
+    "under": 0,
+    "ml_away": 0,
+    "ml_home": 0,
+    "away_over": null,
+    "home_over": null,
+    "away_under": null,
+    "home_under": null,
+    "spread_away": 0,
+    "spread_home": 0
+   }
+  }
+ ],
+ "an_misc": {
+  "id": 295374,
+  "start_time": "2026-11-05T00:00:00.000Z",
+  "home_team_id": 170,
+  "away_team_id": 163,
+  "status": "scheduled",
+  "num_bets": 4498
+ },
+ "inj_team_keys": [
+  "id",
+  "displayName",
+  "injuries"
+ ],
+ "inj_team0_name": "Atlanta Hawks",
+ "inj_item0": {
+  "id": "537471",
+  "longComment": "Landale is sidelined for a second consecutive game with the injury. Zuby Ejiofor should handle the No. 2 center spot for as long as Landale is on the shelf.",
+  "shortComment": "Landale is out for Wednesday's game against the Wizards with a left hip strain, Kevin Chouinard of the Hawks' official site reports.",
+  "status": "Out",
+  "date": "2026-11-03T22:08Z",
+  "athlete": {
+   "firstName": "Jock",
+   "lastName": "Landale",
+   "displayName": "Jock Landale",
+   "shortName": "J. Landale",
+   "links": [
+    {
+     "language": "en-US",
+     "rel": [
+      "playercard",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/_/id/3146557/jock-landale",
+     "text": "Player Card",
+     "shortText": "Player Card",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/stats/_/id/3146557/jock-landale",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "athlete"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:3146557&section=stats",
+     "text": "Stats",
+     "shortText": "Stats",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "splits",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/splits/_/id/3146557/jock-landale",
+     "text": "Splits",
+     "shortText": "Splits",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "gamelog",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/gamelog/_/id/3146557/jock-landale",
+     "text": "Game Log",
+     "shortText": "Game Log",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "gamelog",
+      "sportscenter",
+      "app",
+      "athlete"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:3146557&section=gamelog",
+     "text": "Game Log",
+     "shortText": "Game Log",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "news",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/news/_/id/3146557/jock-landale",
+     "text": "News",
+     "shortText": "News",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "news",
+      "sportscenter",
+      "app",
+      "athlete"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:3146557&section=news",
+     "text": "News",
+     "shortText": "News",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "bio",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/bio/_/id/3146557/jock-landale",
+     "text": "Bio",
+     "shortText": "Bio",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "bio",
+      "sportscenter",
+      "app",
+      "athlete"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:3146557&section=bio",
+     "text": "Bio",
+     "shortText": "Bio",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "overview",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/_/id/3146557/jock-landale",
+     "text": "Overview",
+     "shortText": "Overview",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "overview",
+      "sportscenter",
+      "app",
+      "athlete"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~a:3146557",
+     "text": "Overview",
+     "shortText": "Overview",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "language": "en-US",
+     "rel": [
+      "advancedstats",
+      "desktop",
+      "athlete"
+     ],
+     "href": "https://www.espn.com/nba/player/advancedstats/_/id/3146557/jock-landale",
+     "text": "Advanced Stats",
+     "shortText": "Advanced Stats",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "headshot": {
+    "href": "https://a.espncdn.com/i/headshots/nba/players/full/3146557.png",
+    "alt": "Jock Landale"
+   },
+   "position": {
+    "id": "9",
+    "name": "Center",
+    "displayName": "Center",
+    "abbreviation": "C",
+    "leaf": false
+   },
+   "team": {
+    "id": "1",
+    "uid": "s:40~l:46~t:1",
+    "slug": "atlanta-hawks",
+    "name": "Hawks",
+    "abbreviation": "ATL",
+    "displayName": "Atlanta Hawks",
+    "logos": [
+     {
+      "href": "https://a.espncdn.com/i/teamlogos/nba/500/atl.png",
+      "width": 500,
+      "height": 500,
+      "alt": "",
+      "rel": [
+       "full",
+       "default"
+      ],
+      "lastUpdated": "2024-06-25T21:17Z"
+     },
+     {
+      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/atl.png",
+      "width": 500,
+      "height": 500,
+      "alt": "",
+      "rel": [
+       "full",
+       "dark"
+      ],
+      "lastUpdated": "2024-06-25T21:13Z"
+     },
+     {
+      "href": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/atl.png",
+      "width": 500,
+      "height": 500,
+      "alt": "",
+      "rel": [
+       "full",
+       "scoreboard"
+      ],
+      "lastUpdated": "2024-06-25T21:18Z"
+     },
+     {
+      "href": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/atl.png",
+      "width": 500,
+      "height": 500,
+      "alt": "",
+      "rel": [
+       "full",
+       "scoreboard",
+       "dark"
+      ],
+      "lastUpdated": "2024-06-25T21:13Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/primary_logo_on_white_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "primary_logo_on_white_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/primary_logo_on_black_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "primary_logo_on_black_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/primary_logo_on_primary_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "primary_logo_on_primary_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/primary_logo_on_secondary_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "primary_logo_on_secondary_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/primary_logo_black.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "primary_logo_black"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/primary_logo_white.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "primary_logo_white"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/secondary_logo_on_white_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "secondary_logo_on_white_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/secondary_logo_on_black_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "secondary_logo_on_black_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/secondary_logo_on_primary_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "secondary_logo_on_primary_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/secondary_logo_on_secondary_color.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "secondary_logo_on_secondary_color"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/secondary_logo_black.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "secondary_logo_black"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     },
+     {
+      "href": "https://a.espncdn.com/guid/15096a54-f015-c987-5ec8-55afedf6272f/logos/secondary_logo_white.png",
+      "width": 4096,
+      "height": 4096,
+      "alt": "",
+      "rel": [
+       "full",
+       "secondary_logo_white"
+      ],
+      "lastUpdated": "2026-07-22T20:23Z"
+     }
+    ],
+    "links": [
+     {
+      "language": "en-US",
+      "rel": [
+       "clubhouse",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/_/name/atl/atlanta-hawks",
+      "text": "Clubhouse",
+      "shortText": "Clubhouse",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "roster",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/roster/_/name/atl/atlanta-hawks",
+      "text": "Roster",
+      "shortText": "Roster",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "roster",
+       "sportscenter",
+       "app",
+       "team"
+      ],
+      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:1&section=roster",
+      "text": "Roster",
+      "shortText": "Roster",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "stats",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/stats/_/name/atl/atlanta-hawks",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "stats",
+       "sportscenter",
+       "app",
+       "team"
+      ],
+      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:1&section=stats",
+      "text": "Statistics",
+      "shortText": "Statistics",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "schedule",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/schedule/_/name/atl",
+      "text": "Schedule",
+      "shortText": "Schedule",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "schedule",
+       "sportscenter",
+       "app",
+       "team"
+      ],
+      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:1&section=scores",
+      "text": "Schedule",
+      "shortText": "Schedule",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "photos",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/photos/_/name/atl",
+      "text": "photos",
+      "shortText": "photos",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "tickets",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.vividseats.com/atlanta-hawks-tickets--sports-nba-basketball/performer/52?wsUser=717",
+      "text": "Tickets",
+      "shortText": "Tickets",
+      "isExternal": true,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "draftpicks",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/draft/teams/_/name/atl/atlanta-hawks",
+      "text": "Draft Picks",
+      "shortText": "Draft Picks",
+      "isExternal": false,
+      "isPremium": true
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "transactions",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/transactions/_/name/atl",
+      "text": "Transactions",
+      "shortText": "Transactions",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "injuries",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/injuries/_/name/atl",
+      "text": "Injuries",
+      "shortText": "Injuries",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "depthchart",
+       "desktop",
+       "team"
+      ],
+      "href": "https://www.espn.com/nba/team/depth/_/name/atl",
+      "text": "Depth Chart",
+      "shortText": "Depth Chart",
+      "isExternal": false,
+      "isPremium": false
+     },
+     {
+      "language": "en-US",
+      "rel": [
+       "depthchart",
+       "sportscenter",
+       "app",
+       "team"
+      ],
+      "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:1&section=depthchart",
+      "text": "Depth Chart",
+      "shortText": "Depth Chart",
+      "isExternal": false,
+      "isPremium": false
+     }
+    ]
+   },
+   "notes": {
+    "items": [
+     {
+      "id": "537471",
+      "type": "news",
+      "date": "2026-11-03T22:08Z",
+      "headline": "Landale is out for Wednesday's game against the Wizards with a left hip strain, Kevin Chouinard of the Hawks' official site reports.",
+      "text": "Landale is sidelined for a second consecutive game with the injury. Zuby Ejiofor should handle the No. 2 center spot for as long as Landale is on the shelf.",
+      "source": "RotoWire",
+      "injury": {
+       "$ref": "http://sports.core.api.espn.pvt/v2/sports/basketball/leagues/nba/seasons/2027/athletes/3146557/injuries/537471?lang=en&region=us"
+      }
+     }
+    ]
+   },
+   "status": {
+    "id": "1",
+    "name": "Active",
+    "type": "active",
+    "abbreviation": "Active"
+   }
+  },
+  "source": {
+   "id": "1",
+   "description": "basic/manual",
+   "state": "basic"
+  },
+  "type": {
+   "id": "4",
+   "name": "INJURY_STATUS_OUT",
+   "description": "out",
+   "abbreviation": "O"
+  },
+  "details": {
+   "fantasyStatus": {
+    "description": "OUT",
+    "abbreviation": "OUT"
+   },
+   "type": "Hip",
+   "location": "Torso",
+   "side": "Left",
+   "returnDate": "2026-11-06"
+  }
+ },
+ "sb_n": 14,
+ "sb_ev": {
+  "id": "401909922",
+  "date": "2026-11-05T00:00Z",
+  "name": "Philadelphia 76ers at Detroit Pistons",
+  "shortName": "PHI @ DET"
+ },
+ "sb_comp_keys": [
+  "id",
+  "uid",
+  "date",
+  "attendance",
+  "type",
+  "timeValid",
+  "neutralSite",
+  "conferenceCompetition",
+  "playByPlayAvailable",
+  "recent",
+  "venue",
+  "competitors",
+  "notes",
+  "status",
+  "broadcasts",
+  "format",
+  "tickets",
+  "startDate",
+  "broadcast",
+  "geoBroadcasts",
+  "odds",
+  "highlights"
+ ],
+ "sb_competitor0": {
+  "homeAway": "home",
+  "score": "0",
+  "team": {
+   "id": "8",
+   "uid": "s:40~l:46~t:8",
+   "location": "Detroit",
+   "name": "Pistons",
+   "abbreviation": "DET",
+   "displayName": "Detroit Pistons",
+   "shortDisplayName": "Pistons",
+   "color": "1d428a",
+   "alternateColor": "c8102e",
+   "isActive": true,
+   "venue": {
+    "id": "5311"
+   },
+   "links": [
+    {
+     "rel": [
+      "clubhouse",
+      "desktop",
+      "team"
+     ],
+     "href": "https://www.espn.com/nba/team/_/name/det/detroit-pistons",
+     "text": "Clubhouse",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "rel": [
+      "roster",
+      "desktop",
+      "team"
+     ],
+     "href": "https://www.espn.com/nba/team/roster/_/name/det/detroit-pistons",
+     "text": "Roster",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "rel": [
+      "roster",
+      "sportscenter",
+      "app",
+      "team"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:8&section=roster",
+     "text": "Roster",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "rel": [
+      "stats",
+      "desktop",
+      "team"
+     ],
+     "href": "https://www.espn.com/nba/team/stats/_/name/det/detroit-pistons",
+     "text": "Statistics",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "rel": [
+      "stats",
+      "sportscenter",
+      "app",
+      "team"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:8&section=stats",
+     "text": "Statistics",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "rel": [
+      "schedule",
+      "desktop",
+      "team"
+     ],
+     "href": "https://www.espn.com/nba/team/schedule/_/name/det",
+     "text": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    },
+    {
+     "rel": [
+      "schedule",
+      "sportscenter",
+      "app",
+      "team"
+     ],
+     "href": "sportscenter://x-callback-url/showClubhouse?uid=s:40~l:46~t:8&section=scores",
+     "text": "Schedule",
+     "isExternal": false,
+     "isPremium": false
+    }
+   ],
+   "logo": "https://a.espncdn.com/i/teamlogos/nba/500/scoreboard/det.png",
+   "logoDark": "https://a.espncdn.com/i/teamlogos/nba/500-dark/scoreboard/det.png"
+  }
+ },
+ "sb_venue": {
+  "id": "5404",
+  "fullName": "Little Caesars Arena",
+  "address": {
+   "city": "Detroit",
+   "state": "MI"
+  },
+  "indoor": true
+ },
+ "bbref_team": {
+  "ids": [
+   "confs_standings_E",
+   "confs_standings_W",
+   "divs_standings_E",
+   "divs_standings_W",
+   "per_game-team",
+   "per_game-opponent",
+   "totals-team",
+   "totals-opponent",
+   "per_poss-team",
+   "per_poss-opponent",
+   "advanced-team",
+   "shooting-team",
+   "shooting-opponent"
+  ],
+  "shapes": [
+   [
+    15,
+    8
+   ],
+   [
+    15,
+    8
+   ],
+   [
+    18,
+    8
+   ],
+   [
+    18,
+    8
+   ],
+   [
+    31,
+    25
+   ],
+   [
+    31,
+    25
+   ],
+   [
+    31,
+    25
+   ],
+   [
+    31,
+    25
+   ],
+   [
+    30,
+    25
+   ],
+   [
+    30,
+    25
+   ],
+   [
+    31,
+    31
+   ],
+   [
+    31,
+    35
+   ],
+   [
+    31,
+    32
+   ]
+  ],
+  "cols": [
+   [
+    "Eastern Conference",
+    "W",
+    "L",
+    "W/L%",
+    "GB",
+    "PS/G",
+    "PA/G",
+    "SRS"
+   ],
+   [
+    "Western Conference",
+    "W",
+    "L",
+    "W/L%",
+    "GB",
+    "PS/G",
+    "PA/G",
+    "SRS"
+   ],
+   [
+    "Eastern Conference",
+    "W",
+    "L",
+    "W/L%",
+    "GB",
+    "PS/G",
+    "PA/G",
+    "SRS"
+   ],
+   [
+    "Western Conference",
+    "W",
+    "L",
+    "W/L%",
+    "GB",
+    "PS/G",
+    "PA/G",
+    "SRS"
+   ],
+   [
+    "Rk",
+    "Team",
+    "G",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS"
+   ],
+   [
+    "Rk",
+    "Team",
+    "G",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS"
+   ],
+   [
+    "Rk",
+    "Team",
+    "G",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS"
+   ],
+   [
+    "Rk",
+    "Team",
+    "G",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS"
+   ],
+   [
+    "Rk",
+    "Team",
+    "G",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS"
+   ],
+   [
+    "Rk",
+    "Team",
+    "G",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS"
+   ],
+   [
+    "('Unnamed: 0_level_0', 'Rk')",
+    "('Unnamed: 1_level_0', 'Team')",
+    "('Unnamed: 2_level_0', 'Age')",
+    "('Unnamed: 3_level_0', 'W')",
+    "('Unnamed: 4_level_0', 'L')",
+    "('Unnamed: 5_level_0', 'PW')",
+    "('Unnamed: 6_level_0', 'PL')",
+    "('Unnamed: 7_level_0', 'MOV')",
+    "('Unnamed: 8_level_0', 'SOS')",
+    "('Unnamed: 9_level_0', 'SRS')",
+    "('Unnamed: 10_level_0', 'ORtg')",
+    "('Unnamed: 11_level_0', 'DRtg')",
+    "('Unnamed: 12_level_0', 'NRtg')",
+    "('Unnamed: 13_level_0', 'Pace')",
+    "('Unnamed: 14_level_0', 'FTr')",
+    "('Unnamed: 15_level_0', '3PAr')",
+    "('Unnamed: 16_level_0', 'TS%')",
+    "('Unnamed: 17_level_0', 'Unnamed: 17_level_1')",
+    "('Offense Four Factors', 'eFG%')",
+    "('Offense Four Factors', 'TOV%')",
+    "('Offense Four Factors', 'ORB%')",
+    "('Offense Four Factors', 'FT/FGA')",
+    "('Unnamed: 22_level_0', 'Unnamed: 22_level_1')",
+    "('Defense Four Factors', 'eFG%')",
+    "('Defense Four Factors', 'TOV%')",
+    "('Defense Four Factors', 'DRB%')",
+    "('Defense Four Factors', 'FT/FGA')",
+    "('Unnamed: 27_level_0', 'Unnamed: 27_level_1')",
+    "('Unnamed: 28_level_0', 'Arena')",
+    "('Unnamed: 29_level_0', 'Attend.')",
+    "('Unnamed: 30_level_0', 'Attend./G')"
+   ],
+   [
+    "('Unnamed: 0_level_0', 'Rk')",
+    "('Unnamed: 1_level_0', 'Team')",
+    "('Unnamed: 2_level_0', 'G')",
+    "('Unnamed: 3_level_0', 'MP')",
+    "('Unnamed: 4_level_0', 'FG%')",
+    "('Unnamed: 5_level_0', 'Dist.')",
+    "('Unnamed: 6_level_0', 'Unnamed: 6_level_1')",
+    "('% of FGA by Distance', '2P')",
+    "('% of FGA by Distance', '0-3')",
+    "('% of FGA by Distance', '3-10')",
+    "('% of FGA by Distance', '10-16')",
+    "('% of FGA by Distance', '16-3P')",
+    "('% of FGA by Distance', '3P')",
+    "('Unnamed: 13_level_0', 'Unnamed: 13_level_1')",
+    "('FG% by Distance', '2P')",
+    "('FG% by Distance', '0-3')",
+    "('FG% by Distance', '3-10')",
+    "('FG% by Distance', '10-16')",
+    "('FG% by Distance', '16-3P')",
+    "('FG% by Distance', '3P')",
+    "('Unnamed: 20_level_0', 'Unnamed: 20_level_1')",
+    "(\"% of FG Ast'd\", '2P')",
+    "(\"% of FG Ast'd\", '3P')",
+    "('Unnamed: 23_level_0', 'Unnamed: 23_level_1')",
+    "('Dunks', '%FGA')",
+    "('Dunks', 'Md.')",
+    "('Unnamed: 26_level_0', 'Unnamed: 26_level_1')",
+    "('Layups', '%FGA')",
+    "('Layups', 'Md.')",
+    "('Unnamed: 29_level_0', 'Unnamed: 29_level_1')",
+    "('Corner', '%3PA')",
+    "('Corner', '3P%')",
+    "('Unnamed: 32_level_0', 'Unnamed: 32_level_1')",
+    "('1/2 Court', 'Att.')",
+    "('1/2 Court', 'Md.')"
+   ]
+  ],
+  "head": [
+   [
+    "Philadelphia 76ers\u00a0(1)",
+    "7",
+    "1",
+    "0.875",
+    "\u2014",
+    "110.9",
+    "105.1",
+    "-2.55"
+   ],
+   [
+    "Detroit Pistons\u00a0(2)",
+    "6",
+    "1",
+    "0.857",
+    "0.5",
+    "111.9",
+    "100.3",
+    "3.33"
+   ]
+  ]
+ },
+ "bbref_padv": {
+  "ids": [
+   "advanced"
+  ],
+  "shapes": [
+   [
+    449,
+    29
+   ]
+  ],
+  "cols": [
+   [
+    "Rk",
+    "Player",
+    "Age",
+    "Team",
+    "Pos",
+    "G",
+    "GS",
+    "MP",
+    "PER",
+    "TS%",
+    "3PAr",
+    "FTr",
+    "ORB%",
+    "DRB%",
+    "TRB%",
+    "AST%",
+    "STL%",
+    "BLK%",
+    "TOV%",
+    "USG%",
+    "OWS",
+    "DWS",
+    "WS",
+    "WS/48",
+    "OBPM",
+    "DBPM",
+    "BPM",
+    "VORP",
+    "Awards"
+   ]
+  ],
+  "head": [
+   [
+    "1.0",
+    "Tyrese Maxey",
+    "26.0",
+    "PHI",
+    "PG",
+    "8.0",
+    "8.0",
+    "299.0",
+    "23.5",
+    "0.617",
+    "0.362",
+    "0.362",
+    "1.1",
+    "10.6",
+    "5.9",
+    "25.1",
+    "2.3",
+    "2.2",
+    "9.6",
+    "29.8",
+    "0.7",
+    "0.5",
+    "1.3",
+    "0.204",
+    "4.7",
+    "0.9",
+    "5.6",
+    "0.6",
+    NaN
+   ],
+   [
+    "2.0",
+    "Austin Reaves",
+    "28.0",
+    "LAL",
+    "SG",
+    "8.0",
+    "8.0",
+    "286.0",
+    "18.1",
+    "0.685",
+    "0.391",
+    "0.452",
+    "2.7",
+    "7.7",
+    "5.4",
+    "21.5",
+    "1.2",
+    "1.4",
+    "21.2",
+    "26.0",
+    "0.6",
+    "0.1",
+    "0.7",
+    "0.122",
+    "2.1",
+    "-2.4",
+    "-0.3",
+    "0.1",
+    NaN
+   ]
+  ]
+ },
+ "bbref_ppg": {
+  "ids": [
+   "per_game_stats"
+  ],
+  "shapes": [
+   [
+    449,
+    31
+   ]
+  ],
+  "cols": [
+   [
+    "Rk",
+    "Player",
+    "Age",
+    "Team",
+    "Pos",
+    "G",
+    "GS",
+    "MP",
+    "FG",
+    "FGA",
+    "FG%",
+    "3P",
+    "3PA",
+    "3P%",
+    "2P",
+    "2PA",
+    "2P%",
+    "eFG%",
+    "FT",
+    "FTA",
+    "FT%",
+    "ORB",
+    "DRB",
+    "TRB",
+    "AST",
+    "STL",
+    "BLK",
+    "TOV",
+    "PF",
+    "PTS",
+    "Awards"
+   ]
+  ],
+  "head": [
+   [
+    "1.0",
+    "Luka Don\u010di\u0107",
+    "27.0",
+    "LAL",
+    "PG",
+    "7.0",
+    "7.0",
+    "35.7",
+    "11.7",
+    "23.6",
+    "0.497",
+    "5.9",
+    "13.7",
+    "0.427",
+    "5.9",
+    "9.9",
+    "0.594",
+    "0.621",
+    "9.0",
+    "10.1",
+    "0.887",
+    "0.3",
+    "7.7",
+    "8.0",
+    "8.1",
+    "1.9",
+    "0.7",
+    "5.0",
+    "2.7",
+    "38.3",
+    NaN
+   ],
+   [
+    "2.0",
+    "Anthony Edwards",
+    "25.0",
+    "MIN",
+    "SG",
+    "4.0",
+    "4.0",
+    "33.8",
+    "12.5",
+    "26.0",
+    "0.481",
+    "4.5",
+    "11.3",
+    "0.4",
+    "8.0",
+    "14.8",
+    "0.542",
+    "0.567",
+    "3.8",
+    "5.0",
+    "0.75",
+    "0.5",
+    "4.3",
+    "4.8",
+    "3.5",
+    "2.0",
+    "0.8",
+    "3.5",
+    "2.0",
+    "33.3",
+    NaN
+   ]
+  ]
+ }
+}
