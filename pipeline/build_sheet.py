@@ -406,12 +406,12 @@ page = f"""<!DOCTYPE html>
 
 {('<div class="sh"><h2>Held</h2><p>Model likes these, but the line is far from the player\'s average. Check news before betting.</p></div><div class="track">' + ''.join(f'<div><b>{esc(h["player"])} {esc(h["side"])} {h["line"]:g} {esc(h["stat"].upper())}</b><span>{esc(h["reason"])}</span></div>' for h in L.get("holds", [])) + '</div>') if L.get("holds") and IS_TODAY else ''}
 
-<div class="sh"><h2>Tracking</h2><p>Grade C. Graded for the record, no stake.</p></div>
+<div class="sh"><h2>Tracking</h2><p>Graded for the record, no stake: Grade C leans and models still being validated (college hoops).</p></div>
 <div class="track">
 {''.join(f'<div><b>{esc(b["pick"])} {am(b["price"])}</b><span>{esc(b["away"])} at {esc(b["home"])} · {t_et(b["start"])} · CLV {"—" if clv(b) is None else num(clv(b))}{(" · FD now " + num(b["fd_latest"])) if b.get("fd_latest") not in (None, b["line"]) else ""}</span></div>' for b in track_today)}
 </div>
 
-{'<div class="sh"><h2>Upcoming</h2><p>Price edges: FanDuel is paying above the no-vig fair price.</p></div><div class="grid">' + ''.join(ticket(b, i) for i, b in enumerate(later)) + '</div>' if later else ''}
+{'<div class="sh"><h2>Later this week</h2><p>Price edges are staked. NFL and college model plays are tracked with no stake until they prove out against closing lines.</p></div><div class="grid">' + ''.join(ticket(b, i) for i, b in enumerate(later)) + '</div>' if later else ''}
 
 <div class="sh"><h2>Performance</h2><p>Closing-line value is the leading indicator; units take hundreds of plays to mean much.</p></div>
 <div class="two">
