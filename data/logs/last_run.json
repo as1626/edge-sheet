@@ -1,13 +1,9 @@
 {
- "cmd": "card",
- "ok": true,
- "at": "2026-11-04T20:01:37.390287+00:00",
+ "cmd": "rebuild",
+ "ok": false,
+ "at": "2026-11-04T20:03:21.087772+00:00",
  "log": [
-  "odds basketball_nba: 14 games, credits remaining 474",
-  "action network: 14 games, splits on 0",
-  "injuries: 95 listed across 30 teams",
   "bbref players 2027: 449",
-  "Props priced for 14 games. credits remaining 432",
-  "card 2026-11-04: 7 A, 1 B, 195 C"
+  "Traceback (most recent call last):\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/run.py\", line 244, in <module>\n    elif cmd == \"rebuild\": rebuild()\n                           ^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/run.py\", line 109, in rebuild\n    C[\"props\"] = M.sanity_props(C[\"props\"], p_cur)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 245, in sanity_props\n    return sanity_props(rows, players)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 245, in sanity_props\n    return sanity_props(rows, players)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 245, in sanity_props\n    return sanity_props(rows, players)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  [Previous line repeated 992 more times]\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 238, in sanity_props\n    p = players.get(pname(r[\"player\"]))\n                    ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/common.py\", line 67, in pname\n    n = re.sub(r\"[^a-z ]\", \"\", n.lower().replace(\"-\", \" \"))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/re/__init__.py\", line 186, in sub\n    return _compile(pattern, flags).sub(repl, string, count)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nRecursionError: maximum recursion depth exceeded\n"
  ]
 }
