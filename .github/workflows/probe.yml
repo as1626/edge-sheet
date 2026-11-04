@@ -1,0 +1,7 @@
+name: probe
+on: workflow_dispatch
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl -s -o /dev/null -w "%{http_code}\n" https://api.the-odds-api.com/v4/sports
