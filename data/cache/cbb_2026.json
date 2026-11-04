@@ -1,0 +1,2192 @@
+{
+ "Michigan": {
+  "ortg": 129.98,
+  "drtg": 85.35,
+  "pace": 71.4,
+  "g": 40
+ },
+ "Duke": {
+  "ortg": 129.36,
+  "drtg": 86.77,
+  "pace": 66.8,
+  "g": 38
+ },
+ "Arizona": {
+  "ortg": 127.37,
+  "drtg": 86.62,
+  "pace": 71.4,
+  "g": 39
+ },
+ "Florida": {
+  "ortg": 126.55,
+  "drtg": 89.26,
+  "pace": 72.0,
+  "g": 35
+ },
+ "Illinois": {
+  "ortg": 132.29,
+  "drtg": 93.87,
+  "pace": 65.7,
+  "g": 37
+ },
+ "Iowa State": {
+  "ortg": 125.89,
+  "drtg": 89.36,
+  "pace": 68.5,
+  "g": 37
+ },
+ "Houston": {
+  "ortg": 124.27,
+  "drtg": 86.54,
+  "pace": 64.8,
+  "g": 37
+ },
+ "Purdue": {
+  "ortg": 132.77,
+  "drtg": 96.98,
+  "pace": 65.2,
+  "g": 39
+ },
+ "Gonzaga": {
+  "ortg": 122.39,
+  "drtg": 89.61,
+  "pace": 70.2,
+  "g": 35
+ },
+ "Connecticut": {
+  "ortg": 123.17,
+  "drtg": 89.93,
+  "pace": 65.7,
+  "g": 40
+ },
+ "Michigan State": {
+  "ortg": 123.9,
+  "drtg": 90.78,
+  "pace": 66.8,
+  "g": 35
+ },
+ "Alabama": {
+  "ortg": 128.67,
+  "drtg": 97.9,
+  "pace": 74.2,
+  "g": 35
+ },
+ "St. John's (NY)": {
+  "ortg": 120.94,
+  "drtg": 90.24,
+  "pace": 70.6,
+  "g": 37
+ },
+ "Louisville": {
+  "ortg": 125.42,
+  "drtg": 95.09,
+  "pace": 71.0,
+  "g": 35
+ },
+ "Vanderbilt": {
+  "ortg": 126.88,
+  "drtg": 96.94,
+  "pace": 70.4,
+  "g": 36
+ },
+ "Tennessee": {
+  "ortg": 121.76,
+  "drtg": 91.3,
+  "pace": 67.4,
+  "g": 37
+ },
+ "Arkansas": {
+  "ortg": 128.45,
+  "drtg": 99.51,
+  "pace": 72.8,
+  "g": 37
+ },
+ "Nebraska": {
+  "ortg": 120.4,
+  "drtg": 90.25,
+  "pace": 66.8,
+  "g": 35
+ },
+ "Texas Tech": {
+  "ortg": 125.49,
+  "drtg": 96.43,
+  "pace": 67.9,
+  "g": 34
+ },
+ "Virginia": {
+  "ortg": 123.32,
+  "drtg": 94.16,
+  "pace": 66.4,
+  "g": 36
+ },
+ "Kansas": {
+  "ortg": 118.71,
+  "drtg": 90.36,
+  "pace": 68.3,
+  "g": 35
+ },
+ "Brigham Young": {
+  "ortg": 125.38,
+  "drtg": 97.56,
+  "pace": 70.4,
+  "g": 35
+ },
+ "Iowa": {
+  "ortg": 125.2,
+  "drtg": 97.68,
+  "pace": 62.8,
+  "g": 37
+ },
+ "Kentucky": {
+  "ortg": 121.96,
+  "drtg": 95.94,
+  "pace": 69.7,
+  "g": 36
+ },
+ "Wisconsin": {
+  "ortg": 125.71,
+  "drtg": 99.31,
+  "pace": 69.0,
+  "g": 35
+ },
+ "Ohio State": {
+  "ortg": 125.22,
+  "drtg": 99.27,
+  "pace": 66.4,
+  "g": 34
+ },
+ "North Carolina": {
+  "ortg": 120.66,
+  "drtg": 95.58,
+  "pace": 68.8,
+  "g": 33
+ },
+ "Georgia": {
+  "ortg": 123.66,
+  "drtg": 99.99,
+  "pace": 73.6,
+  "g": 33
+ },
+ "Miami (FL)": {
+  "ortg": 121.32,
+  "drtg": 97.63,
+  "pace": 69.2,
+  "g": 35
+ },
+ "Saint Louis": {
+  "ortg": 121.71,
+  "drtg": 98.64,
+  "pace": 72.2,
+  "g": 35
+ },
+ "UCLA": {
+  "ortg": 123.08,
+  "drtg": 98.36,
+  "pace": 65.8,
+  "g": 36
+ },
+ "Utah State": {
+  "ortg": 123.55,
+  "drtg": 98.82,
+  "pace": 68.4,
+  "g": 36
+ },
+ "NC State": {
+  "ortg": 124.67,
+  "drtg": 100.81,
+  "pace": 69.5,
+  "g": 34
+ },
+ "Saint Mary's": {
+  "ortg": 119.8,
+  "drtg": 95.24,
+  "pace": 66.3,
+  "g": 33
+ },
+ "Texas": {
+  "ortg": 124.03,
+  "drtg": 101.38,
+  "pace": 68.7,
+  "g": 36
+ },
+ "Auburn": {
+  "ortg": 124.69,
+  "drtg": 102.18,
+  "pace": 69.0,
+  "g": 38
+ },
+ "Indiana": {
+  "ortg": 121.71,
+  "drtg": 99.63,
+  "pace": 66.6,
+  "g": 32
+ },
+ "Clemson": {
+  "ortg": 118.48,
+  "drtg": 95.47,
+  "pace": 65.1,
+  "g": 35
+ },
+ "Texas A&M": {
+  "ortg": 120.67,
+  "drtg": 99.88,
+  "pace": 72.0,
+  "g": 34
+ },
+ "Southern Methodist": {
+  "ortg": 122.43,
+  "drtg": 101.68,
+  "pace": 70.6,
+  "g": 34
+ },
+ "Villanova": {
+  "ortg": 120.78,
+  "drtg": 98.18,
+  "pace": 66.5,
+  "g": 33
+ },
+ "Santa Clara": {
+  "ortg": 122.86,
+  "drtg": 101.71,
+  "pace": 69.6,
+  "g": 35
+ },
+ "Texas Christian": {
+  "ortg": 115.91,
+  "drtg": 94.94,
+  "pace": 69.4,
+  "g": 35
+ },
+ "Cincinnati": {
+  "ortg": 111.49,
+  "drtg": 91.46,
+  "pace": 69.2,
+  "g": 33
+ },
+ "Baylor": {
+  "ortg": 123.1,
+  "drtg": 102.67,
+  "pace": 69.7,
+  "g": 34
+ },
+ "Oklahoma": {
+  "ortg": 123.48,
+  "drtg": 103.33,
+  "pace": 68.5,
+  "g": 37
+ },
+ "New Mexico": {
+  "ortg": 118.37,
+  "drtg": 98.77,
+  "pace": 70.7,
+  "g": 37
+ },
+ "Washington": {
+  "ortg": 117.71,
+  "drtg": 98.87,
+  "pace": 68.0,
+  "g": 33
+ },
+ "San Diego State": {
+  "ortg": 113.86,
+  "drtg": 94.92,
+  "pace": 69.5,
+  "g": 33
+ },
+ "South Florida": {
+  "ortg": 116.53,
+  "drtg": 98.73,
+  "pace": 73.2,
+  "g": 34
+ },
+ "Seton Hall": {
+  "ortg": 110.96,
+  "drtg": 92.63,
+  "pace": 66.5,
+  "g": 33
+ },
+ "West Virginia": {
+  "ortg": 112.75,
+  "drtg": 94.35,
+  "pace": 64.1,
+  "g": 35
+ },
+ "Virginia Commonwealth": {
+  "ortg": 118.29,
+  "drtg": 100.59,
+  "pace": 69.2,
+  "g": 36
+ },
+ "UCF": {
+  "ortg": 120.14,
+  "drtg": 102.72,
+  "pace": 70.6,
+  "g": 33
+ },
+ "Virginia Tech": {
+  "ortg": 117.68,
+  "drtg": 100.7,
+  "pace": 68.0,
+  "g": 32
+ },
+ "Missouri": {
+  "ortg": 118.2,
+  "drtg": 101.91,
+  "pace": 68.3,
+  "g": 33
+ },
+ "Northwestern": {
+  "ortg": 117.35,
+  "drtg": 100.69,
+  "pace": 65.3,
+  "g": 34
+ },
+ "Louisiana State": {
+  "ortg": 120.45,
+  "drtg": 104.42,
+  "pace": 68.6,
+  "g": 32
+ },
+ "Boise State": {
+  "ortg": 118.66,
+  "drtg": 101.96,
+  "pace": 67.1,
+  "g": 32
+ },
+ "Stanford": {
+  "ortg": 117.41,
+  "drtg": 101.48,
+  "pace": 67.9,
+  "g": 33
+ },
+ "Wake Forest": {
+  "ortg": 117.85,
+  "drtg": 102.28,
+  "pace": 69.4,
+  "g": 35
+ },
+ "Tulsa": {
+  "ortg": 120.63,
+  "drtg": 104.98,
+  "pace": 69.1,
+  "g": 38
+ },
+ "California": {
+  "ortg": 114.42,
+  "drtg": 99.54,
+  "pace": 69.4,
+  "g": 34
+ },
+ "Florida State": {
+  "ortg": 117.62,
+  "drtg": 102.39,
+  "pace": 71.8,
+  "g": 33
+ },
+ "Grand Canyon": {
+  "ortg": 111.93,
+  "drtg": 96.91,
+  "pace": 69.0,
+  "g": 32
+ },
+ "Mississippi": {
+  "ortg": 113.67,
+  "drtg": 99.1,
+  "pace": 68.3,
+  "g": 35
+ },
+ "Providence": {
+  "ortg": 120.95,
+  "drtg": 106.44,
+  "pace": 72.3,
+  "g": 33
+ },
+ "Oklahoma State": {
+  "ortg": 118.01,
+  "drtg": 104.24,
+  "pace": 74.0,
+  "g": 35
+ },
+ "Colorado": {
+  "ortg": 118.51,
+  "drtg": 104.62,
+  "pace": 70.2,
+  "g": 33
+ },
+ "Arizona State": {
+  "ortg": 114.77,
+  "drtg": 100.4,
+  "pace": 70.6,
+  "g": 33
+ },
+ "Nevada": {
+  "ortg": 115.87,
+  "drtg": 101.31,
+  "pace": 66.8,
+  "g": 37
+ },
+ "Southern California": {
+  "ortg": 113.75,
+  "drtg": 99.89,
+  "pace": 71.0,
+  "g": 32
+ },
+ "Butler": {
+  "ortg": 116.07,
+  "drtg": 102.95,
+  "pace": 70.0,
+  "g": 32
+ },
+ "Creighton": {
+  "ortg": 116.68,
+  "drtg": 103.28,
+  "pace": 68.6,
+  "g": 34
+ },
+ "Syracuse": {
+  "ortg": 114.48,
+  "drtg": 101.52,
+  "pace": 67.8,
+  "g": 32
+ },
+ "Minnesota": {
+  "ortg": 113.0,
+  "drtg": 100.07,
+  "pace": 62.9,
+  "g": 33
+ },
+ "Wichita State": {
+  "ortg": 111.67,
+  "drtg": 99.02,
+  "pace": 67.7,
+  "g": 36
+ },
+ "Georgetown": {
+  "ortg": 114.51,
+  "drtg": 102.46,
+  "pace": 67.0,
+  "g": 34
+ },
+ "Marquette": {
+  "ortg": 111.33,
+  "drtg": 98.89,
+  "pace": 70.1,
+  "g": 32
+ },
+ "Dayton": {
+  "ortg": 111.22,
+  "drtg": 98.61,
+  "pace": 67.6,
+  "g": 37
+ },
+ "Oregon": {
+  "ortg": 112.98,
+  "drtg": 102.24,
+  "pace": 66.5,
+  "g": 32
+ },
+ "Belmont": {
+  "ortg": 118.62,
+  "drtg": 107.11,
+  "pace": 70.2,
+  "g": 32
+ },
+ "Notre Dame": {
+  "ortg": 115.3,
+  "drtg": 103.89,
+  "pace": 66.7,
+  "g": 31
+ },
+ "Akron": {
+  "ortg": 117.53,
+  "drtg": 106.79,
+  "pace": 71.6,
+  "g": 35
+ },
+ "George Washington": {
+  "ortg": 117.12,
+  "drtg": 106.51,
+  "pace": 70.3,
+  "g": 35
+ },
+ "Kansas State": {
+  "ortg": 114.26,
+  "drtg": 103.49,
+  "pace": 73.8,
+  "g": 32
+ },
+ "Colorado State": {
+  "ortg": 119.52,
+  "drtg": 108.51,
+  "pace": 64.7,
+  "g": 34
+ },
+ "Pittsburgh": {
+  "ortg": 113.49,
+  "drtg": 103.54,
+  "pace": 64.5,
+  "g": 33
+ },
+ "Northern Iowa": {
+  "ortg": 108.97,
+  "drtg": 97.68,
+  "pace": 63.6,
+  "g": 36
+ },
+ "Xavier": {
+  "ortg": 116.23,
+  "drtg": 106.11,
+  "pace": 71.2,
+  "g": 33
+ },
+ "McNeese": {
+  "ortg": 113.36,
+  "drtg": 102.51,
+  "pace": 67.2,
+  "g": 34
+ },
+ "Wyoming": {
+  "ortg": 114.42,
+  "drtg": 105.07,
+  "pace": 67.8,
+  "g": 33
+ },
+ "DePaul": {
+  "ortg": 107.84,
+  "drtg": 98.42,
+  "pace": 67.7,
+  "g": 32
+ },
+ "South Carolina": {
+  "ortg": 112.74,
+  "drtg": 103.38,
+  "pace": 68.0,
+  "g": 32
+ },
+ "High Point": {
+  "ortg": 115.95,
+  "drtg": 106.52,
+  "pace": 71.9,
+  "g": 36
+ },
+ "Mississippi State": {
+  "ortg": 112.83,
+  "drtg": 103.53,
+  "pace": 71.5,
+  "g": 32
+ },
+ "Illinois State": {
+  "ortg": 110.36,
+  "drtg": 101.86,
+  "pace": 67.3,
+  "g": 36
+ },
+ "George Mason": {
+  "ortg": 111.48,
+  "drtg": 103.62,
+  "pace": 64.9,
+  "g": 33
+ },
+ "Utah": {
+  "ortg": 114.9,
+  "drtg": 107.68,
+  "pace": 68.0,
+  "g": 32
+ },
+ "Yale": {
+  "ortg": 117.46,
+  "drtg": 109.89,
+  "pace": 66.0,
+  "g": 31
+ },
+ "Miami (OH)": {
+  "ortg": 114.9,
+  "drtg": 108.36,
+  "pace": 71.7,
+  "g": 34
+ },
+ "Nevada\u2013Las Vegas": {
+  "ortg": 114.08,
+  "drtg": 106.71,
+  "pace": 70.6,
+  "g": 35
+ },
+ "Utah Valley": {
+  "ortg": 110.63,
+  "drtg": 103.46,
+  "pace": 69.9,
+  "g": 34
+ },
+ "Seattle": {
+  "ortg": 102.26,
+  "drtg": 96.18,
+  "pace": 69.2,
+  "g": 35
+ },
+ "Maryland": {
+  "ortg": 110.47,
+  "drtg": 105.13,
+  "pace": 66.7,
+  "g": 33
+ },
+ "Hawaii": {
+  "ortg": 106.33,
+  "drtg": 100.63,
+  "pace": 72.2,
+  "g": 33
+ },
+ "Rutgers": {
+  "ortg": 109.79,
+  "drtg": 104.76,
+  "pace": 66.7,
+  "g": 34
+ },
+ "Davidson": {
+  "ortg": 109.75,
+  "drtg": 103.98,
+  "pace": 64.8,
+  "g": 34
+ },
+ "Hofstra": {
+  "ortg": 111.3,
+  "drtg": 105.3,
+  "pace": 65.7,
+  "g": 35
+ },
+ "San Francisco": {
+  "ortg": 111.8,
+  "drtg": 106.67,
+  "pace": 67.1,
+  "g": 33
+ },
+ "Pacific": {
+  "ortg": 109.6,
+  "drtg": 104.25,
+  "pace": 65.9,
+  "g": 33
+ },
+ "Stephen F. Austin": {
+  "ortg": 109.79,
+  "drtg": 104.47,
+  "pace": 66.8,
+  "g": 34
+ },
+ "Memphis": {
+  "ortg": 107.16,
+  "drtg": 102.38,
+  "pace": 71.4,
+  "g": 32
+ },
+ "Penn State": {
+  "ortg": 115.4,
+  "drtg": 110.85,
+  "pace": 67.5,
+  "g": 32
+ },
+ "Florida Atlantic": {
+  "ortg": 109.43,
+  "drtg": 105.08,
+  "pace": 70.4,
+  "g": 33
+ },
+ "UAB": {
+  "ortg": 108.49,
+  "drtg": 104.46,
+  "pace": 70.8,
+  "g": 32
+ },
+ "Fresno State": {
+  "ortg": 107.16,
+  "drtg": 102.84,
+  "pace": 69.4,
+  "g": 32
+ },
+ "UC Irvine": {
+  "ortg": 102.83,
+  "drtg": 98.65,
+  "pace": 71.5,
+  "g": 35
+ },
+ "Duquesne": {
+  "ortg": 109.93,
+  "drtg": 106.28,
+  "pace": 69.7,
+  "g": 33
+ },
+ "Murray State": {
+  "ortg": 114.59,
+  "drtg": 110.84,
+  "pace": 72.3,
+  "g": 33
+ },
+ "Bradley": {
+  "ortg": 111.41,
+  "drtg": 107.85,
+  "pace": 67.7,
+  "g": 34
+ },
+ "Illinois\u2013Chicago": {
+  "ortg": 108.71,
+  "drtg": 104.81,
+  "pace": 67.3,
+  "g": 35
+ },
+ "Washington State": {
+  "ortg": 113.18,
+  "drtg": 109.5,
+  "pace": 69.2,
+  "g": 32
+ },
+ "Saint Joseph's": {
+  "ortg": 106.15,
+  "drtg": 102.43,
+  "pace": 68.4,
+  "g": 36
+ },
+ "Sam Houston": {
+  "ortg": 111.59,
+  "drtg": 107.74,
+  "pace": 71.2,
+  "g": 34
+ },
+ "Boston College": {
+  "ortg": 102.86,
+  "drtg": 99.84,
+  "pace": 66.4,
+  "g": 31
+ },
+ "Southern Illinois": {
+  "ortg": 102.81,
+  "drtg": 99.4,
+  "pace": 69.8,
+  "g": 32
+ },
+ "Georgia Tech": {
+  "ortg": 106.65,
+  "drtg": 103.74,
+  "pace": 71.6,
+  "g": 31
+ },
+ "California Baptist": {
+  "ortg": 105.05,
+  "drtg": 101.7,
+  "pace": 67.5,
+  "g": 34
+ },
+ "Liberty": {
+  "ortg": 116.0,
+  "drtg": 112.67,
+  "pace": 64.8,
+  "g": 34
+ },
+ "St. Thomas": {
+  "ortg": 111.39,
+  "drtg": 108.36,
+  "pace": 70.0,
+  "g": 34
+ },
+ "Rhode Island": {
+  "ortg": 104.87,
+  "drtg": 102.52,
+  "pace": 66.0,
+  "g": 32
+ },
+ "St. Bonaventure": {
+  "ortg": 112.25,
+  "drtg": 109.72,
+  "pace": 67.4,
+  "g": 34
+ },
+ "Richmond": {
+  "ortg": 110.54,
+  "drtg": 108.92,
+  "pace": 68.6,
+  "g": 32
+ },
+ "UC San Diego": {
+  "ortg": 106.17,
+  "drtg": 103.65,
+  "pace": 69.8,
+  "g": 34
+ },
+ "UNC Wilmington": {
+  "ortg": 109.16,
+  "drtg": 106.35,
+  "pace": 66.9,
+  "g": 34
+ },
+ "North Dakota State": {
+  "ortg": 109.58,
+  "drtg": 106.98,
+  "pace": 68.7,
+  "g": 35
+ },
+ "North Texas": {
+  "ortg": 102.78,
+  "drtg": 100.34,
+  "pace": 66.5,
+  "g": 33
+ },
+ "Temple": {
+  "ortg": 110.15,
+  "drtg": 109.55,
+  "pace": 65.6,
+  "g": 32
+ },
+ "UC Santa Barbara": {
+  "ortg": 112.48,
+  "drtg": 111.08,
+  "pace": 67.5,
+  "g": 32
+ },
+ "Loyola Marymount": {
+  "ortg": 105.65,
+  "drtg": 104.89,
+  "pace": 68.6,
+  "g": 32
+ },
+ "Texas\u2013Rio Grande Valley": {
+  "ortg": 107.74,
+  "drtg": 106.98,
+  "pace": 66.6,
+  "g": 33
+ },
+ "Montana State": {
+  "ortg": 108.92,
+  "drtg": 108.15,
+  "pace": 67.6,
+  "g": 32
+ },
+ "Toledo": {
+  "ortg": 111.87,
+  "drtg": 111.8,
+  "pace": 69.8,
+  "g": 34
+ },
+ "Kennesaw State": {
+  "ortg": 108.05,
+  "drtg": 108.39,
+  "pace": 72.3,
+  "g": 35
+ },
+ "Oregon State": {
+  "ortg": 108.96,
+  "drtg": 109.44,
+  "pace": 66.2,
+  "g": 33
+ },
+ "Western Kentucky": {
+  "ortg": 106.55,
+  "drtg": 106.83,
+  "pace": 71.1,
+  "g": 32
+ },
+ "Wright State": {
+  "ortg": 109.51,
+  "drtg": 109.56,
+  "pace": 68.9,
+  "g": 35
+ },
+ "Bowling Green": {
+  "ortg": 105.02,
+  "drtg": 104.89,
+  "pace": 71.9,
+  "g": 32
+ },
+ "Fordham": {
+  "ortg": 103.22,
+  "drtg": 103.96,
+  "pace": 65.7,
+  "g": 32
+ },
+ "Middle Tennessee": {
+  "ortg": 108.47,
+  "drtg": 108.9,
+  "pace": 67.3,
+  "g": 32
+ },
+ "Northern Colorado": {
+  "ortg": 109.96,
+  "drtg": 110.63,
+  "pace": 70.0,
+  "g": 32
+ },
+ "Charlotte": {
+  "ortg": 112.42,
+  "drtg": 113.38,
+  "pace": 64.5,
+  "g": 34
+ },
+ "William & Mary": {
+  "ortg": 108.61,
+  "drtg": 109.81,
+  "pace": 73.9,
+  "g": 32
+ },
+ "Portland State": {
+  "ortg": 101.41,
+  "drtg": 102.27,
+  "pace": 69.6,
+  "g": 31
+ },
+ "Valparaiso": {
+  "ortg": 105.54,
+  "drtg": 106.33,
+  "pace": 66.3,
+  "g": 33
+ },
+ "Idaho": {
+  "ortg": 105.62,
+  "drtg": 107.04,
+  "pace": 69.5,
+  "g": 36
+ },
+ "East Tennessee State": {
+  "ortg": 107.65,
+  "drtg": 109.3,
+  "pace": 66.9,
+  "g": 34
+ },
+ "Winthrop": {
+  "ortg": 108.42,
+  "drtg": 110.38,
+  "pace": 72.1,
+  "g": 34
+ },
+ "Kent State": {
+  "ortg": 107.23,
+  "drtg": 109.42,
+  "pace": 72.7,
+  "g": 34
+ },
+ "Arkansas State": {
+  "ortg": 107.91,
+  "drtg": 110.11,
+  "pace": 72.5,
+  "g": 32
+ },
+ "Pennsylvania": {
+  "ortg": 105.51,
+  "drtg": 107.81,
+  "pace": 69.3,
+  "g": 30
+ },
+ "Towson": {
+  "ortg": 102.4,
+  "drtg": 104.53,
+  "pace": 64.6,
+  "g": 34
+ },
+ "Navy": {
+  "ortg": 104.66,
+  "drtg": 106.11,
+  "pace": 65.2,
+  "g": 34
+ },
+ "Troy": {
+  "ortg": 107.38,
+  "drtg": 109.51,
+  "pace": 67.9,
+  "g": 34
+ },
+ "Drake": {
+  "ortg": 109.43,
+  "drtg": 112.06,
+  "pace": 68.1,
+  "g": 34
+ },
+ "New Mexico State": {
+  "ortg": 107.55,
+  "drtg": 109.95,
+  "pace": 68.1,
+  "g": 32
+ },
+ "UC Davis": {
+  "ortg": 106.07,
+  "drtg": 107.96,
+  "pace": 71.9,
+  "g": 33
+ },
+ "College of Charleston": {
+  "ortg": 105.14,
+  "drtg": 107.94,
+  "pace": 68.5,
+  "g": 32
+ },
+ "Robert Morris": {
+  "ortg": 108.9,
+  "drtg": 110.63,
+  "pace": 66.4,
+  "g": 33
+ },
+ "Oakland": {
+  "ortg": 111.83,
+  "drtg": 114.42,
+  "pace": 71.4,
+  "g": 32
+ },
+ "Central Arkansas": {
+  "ortg": 106.55,
+  "drtg": 109.03,
+  "pace": 69.7,
+  "g": 34
+ },
+ "Harvard": {
+  "ortg": 103.73,
+  "drtg": 106.59,
+  "pace": 64.0,
+  "g": 29
+ },
+ "UT Arlington": {
+  "ortg": 99.34,
+  "drtg": 102.26,
+  "pace": 67.3,
+  "g": 32
+ },
+ "Cornell": {
+  "ortg": 116.48,
+  "drtg": 119.63,
+  "pace": 72.1,
+  "g": 28
+ },
+ "Florida International": {
+  "ortg": 105.62,
+  "drtg": 108.86,
+  "pace": 72.8,
+  "g": 32
+ },
+ "San Jose State": {
+  "ortg": 111.18,
+  "drtg": 115.65,
+  "pace": 66.0,
+  "g": 33
+ },
+ "Cal State Fullerton": {
+  "ortg": 106.67,
+  "drtg": 109.54,
+  "pace": 76.3,
+  "g": 34
+ },
+ "Cal State Northridge": {
+  "ortg": 105.74,
+  "drtg": 108.95,
+  "pace": 75.6,
+  "g": 34
+ },
+ "Eastern Washington": {
+  "ortg": 110.92,
+  "drtg": 114.2,
+  "pace": 69.1,
+  "g": 33
+ },
+ "Massachusetts": {
+  "ortg": 105.97,
+  "drtg": 110.49,
+  "pace": 71.1,
+  "g": 33
+ },
+ "Monmouth": {
+  "ortg": 103.47,
+  "drtg": 107.77,
+  "pace": 67.5,
+  "g": 34
+ },
+ "Portland": {
+  "ortg": 104.28,
+  "drtg": 108.72,
+  "pace": 70.5,
+  "g": 34
+ },
+ "Austin Peay": {
+  "ortg": 105.24,
+  "drtg": 108.9,
+  "pace": 71.0,
+  "g": 31
+ },
+ "Tulane": {
+  "ortg": 105.83,
+  "drtg": 109.97,
+  "pace": 68.2,
+  "g": 33
+ },
+ "Northern Kentucky": {
+  "ortg": 106.72,
+  "drtg": 110.6,
+  "pace": 71.8,
+  "g": 34
+ },
+ "Montana": {
+  "ortg": 104.68,
+  "drtg": 108.73,
+  "pace": 71.2,
+  "g": 34
+ },
+ "TAMUCC": {
+  "ortg": 101.19,
+  "drtg": 105.55,
+  "pace": 68.2,
+  "g": 33
+ },
+ "Missouri State": {
+  "ortg": 106.69,
+  "drtg": 111.09,
+  "pace": 66.9,
+  "g": 34
+ },
+ "Columbia": {
+  "ortg": 105.31,
+  "drtg": 110.44,
+  "pace": 67.6,
+  "g": 28
+ },
+ "Furman": {
+  "ortg": 105.47,
+  "drtg": 109.92,
+  "pace": 66.7,
+  "g": 35
+ },
+ "Mercer": {
+  "ortg": 108.8,
+  "drtg": 113.6,
+  "pace": 70.9,
+  "g": 32
+ },
+ "Louisiana Tech": {
+  "ortg": 100.94,
+  "drtg": 105.96,
+  "pace": 65.1,
+  "g": 34
+ },
+ "Marshall": {
+  "ortg": 109.2,
+  "drtg": 114.03,
+  "pace": 70.7,
+  "g": 32
+ },
+ "Indiana State": {
+  "ortg": 104.06,
+  "drtg": 108.42,
+  "pace": 68.9,
+  "g": 32
+ },
+ "Campbell": {
+  "ortg": 108.41,
+  "drtg": 113.7,
+  "pace": 70.8,
+  "g": 34
+ },
+ "Weber State": {
+  "ortg": 108.81,
+  "drtg": 113.47,
+  "pace": 70.7,
+  "g": 32
+ },
+ "South Dakota State": {
+  "ortg": 106.33,
+  "drtg": 111.79,
+  "pace": 67.9,
+  "g": 32
+ },
+ "Jacksonville State": {
+  "ortg": 103.08,
+  "drtg": 108.98,
+  "pace": 66.7,
+  "g": 32
+ },
+ "Siena": {
+  "ortg": 104.56,
+  "drtg": 110.01,
+  "pace": 64.2,
+  "g": 35
+ },
+ "Marist": {
+  "ortg": 97.24,
+  "drtg": 103.44,
+  "pace": 66.5,
+  "g": 31
+ },
+ "Queens (NC)": {
+  "ortg": 112.45,
+  "drtg": 118.42,
+  "pace": 70.9,
+  "g": 35
+ },
+ "Buffalo": {
+  "ortg": 109.75,
+  "drtg": 115.64,
+  "pace": 67.4,
+  "g": 32
+ },
+ "Utah Tech": {
+  "ortg": 108.22,
+  "drtg": 113.83,
+  "pace": 68.9,
+  "g": 34
+ },
+ "San Diego": {
+  "ortg": 107.12,
+  "drtg": 112.78,
+  "pace": 69.3,
+  "g": 33
+ },
+ "Appalachian State": {
+  "ortg": 101.86,
+  "drtg": 108.08,
+  "pace": 64.7,
+  "g": 32
+ },
+ "La Salle": {
+  "ortg": 102.34,
+  "drtg": 109.4,
+  "pace": 66.5,
+  "g": 32
+ },
+ "New Orleans": {
+  "ortg": 105.51,
+  "drtg": 112.37,
+  "pace": 69.7,
+  "g": 33
+ },
+ "Howard": {
+  "ortg": 101.53,
+  "drtg": 108.39,
+  "pace": 69.9,
+  "g": 35
+ },
+ "South Alabama": {
+  "ortg": 103.84,
+  "drtg": 110.69,
+  "pace": 66.1,
+  "g": 33
+ },
+ "Merrimack": {
+  "ortg": 102.85,
+  "drtg": 109.34,
+  "pace": 63.7,
+  "g": 34
+ },
+ "Cal Poly": {
+  "ortg": 106.85,
+  "drtg": 113.29,
+  "pace": 76.3,
+  "g": 33
+ },
+ "Lipscomb": {
+  "ortg": 104.45,
+  "drtg": 110.91,
+  "pace": 70.9,
+  "g": 32
+ },
+ "Rice": {
+  "ortg": 105.42,
+  "drtg": 112.25,
+  "pace": 67.2,
+  "g": 31
+ },
+ "Youngstown State": {
+  "ortg": 103.54,
+  "drtg": 110.45,
+  "pace": 69.0,
+  "g": 32
+ },
+ "UMBC": {
+  "ortg": 105.28,
+  "drtg": 112.56,
+  "pace": 67.0,
+  "g": 33
+ },
+ "Tennessee State": {
+  "ortg": 104.81,
+  "drtg": 111.84,
+  "pace": 72.2,
+  "g": 33
+ },
+ "Ohio": {
+  "ortg": 105.67,
+  "drtg": 113.26,
+  "pace": 70.4,
+  "g": 32
+ },
+ "Drexel": {
+  "ortg": 99.91,
+  "drtg": 107.45,
+  "pace": 65.7,
+  "g": 33
+ },
+ "Tarleton State": {
+  "ortg": 101.93,
+  "drtg": 109.69,
+  "pace": 71.4,
+  "g": 32
+ },
+ "Long Island University": {
+  "ortg": 102.27,
+  "drtg": 110.33,
+  "pace": 68.2,
+  "g": 35
+ },
+ "James Madison": {
+  "ortg": 106.24,
+  "drtg": 114.17,
+  "pace": 67.0,
+  "g": 33
+ },
+ "Green Bay": {
+  "ortg": 109.4,
+  "drtg": 116.99,
+  "pace": 65.2,
+  "g": 33
+ },
+ "Samford": {
+  "ortg": 105.71,
+  "drtg": 113.98,
+  "pace": 68.7,
+  "g": 32
+ },
+ "Quinnipiac": {
+  "ortg": 101.44,
+  "drtg": 110.08,
+  "pace": 70.0,
+  "g": 32
+ },
+ "Southern Mississippi": {
+  "ortg": 102.47,
+  "drtg": 110.86,
+  "pace": 69.9,
+  "g": 35
+ },
+ "Elon": {
+  "ortg": 107.43,
+  "drtg": 116.02,
+  "pace": 68.1,
+  "g": 32
+ },
+ "Stony Brook": {
+  "ortg": 101.64,
+  "drtg": 110.93,
+  "pace": 67.0,
+  "g": 32
+ },
+ "East Carolina": {
+  "ortg": 101.28,
+  "drtg": 109.78,
+  "pace": 69.3,
+  "g": 31
+ },
+ "Detroit Mercy": {
+  "ortg": 104.72,
+  "drtg": 112.95,
+  "pace": 70.0,
+  "g": 32
+ },
+ "Long Beach State": {
+  "ortg": 103.11,
+  "drtg": 111.27,
+  "pace": 71.3,
+  "g": 32
+ },
+ "Idaho State": {
+  "ortg": 108.16,
+  "drtg": 117.58,
+  "pace": 66.9,
+  "g": 33
+ },
+ "Lamar": {
+  "ortg": 100.6,
+  "drtg": 109.78,
+  "pace": 66.3,
+  "g": 31
+ },
+ "Eastern Michigan": {
+  "ortg": 99.6,
+  "drtg": 108.83,
+  "pace": 68.4,
+  "g": 31
+ },
+ "Denver": {
+  "ortg": 113.36,
+  "drtg": 121.86,
+  "pace": 69.5,
+  "g": 32
+ },
+ "Colgate": {
+  "ortg": 104.7,
+  "drtg": 114.66,
+  "pace": 66.9,
+  "g": 33
+ },
+ "Loyola (IL)": {
+  "ortg": 102.66,
+  "drtg": 113.02,
+  "pace": 65.9,
+  "g": 33
+ },
+ "Pepperdine": {
+  "ortg": 102.57,
+  "drtg": 112.06,
+  "pace": 69.5,
+  "g": 32
+ },
+ "UNC Asheville": {
+  "ortg": 102.72,
+  "drtg": 112.28,
+  "pace": 67.5,
+  "g": 32
+ },
+ "Tennessee\u2013Martin": {
+  "ortg": 97.65,
+  "drtg": 106.92,
+  "pace": 66.9,
+  "g": 33
+ },
+ "Western Carolina": {
+  "ortg": 106.24,
+  "drtg": 114.93,
+  "pace": 69.1,
+  "g": 31
+ },
+ "Florida Gulf Coast": {
+  "ortg": 103.1,
+  "drtg": 113.02,
+  "pace": 69.3,
+  "g": 34
+ },
+ "Georgia Southern": {
+  "ortg": 106.32,
+  "drtg": 116.32,
+  "pace": 71.3,
+  "g": 37
+ },
+ "UTEP": {
+  "ortg": 100.27,
+  "drtg": 111.23,
+  "pace": 66.8,
+  "g": 31
+ },
+ "Charleston Southern": {
+  "ortg": 101.42,
+  "drtg": 111.46,
+  "pace": 74.1,
+  "g": 32
+ },
+ "Vermont": {
+  "ortg": 103.55,
+  "drtg": 114.05,
+  "pace": 64.7,
+  "g": 34
+ },
+ "Nicholls State": {
+  "ortg": 102.99,
+  "drtg": 113.4,
+  "pace": 68.7,
+  "g": 33
+ },
+ "Southeast Missouri State": {
+  "ortg": 100.88,
+  "drtg": 111.29,
+  "pace": 70.5,
+  "g": 33
+ },
+ "Princeton": {
+  "ortg": 101.3,
+  "drtg": 112.25,
+  "pace": 64.7,
+  "g": 29
+ },
+ "American": {
+  "ortg": 103.2,
+  "drtg": 113.89,
+  "pace": 67.5,
+  "g": 32
+ },
+ "Incarnate Word": {
+  "ortg": 106.0,
+  "drtg": 117.78,
+  "pace": 66.3,
+  "g": 31
+ },
+ "Radford": {
+  "ortg": 102.84,
+  "drtg": 113.34,
+  "pace": 72.3,
+  "g": 32
+ },
+ "Iona": {
+  "ortg": 99.95,
+  "drtg": 111.28,
+  "pace": 68.4,
+  "g": 32
+ },
+ "Abilene Christian": {
+  "ortg": 97.84,
+  "drtg": 108.41,
+  "pace": 69.3,
+  "g": 33
+ },
+ "Old Dominion": {
+  "ortg": 102.8,
+  "drtg": 113.3,
+  "pace": 70.4,
+  "g": 33
+ },
+ "Purdue Fort Wayne": {
+  "ortg": 103.05,
+  "drtg": 114.38,
+  "pace": 70.2,
+  "g": 32
+ },
+ "Saint Peter's": {
+  "ortg": 100.4,
+  "drtg": 112.08,
+  "pace": 65.9,
+  "g": 29
+ },
+ "Texas State": {
+  "ortg": 100.17,
+  "drtg": 111.41,
+  "pace": 67.8,
+  "g": 32
+ },
+ "Wofford": {
+  "ortg": 105.77,
+  "drtg": 117.1,
+  "pace": 68.1,
+  "g": 32
+ },
+ "Omaha": {
+  "ortg": 102.85,
+  "drtg": 113.96,
+  "pace": 68.7,
+  "g": 33
+ },
+ "Coastal Carolina": {
+  "ortg": 98.5,
+  "drtg": 110.04,
+  "pace": 68.9,
+  "g": 32
+ },
+ "Milwaukee": {
+  "ortg": 103.92,
+  "drtg": 115.14,
+  "pace": 69.5,
+  "g": 32
+ },
+ "UC Riverside": {
+  "ortg": 101.2,
+  "drtg": 112.86,
+  "pace": 70.7,
+  "g": 32
+ },
+ "Fairfield": {
+  "ortg": 101.85,
+  "drtg": 114.58,
+  "pace": 67.6,
+  "g": 34
+ },
+ "Sacramento State": {
+  "ortg": 103.23,
+  "drtg": 114.67,
+  "pace": 72.9,
+  "g": 31
+ },
+ "Longwood": {
+  "ortg": 100.72,
+  "drtg": 113.75,
+  "pace": 70.0,
+  "g": 32
+ },
+ "Boston University": {
+  "ortg": 108.4,
+  "drtg": 121.04,
+  "pace": 63.7,
+  "g": 34
+ },
+ "Presbyterian": {
+  "ortg": 100.04,
+  "drtg": 112.61,
+  "pace": 66.7,
+  "g": 33
+ },
+ "Dartmouth": {
+  "ortg": 101.97,
+  "drtg": 114.62,
+  "pace": 69.7,
+  "g": 27
+ },
+ "Western Michigan": {
+  "ortg": 103.8,
+  "drtg": 116.93,
+  "pace": 69.7,
+  "g": 31
+ },
+ "Central Michigan": {
+  "ortg": 102.99,
+  "drtg": 116.74,
+  "pace": 69.3,
+  "g": 31
+ },
+ "SIU Edwardsville": {
+  "ortg": 95.38,
+  "drtg": 108.28,
+  "pace": 66.5,
+  "g": 32
+ },
+ "Delaware": {
+  "ortg": 102.66,
+  "drtg": 116.76,
+  "pace": 64.2,
+  "g": 31
+ },
+ "Hampton": {
+  "ortg": 98.02,
+  "drtg": 111.82,
+  "pace": 66.5,
+  "g": 32
+ },
+ "South Dakota": {
+  "ortg": 102.92,
+  "drtg": 116.19,
+  "pace": 71.3,
+  "g": 32
+ },
+ "Northeastern": {
+  "ortg": 104.65,
+  "drtg": 118.58,
+  "pace": 69.6,
+  "g": 31
+ },
+ "Evansville": {
+  "ortg": 99.75,
+  "drtg": 114.25,
+  "pace": 67.5,
+  "g": 32
+ },
+ "North Dakota": {
+  "ortg": 103.11,
+  "drtg": 116.61,
+  "pace": 69.6,
+  "g": 35
+ },
+ "Bellarmine": {
+  "ortg": 113.95,
+  "drtg": 128.05,
+  "pace": 66.4,
+  "g": 32
+ },
+ "Southern Utah": {
+  "ortg": 102.44,
+  "drtg": 115.4,
+  "pace": 72.0,
+  "g": 32
+ },
+ "Lindenwood": {
+  "ortg": 95.98,
+  "drtg": 110.14,
+  "pace": 73.7,
+  "g": 33
+ },
+ "Northwestern State": {
+  "ortg": 99.99,
+  "drtg": 114.84,
+  "pace": 65.7,
+  "g": 32
+ },
+ "Southeastern Louisiana": {
+  "ortg": 97.26,
+  "drtg": 112.19,
+  "pace": 65.8,
+  "g": 31
+ },
+ "Bethune-Cookman": {
+  "ortg": 99.26,
+  "drtg": 112.83,
+  "pace": 71.2,
+  "g": 32
+ },
+ "North Carolina A&T": {
+  "ortg": 101.64,
+  "drtg": 116.52,
+  "pace": 69.6,
+  "g": 30
+ },
+ "Ball State": {
+  "ortg": 95.31,
+  "drtg": 110.72,
+  "pace": 65.8,
+  "g": 31
+ },
+ "Houston Christian": {
+  "ortg": 100.0,
+  "drtg": 115.58,
+  "pace": 65.2,
+  "g": 32
+ },
+ "Mercyhurst": {
+  "ortg": 96.79,
+  "drtg": 112.75,
+  "pace": 65.0,
+  "g": 34
+ },
+ "Lehigh": {
+  "ortg": 98.77,
+  "drtg": 113.82,
+  "pace": 67.0,
+  "g": 35
+ },
+ "Brown": {
+  "ortg": 94.04,
+  "drtg": 109.19,
+  "pace": 67.3,
+  "g": 27
+ },
+ "South Carolina Upstate": {
+  "ortg": 96.2,
+  "drtg": 111.75,
+  "pace": 70.0,
+  "g": 32
+ },
+ "Mount St. Mary's": {
+  "ortg": 95.45,
+  "drtg": 111.0,
+  "pace": 67.7,
+  "g": 32
+ },
+ "Eastern Kentucky": {
+  "ortg": 106.23,
+  "drtg": 121.26,
+  "pace": 69.8,
+  "g": 32
+ },
+ "Oral Roberts": {
+  "ortg": 99.49,
+  "drtg": 114.89,
+  "pace": 69.8,
+  "g": 33
+ },
+ "Jacksonville": {
+  "ortg": 99.87,
+  "drtg": 116.11,
+  "pace": 66.0,
+  "g": 32
+ },
+ "Le Moyne": {
+  "ortg": 99.21,
+  "drtg": 115.56,
+  "pace": 69.4,
+  "g": 32
+ },
+ "Chattanooga": {
+  "ortg": 102.45,
+  "drtg": 119.04,
+  "pace": 68.1,
+  "g": 32
+ },
+ "Northern Arizona": {
+  "ortg": 101.86,
+  "drtg": 119.22,
+  "pace": 66.6,
+  "g": 32
+ },
+ "East Texas A&M": {
+  "ortg": 97.43,
+  "drtg": 113.53,
+  "pace": 69.3,
+  "g": 32
+ },
+ "Southern": {
+  "ortg": 101.19,
+  "drtg": 117.07,
+  "pace": 72.5,
+  "g": 34
+ },
+ "West Georgia": {
+  "ortg": 98.19,
+  "drtg": 114.81,
+  "pace": 70.5,
+  "g": 32
+ },
+ "Sacred Heart": {
+  "ortg": 102.75,
+  "drtg": 120.32,
+  "pace": 68.4,
+  "g": 33
+ },
+ "UNC Greensboro": {
+  "ortg": 103.8,
+  "drtg": 120.48,
+  "pace": 69.0,
+  "g": 34
+ },
+ "Morehead State": {
+  "ortg": 102.06,
+  "drtg": 118.66,
+  "pace": 67.4,
+  "g": 33
+ },
+ "Central Connecticut State": {
+  "ortg": 101.11,
+  "drtg": 118.79,
+  "pace": 66.0,
+  "g": 30
+ },
+ "Georgia State": {
+  "ortg": 95.76,
+  "drtg": 112.86,
+  "pace": 69.3,
+  "g": 32
+ },
+ "Wagner": {
+  "ortg": 98.69,
+  "drtg": 116.85,
+  "pace": 66.2,
+  "g": 31
+ },
+ "Louisiana": {
+  "ortg": 95.66,
+  "drtg": 114.08,
+  "pace": 64.1,
+  "g": 33
+ },
+ "Grambling": {
+  "ortg": 93.74,
+  "drtg": 111.35,
+  "pace": 69.9,
+  "g": 33
+ },
+ "IU Indy": {
+  "ortg": 103.04,
+  "drtg": 120.52,
+  "pace": 76.1,
+  "g": 32
+ },
+ "Stetson": {
+  "ortg": 101.06,
+  "drtg": 120.22,
+  "pace": 68.5,
+  "g": 33
+ },
+ "Cal State Bakersfield": {
+  "ortg": 98.96,
+  "drtg": 116.54,
+  "pace": 73.0,
+  "g": 32
+ },
+ "Lafayette": {
+  "ortg": 98.0,
+  "drtg": 117.68,
+  "pace": 67.2,
+  "g": 32
+ },
+ "Prairie View A&M": {
+  "ortg": 97.18,
+  "drtg": 114.83,
+  "pace": 73.5,
+  "g": 37
+ },
+ "Cleveland State": {
+  "ortg": 105.59,
+  "drtg": 124.63,
+  "pace": 71.5,
+  "g": 33
+ },
+ "Little Rock": {
+  "ortg": 98.7,
+  "drtg": 118.31,
+  "pace": 68.5,
+  "g": 32
+ },
+ "Alabama A&M": {
+  "ortg": 99.31,
+  "drtg": 118.34,
+  "pace": 67.8,
+  "g": 33
+ },
+ "Tennessee Tech": {
+  "ortg": 99.22,
+  "drtg": 118.68,
+  "pace": 69.6,
+  "g": 31
+ },
+ "Loyola (MD)": {
+  "ortg": 99.14,
+  "drtg": 119.6,
+  "pace": 68.5,
+  "g": 32
+ },
+ "Norfolk State": {
+  "ortg": 97.19,
+  "drtg": 117.37,
+  "pace": 70.1,
+  "g": 32
+ },
+ "Air Force": {
+  "ortg": 94.57,
+  "drtg": 115.79,
+  "pace": 67.4,
+  "g": 32
+ },
+ "Eastern Illinois": {
+  "ortg": 93.49,
+  "drtg": 114.39,
+  "pace": 66.6,
+  "g": 33
+ },
+ "New Haven": {
+  "ortg": 92.29,
+  "drtg": 114.23,
+  "pace": 64.2,
+  "g": 31
+ },
+ "Holy Cross": {
+  "ortg": 97.09,
+  "drtg": 118.32,
+  "pace": 66.1,
+  "g": 33
+ },
+ "Albany (NY)": {
+  "ortg": 98.73,
+  "drtg": 119.37,
+  "pace": 66.6,
+  "g": 32
+ },
+ "UTSA": {
+  "ortg": 97.53,
+  "drtg": 117.75,
+  "pace": 70.2,
+  "g": 30
+ },
+ "Massachusetts\u2013Lowell": {
+  "ortg": 98.1,
+  "drtg": 119.15,
+  "pace": 69.4,
+  "g": 33
+ },
+ "Florida A&M": {
+  "ortg": 93.29,
+  "drtg": 112.89,
+  "pace": 70.3,
+  "g": 31
+ },
+ "Texas Southern": {
+  "ortg": 98.37,
+  "drtg": 118.21,
+  "pace": 71.2,
+  "g": 30
+ },
+ "Alabama State": {
+  "ortg": 95.59,
+  "drtg": 116.37,
+  "pace": 71.9,
+  "g": 32
+ },
+ "Bucknell": {
+  "ortg": 94.13,
+  "drtg": 115.97,
+  "pace": 66.9,
+  "g": 33
+ },
+ "Stonehill": {
+  "ortg": 88.72,
+  "drtg": 111.54,
+  "pace": 67.1,
+  "g": 33
+ },
+ "Northern Illinois": {
+  "ortg": 93.94,
+  "drtg": 115.96,
+  "pace": 69.7,
+  "g": 30
+ },
+ "Arkansas\u2013Pine Bluff": {
+  "ortg": 98.99,
+  "drtg": 119.48,
+  "pace": 72.4,
+  "g": 32
+ },
+ "FDU": {
+  "ortg": 96.32,
+  "drtg": 119.2,
+  "pace": 64.5,
+  "g": 32
+ },
+ "Manhattan": {
+  "ortg": 100.65,
+  "drtg": 122.94,
+  "pace": 68.3,
+  "g": 32
+ },
+ "Army": {
+  "ortg": 96.46,
+  "drtg": 119.96,
+  "pace": 67.6,
+  "g": 32
+ },
+ "North Florida": {
+  "ortg": 103.27,
+  "drtg": 125.06,
+  "pace": 72.5,
+  "g": 32
+ },
+ "North Alabama": {
+  "ortg": 95.91,
+  "drtg": 119.68,
+  "pace": 65.9,
+  "g": 30
+ },
+ "NJIT": {
+  "ortg": 92.06,
+  "drtg": 115.74,
+  "pace": 68.3,
+  "g": 33
+ },
+ "Niagara": {
+  "ortg": 94.91,
+  "drtg": 119.96,
+  "pace": 63.1,
+  "g": 30
+ },
+ "Chicago State": {
+  "ortg": 95.21,
+  "drtg": 119.58,
+  "pace": 65.9,
+  "g": 32
+ },
+ "Southern Indiana": {
+  "ortg": 91.11,
+  "drtg": 115.51,
+  "pace": 68.8,
+  "g": 30
+ },
+ "The Citadel": {
+  "ortg": 96.58,
+  "drtg": 122.37,
+  "pace": 65.1,
+  "g": 33
+ },
+ "Canisius": {
+  "ortg": 90.95,
+  "drtg": 117.07,
+  "pace": 64.5,
+  "g": 31
+ },
+ "Maine": {
+  "ortg": 87.14,
+  "drtg": 112.75,
+  "pace": 65.4,
+  "g": 32
+ },
+ "New Hampshire": {
+  "ortg": 91.47,
+  "drtg": 117.27,
+  "pace": 67.7,
+  "g": 30
+ },
+ "Maryland\u2013Eastern Shore": {
+  "ortg": 90.02,
+  "drtg": 116.67,
+  "pace": 64.9,
+  "g": 32
+ },
+ "North Carolina Central": {
+  "ortg": 96.65,
+  "drtg": 123.37,
+  "pace": 68.2,
+  "g": 32
+ },
+ "Bryant": {
+  "ortg": 91.2,
+  "drtg": 119.5,
+  "pace": 65.0,
+  "g": 31
+ },
+ "Louisiana\u2013Monroe": {
+  "ortg": 97.06,
+  "drtg": 123.88,
+  "pace": 71.1,
+  "g": 32
+ },
+ "Saint Francis (PA)": {
+  "ortg": 95.97,
+  "drtg": 123.61,
+  "pace": 70.3,
+  "g": 31
+ },
+ "Rider": {
+  "ortg": 92.16,
+  "drtg": 121.35,
+  "pace": 65.9,
+  "g": 29
+ },
+ "Morgan State": {
+  "ortg": 93.35,
+  "drtg": 121.94,
+  "pace": 71.3,
+  "g": 30
+ },
+ "Jackson State": {
+  "ortg": 94.07,
+  "drtg": 121.54,
+  "pace": 71.0,
+  "g": 33
+ },
+ "Kansas City": {
+  "ortg": 90.08,
+  "drtg": 118.06,
+  "pace": 71.9,
+  "g": 31
+ },
+ "Alcorn State": {
+  "ortg": 92.61,
+  "drtg": 120.57,
+  "pace": 69.4,
+  "g": 32
+ },
+ "VMI": {
+  "ortg": 94.33,
+  "drtg": 125.45,
+  "pace": 68.6,
+  "g": 32
+ },
+ "Binghamton": {
+  "ortg": 93.15,
+  "drtg": 124.44,
+  "pace": 65.1,
+  "g": 31
+ },
+ "South Carolina State": {
+  "ortg": 91.04,
+  "drtg": 122.14,
+  "pace": 70.2,
+  "g": 32
+ },
+ "Gardner-Webb": {
+  "ortg": 92.11,
+  "drtg": 123.81,
+  "pace": 71.0,
+  "g": 33
+ },
+ "Delaware State": {
+  "ortg": 83.42,
+  "drtg": 117.19,
+  "pace": 66.5,
+  "g": 31
+ },
+ "Western Illinois": {
+  "ortg": 90.13,
+  "drtg": 125.62,
+  "pace": 67.2,
+  "g": 31
+ },
+ "Coppin State": {
+  "ortg": 87.55,
+  "drtg": 123.41,
+  "pace": 69.4,
+  "g": 31
+ },
+ "Mississippi Valley State": {
+  "ortg": 85.22,
+  "drtg": 125.03,
+  "pace": 70.0,
+  "g": 33
+ }
+}
