@@ -1,19 +1,19 @@
 {
  "cmd": "rebuild",
  "ok": true,
- "at": "2026-11-04T20:04:55.511178+00:00",
+ "at": "2026-11-04T20:05:42.671650+00:00",
  "log": [
   "bbref players 2027: 449",
-  "rebuild: props A 3, B 1, held 57",
-  "A Donovan Mitchell Over 21.5 pts -106 proj 30.0 ev 17.8 Consensus (2)",
-  "A Trae Young Over 3.5 reb 140 proj 4.7 ev 15.6 Pinnacle",
-  "B Sam Hauser Over 7.5 pts -104 proj 10.3 ev 14.3 Consensus (1)",
-  "A Mario Hezonja Over 4.5 reb 108 proj 6.4 ev 13.8 Consensus (2)",
+  "rebuild: props A 4, B 0, held 89",
+  "A Brayden Burries Under 11.5 pts -108 proj 8.5 ev 13.7 Pinnacle",
+  "A James Harden Over 6.5 ast 100 proj 8.3 ev 12.5 Pinnacle",
+  "A Pascal Siakam Over 23.5 pts 102 proj 28.6 ev 11.7 Pinnacle",
+  "A Fred VanVleet Over 5.5 ast 118 proj 7.1 ev 11.4 Pinnacle",
+  "HOLD {'player': 'Donovan Mitchell', 'stat': 'pts', 'side': 'Over', 'line': 21.5, 'reason': 'projection 30 vs line 21.5: gap too large to trust without news'}",
   "HOLD {'player': 'Trevon Brazile', 'stat': 'reb', 'side': 'Over', 'line': 4.5, 'reason': 'line 4.5 vs season avg 6.3: market likely pricing news'}",
+  "HOLD {'player': 'Trae Young', 'stat': 'reb', 'side': 'Over', 'line': 3.5, 'reason': 'projection 4.7 vs line 3.5: gap too large to trust without news'}",
   "HOLD {'player': 'Trevon Brazile', 'stat': 'pts', 'side': 'Over', 'line': 5.5, 'reason': 'line 5.5 vs season avg 8.3: market likely pricing news'}",
-  "HOLD {'player': 'Ty Jerome', 'stat': 'pts', 'side': 'Over', 'line': 22.5, 'reason': 'line 22.5 vs season avg 28.2: market likely pricing news'}",
-  "HOLD {'player': 'Dennis Schr\u00f6der', 'stat': 'pts', 'side': 'Over', 'line': 7.5, 'reason': 'line 7.5 vs season avg 10.9: market likely pricing news'}",
-  "HOLD {'player': 'Anfernee Simons', 'stat': 'pts', 'side': 'Over', 'line': 8.5, 'reason': 'line 8.5 vs season avg 11.3: market likely pricing news'}",
-  "HOLD {'player': 'Brayden Burries', 'stat': 'ast', 'side': 'Under', 'line': 2.5, 'reason': 'line 2.5 vs season avg 1.3: market likely pricing news'}"
+  "HOLD {'player': 'Sam Hauser', 'stat': 'pts', 'side': 'Over', 'line': 7.5, 'reason': 'projection 10.3 vs line 7.5: gap too large to trust without news'}",
+  "HOLD {'player': 'Ty Jerome', 'stat': 'pts', 'side': 'Over', 'line': 22.5, 'reason': 'line 22.5 vs season avg 28.2: market likely pricing news'}"
  ]
 }

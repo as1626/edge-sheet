@@ -913,10 +913,11 @@
    "gap": 8.5,
    "edge": 0.3948015810453713,
    "mkt_src": "Consensus (2)",
-   "grade": "A",
+   "grade": "",
    "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
    "extra_min": 5.1,
-   "usg_bump": 1.09
+   "usg_bump": 1.09,
+   "hold": "projection 30 vs line 21.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -966,10 +967,11 @@
    "gap": 1.2,
    "edge": 0.3494030687395289,
    "mkt_src": "Pinnacle",
-   "grade": "A",
+   "grade": "",
    "why": "37 min proj (+1.2 with Justin Champagnie out), pace \u00d71.02",
    "extra_min": 1.2,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 4.7 vs line 3.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1019,10 +1021,11 @@
    "gap": 2.8,
    "edge": 0.37662977056733593,
    "mkt_src": "Consensus (1)",
-   "grade": "B",
+   "grade": "",
    "why": "23 min proj (+2.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
    "extra_min": 2.8,
-   "usg_bump": 1.17
+   "usg_bump": 1.17,
+   "hold": "projection 10.3 vs line 7.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1072,10 +1075,11 @@
    "gap": 1.9,
    "edge": 0.4205767407228092,
    "mkt_src": "Consensus (2)",
-   "grade": "A",
+   "grade": "",
    "why": "22 min proj (+2.9 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
    "extra_min": 2.9,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 6.4 vs line 4.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1098,7 +1102,7 @@
    "gap": 3.0,
    "edge": 0.25957823962798443,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "A",
    "why": "17 min proj, pace \u00d70.96, opp D \u00d71.00",
    "extra_min": 0,
    "usg_bump": 1
@@ -1151,7 +1155,7 @@
    "gap": 1.8,
    "edge": 0.2740047257646533,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "A",
    "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99",
    "extra_min": 5.1,
    "usg_bump": 1.09
@@ -1177,10 +1181,11 @@
    "gap": 3.9,
    "edge": 0.5232328839403981,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "26 min proj, pace \u00d71.01, opp D \u00d71.07",
    "extra_min": 0,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 11.4 vs line 7.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1203,7 +1208,7 @@
    "gap": 5.1,
    "edge": 0.21691862418367192,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "A",
    "why": "36 min proj (+4.2 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01, opp D \u00d71.02",
    "extra_min": 4.2,
    "usg_bump": 1.1
@@ -1282,10 +1287,11 @@
    "gap": 3.7,
    "edge": 0.5764682465638844,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "21 min proj (+2.7 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
    "extra_min": 2.7,
-   "usg_bump": 1.15
+   "usg_bump": 1.15,
+   "hold": "projection 10.2 vs line 6.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1308,10 +1314,11 @@
    "gap": 6.2,
    "edge": 0.4988624446615117,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "32 min proj (+4.3 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
    "extra_min": 4.3,
-   "usg_bump": 1.09
+   "usg_bump": 1.09,
+   "hold": "projection 18.7 vs line 12.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1334,7 +1341,7 @@
    "gap": 1.6,
    "edge": 0.29804017590027665,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "A",
    "why": "31 min proj (+1.0 with Clint Capela out), pace \u00d71.01",
    "extra_min": 1.0,
    "usg_bump": 1
@@ -1440,10 +1447,11 @@
    "gap": 1.7,
    "edge": 0.312083806015462,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
    "extra_min": 4.5,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 7.2 vs line 5.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1466,10 +1474,11 @@
    "gap": 2.1,
    "edge": 0.3155511895367788,
    "mkt_src": "FanDuel no-vig",
-   "grade": "C",
+   "grade": "",
    "why": "22 min proj (+2.7 with Jayson Tatum out), pace \u00d71.00",
    "extra_min": 2.7,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 8.6 vs line 6.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1492,10 +1501,11 @@
    "gap": 4.1,
    "edge": 0.3254214240812337,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "37 min proj (+3.4 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97",
    "extra_min": 3.4,
-   "usg_bump": 1.05
+   "usg_bump": 1.05,
+   "hold": "projection 16.6 vs line 12.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1518,10 +1528,11 @@
    "gap": 3.1,
    "edge": 0.3243080989186428,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "28 min proj (+3.7 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
    "extra_min": 3.7,
-   "usg_bump": 1.09
+   "usg_bump": 1.09,
+   "hold": "projection 12.6 vs line 9.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1648,10 +1659,11 @@
    "gap": 4.4,
    "edge": 0.3488454069201697,
    "mkt_src": "Consensus (2)",
-   "grade": "C",
+   "grade": "",
    "why": "26 min proj (+3.4 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
    "extra_min": 3.4,
-   "usg_bump": 1.09
+   "usg_bump": 1.09,
+   "hold": "projection 16.9 vs line 12.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1700,10 +1712,11 @@
    "gap": 5.5,
    "edge": 0.33116201012057683,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
    "extra_min": 5.1,
-   "usg_bump": 1.09
+   "usg_bump": 1.09,
+   "hold": "projection 22 vs line 16.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1752,10 +1765,11 @@
    "gap": 6.2,
    "edge": 0.3757346089691609,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "38 min proj (+5.0 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
    "extra_min": 5.0,
-   "usg_bump": 1.09
+   "usg_bump": 1.09,
+   "hold": "projection 22.7 vs line 16.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -1857,10 +1871,11 @@
    "gap": 5.3,
    "edge": 0.39440937427198614,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
    "extra_min": 4.5,
-   "usg_bump": 1.15
+   "usg_bump": 1.15,
+   "hold": "projection 18.8 vs line 13.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2039,10 +2054,11 @@
    "gap": 2.2,
    "edge": 0.3362031746384967,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "22 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
    "extra_min": 0,
-   "usg_bump": 1.03
+   "usg_bump": 1.03,
+   "hold": "projection 8.7 vs line 6.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2144,10 +2160,11 @@
    "gap": 4.2,
    "edge": 0.4033869834576192,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "25 min proj, usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
    "extra_min": 0,
-   "usg_bump": 1.02
+   "usg_bump": 1.02,
+   "hold": "projection 14.7 vs line 10.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2275,10 +2292,11 @@
    "gap": 3.5,
    "edge": 0.47166174499147834,
    "mkt_src": "Consensus (1)",
-   "grade": "C",
+   "grade": "",
    "why": "16 min proj, usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04",
    "extra_min": 0,
-   "usg_bump": 1.04
+   "usg_bump": 1.04,
+   "hold": "projection 11 vs line 7.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2458,10 +2476,11 @@
    "gap": 1.3,
    "edge": 0.37838519258929565,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "36 min proj, pace \u00d70.99",
    "extra_min": 0,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 4.8 vs line 3.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2537,10 +2556,11 @@
    "gap": 2.3,
    "edge": 0.3011525714663759,
    "mkt_src": "Consensus (1)",
-   "grade": "C",
+   "grade": "",
    "why": "23 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
    "extra_min": 0,
-   "usg_bump": 1.03
+   "usg_bump": 1.03,
+   "hold": "projection 9.8 vs line 7.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2615,10 +2635,11 @@
    "gap": 2.6,
    "edge": 0.352540723533802,
    "mkt_src": "Consensus (1)",
-   "grade": "C",
+   "grade": "",
    "why": "14 min proj (+1.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
    "extra_min": 1.8,
-   "usg_bump": 1.17
+   "usg_bump": 1.17,
+   "hold": "projection 4.9 vs line 7.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2719,10 +2740,11 @@
    "gap": 4.8,
    "edge": 0.3561071163512461,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "37 min proj, pace \u00d71.00, opp D \u00d71.02",
    "extra_min": 0,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 18.3 vs line 13.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -2771,10 +2793,11 @@
    "gap": 3.1,
    "edge": 0.36364140150649066,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
    "extra_min": 4.4,
-   "usg_bump": 1.15
+   "usg_bump": 1.15,
+   "hold": "projection 11.6 vs line 8.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -3764,10 +3787,11 @@
    "gap": 2.1,
    "edge": 0.3846141676375518,
    "mkt_src": "FanDuel no-vig",
-   "grade": "C",
+   "grade": "",
    "why": "20 min proj, usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
    "extra_min": 0,
-   "usg_bump": 1.03
+   "usg_bump": 1.03,
+   "hold": "projection 7.6 vs line 5.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -4000,10 +4024,11 @@
    "gap": 2.0,
    "edge": 0.36942187051319114,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02",
    "extra_min": 1.4,
-   "usg_bump": 1.02
+   "usg_bump": 1.02,
+   "hold": "projection 7.5 vs line 5.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -4443,10 +4468,11 @@
    "gap": 1.4,
    "edge": 0.3002147260790624,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "37 min proj, pace \u00d70.99",
    "extra_min": 0,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 5.9 vs line 4.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -4678,10 +4704,11 @@
    "gap": 1.5,
    "edge": 0.3432127702659212,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "15 min proj (+1.6 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
    "extra_min": 1.6,
-   "usg_bump": 1.05
+   "usg_bump": 1.05,
+   "hold": "projection 6 vs line 4.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -4730,10 +4757,11 @@
    "gap": 2.0,
    "edge": 0.304304828943566,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "37 min proj (+3.4 with Max Christie, Sergio de Larrea out), pace \u00d71.00",
    "extra_min": 3.4,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 8.5 vs line 6.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -5308,10 +5336,11 @@
    "gap": 1.4,
    "edge": 0.3079176807738803,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "35 min proj, pace \u00d71.01",
    "extra_min": 0,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 5.9 vs line 4.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -6565,7 +6594,8 @@
    "grade": "",
    "why": "38 min proj (+4.2 with Jalen Williams, Chet Holmgren out), pace \u00d71.01",
    "extra_min": 4.2,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 4.9 vs line 3.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -9095,7 +9125,8 @@
    "grade": "",
    "why": "30 min proj (+3.8 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
    "extra_min": 3.8,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 4.6 vs line 3.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
@@ -10009,7 +10040,8 @@
    "grade": "",
    "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), pace \u00d71.02",
    "extra_min": 1.5,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "projection 4.6 vs line 3.5: gap too large to trust without news"
   },
   {
    "kind": "Prop",
