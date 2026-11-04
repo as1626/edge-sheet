@@ -1,0 +1,8 @@
+{
+ "cmd": "card",
+ "ok": false,
+ "at": "2026-11-04T08:16:00.652569+00:00",
+ "log": [
+  "Traceback (most recent call last):\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/run.py\", line 156, in <module>\n    if cmd == \"card\": card()\n                      ^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/run.py\", line 51, in card\n    odds = S.odds_games(\"basketball_nba\", day)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/sources.py\", line 24, in odds_games\n    q = urllib.parse.urlencode({\"apiKey\": _key(), \"bookmakers\": BOOKS, \"markets\": \"h2h,spreads,totals\",\n                                          ^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/sources.py\", line 13, in _key\n    if not k: raise RuntimeError(\"ODDS_API_KEY secret is not set\")\n              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: ODDS_API_KEY secret is not set\n"
+ ]
+}
