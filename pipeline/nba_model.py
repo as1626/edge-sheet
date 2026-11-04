@@ -237,7 +237,8 @@ def sanity_props(rows, players):
     for r in rows:
         p = players.get(pname(r["player"]))
         avg = (p or {}).get(r["stat"])
-        explained = r.get("extra_min", 0) >= 2 or r.get("usg_bump", 1) >= 1.05
+        # our injury/usage adjustments only push projections up, so they can only explain a line set ABOVE the average
+        explained = avg is not None and r["line"] > avg and (r.get("extra_min", 0) >= 2 or r.get("usg_bump", 1) >= 1.05)
         if avg and r["line"] > 0 and abs(avg - r["line"]) / r["line"] > 0.25 and not explained:
             r["grade"], r["hold"] = "", f"line {r['line']:g} vs season avg {avg:.1f}: market likely pricing news"
         elif r.get("mkt_src", "").startswith("Consensus (1)") and r["grade"] == "A":
