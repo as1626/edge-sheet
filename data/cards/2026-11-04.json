@@ -914,7 +914,9 @@
    "edge": 0.3948015810453713,
    "mkt_src": "Consensus (2)",
    "grade": "A",
-   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96"
+   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
+   "extra_min": 5.1,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -937,8 +939,11 @@
    "gap": 1.8,
    "edge": 0.4024341907082197,
    "mkt_src": "Pinnacle",
-   "grade": "A",
-   "why": "22 min proj, pace \u00d71.00"
+   "grade": "",
+   "why": "22 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 4.5 vs season avg 6.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -962,7 +967,9 @@
    "edge": 0.3494030687395289,
    "mkt_src": "Pinnacle",
    "grade": "A",
-   "why": "37 min proj (+1.2 with Justin Champagnie out), pace \u00d71.02"
+   "why": "37 min proj (+1.2 with Justin Champagnie out), pace \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -985,8 +992,11 @@
    "gap": 2.7,
    "edge": 0.4918479219724878,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "22 min proj, pace \u00d71.00, opp D \u00d70.99"
+   "grade": "",
+   "why": "22 min proj, pace \u00d71.00, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 5.5 vs season avg 8.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -1009,8 +1019,10 @@
    "gap": 2.8,
    "edge": 0.37662977056733593,
    "mkt_src": "Consensus (1)",
-   "grade": "A",
-   "why": "23 min proj (+2.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06"
+   "grade": "B",
+   "why": "23 min proj (+2.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
+   "extra_min": 2.8,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -1033,8 +1045,11 @@
    "gap": 8.3,
    "edge": 0.36852097148155344,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "32 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04"
+   "grade": "",
+   "why": "32 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.1,
+   "usg_bump": 1.02,
+   "hold": "line 22.5 vs season avg 28.2: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -1057,8 +1072,10 @@
    "gap": 1.9,
    "edge": 0.4205767407228092,
    "mkt_src": "Consensus (2)",
-   "grade": "C",
-   "why": "22 min proj (+2.9 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99"
+   "grade": "A",
+   "why": "22 min proj (+2.9 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
+   "extra_min": 2.9,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1082,7 +1099,9 @@
    "edge": 0.25957823962798443,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "17 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "17 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1105,8 +1124,11 @@
    "gap": 4.1,
    "edge": 0.5507942800254727,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "31 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "grade": "",
+   "why": "31 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 7.5 vs season avg 10.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -1130,7 +1152,9 @@
    "edge": 0.2740047257646533,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99"
+   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99",
+   "extra_min": 5.1,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -1154,7 +1178,9 @@
    "edge": 0.5232328839403981,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "26 min proj, pace \u00d71.01, opp D \u00d71.07"
+   "why": "26 min proj, pace \u00d71.01, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1178,7 +1204,9 @@
    "edge": 0.21691862418367192,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj (+4.2 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01, opp D \u00d71.02"
+   "why": "36 min proj (+4.2 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 4.2,
+   "usg_bump": 1.1
   },
   {
    "kind": "Prop",
@@ -1201,8 +1229,11 @@
    "gap": 3.2,
    "edge": 0.3720287706958126,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "24 min proj, pace \u00d70.99, opp D \u00d70.95"
+   "grade": "",
+   "why": "24 min proj, pace \u00d70.99, opp D \u00d70.95",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 8.5 vs season avg 11.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -1226,7 +1257,9 @@
    "edge": 0.002707584754361392,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "23 min proj, usage \u00d71.03, pace \u00d70.97"
+   "why": "23 min proj, usage \u00d71.03, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -1250,7 +1283,9 @@
    "edge": 0.5764682465638844,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "21 min proj (+2.7 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99"
+   "why": "21 min proj (+2.7 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 2.7,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -1274,7 +1309,9 @@
    "edge": 0.4988624446615117,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "32 min proj (+4.3 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96"
+   "why": "32 min proj (+4.3 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
+   "extra_min": 4.3,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -1298,7 +1335,9 @@
    "edge": 0.29804017590027665,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "31 min proj (+1.0 with Clint Capela out), pace \u00d71.01"
+   "why": "31 min proj (+1.0 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1321,8 +1360,11 @@
    "gap": 1.3,
    "edge": 0.5011631901321735,
    "mkt_src": "Consensus (2)",
-   "grade": "C",
-   "why": "17 min proj, pace \u00d70.96"
+   "grade": "",
+   "why": "17 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 1.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -1346,7 +1388,9 @@
    "edge": 0.27226007021788196,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "23 min proj, pace \u00d71.01, opp D \u00d71.02"
+   "why": "23 min proj, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1369,8 +1413,11 @@
    "gap": 4.8,
    "edge": 0.45350685160824356,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "26 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "grade": "",
+   "why": "26 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 10.5 vs season avg 14.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -1394,7 +1441,9 @@
    "edge": 0.312083806015462,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97"
+   "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
+   "extra_min": 4.5,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1418,7 +1467,9 @@
    "edge": 0.3155511895367788,
    "mkt_src": "FanDuel no-vig",
    "grade": "C",
-   "why": "22 min proj (+2.7 with Jayson Tatum out), pace \u00d71.00"
+   "why": "22 min proj (+2.7 with Jayson Tatum out), pace \u00d71.00",
+   "extra_min": 2.7,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1442,7 +1493,9 @@
    "edge": 0.3254214240812337,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj (+3.4 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97"
+   "why": "37 min proj (+3.4 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97",
+   "extra_min": 3.4,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -1466,7 +1519,9 @@
    "edge": 0.3243080989186428,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "28 min proj (+3.7 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96"
+   "why": "28 min proj (+3.7 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
+   "extra_min": 3.7,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -1490,7 +1545,9 @@
    "edge": 0.2275361082228728,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+4.4 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06"
+   "why": "35 min proj (+4.4 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
+   "extra_min": 4.4,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -1514,7 +1571,9 @@
    "edge": 0.27336513778646426,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "29 min proj (+1.0 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04"
+   "why": "29 min proj (+1.0 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.0,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -1538,7 +1597,9 @@
    "edge": 0.2766952502835624,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "25 min proj (+1.1 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07"
+   "why": "25 min proj (+1.1 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07",
+   "extra_min": 1.1,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -1562,7 +1623,9 @@
    "edge": 0.19277344130159352,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99"
+   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99",
+   "extra_min": 5.1,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -1586,7 +1649,9 @@
    "edge": 0.3488454069201697,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "26 min proj (+3.4 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96"
+   "why": "26 min proj (+3.4 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
+   "extra_min": 3.4,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -1610,7 +1675,9 @@
    "edge": 0.1600322573074808,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "35 min proj (+4.4 with Jayson Tatum out), pace \u00d71.00"
+   "why": "35 min proj (+4.4 with Jayson Tatum out), pace \u00d71.00",
+   "extra_min": 4.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1634,7 +1701,9 @@
    "edge": 0.33116201012057683,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96"
+   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
+   "extra_min": 5.1,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -1658,7 +1727,9 @@
    "edge": 0.2510519044167527,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+4.3 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06"
+   "why": "38 min proj (+4.3 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
+   "extra_min": 4.3,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -1682,7 +1753,9 @@
    "edge": 0.3757346089691609,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+5.0 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96"
+   "why": "38 min proj (+5.0 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
+   "extra_min": 5.0,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -1706,7 +1779,9 @@
    "edge": 0.243044108933585,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj (+3.9 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06"
+   "why": "36 min proj (+3.9 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
+   "extra_min": 3.9,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -1729,8 +1804,11 @@
    "gap": 0.8,
    "edge": 0.32221695839287195,
    "mkt_src": "Consensus (2)",
-   "grade": "C",
-   "why": "31 min proj, pace \u00d70.98"
+   "grade": "",
+   "why": "31 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -1754,7 +1832,9 @@
    "edge": 0.23969390312477862,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj (+4.3 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01, opp D \u00d71.02"
+   "why": "37 min proj (+4.3 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 4.3,
+   "usg_bump": 1.1
   },
   {
    "kind": "Prop",
@@ -1778,7 +1858,9 @@
    "edge": 0.39440937427198614,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99"
+   "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 4.5,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -1802,7 +1884,9 @@
    "edge": 0.19809401605738886,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "25 min proj (+1.0 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "25 min proj (+1.0 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 1.0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -1826,7 +1910,9 @@
    "edge": 0.246679473612441,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99"
+   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 4.4,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -1850,7 +1936,9 @@
    "edge": 0.14383371510702445,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02"
+   "why": "33 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1874,7 +1962,9 @@
    "edge": 0.2936900818644933,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "29 min proj (+2.7 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97"
+   "why": "29 min proj (+2.7 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97",
+   "extra_min": 2.7,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -1898,7 +1988,9 @@
    "edge": 0.18195534956844614,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "26 min proj, pace \u00d71.01"
+   "why": "26 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1922,7 +2014,9 @@
    "edge": 0.1725367434947855,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "32 min proj (+4.3 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99"
+   "why": "32 min proj (+4.3 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
+   "extra_min": 4.3,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -1946,7 +2040,9 @@
    "edge": 0.3362031746384967,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "22 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01"
+   "why": "22 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -1970,7 +2066,9 @@
    "edge": 0.24914281677091707,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "21 min proj, usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04"
+   "why": "21 min proj, usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -1994,7 +2092,9 @@
    "edge": 0.06768151179480811,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "26 min proj, pace \u00d70.96"
+   "why": "26 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2017,8 +2117,11 @@
    "gap": 3.7,
    "edge": 0.4375533590712787,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "26 min proj, pace \u00d71.01, opp D \u00d71.07"
+   "grade": "",
+   "why": "26 min proj, pace \u00d71.01, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 8.5 vs season avg 10.8: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -2042,7 +2145,9 @@
    "edge": 0.4033869834576192,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "25 min proj, usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04"
+   "why": "25 min proj, usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -2066,7 +2171,9 @@
    "edge": 0.23843222050945512,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj, pace \u00d70.99, opp D \u00d70.95"
+   "why": "36 min proj, pace \u00d70.99, opp D \u00d70.95",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2090,7 +2197,9 @@
    "edge": 0.144469568971684,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "21 min proj, pace \u00d71.02, opp D \u00d71.00"
+   "why": "21 min proj, pace \u00d71.02, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2114,7 +2223,9 @@
    "edge": 0.32593704482939784,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97"
+   "why": "35 min proj (+4.5 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97",
+   "extra_min": 4.5,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -2138,7 +2249,9 @@
    "edge": 0.48998126740086556,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97"
+   "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97",
+   "extra_min": 4.8,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -2162,7 +2275,9 @@
    "edge": 0.47166174499147834,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "16 min proj, usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04"
+   "why": "16 min proj, usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.04
   },
   {
    "kind": "Prop",
@@ -2186,7 +2301,9 @@
    "edge": 0.2083398090532109,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "31 min proj (+2.9 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00"
+   "why": "31 min proj (+2.9 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00",
+   "extra_min": 2.9,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -2210,7 +2327,9 @@
    "edge": 0.11838498058366638,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj, pace \u00d71.01, opp D \u00d71.07"
+   "why": "36 min proj, pace \u00d71.01, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2234,7 +2353,9 @@
    "edge": 0.22612574194238227,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "29 min proj (+2.7 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00"
+   "why": "29 min proj (+2.7 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00",
+   "extra_min": 2.7,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -2258,7 +2379,9 @@
    "edge": 0.12441745268607161,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+1.2 with Clint Capela out), pace \u00d71.01"
+   "why": "35 min proj (+1.2 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2282,7 +2405,9 @@
    "edge": 0.41267480293288034,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj, pace \u00d70.99"
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2306,7 +2431,9 @@
    "edge": 0.13319897924404175,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "32 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01"
+   "why": "32 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -2330,7 +2457,9 @@
    "edge": 0.37838519258929565,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj, pace \u00d70.99"
+   "why": "36 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2354,7 +2483,9 @@
    "edge": 0.22582834363762802,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "26 min proj (+2.4 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97"
+   "why": "26 min proj (+2.4 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97",
+   "extra_min": 2.4,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -2377,8 +2508,11 @@
    "gap": 3.0,
    "edge": 0.20663975608237917,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "36 min proj (+1.2 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98"
+   "grade": "",
+   "why": "36 min proj (+1.2 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98",
+   "extra_min": 1.2,
+   "usg_bump": 1,
+   "hold": "line 14.5 vs season avg 18.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -2402,7 +2536,9 @@
    "edge": 0.3011525714663759,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "23 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01"
+   "why": "23 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -2426,7 +2562,9 @@
    "edge": 0.20779621123320863,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "26 min proj, pace \u00d70.98"
+   "why": "26 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2450,7 +2588,9 @@
    "edge": 0.25403585466588874,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07"
+   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07",
+   "extra_min": 1.4,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -2474,7 +2614,9 @@
    "edge": 0.352540723533802,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "14 min proj (+1.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06"
+   "why": "14 min proj (+1.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
+   "extra_min": 1.8,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -2498,7 +2640,9 @@
    "edge": 0.24007525328643656,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "29 min proj (+2.7 with Max Christie, Sergio de Larrea out), pace \u00d71.00"
+   "why": "29 min proj (+2.7 with Max Christie, Sergio de Larrea out), pace \u00d71.00",
+   "extra_min": 2.7,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2522,7 +2666,9 @@
    "edge": 0.28214258027818334,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj (+1.2 with Justin Champagnie out), pace \u00d71.02, opp D \u00d71.00"
+   "why": "37 min proj (+1.2 with Justin Champagnie out), pace \u00d71.02, opp D \u00d71.00",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2546,7 +2692,9 @@
    "edge": 0.23680340712799636,
    "mkt_src": "FanDuel no-vig",
    "grade": "C",
-   "why": "31 min proj (+2.9 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97"
+   "why": "31 min proj (+2.9 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97",
+   "extra_min": 2.9,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -2570,7 +2718,9 @@
    "edge": 0.3561071163512461,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj, pace \u00d71.00, opp D \u00d71.02"
+   "why": "37 min proj, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2594,7 +2744,9 @@
    "edge": 0.36981492385880993,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "25 min proj (+1.1 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02"
+   "why": "25 min proj (+1.1 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02",
+   "extra_min": 1.1,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -2618,7 +2770,9 @@
    "edge": 0.36364140150649066,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99"
+   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 4.4,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -2642,7 +2796,9 @@
    "edge": 0.1765204030257136,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj, pace \u00d71.00, opp D \u00d71.02"
+   "why": "38 min proj, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2666,7 +2822,9 @@
    "edge": 0.10193727079091529,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "28 min proj, pace \u00d71.01"
+   "why": "28 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2690,7 +2848,9 @@
    "edge": 0.23881473578777923,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+4.2 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06"
+   "why": "38 min proj (+4.2 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
+   "extra_min": 4.2,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -2714,7 +2874,9 @@
    "edge": 0.22085332474025787,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99"
+   "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 4.8,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -2738,7 +2900,9 @@
    "edge": 0.25382779807122613,
    "mkt_src": "FanDuel no-vig",
    "grade": "C",
-   "why": "22 min proj (+2.7 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06"
+   "why": "22 min proj (+2.7 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
+   "extra_min": 2.7,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -2762,7 +2926,9 @@
    "edge": 0.10476351561710177,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "27 min proj, pace \u00d71.01"
+   "why": "27 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2785,8 +2951,11 @@
    "gap": 0.9,
    "edge": 0.24292434339738986,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "33 min proj, pace \u00d70.99"
+   "grade": "",
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 3.5 vs season avg 4.8: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -2810,7 +2979,9 @@
    "edge": 0.17109456836172057,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "31 min proj, pace \u00d71.00, opp D \u00d71.02"
+   "why": "31 min proj, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2834,7 +3005,9 @@
    "edge": 0.19386706585876748,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "22 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "why": "22 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2858,7 +3031,9 @@
    "edge": 0.21414357400913572,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj (+3.9 with Josh Hart out), pace \u00d71.04"
+   "why": "36 min proj (+3.9 with Josh Hart out), pace \u00d71.04",
+   "extra_min": 3.9,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2882,7 +3057,9 @@
    "edge": 0.11195940747664924,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "31 min proj (+1.2 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "31 min proj (+1.2 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 1.2,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -2906,7 +3083,9 @@
    "edge": 0.26224513112908016,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj, pace \u00d70.99, opp D \u00d70.95"
+   "why": "33 min proj, pace \u00d70.99, opp D \u00d70.95",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2930,7 +3109,9 @@
    "edge": 0.03627537619770768,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "27 min proj (+1.2 with Yves Missi, Jordan Poole out), pace \u00d71.02"
+   "why": "27 min proj (+1.2 with Yves Missi, Jordan Poole out), pace \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2954,7 +3135,9 @@
    "edge": 0.2642703369635113,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "31 min proj, pace \u00d71.00"
+   "why": "31 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -2978,7 +3161,9 @@
    "edge": 0.0897851150110607,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "34 min proj (+1.3 with Egor D\u00ebmin out), pace \u00d70.97"
+   "why": "34 min proj (+1.3 with Egor D\u00ebmin out), pace \u00d70.97",
+   "extra_min": 1.3,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3001,8 +3186,11 @@
    "gap": 2.4,
    "edge": 0.25274798280518335,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "22 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "grade": "",
+   "why": "22 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 9.5 vs season avg 11.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -3026,7 +3214,9 @@
    "edge": 0.2503336859482678,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07"
+   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07",
+   "extra_min": 1.4,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -3050,7 +3240,9 @@
    "edge": 0.2979455206880146,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "27 min proj (+1.2 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07"
+   "why": "27 min proj (+1.2 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07",
+   "extra_min": 1.2,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -3074,7 +3266,9 @@
    "edge": 0.13328892217932178,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj, pace \u00d71.00, opp D \u00d70.99"
+   "why": "36 min proj, pace \u00d71.00, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3097,8 +3291,11 @@
    "gap": 2.7,
    "edge": 0.3538791467647075,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "20 min proj, usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04"
+   "grade": "",
+   "why": "20 min proj, usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.02,
+   "hold": "line 7.5 vs season avg 9.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -3122,7 +3319,9 @@
    "edge": 0.23821753760819728,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "25 min proj, pace \u00d71.00"
+   "why": "25 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3146,7 +3345,9 @@
    "edge": 0.24714852732307438,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+5.0 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99"
+   "why": "38 min proj (+5.0 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99",
+   "extra_min": 5.0,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -3170,7 +3371,9 @@
    "edge": 0.054159742550140944,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "37 min proj (+1.2 with Justin Champagnie out), pace \u00d71.02"
+   "why": "37 min proj (+1.2 with Justin Champagnie out), pace \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3193,8 +3396,11 @@
    "gap": 2.0,
    "edge": 0.580561666372857,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "31 min proj, pace \u00d70.98"
+   "grade": "",
+   "why": "31 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 3.5 vs season avg 4.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -3218,7 +3424,9 @@
    "edge": 0.12935502199969673,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "30 min proj, pace \u00d71.04, opp D \u00d71.03"
+   "why": "30 min proj, pace \u00d71.04, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3242,7 +3450,9 @@
    "edge": 0.07480276647272269,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj, pace \u00d71.00"
+   "why": "37 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3266,7 +3476,9 @@
    "edge": 0.15439353425673122,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "29 min proj (+3.1 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06"
+   "why": "29 min proj (+3.1 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
+   "extra_min": 3.1,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -3290,7 +3502,9 @@
    "edge": 0.26120627708304717,
    "mkt_src": "FanDuel no-vig",
    "grade": "C",
-   "why": "25 min proj, pace \u00d71.00, opp D \u00d70.99"
+   "why": "25 min proj, pace \u00d71.00, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3314,7 +3528,9 @@
    "edge": 0.14682534219854376,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "38 min proj (+4.2 with Josh Hart out), usage \u00d71.05, pace \u00d71.04"
+   "why": "38 min proj (+4.2 with Josh Hart out), usage \u00d71.05, pace \u00d71.04",
+   "extra_min": 4.2,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -3338,7 +3554,9 @@
    "edge": 0.1646453086159669,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+1.2 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98"
+   "why": "35 min proj (+1.2 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3362,7 +3580,9 @@
    "edge": 0.22767707287868366,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "28 min proj (+3.0 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06"
+   "why": "28 min proj (+3.0 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
+   "extra_min": 3.0,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -3386,7 +3606,9 @@
    "edge": 0.19978741409753512,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj (+4.2 with Tyrese Haliburton, Obi Toppin out), pace \u00d71.01"
+   "why": "36 min proj (+4.2 with Tyrese Haliburton, Obi Toppin out), pace \u00d71.01",
+   "extra_min": 4.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3410,7 +3632,9 @@
    "edge": 0.2275831872238764,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "25 min proj (+3.1 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06"
+   "why": "25 min proj (+3.1 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
+   "extra_min": 3.1,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -3433,8 +3657,11 @@
    "gap": 3.0,
    "edge": 0.45749661327549107,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "24 min proj, pace \u00d71.01, opp D \u00d71.07"
+   "grade": "",
+   "why": "24 min proj, pace \u00d71.01, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 6.5 vs season avg 8.6: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -3458,7 +3685,9 @@
    "edge": 0.18655008782518578,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "24 min proj, pace \u00d71.01, opp D \u00d71.07"
+   "why": "24 min proj, pace \u00d71.01, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3482,7 +3711,9 @@
    "edge": 0.1548445315008468,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.02"
+   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3506,7 +3737,9 @@
    "edge": 0.2232371089151343,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 1.1,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -3530,7 +3763,9 @@
    "edge": 0.3846141676375518,
    "mkt_src": "FanDuel no-vig",
    "grade": "C",
-   "why": "20 min proj, usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "20 min proj, usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -3554,7 +3789,9 @@
    "edge": 0.565498677958591,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "34 min proj (+1.3 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97"
+   "why": "34 min proj (+1.3 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97",
+   "extra_min": 1.3,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -3578,7 +3815,9 @@
    "edge": 0.17635067182884231,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "31 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04"
+   "why": "31 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04",
+   "extra_min": 1.5,
+   "usg_bump": 1.04
   },
   {
    "kind": "Prop",
@@ -3601,8 +3840,11 @@
    "gap": 1.6,
    "edge": 0.21280447683029707,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "25 min proj, pace \u00d71.01, opp D \u00d70.98"
+   "grade": "",
+   "why": "25 min proj, pace \u00d71.01, opp D \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 7.5 vs season avg 11.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -3625,8 +3867,11 @@
    "gap": 2.0,
    "edge": 0.5689629108662027,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "23 min proj, pace \u00d71.01"
+   "grade": "",
+   "why": "23 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 3.5 vs season avg 5.6: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -3650,7 +3895,9 @@
    "edge": 0.0694354347546005,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "34 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02"
+   "why": "34 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3674,7 +3921,9 @@
    "edge": 0.20339418321970457,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02, opp D \u00d71.00"
+   "why": "33 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02, opp D \u00d71.00",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3698,7 +3947,9 @@
    "edge": 0.09815325054707198,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "31 min proj, pace \u00d71.02, opp D \u00d71.00"
+   "why": "31 min proj, pace \u00d71.02, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3722,7 +3973,9 @@
    "edge": 0.10481927553545681,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj, pace \u00d70.99"
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3746,7 +3999,9 @@
    "edge": 0.36942187051319114,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02"
+   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02",
+   "extra_min": 1.4,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -3770,7 +4025,9 @@
    "edge": 0.015539248895268858,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj (+4.2 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01"
+   "why": "36 min proj (+4.2 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01",
+   "extra_min": 4.2,
+   "usg_bump": 1.1
   },
   {
    "kind": "Prop",
@@ -3794,7 +4051,9 @@
    "edge": 0.23603065690460115,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj, pace \u00d71.01"
+   "why": "33 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3818,7 +4077,9 @@
    "edge": 0.17503686664768062,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj, pace \u00d70.99, opp D \u00d70.95"
+   "why": "33 min proj, pace \u00d70.99, opp D \u00d70.95",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3842,7 +4103,9 @@
    "edge": 0.1381451953140794,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj (+1.2 with Scotty Pippen Jr. out), pace \u00d71.01"
+   "why": "33 min proj (+1.2 with Scotty Pippen Jr. out), pace \u00d71.01",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3866,7 +4129,9 @@
    "edge": 0.09382361873193602,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.02"
+   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3890,7 +4155,9 @@
    "edge": 0.16026891732170007,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "30 min proj (+3.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97"
+   "why": "30 min proj (+3.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97",
+   "extra_min": 3.8,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -3914,7 +4181,9 @@
    "edge": 0.238257755056028,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "37 min proj (+4.3 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01"
+   "why": "37 min proj (+4.3 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01",
+   "extra_min": 4.3,
+   "usg_bump": 1.1
   },
   {
    "kind": "Prop",
@@ -3937,8 +4206,11 @@
    "gap": 0.5,
    "edge": 0.11560400083435793,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "26 min proj, pace \u00d70.96"
+   "grade": "",
+   "why": "26 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 4.5 vs season avg 6.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -3962,7 +4234,9 @@
    "edge": 0.12994420840740598,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "25 min proj, pace \u00d71.01"
+   "why": "25 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -3986,7 +4260,9 @@
    "edge": 0.27880371123172326,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "22 min proj, pace \u00d71.04, opp D \u00d71.03"
+   "why": "22 min proj, pace \u00d71.04, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4010,7 +4286,9 @@
    "edge": 0.21213207140785598,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97"
+   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
+   "extra_min": 4.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4034,7 +4312,9 @@
    "edge": 0.019797003350160363,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97"
+   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97",
+   "extra_min": 4.4,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -4058,7 +4338,9 @@
    "edge": 0.13361200060931436,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj (+1.2 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04"
+   "why": "33 min proj (+1.2 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.2,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -4082,7 +4364,9 @@
    "edge": 0.23280680679554308,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj, pace \u00d71.00"
+   "why": "38 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4106,7 +4390,9 @@
    "edge": 0.17782258381849078,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "34 min proj (+2.2 with Ja Morant out), usage \u00d71.05, pace \u00d70.97"
+   "why": "34 min proj (+2.2 with Ja Morant out), usage \u00d71.05, pace \u00d70.97",
+   "extra_min": 2.2,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -4130,7 +4416,9 @@
    "edge": 0.19333536210997784,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "27 min proj (+1.2 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04"
+   "why": "27 min proj (+1.2 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.2,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -4154,7 +4442,9 @@
    "edge": 0.3002147260790624,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj, pace \u00d70.99"
+   "why": "37 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4178,7 +4468,9 @@
    "edge": 0.10706264040819642,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "28 min proj (+1.3 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04"
+   "why": "28 min proj (+1.3 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.3,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -4201,8 +4493,11 @@
    "gap": 0.2,
    "edge": 0.09209625666798224,
    "mkt_src": "Consensus (2)",
-   "grade": "C",
-   "why": "25 min proj, pace \u00d71.01"
+   "grade": "",
+   "why": "25 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.2: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -4226,7 +4521,9 @@
    "edge": 0.12406514259398313,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "29 min proj, pace \u00d71.04, opp D \u00d71.03"
+   "why": "29 min proj, pace \u00d71.04, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4250,7 +4547,9 @@
    "edge": 0.16808545183633025,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "24 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01"
+   "why": "24 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -4274,7 +4573,9 @@
    "edge": 0.08591441220478775,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "26 min proj (+2.4 with Max Christie, Sergio de Larrea out), pace \u00d71.00"
+   "why": "26 min proj (+2.4 with Max Christie, Sergio de Larrea out), pace \u00d71.00",
+   "extra_min": 2.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4298,7 +4599,9 @@
    "edge": 0.08201900349299297,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj (+1.2 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01"
+   "why": "33 min proj (+1.2 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01",
+   "extra_min": 1.2,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -4322,7 +4625,9 @@
    "edge": 0.11268161101713758,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "21 min proj, usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "21 min proj, usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -4346,7 +4651,9 @@
    "edge": 0.18086095617770379,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "28 min proj (+3.1 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01"
+   "why": "28 min proj (+3.1 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01",
+   "extra_min": 3.1,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -4370,7 +4677,9 @@
    "edge": 0.3432127702659212,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "15 min proj (+1.6 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06"
+   "why": "15 min proj (+1.6 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
+   "extra_min": 1.6,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -4394,7 +4703,9 @@
    "edge": 0.1087652485233168,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "15 min proj (+1.6 with Josh Hart out), pace \u00d71.04"
+   "why": "15 min proj (+1.6 with Josh Hart out), pace \u00d71.04",
+   "extra_min": 1.6,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4418,7 +4729,9 @@
    "edge": 0.304304828943566,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj (+3.4 with Max Christie, Sergio de Larrea out), pace \u00d71.00"
+   "why": "37 min proj (+3.4 with Max Christie, Sergio de Larrea out), pace \u00d71.00",
+   "extra_min": 3.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4442,7 +4755,9 @@
    "edge": 0.12670651656316584,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "30 min proj, pace \u00d71.00"
+   "why": "30 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4466,7 +4781,9 @@
    "edge": 0.16281981127270406,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "27 min proj (+1.8 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03"
+   "why": "27 min proj (+1.8 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03",
+   "extra_min": 1.8,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -4490,7 +4807,9 @@
    "edge": 0.27054790317318833,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "30 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04"
+   "why": "30 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.1,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -4514,7 +4833,9 @@
    "edge": 0.16051983045240784,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "30 min proj (+3.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99"
+   "why": "30 min proj (+3.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 3.8,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -4538,7 +4859,9 @@
    "edge": 0.06991399320573104,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "24 min proj, pace \u00d71.01"
+   "why": "24 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4562,7 +4885,9 @@
    "edge": 0.027690533664128717,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+1.1 with Scotty Pippen Jr. out), pace \u00d71.01"
+   "why": "30 min proj (+1.1 with Scotty Pippen Jr. out), pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4586,7 +4911,9 @@
    "edge": 0.1990210078393813,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "30 min proj, pace \u00d71.04, opp D \u00d71.03"
+   "why": "30 min proj, pace \u00d71.04, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4610,7 +4937,9 @@
    "edge": 0.24862790609932775,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97"
+   "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
+   "extra_min": 4.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4634,7 +4963,9 @@
    "edge": 0.1641886060639022,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "26 min proj (+1.2 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04"
+   "why": "26 min proj (+1.2 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04",
+   "extra_min": 1.2,
+   "usg_bump": 1.04
   },
   {
    "kind": "Prop",
@@ -4657,8 +4988,11 @@
    "gap": 1.5,
    "edge": 0.27585072760709034,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "36 min proj, pace \u00d70.99"
+   "grade": "",
+   "why": "36 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 5.5 vs season avg 6.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -4682,7 +5016,9 @@
    "edge": 0.13580817452444685,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "28 min proj (+1.2 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07"
+   "why": "28 min proj (+1.2 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07",
+   "extra_min": 1.2,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -4706,7 +5042,9 @@
    "edge": 0.14887500023496708,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "23 min proj (+2.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06"
+   "why": "23 min proj (+2.8 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
+   "extra_min": 2.8,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -4730,7 +5068,9 @@
    "edge": 0.28257036074655445,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "26 min proj (+1.7 with Ja Morant out), usage \u00d71.05, pace \u00d70.97"
+   "why": "26 min proj (+1.7 with Ja Morant out), usage \u00d71.05, pace \u00d70.97",
+   "extra_min": 1.7,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -4754,7 +5094,9 @@
    "edge": 0.1385645092457736,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "26 min proj (+3.0 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01, opp D \u00d71.02"
+   "why": "26 min proj (+3.0 with Tyrese Haliburton, Obi Toppin out), usage \u00d71.10, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 3.0,
+   "usg_bump": 1.1
   },
   {
    "kind": "Prop",
@@ -4778,7 +5120,9 @@
    "edge": 0.15209596747104528,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "33 min proj, pace \u00d70.99, opp D \u00d70.95"
+   "why": "33 min proj, pace \u00d70.99, opp D \u00d70.95",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4802,7 +5146,9 @@
    "edge": 0.10219140240805942,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "26 min proj, pace \u00d71.01"
+   "why": "26 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4826,7 +5172,9 @@
    "edge": 0.06870323258919164,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj (+3.3 with Max Christie, Sergio de Larrea out), pace \u00d71.00"
+   "why": "37 min proj (+3.3 with Max Christie, Sergio de Larrea out), pace \u00d71.00",
+   "extra_min": 3.3,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4849,8 +5197,11 @@
    "gap": 1.0,
    "edge": 0.28215203118508875,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "26 min proj, pace \u00d71.01"
+   "grade": "",
+   "why": "26 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 3.5 vs season avg 5.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -4873,8 +5224,11 @@
    "gap": 1.7,
    "edge": 0.14613286960245267,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "33 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "grade": "",
+   "why": "33 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 11.5 vs season avg 16.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -4898,7 +5252,9 @@
    "edge": 0.26441006130078315,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97"
+   "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
+   "extra_min": 4.8,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4921,8 +5277,11 @@
    "gap": 0.7,
    "edge": 0.1992920995498011,
    "mkt_src": "Consensus (1)",
-   "grade": "C",
-   "why": "25 min proj, pace \u00d70.96"
+   "grade": "",
+   "why": "25 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 3.5 vs season avg 4.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -4946,7 +5305,9 @@
    "edge": 0.3079176807738803,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "35 min proj, pace \u00d71.01"
+   "why": "35 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -4970,7 +5331,9 @@
    "edge": 0.12841019208787957,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "34 min proj (+2.2 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03"
+   "why": "34 min proj (+2.2 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03",
+   "extra_min": 2.2,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -4994,7 +5357,9 @@
    "edge": 0.1809667099166708,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "28 min proj (+3.7 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99"
+   "why": "28 min proj (+3.7 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
+   "extra_min": 3.7,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5018,7 +5383,9 @@
    "edge": 0.07268520699833249,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "37 min proj, pace \u00d71.00"
+   "why": "37 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5042,7 +5409,9 @@
    "edge": 0.11282434732798993,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "32 min proj (+1.1 with Scotty Pippen Jr. out), pace \u00d71.01"
+   "why": "32 min proj (+1.1 with Scotty Pippen Jr. out), pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5066,7 +5435,9 @@
    "edge": 0.5222633101706023,
    "mkt_src": "Consensus (1)",
    "grade": "C",
-   "why": "28 min proj, pace \u00d70.96"
+   "why": "28 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5090,7 +5461,9 @@
    "edge": 0.03601170991908224,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj (+3.1 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01"
+   "why": "27 min proj (+3.1 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01",
+   "extra_min": 3.1,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -5114,7 +5487,9 @@
    "edge": 0.21268645462733637,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99"
+   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
+   "extra_min": 5.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5138,7 +5513,9 @@
    "edge": 0.016634578703679303,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "21 min proj, pace \u00d71.01"
+   "why": "21 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5162,7 +5539,9 @@
    "edge": 0.1677550530666009,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+5.0 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99"
+   "why": "38 min proj (+5.0 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
+   "extra_min": 5.0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5186,7 +5565,9 @@
    "edge": 0.02271669132771216,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "21 min proj (+2.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01"
+   "why": "21 min proj (+2.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01",
+   "extra_min": 2.4,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -5210,7 +5591,9 @@
    "edge": 0.1489938182523648,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "34 min proj (+1.3 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01"
+   "why": "34 min proj (+1.3 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
+   "extra_min": 1.3,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -5234,7 +5617,9 @@
    "edge": 0.14509782159815623,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "36 min proj (+1.4 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01"
+   "why": "36 min proj (+1.4 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
+   "extra_min": 1.4,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -5258,7 +5643,9 @@
    "edge": 0.10567258943345274,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "29 min proj, pace \u00d70.98"
+   "why": "29 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5282,7 +5669,9 @@
    "edge": 0.1801773082427496,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "38 min proj (+4.2 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01"
+   "why": "38 min proj (+4.2 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01",
+   "extra_min": 4.2,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -5306,7 +5695,9 @@
    "edge": 0.04350559842541332,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "37 min proj (+3.3 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97"
+   "why": "37 min proj (+3.3 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00, opp D \u00d70.97",
+   "extra_min": 3.3,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -5330,7 +5721,9 @@
    "edge": 0.06652849226226483,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "31 min proj (+1.2 with Jalen Duren, Isaiah Joe out), pace \u00d71.00"
+   "why": "31 min proj (+1.2 with Jalen Duren, Isaiah Joe out), pace \u00d71.00",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5353,8 +5746,11 @@
    "gap": 1.2,
    "edge": 0.12143921440361351,
    "mkt_src": "Pinnacle",
-   "grade": "C",
-   "why": "22 min proj, pace \u00d71.04, opp D \u00d71.03"
+   "grade": "",
+   "why": "22 min proj, pace \u00d71.04, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 9.5 vs season avg 12.6: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -5378,7 +5774,9 @@
    "edge": 0.14504478557717881,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "21 min proj (+2.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01"
+   "why": "21 min proj (+2.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01",
+   "extra_min": 2.4,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -5401,8 +5799,11 @@
    "gap": 0.8,
    "edge": 0.14663910906306218,
    "mkt_src": "Consensus (1)",
-   "grade": "C",
-   "why": "20 min proj, pace \u00d71.01, opp D \u00d71.00"
+   "grade": "",
+   "why": "20 min proj, pace \u00d71.01, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 5.5 vs season avg 8.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -5426,7 +5827,9 @@
    "edge": 0.11895779028103073,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "19 min proj, pace \u00d71.02"
+   "why": "19 min proj, pace \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5450,7 +5853,9 @@
    "edge": 0.09097726292760838,
    "mkt_src": "Consensus (2)",
    "grade": "C",
-   "why": "37 min proj, pace \u00d70.99, opp D \u00d70.95"
+   "why": "37 min proj, pace \u00d70.99, opp D \u00d70.95",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5474,7 +5879,9 @@
    "edge": 0.15523314544611516,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), pace \u00d71.02"
+   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), pace \u00d71.02",
+   "extra_min": 1.5,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5498,7 +5905,9 @@
    "edge": 0.06335934065437264,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "29 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "why": "29 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5522,7 +5931,9 @@
    "edge": 0.0901104507309846,
    "mkt_src": "Pinnacle",
    "grade": "C",
-   "why": "33 min proj, pace \u00d71.01, opp D \u00d71.00"
+   "why": "33 min proj, pace \u00d71.01, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5546,7 +5957,9 @@
    "edge": 0.04932894339895658,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04"
+   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -5570,7 +5983,10 @@
    "edge": 0.3896158210002549,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "25 min proj (+1.0 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00"
+   "why": "25 min proj (+1.0 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.0,
+   "usg_bump": 1.03,
+   "hold": "line 3.5 vs season avg 4.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -5594,7 +6010,9 @@
    "edge": 0.09303066377478424,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "37 min proj, pace \u00d71.00"
+   "why": "37 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5618,7 +6036,9 @@
    "edge": 0.2085986910537656,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "21 min proj (+2.2 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06"
+   "why": "21 min proj (+2.2 with Josh Hart out), usage \u00d71.05, pace \u00d71.04, opp D \u00d71.06",
+   "extra_min": 2.2,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -5642,7 +6062,10 @@
    "edge": 0.0313897574392227,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "24 min proj, pace \u00d71.01"
+   "why": "24 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 1.8: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -5666,7 +6089,9 @@
    "edge": 0.11361832576601104,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "26 min proj, pace \u00d71.01, opp D \u00d71.00"
+   "why": "26 min proj, pace \u00d71.01, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5690,7 +6115,9 @@
    "edge": 0.24750852769029422,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.07"
+   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5714,7 +6141,9 @@
    "edge": 0.14346846791398218,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.01, opp D \u00d71.00"
+   "why": "30 min proj, pace \u00d71.01, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5738,7 +6167,9 @@
    "edge": 0.008085532142312698,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj, pace \u00d71.01"
+   "why": "36 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5762,7 +6193,9 @@
    "edge": 0.015748174442885936,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d70.98"
+   "why": "33 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5786,7 +6219,9 @@
    "edge": 0.05193075136206815,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj, pace \u00d71.01"
+   "why": "36 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5810,7 +6245,9 @@
    "edge": 0.05319581414558883,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "35 min proj, pace \u00d71.01, opp D \u00d71.00"
+   "why": "35 min proj, pace \u00d71.01, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5834,7 +6271,9 @@
    "edge": 0.06040386706827501,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj (+1.2 with Clint Capela out), pace \u00d71.01"
+   "why": "36 min proj (+1.2 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5858,7 +6297,9 @@
    "edge": 0.09617149401002788,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.02"
+   "why": "31 min proj, pace \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5882,7 +6323,10 @@
    "edge": 0.025017753019321794,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "28 min proj, pace \u00d71.01, opp D \u00d71.00"
+   "why": "28 min proj, pace \u00d71.01, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 16.5 vs season avg 11.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -5906,7 +6350,9 @@
    "edge": 0.17990156927464598,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99"
+   "why": "38 min proj (+5.1 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
+   "extra_min": 5.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5930,7 +6376,9 @@
    "edge": 0.19211104607914709,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "19 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01"
+   "why": "19 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -5954,7 +6402,9 @@
    "edge": 0.10027048718644985,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "25 min proj, pace \u00d71.01"
+   "why": "25 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -5978,7 +6428,9 @@
    "edge": 0.13019879990684516,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01"
+   "why": "31 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6002,7 +6454,9 @@
    "edge": 0.0878614708351006,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj (+1.9 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03"
+   "why": "29 min proj (+1.9 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03",
+   "extra_min": 1.9,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -6026,7 +6480,9 @@
    "edge": 0.24759421587582914,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "34 min proj (+1.1 with Clint Capela out), pace \u00d71.01"
+   "why": "34 min proj (+1.1 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6050,7 +6506,9 @@
    "edge": 0.06486758454123458,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj, pace \u00d70.97, opp D \u00d70.99"
+   "why": "34 min proj, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6074,7 +6532,9 @@
    "edge": 0.17461486830840492,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04"
+   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04",
+   "extra_min": 1.5,
+   "usg_bump": 1.04
   },
   {
    "kind": "Prop",
@@ -6098,7 +6558,9 @@
    "edge": 0.40091026765333054,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj (+4.2 with Jalen Williams, Chet Holmgren out), pace \u00d71.01"
+   "why": "38 min proj (+4.2 with Jalen Williams, Chet Holmgren out), pace \u00d71.01",
+   "extra_min": 4.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6122,7 +6584,9 @@
    "edge": 0.040872478001992264,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jock Landale out), pace \u00d71.01"
+   "why": "32 min proj (+1.5 with Jock Landale out), pace \u00d71.01",
+   "extra_min": 1.5,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6146,7 +6610,9 @@
    "edge": 0.0630243219003686,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04"
+   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04",
+   "extra_min": 1.5,
+   "usg_bump": 1.04
   },
   {
    "kind": "Prop",
@@ -6170,7 +6636,9 @@
    "edge": 0.27979691142976826,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+2.0 with Ja Morant out), pace \u00d70.97"
+   "why": "31 min proj (+2.0 with Ja Morant out), pace \u00d70.97",
+   "extra_min": 2.0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6194,7 +6662,9 @@
    "edge": 0.05091709431718026,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.3 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00"
+   "why": "34 min proj (+1.3 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.3,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -6218,7 +6688,9 @@
    "edge": 0.03928980539227313,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.98"
+   "why": "30 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6242,7 +6714,9 @@
    "edge": 0.22130536548845292,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj (+1.8 with Ja Morant out), usage \u00d71.05, pace \u00d70.97"
+   "why": "27 min proj (+1.8 with Ja Morant out), usage \u00d71.05, pace \u00d70.97",
+   "extra_min": 1.8,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -6266,7 +6740,9 @@
    "edge": 0.10418335277909664,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "31 min proj (+1.0 with Clint Capela out), pace \u00d71.01"
+   "why": "31 min proj (+1.0 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6290,7 +6766,9 @@
    "edge": 0.043707024922363155,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.1 with Clint Capela out), pace \u00d71.01"
+   "why": "34 min proj (+1.1 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6314,7 +6792,9 @@
    "edge": 0.10522876779526162,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "26 min proj (+1.2 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04"
+   "why": "26 min proj (+1.2 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.2,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -6338,7 +6818,10 @@
    "edge": 0.02285035247555456,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "20 min proj, pace \u00d71.01"
+   "why": "20 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -6362,7 +6845,9 @@
    "edge": 0.07133025152226022,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+2.9 with Max Christie, Sergio de Larrea out), pace \u00d71.00"
+   "why": "31 min proj (+2.9 with Max Christie, Sergio de Larrea out), pace \u00d71.00",
+   "extra_min": 2.9,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6386,7 +6871,9 @@
    "edge": 0.1908817340355505,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "28 min proj (+1.3 with Jock Landale out), usage \u00d71.03, pace \u00d71.01"
+   "why": "28 min proj (+1.3 with Jock Landale out), usage \u00d71.03, pace \u00d71.01",
+   "extra_min": 1.3,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -6410,7 +6897,9 @@
    "edge": 0.002334230026887951,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "25 min proj (+3.1 with Jayson Tatum out), pace \u00d71.00"
+   "why": "25 min proj (+3.1 with Jayson Tatum out), pace \u00d71.00",
+   "extra_min": 3.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6434,7 +6923,9 @@
    "edge": 0.15676265472297374,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+4.2 with Jayson Tatum out), pace \u00d71.00"
+   "why": "34 min proj (+4.2 with Jayson Tatum out), pace \u00d71.00",
+   "extra_min": 4.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6458,7 +6949,9 @@
    "edge": 0.024659658563755717,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01"
+   "why": "31 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6482,7 +6975,9 @@
    "edge": 0.04368050313768252,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.97, opp D \u00d70.99"
+   "why": "30 min proj, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6506,7 +7001,9 @@
    "edge": 0.10474295793766986,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "25 min proj, pace \u00d71.01, opp D \u00d70.98"
+   "why": "25 min proj, pace \u00d71.01, opp D \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6530,7 +7027,9 @@
    "edge": 0.15494561473955457,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.00"
+   "why": "30 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6554,7 +7053,9 @@
    "edge": 0.12226548897414682,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj, pace \u00d71.00"
+   "why": "38 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6578,7 +7079,9 @@
    "edge": 0.18482007521744961,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), pace \u00d71.02"
+   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), pace \u00d71.02",
+   "extra_min": 1.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6602,7 +7105,10 @@
    "edge": 0.08087932612943671,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d71.04"
+   "why": "33 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 1.7: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -6626,7 +7132,9 @@
    "edge": 0.19566708065675226,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02"
+   "why": "33 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6650,7 +7158,9 @@
    "edge": 0.11924873325991327,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), pace \u00d71.02"
+   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), pace \u00d71.02",
+   "extra_min": 1.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6674,7 +7184,10 @@
    "edge": 0.34161654804439523,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01"
+   "why": "31 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -6698,7 +7211,9 @@
    "edge": 0.29221416092826064,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+1.4 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02"
+   "why": "30 min proj (+1.4 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02",
+   "extra_min": 1.4,
+   "usg_bump": 1.04
   },
   {
    "kind": "Prop",
@@ -6722,7 +7237,9 @@
    "edge": 0.07203181555816551,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02"
+   "why": "34 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6746,7 +7263,9 @@
    "edge": 0.1364235009983389,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "26 min proj (+1.2 with Jaren Jackson Jr. out), pace \u00d71.02"
+   "why": "26 min proj (+1.2 with Jaren Jackson Jr. out), pace \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6770,7 +7289,9 @@
    "edge": 0.007109892120720628,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), pace \u00d71.00"
+   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), pace \u00d71.00",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6794,7 +7315,9 @@
    "edge": 0.0477868452561327,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04"
+   "why": "32 min proj (+1.5 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.5,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -6818,7 +7341,9 @@
    "edge": 0.13496159719198958,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "25 min proj, pace \u00d71.01"
+   "why": "25 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6842,7 +7367,9 @@
    "edge": 0.07010474164979652,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.1 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98"
+   "why": "34 min proj (+1.1 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6866,7 +7393,9 @@
    "edge": 0.00038536558549573385,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d71.01"
+   "why": "33 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6890,7 +7419,9 @@
    "edge": 0.16879164341575834,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj (+1.1 with Clint Capela out), pace \u00d71.01"
+   "why": "35 min proj (+1.1 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6914,7 +7445,9 @@
    "edge": 0.1199619412089457,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.00, opp D \u00d70.99"
+   "why": "30 min proj, pace \u00d71.00, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6938,7 +7471,9 @@
    "edge": 0.010127202094021045,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+1.0 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98"
+   "why": "31 min proj (+1.0 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98",
+   "extra_min": 1.0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -6962,7 +7497,9 @@
    "edge": 0.11997735662702623,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "20 min proj, usage \u00d71.02, pace \u00d71.01"
+   "why": "20 min proj, usage \u00d71.02, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -6986,7 +7523,9 @@
    "edge": 0.20834662195960155,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "23 min proj, pace \u00d70.97"
+   "why": "23 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7010,7 +7549,9 @@
    "edge": 0.34800925218011614,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02"
+   "why": "34 min proj (+1.4 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02",
+   "extra_min": 1.4,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -7034,7 +7575,10 @@
    "edge": 0.2554651769693648,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "28 min proj (+1.2 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02"
+   "why": "28 min proj (+1.2 with Yves Missi, Jordan Poole out), usage \u00d71.02, pace \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1.02,
+   "hold": "line 3.5 vs season avg 4.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -7058,7 +7602,9 @@
    "edge": 0.04824493734008105,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "24 min proj (+1.5 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03"
+   "why": "24 min proj (+1.5 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03",
+   "extra_min": 1.5,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -7082,7 +7628,9 @@
    "edge": 0.12794131147653495,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj (+1.4 with Egor D\u00ebmin out), pace \u00d70.97"
+   "why": "36 min proj (+1.4 with Egor D\u00ebmin out), pace \u00d70.97",
+   "extra_min": 1.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7106,7 +7654,9 @@
    "edge": 0.16434889216704213,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "24 min proj (+1.5 with Ja Morant out), usage \u00d71.05, pace \u00d70.97"
+   "why": "24 min proj (+1.5 with Ja Morant out), usage \u00d71.05, pace \u00d70.97",
+   "extra_min": 1.5,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -7130,7 +7680,9 @@
    "edge": 0.2597158159582774,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "30 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01"
+   "why": "30 min proj (+1.1 with Scotty Pippen Jr. out), usage \u00d71.02, pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -7154,7 +7706,10 @@
    "edge": 0.1006246271654097,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d70.99"
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 5.5 vs season avg 7.1: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -7178,7 +7733,9 @@
    "edge": 0.13888191731873256,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj, pace \u00d71.00"
+   "why": "38 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7202,7 +7759,9 @@
    "edge": 0.016887990392250175,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "24 min proj (+1.5 with Ja Morant out), pace \u00d70.97"
+   "why": "24 min proj (+1.5 with Ja Morant out), pace \u00d70.97",
+   "extra_min": 1.5,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7226,7 +7785,9 @@
    "edge": 0.06067006912379488,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "21 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04"
+   "why": "21 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -7250,7 +7811,9 @@
    "edge": 0.1333154072697453,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+3.4 with Jalen Williams, Chet Holmgren out), pace \u00d71.01"
+   "why": "30 min proj (+3.4 with Jalen Williams, Chet Holmgren out), pace \u00d71.01",
+   "extra_min": 3.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7274,7 +7837,9 @@
    "edge": 0.003120572253013223,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "34 min proj (+1.3 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "34 min proj (+1.3 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 1.3,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -7298,7 +7863,9 @@
    "edge": 0.08651606749574511,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj, pace \u00d71.00"
+   "why": "34 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7322,7 +7889,9 @@
    "edge": 0.07324776484660138,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "20 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "20 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7346,7 +7915,9 @@
    "edge": 0.22638392852944733,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "33 min proj, pace \u00d71.01"
+   "why": "33 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7370,7 +7941,9 @@
    "edge": 0.08143837216876347,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "why": "27 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7394,7 +7967,10 @@
    "edge": 0.25021013390476804,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "25 min proj (+1.0 with Jalen Duren, Isaiah Joe out), pace \u00d71.00"
+   "why": "25 min proj (+1.0 with Jalen Duren, Isaiah Joe out), pace \u00d71.00",
+   "extra_min": 1.0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -7418,7 +7994,9 @@
    "edge": 0.1031303991474359,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj (+1.2 with Clint Capela out), pace \u00d71.01"
+   "why": "35 min proj (+1.2 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7442,7 +8020,9 @@
    "edge": 0.06988063324816783,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "14 min proj (+1.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99"
+   "why": "14 min proj (+1.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 1.8,
+   "usg_bump": 1.15
   },
   {
    "kind": "Prop",
@@ -7466,7 +8046,9 @@
    "edge": 0.034393861247087425,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj, pace \u00d70.98"
+   "why": "35 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7490,7 +8072,9 @@
    "edge": 0.07124295393524424,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d71.04, opp D \u00d71.03"
+   "why": "33 min proj, pace \u00d71.04, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7514,7 +8098,9 @@
    "edge": 0.03429754767182205,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04"
+   "why": "30 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.4,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -7538,7 +8124,9 @@
    "edge": 0.024186199010813963,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.02"
+   "why": "31 min proj, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7562,7 +8150,9 @@
    "edge": 0.03129374242817575,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "25 min proj, pace \u00d70.97, opp D \u00d70.99"
+   "why": "25 min proj, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7586,7 +8176,9 @@
    "edge": 0.038685117856931704,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "19 min proj, pace \u00d70.96"
+   "why": "19 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7610,7 +8202,9 @@
    "edge": 0.06794855989758189,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "why": "30 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7634,7 +8228,9 @@
    "edge": 0.11624551704063789,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj, pace \u00d71.01"
+   "why": "35 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7658,7 +8254,9 @@
    "edge": 0.1462132406872328,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj (+1.4 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97"
+   "why": "36 min proj (+1.4 with Egor D\u00ebmin out), usage \u00d71.03, pace \u00d70.97",
+   "extra_min": 1.4,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -7682,7 +8280,9 @@
    "edge": 0.045969263349112124,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "37 min proj, pace \u00d71.00"
+   "why": "37 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7706,7 +8306,9 @@
    "edge": 0.021762044309693234,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.96"
+   "why": "30 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7730,7 +8332,9 @@
    "edge": 0.18813972466585602,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj, pace \u00d71.01, opp D \u00d71.02"
+   "why": "27 min proj, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7754,7 +8358,9 @@
    "edge": 0.024109061929503166,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01"
+   "why": "31 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7778,7 +8384,10 @@
    "edge": 0.02723566851682868,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "28 min proj, pace \u00d70.96"
+   "why": "28 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 5.5 vs season avg 7.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -7802,7 +8411,9 @@
    "edge": 0.034230382076514826,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "why": "34 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7826,7 +8437,9 @@
    "edge": 0.18315332096043527,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj, pace \u00d70.97"
+   "why": "34 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7850,7 +8463,9 @@
    "edge": 0.07421473807763708,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj (+3.1 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01"
+   "why": "27 min proj (+3.1 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01",
+   "extra_min": 3.1,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -7874,7 +8489,9 @@
    "edge": 0.1411396983431824,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj (+4.4 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00"
+   "why": "35 min proj (+4.4 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00",
+   "extra_min": 4.4,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -7898,7 +8515,9 @@
    "edge": 0.15037910694013945,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj (+4.2 with Josh Hart out), pace \u00d71.04"
+   "why": "38 min proj (+4.2 with Josh Hart out), pace \u00d71.04",
+   "extra_min": 4.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7922,7 +8541,10 @@
    "edge": 0.30325355604057125,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "28 min proj, pace \u00d71.01"
+   "why": "28 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.6: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -7946,7 +8568,9 @@
    "edge": 0.08068171926696976,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+4.2 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00"
+   "why": "34 min proj (+4.2 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00",
+   "extra_min": 4.2,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -7970,7 +8594,9 @@
    "edge": 0.29961503376036946,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "26 min proj, pace \u00d71.01"
+   "why": "26 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -7994,7 +8620,9 @@
    "edge": 0.15666246984520057,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj, pace \u00d71.01"
+   "why": "29 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8018,7 +8646,9 @@
    "edge": 0.08774430135104794,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "18 min proj (+2.0 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01"
+   "why": "18 min proj (+2.0 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01",
+   "extra_min": 2.0,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -8042,7 +8672,9 @@
    "edge": 0.1500800254487746,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "36 min proj, pace \u00d71.01, opp D \u00d71.07"
+   "why": "36 min proj, pace \u00d71.01, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8066,7 +8698,9 @@
    "edge": 0.15007695119634254,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01"
+   "why": "31 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8090,7 +8724,9 @@
    "edge": 0.16384325707637895,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "24 min proj, usage \u00d71.03, pace \u00d70.97"
+   "why": "24 min proj, usage \u00d71.03, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -8114,7 +8750,9 @@
    "edge": 0.14462761118179454,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "25 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "25 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8138,7 +8776,9 @@
    "edge": 0.060236571317704074,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "22 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01"
+   "why": "22 min proj, usage \u00d71.03, pace \u00d70.97, opp D \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -8162,7 +8802,9 @@
    "edge": 0.10314799559934261,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj (+1.1 with Jalen Duren, Isaiah Joe out), pace \u00d71.00"
+   "why": "27 min proj (+1.1 with Jalen Duren, Isaiah Joe out), pace \u00d71.00",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8186,7 +8828,9 @@
    "edge": 0.04139500468906273,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "29 min proj (+3.1 with Josh Hart out), pace \u00d71.04"
+   "why": "29 min proj (+3.1 with Josh Hart out), pace \u00d71.04",
+   "extra_min": 3.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8210,7 +8854,9 @@
    "edge": 0.06048843174925042,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "37 min proj, pace \u00d71.00, opp D \u00d70.99"
+   "why": "37 min proj, pace \u00d71.00, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8234,7 +8880,9 @@
    "edge": 0.029585661778427072,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "19 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "19 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8258,7 +8906,9 @@
    "edge": 0.19740334043549473,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "26 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "26 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8282,7 +8932,9 @@
    "edge": 0.1765286800718335,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj (+4.2 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01"
+   "why": "38 min proj (+4.2 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01",
+   "extra_min": 4.2,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -8306,7 +8958,9 @@
    "edge": 0.1253372182749613,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "26 min proj (+1.7 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03"
+   "why": "26 min proj (+1.7 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03",
+   "extra_min": 1.7,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -8330,7 +8984,9 @@
    "edge": 0.1019235482180766,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj, pace \u00d71.01"
+   "why": "36 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8354,7 +9010,9 @@
    "edge": 0.04696584355536933,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "27 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8378,7 +9036,9 @@
    "edge": 0.12082450661492196,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "34 min proj, pace \u00d71.00, opp D \u00d71.02"
+   "why": "34 min proj, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8402,7 +9062,9 @@
    "edge": 0.09131616959299518,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04"
+   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -8426,7 +9088,9 @@
    "edge": 0.30734716385472566,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+3.8 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97"
+   "why": "30 min proj (+3.8 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
+   "extra_min": 3.8,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8450,7 +9114,9 @@
    "edge": 0.07079051266124621,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "20 min proj (+2.3 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01"
+   "why": "20 min proj (+2.3 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01",
+   "extra_min": 2.3,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -8474,7 +9140,9 @@
    "edge": 0.10591081268310289,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj (+3.9 with Josh Hart out), usage \u00d71.05, pace \u00d71.04"
+   "why": "36 min proj (+3.9 with Josh Hart out), usage \u00d71.05, pace \u00d71.04",
+   "extra_min": 3.9,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -8498,7 +9166,9 @@
    "edge": 0.17825627682962777,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj, pace \u00d71.00"
+   "why": "38 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8522,7 +9192,9 @@
    "edge": 0.07111860950994077,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98"
+   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -8546,7 +9218,9 @@
    "edge": 0.21548134306907535,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+3.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01"
+   "why": "30 min proj (+3.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01",
+   "extra_min": 3.4,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -8570,7 +9244,9 @@
    "edge": 0.014333150548623549,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+2.0 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03"
+   "why": "31 min proj (+2.0 with Ja Morant out), usage \u00d71.05, pace \u00d70.97, opp D \u00d71.03",
+   "extra_min": 2.0,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -8594,7 +9270,9 @@
    "edge": 0.18385162991243523,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "30 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01"
+   "why": "30 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01",
+   "extra_min": 1.4,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -8618,7 +9296,9 @@
    "edge": 0.09375244712917646,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "22 min proj, pace \u00d70.98"
+   "why": "22 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8642,7 +9322,10 @@
    "edge": 0.4478517101725794,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "25 min proj, pace \u00d70.96"
+   "why": "25 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 4.1: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -8666,7 +9349,9 @@
    "edge": 0.14370570379203956,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj, pace \u00d71.00, opp D \u00d70.99"
+   "why": "38 min proj, pace \u00d71.00, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8690,7 +9375,9 @@
    "edge": 0.38538121378827145,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "28 min proj (+3.1 with Jalen Williams, Chet Holmgren out), pace \u00d71.01"
+   "why": "28 min proj (+3.1 with Jalen Williams, Chet Holmgren out), pace \u00d71.01",
+   "extra_min": 3.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8714,7 +9401,10 @@
    "edge": 0.014256671062251971,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "27 min proj, pace \u00d70.98"
+   "why": "27 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 3.5 vs season avg 2.6: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -8738,7 +9428,9 @@
    "edge": 0.12039428732876248,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "28 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "28 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8762,7 +9454,9 @@
    "edge": 0.07769403294430238,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d70.98"
+   "why": "33 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8786,7 +9480,9 @@
    "edge": 0.006162316096034944,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.3 with Jalen Duren, Isaiah Joe out), pace \u00d71.00"
+   "why": "34 min proj (+1.3 with Jalen Duren, Isaiah Joe out), pace \u00d71.00",
+   "extra_min": 1.3,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8810,7 +9506,10 @@
    "edge": 0.12668501843611615,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+1.5 with Jaren Jackson Jr. out), pace \u00d71.02"
+   "why": "31 min proj (+1.5 with Jaren Jackson Jr. out), pace \u00d71.02",
+   "extra_min": 1.5,
+   "usg_bump": 1,
+   "hold": "line 5.5 vs season avg 7.6: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -8834,7 +9533,9 @@
    "edge": 0.1135863773641267,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d71.04"
+   "why": "33 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8858,7 +9559,9 @@
    "edge": 0.09786463922924472,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+1.4 with Jock Landale out), pace \u00d71.01"
+   "why": "30 min proj (+1.4 with Jock Landale out), pace \u00d71.01",
+   "extra_min": 1.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8882,7 +9585,9 @@
    "edge": 0.13679204067428838,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d70.98"
+   "why": "33 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8906,7 +9611,9 @@
    "edge": 0.055043376015979764,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.98"
+   "why": "30 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8930,7 +9637,9 @@
    "edge": 0.13096393331497286,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "18 min proj (+2.0 with Jalen Williams, Chet Holmgren out), pace \u00d71.01"
+   "why": "18 min proj (+2.0 with Jalen Williams, Chet Holmgren out), pace \u00d71.01",
+   "extra_min": 2.0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8954,7 +9663,9 @@
    "edge": 0.09959727509004283,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d71.01, opp D \u00d71.02"
+   "why": "33 min proj, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -8978,7 +9689,9 @@
    "edge": 0.23523679944342124,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.97"
+   "why": "30 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9002,7 +9715,9 @@
    "edge": 0.05693675670465512,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+4.2 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06"
+   "why": "34 min proj (+4.2 with Jayson Tatum out), usage \u00d71.17, pace \u00d71.00, opp D \u00d71.06",
+   "extra_min": 4.2,
+   "usg_bump": 1.17
   },
   {
    "kind": "Prop",
@@ -9026,7 +9741,9 @@
    "edge": 0.11340275376302383,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj, pace \u00d70.96"
+   "why": "27 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9050,7 +9767,9 @@
    "edge": 0.07826968809285045,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "22 min proj, pace \u00d71.04"
+   "why": "22 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9074,7 +9793,9 @@
    "edge": 0.08121814030045292,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj, pace \u00d71.00"
+   "why": "36 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9098,7 +9819,9 @@
    "edge": 0.2288056696554191,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "28 min proj (+1.2 with Yves Missi, Jordan Poole out), pace \u00d71.02"
+   "why": "28 min proj (+1.2 with Yves Missi, Jordan Poole out), pace \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9122,7 +9845,9 @@
    "edge": 0.1406107663288073,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.04"
+   "why": "30 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9146,7 +9871,9 @@
    "edge": 0.02967705240411356,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj, pace \u00d70.97, opp D \u00d70.99"
+   "why": "27 min proj, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9170,7 +9897,9 @@
    "edge": 0.09311794446952772,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "15 min proj, pace \u00d71.00, opp D \u00d71.02"
+   "why": "15 min proj, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9194,7 +9923,9 @@
    "edge": 0.07015597055479068,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "19 min proj, usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07"
+   "why": "19 min proj, usage \u00d71.02, pace \u00d71.02, opp D \u00d71.07",
+   "extra_min": 0,
+   "usg_bump": 1.02
   },
   {
    "kind": "Prop",
@@ -9218,7 +9949,9 @@
    "edge": 0.10074617726122312,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), pace \u00d71.00"
+   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), pace \u00d71.00",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9242,7 +9975,9 @@
    "edge": 0.18311215458647898,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "36 min proj, pace \u00d71.01"
+   "why": "36 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9266,7 +10001,9 @@
    "edge": 0.30926728765350503,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), pace \u00d71.02"
+   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), pace \u00d71.02",
+   "extra_min": 1.5,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9290,7 +10027,9 @@
    "edge": 0.03887706961493669,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj (+3.1 with Jalen Williams, Chet Holmgren out), pace \u00d71.01"
+   "why": "27 min proj (+3.1 with Jalen Williams, Chet Holmgren out), pace \u00d71.01",
+   "extra_min": 3.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9314,7 +10053,9 @@
    "edge": 0.018831068421014723,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "25 min proj, pace \u00d70.97"
+   "why": "25 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9338,7 +10079,9 @@
    "edge": 0.008973196890708175,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "29 min proj (+1.0 with Scotty Pippen Jr. out), pace \u00d71.01"
+   "why": "29 min proj (+1.0 with Scotty Pippen Jr. out), pace \u00d71.01",
+   "extra_min": 1.0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9362,7 +10105,10 @@
    "edge": 0.037967710355875775,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+1.4 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04"
+   "why": "30 min proj (+1.4 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02, opp D \u00d71.04",
+   "extra_min": 1.4,
+   "usg_bump": 1.04,
+   "hold": "line 22.5 vs season avg 16.5: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -9386,7 +10132,9 @@
    "edge": 0.10373992226542442,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "26 min proj, pace \u00d70.98"
+   "why": "26 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9410,7 +10158,9 @@
    "edge": 0.04912081688981677,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jock Landale out), usage \u00d71.03, pace \u00d71.01"
+   "why": "32 min proj (+1.5 with Jock Landale out), usage \u00d71.03, pace \u00d71.01",
+   "extra_min": 1.5,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -9434,7 +10184,9 @@
    "edge": 0.0958741330153898,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d70.98"
+   "why": "31 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9458,7 +10210,9 @@
    "edge": 0.03536387928641063,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d70.98"
+   "why": "31 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9482,7 +10236,9 @@
    "edge": 0.09211850256867668,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "37 min proj (+3.3 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00"
+   "why": "37 min proj (+3.3 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00",
+   "extra_min": 3.3,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -9506,7 +10262,10 @@
    "edge": 0.20199366119790924,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02"
+   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02",
+   "extra_min": 1.5,
+   "usg_bump": 1.04,
+   "hold": "line 4.5 vs season avg 3.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -9530,7 +10289,9 @@
    "edge": 0.05391953051190512,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.01"
+   "why": "30 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9554,7 +10315,9 @@
    "edge": 0.034672069633184324,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "24 min proj, pace \u00d70.97"
+   "why": "24 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9578,7 +10341,9 @@
    "edge": 0.15276492254716725,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "37 min proj, pace \u00d70.99"
+   "why": "37 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9602,7 +10367,9 @@
    "edge": 0.17340362928148068,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "29 min proj (+3.1 with Josh Hart out), usage \u00d71.05, pace \u00d71.04"
+   "why": "29 min proj (+3.1 with Josh Hart out), usage \u00d71.05, pace \u00d71.04",
+   "extra_min": 3.1,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -9626,7 +10393,9 @@
    "edge": 0.01846216076307825,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+3.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01"
+   "why": "30 min proj (+3.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01, opp D \u00d71.01",
+   "extra_min": 3.4,
+   "usg_bump": 1.08
   },
   {
    "kind": "Prop",
@@ -9650,7 +10419,9 @@
    "edge": 0.10511508733282052,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+1.4 with Jock Landale out), pace \u00d71.01"
+   "why": "31 min proj (+1.4 with Jock Landale out), pace \u00d71.01",
+   "extra_min": 1.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9674,7 +10445,9 @@
    "edge": 0.015411794959047435,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.96, opp D \u00d71.00"
+   "why": "30 min proj, pace \u00d70.96, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9698,7 +10471,9 @@
    "edge": 0.13054918296284607,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d70.99"
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9722,7 +10497,9 @@
    "edge": 0.22130949534609207,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj, pace \u00d70.98"
+   "why": "34 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9746,7 +10523,9 @@
    "edge": 0.01501796615542405,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02, opp D \u00d71.00"
+   "why": "34 min proj (+1.1 with Justin Champagnie out), pace \u00d71.02, opp D \u00d71.00",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9770,7 +10549,9 @@
    "edge": 0.02701114175136868,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj, usage \u00d71.03, pace \u00d70.98"
+   "why": "35 min proj, usage \u00d71.03, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -9794,7 +10575,10 @@
    "edge": 0.16530908867569036,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01"
+   "why": "31 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 3.5 vs season avg 4.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -9818,7 +10602,9 @@
    "edge": 0.11459525610496814,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "22 min proj, pace \u00d71.04"
+   "why": "22 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9842,7 +10628,10 @@
    "edge": 0.029718565213254933,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "27 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 1.1,
+   "usg_bump": 1.03,
+   "hold": "line 11.5 vs season avg 8.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -9866,7 +10655,10 @@
    "edge": 0.16488605768006567,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d70.99"
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 5.5 vs season avg 7.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -9890,7 +10682,9 @@
    "edge": 0.18220179768854436,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.04"
+   "why": "30 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9914,7 +10708,9 @@
    "edge": 0.19630962518499157,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "22 min proj, usage \u00d71.03, pace \u00d70.98"
+   "why": "22 min proj, usage \u00d71.03, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -9938,7 +10734,9 @@
    "edge": 0.2028935377904908,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "28 min proj (+1.3 with Jock Landale out), pace \u00d71.01"
+   "why": "28 min proj (+1.3 with Jock Landale out), pace \u00d71.01",
+   "extra_min": 1.3,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9962,7 +10760,9 @@
    "edge": 0.03440354466507879,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj (+1.1 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98"
+   "why": "35 min proj (+1.1 with Clint Capela out), pace \u00d71.01, opp D \u00d70.98",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -9986,7 +10786,9 @@
    "edge": 0.07082799087027083,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02"
+   "why": "32 min proj (+1.5 with Jaren Jackson Jr. out), usage \u00d71.04, pace \u00d71.02",
+   "extra_min": 1.5,
+   "usg_bump": 1.04
   },
   {
    "kind": "Prop",
@@ -10010,7 +10812,9 @@
    "edge": 0.19965070915338662,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "20 min proj, pace \u00d71.00"
+   "why": "20 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10034,7 +10838,9 @@
    "edge": 0.1401039285197001,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj (+1.4 with Jaren Jackson Jr. out), pace \u00d71.02"
+   "why": "30 min proj (+1.4 with Jaren Jackson Jr. out), pace \u00d71.02",
+   "extra_min": 1.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10058,7 +10864,9 @@
    "edge": 0.10693130555447845,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj, pace \u00d70.97"
+   "why": "27 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10082,7 +10890,10 @@
    "edge": 0.08426487000974929,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01"
+   "why": "31 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01",
+   "extra_min": 1.4,
+   "usg_bump": 1.03,
+   "hold": "line 5.5 vs season avg 4.1: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -10106,7 +10917,9 @@
    "edge": 0.13767027617409613,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "37 min proj (+4.3 with Tyrese Haliburton, Obi Toppin out), pace \u00d71.01"
+   "why": "37 min proj (+4.3 with Tyrese Haliburton, Obi Toppin out), pace \u00d71.01",
+   "extra_min": 4.3,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10130,7 +10943,10 @@
    "edge": 0.3120773178645562,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "26 min proj, pace \u00d71.01"
+   "why": "26 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.3: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -10154,7 +10970,9 @@
    "edge": 0.1074604927417708,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00"
+   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.1,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -10178,7 +10996,9 @@
    "edge": 0.025839172099317055,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj, pace \u00d70.98"
+   "why": "29 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10202,7 +11022,9 @@
    "edge": 0.031494562301075606,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "30 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04"
+   "why": "30 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -10226,7 +11048,9 @@
    "edge": 0.0013253429570791236,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04"
+   "why": "31 min proj (+1.4 with Jock Landale out), usage \u00d71.03, pace \u00d71.01, opp D \u00d71.04",
+   "extra_min": 1.4,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -10250,7 +11074,9 @@
    "edge": 0.006910896397309169,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "why": "29 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10274,7 +11100,9 @@
    "edge": 0.09139023019819893,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj (+1.9 with Ja Morant out), pace \u00d70.97"
+   "why": "29 min proj (+1.9 with Ja Morant out), pace \u00d70.97",
+   "extra_min": 1.9,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10298,7 +11126,9 @@
    "edge": 0.11213415398997331,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "25 min proj, pace \u00d71.00"
+   "why": "25 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10322,7 +11152,9 @@
    "edge": 0.02161211266305055,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj, pace \u00d71.01"
+   "why": "29 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10346,7 +11178,9 @@
    "edge": 0.0057942127963856414,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj, pace \u00d70.97"
+   "why": "27 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10370,7 +11204,9 @@
    "edge": 0.017515908728721826,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "26 min proj (+1.7 with Ja Morant out), pace \u00d70.97"
+   "why": "26 min proj (+1.7 with Ja Morant out), pace \u00d70.97",
+   "extra_min": 1.7,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10394,7 +11230,9 @@
    "edge": 0.041727811982757754,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d70.98, opp D \u00d71.03"
+   "why": "31 min proj, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10418,7 +11256,9 @@
    "edge": 0.020414525446411917,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.04"
+   "why": "30 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10442,7 +11282,9 @@
    "edge": 0.04654144378407426,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "18 min proj, pace \u00d70.97"
+   "why": "18 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10466,7 +11308,9 @@
    "edge": 0.09595203961584696,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98"
+   "why": "33 min proj, usage \u00d71.03, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -10490,7 +11334,9 @@
    "edge": 0.015017757914945213,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "18 min proj, pace \u00d70.97, opp D \u00d70.99"
+   "why": "18 min proj, pace \u00d70.97, opp D \u00d70.99",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10514,7 +11360,9 @@
    "edge": 0.06201625494938629,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "17 min proj, pace \u00d70.96"
+   "why": "17 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10538,7 +11386,9 @@
    "edge": 0.002076476845874551,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04"
+   "why": "35 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -10562,7 +11412,9 @@
    "edge": 0.020491418069342387,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj (+4.3 with Josh Hart out), pace \u00d71.04"
+   "why": "38 min proj (+4.3 with Josh Hart out), pace \u00d71.04",
+   "extra_min": 4.3,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10586,7 +11438,10 @@
    "edge": 0.27608091098332305,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.02"
+   "why": "31 min proj, pace \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 1.7: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -10610,7 +11465,9 @@
    "edge": 0.02684659737343752,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "22 min proj (+2.9 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96"
+   "why": "22 min proj (+2.9 with Peyton Watson, Jaylon Tyson out), usage \u00d71.09, pace \u00d70.99, opp D \u00d70.96",
+   "extra_min": 2.9,
+   "usg_bump": 1.09
   },
   {
    "kind": "Prop",
@@ -10634,7 +11491,9 @@
    "edge": 0.052287605251806826,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "38 min proj (+4.3 with Josh Hart out), usage \u00d71.05, pace \u00d71.04"
+   "why": "38 min proj (+4.3 with Josh Hart out), usage \u00d71.05, pace \u00d71.04",
+   "extra_min": 4.3,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -10658,7 +11517,9 @@
    "edge": 0.04894488455298305,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "34 min proj, pace \u00d70.97"
+   "why": "34 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10682,7 +11543,9 @@
    "edge": 0.09602507717193395,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj, pace \u00d71.01"
+   "why": "31 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10706,7 +11569,9 @@
    "edge": 0.03569814591891156,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj (+2.2 with Ja Morant out), pace \u00d70.97"
+   "why": "34 min proj (+2.2 with Ja Morant out), pace \u00d70.97",
+   "extra_min": 2.2,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10730,7 +11595,9 @@
    "edge": 0.03466665104727417,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "29 min proj, pace \u00d71.01, opp D \u00d71.02"
+   "why": "29 min proj, pace \u00d71.01, opp D \u00d71.02",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10754,7 +11621,9 @@
    "edge": 0.11855861253094055,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.98"
+   "why": "30 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10778,7 +11647,9 @@
    "edge": 0.05078281593202721,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj, pace \u00d71.04"
+   "why": "29 min proj, pace \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10802,7 +11673,9 @@
    "edge": 0.032367359188875226,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "33 min proj, pace \u00d71.01"
+   "why": "33 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10826,7 +11699,9 @@
    "edge": 0.024955918958143804,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj, pace \u00d70.98"
+   "why": "34 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10850,7 +11725,9 @@
    "edge": 0.015827981916007386,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "35 min proj (+1.1 with Clint Capela out), pace \u00d71.01"
+   "why": "35 min proj (+1.1 with Clint Capela out), pace \u00d71.01",
+   "extra_min": 1.1,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10874,7 +11751,9 @@
    "edge": 0.03369825331783606,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "22 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04"
+   "why": "22 min proj, usage \u00d71.03, pace \u00d70.98, opp D \u00d71.04",
+   "extra_min": 0,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -10898,7 +11777,9 @@
    "edge": 0.21945431713568073,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "34 min proj, pace \u00d71.00"
+   "why": "34 min proj, pace \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10922,7 +11803,10 @@
    "edge": 0.18850916427828043,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "25 min proj, pace \u00d70.97"
+   "why": "25 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 1.5 vs season avg 1.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -10946,7 +11830,9 @@
    "edge": 0.0788096906764526,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "20 min proj, pace \u00d71.01, opp D \u00d71.00"
+   "why": "20 min proj, pace \u00d71.01, opp D \u00d71.00",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10970,7 +11856,9 @@
    "edge": 0.1404922599866328,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "29 min proj, pace \u00d70.98"
+   "why": "29 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -10994,7 +11882,9 @@
    "edge": 0.004532606105212649,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "20 min proj, pace \u00d71.01"
+   "why": "20 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -11018,7 +11908,9 @@
    "edge": 0.021541530624595597,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "26 min proj (+3.4 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99"
+   "why": "26 min proj (+3.4 with Peyton Watson, Jaylon Tyson out), pace \u00d70.99",
+   "extra_min": 3.4,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -11042,7 +11934,10 @@
    "edge": 0.0645484404508478,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "33 min proj, pace \u00d70.98"
+   "why": "33 min proj, pace \u00d70.98",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 1.4: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -11066,7 +11961,9 @@
    "edge": 0.09783725252864031,
    "mkt_src": "FanDuel no-vig",
    "grade": "",
-   "why": "18 min proj, pace \u00d70.97"
+   "why": "18 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -11090,7 +11987,9 @@
    "edge": 0.0038565219611512817,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98"
+   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00, opp D \u00d70.98",
+   "extra_min": 1.1,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -11114,7 +12013,9 @@
    "edge": 0.09136863009299047,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.96"
+   "why": "30 min proj, pace \u00d70.96",
+   "extra_min": 0,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -11138,7 +12039,9 @@
    "edge": 0.015811605520417358,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "27 min proj (+1.8 with Ja Morant out), pace \u00d70.97"
+   "why": "27 min proj (+1.8 with Ja Morant out), pace \u00d70.97",
+   "extra_min": 1.8,
+   "usg_bump": 1
   },
   {
    "kind": "Prop",
@@ -11162,7 +12065,9 @@
    "edge": 0.05170677138959966,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+2.0 with Ja Morant out), usage \u00d71.05, pace \u00d70.97"
+   "why": "31 min proj (+2.0 with Ja Morant out), usage \u00d71.05, pace \u00d70.97",
+   "extra_min": 2.0,
+   "usg_bump": 1.05
   },
   {
    "kind": "Prop",
@@ -11186,7 +12091,9 @@
    "edge": 0.053702055676210135,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00"
+   "why": "28 min proj (+1.1 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.1,
+   "usg_bump": 1.03
   },
   {
    "kind": "Prop",
@@ -11210,7 +12117,10 @@
    "edge": 0.15403655319954979,
    "mkt_src": "Consensus (1)",
    "grade": "",
-   "why": "30 min proj, pace \u00d70.97"
+   "why": "30 min proj, pace \u00d70.97",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 1.7: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -11234,7 +12144,10 @@
    "edge": 0.10281978165616863,
    "mkt_src": "Consensus (2)",
    "grade": "",
-   "why": "30 min proj, pace \u00d71.01"
+   "why": "30 min proj, pace \u00d71.01",
+   "extra_min": 0,
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.2: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -11258,7 +12171,9 @@
    "edge": 0.02704947557054673,
    "mkt_src": "Pinnacle",
    "grade": "",
-   "why": "31 min proj (+1.2 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00"
+   "why": "31 min proj (+1.2 with Jalen Duren, Isaiah Joe out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.2,
+   "usg_bump": 1.03
   }
  ],
  "rest": {

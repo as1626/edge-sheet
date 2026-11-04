@@ -1,9 +1,19 @@
 {
  "cmd": "rebuild",
- "ok": false,
- "at": "2026-11-04T20:03:21.087772+00:00",
+ "ok": true,
+ "at": "2026-11-04T20:04:08.350794+00:00",
  "log": [
   "bbref players 2027: 449",
-  "Traceback (most recent call last):\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/run.py\", line 244, in <module>\n    elif cmd == \"rebuild\": rebuild()\n                           ^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/run.py\", line 109, in rebuild\n    C[\"props\"] = M.sanity_props(C[\"props\"], p_cur)\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 245, in sanity_props\n    return sanity_props(rows, players)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 245, in sanity_props\n    return sanity_props(rows, players)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 245, in sanity_props\n    return sanity_props(rows, players)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  [Previous line repeated 992 more times]\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/nba_model.py\", line 238, in sanity_props\n    p = players.get(pname(r[\"player\"]))\n                    ^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/work/edge-sheet/edge-sheet/pipeline/common.py\", line 67, in pname\n    n = re.sub(r\"[^a-z ]\", \"\", n.lower().replace(\"-\", \" \"))\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.12.16/x64/lib/python3.12/re/__init__.py\", line 186, in sub\n    return _compile(pattern, flags).sub(repl, string, count)\n           ^^^^^^^^^^^^^^^^^^^^^^^^\nRecursionError: maximum recursion depth exceeded\n"
+  "rebuild: props A 3, B 1, held 51",
+  "A Donovan Mitchell Over 21.5 pts -106 proj 30.0 ev 17.8 Consensus (2)",
+  "A Trae Young Over 3.5 reb 140 proj 4.7 ev 15.6 Pinnacle",
+  "B Sam Hauser Over 7.5 pts -104 proj 10.3 ev 14.3 Consensus (1)",
+  "A Mario Hezonja Over 4.5 reb 108 proj 6.4 ev 13.8 Consensus (2)",
+  "HOLD {'player': 'Trevon Brazile', 'stat': 'reb', 'side': 'Over', 'line': 4.5, 'reason': 'line 4.5 vs season avg 6.3: market likely pricing news'}",
+  "HOLD {'player': 'Trevon Brazile', 'stat': 'pts', 'side': 'Over', 'line': 5.5, 'reason': 'line 5.5 vs season avg 8.3: market likely pricing news'}",
+  "HOLD {'player': 'Ty Jerome', 'stat': 'pts', 'side': 'Over', 'line': 22.5, 'reason': 'line 22.5 vs season avg 28.2: market likely pricing news'}",
+  "HOLD {'player': 'Dennis Schr\u00f6der', 'stat': 'pts', 'side': 'Over', 'line': 7.5, 'reason': 'line 7.5 vs season avg 10.9: market likely pricing news'}",
+  "HOLD {'player': 'Anfernee Simons', 'stat': 'pts', 'side': 'Over', 'line': 8.5, 'reason': 'line 8.5 vs season avg 11.3: market likely pricing news'}",
+  "HOLD {'player': 'Brayden Burries', 'stat': 'ast', 'side': 'Under', 'line': 2.5, 'reason': 'line 2.5 vs season avg 1.3: market likely pricing news'}"
  ]
 }
