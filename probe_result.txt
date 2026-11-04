@@ -1,7 +1,0 @@
-202 0 https://www.espn.com/nba/injuries
-200 276513 https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard
-200 1081941 https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
-200 173125 https://api.actionnetwork.com/web/v1/scoreboard/nba?period=game&bookIds=15,30,68,69,71,75
-403 919 https://barttorvik.com/2027_team_results.json
-200 768632 https://www.basketball-reference.com/leagues/NBA_2027.html
-403 445 https://cdn.nba.com/static/json/liveData/scoreboard/todaysScoreboard_00.json
