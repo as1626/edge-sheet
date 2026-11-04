@@ -2248,10 +2248,11 @@
    "gap": 1.2,
    "edge": 0.48998126740086556,
    "mkt_src": "Consensus (2)",
-   "grade": "C",
+   "grade": "",
    "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.15, pace \u00d70.97",
    "extra_min": 4.8,
-   "usg_bump": 1.15
+   "usg_bump": 1.15,
+   "hold": "line 2.5 vs season avg 3.5: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -2352,10 +2353,11 @@
    "gap": 0.8,
    "edge": 0.22612574194238227,
    "mkt_src": "Consensus (1)",
-   "grade": "C",
+   "grade": "",
    "why": "29 min proj (+2.7 with Max Christie, Sergio de Larrea out), usage \u00d71.05, pace \u00d71.00",
    "extra_min": 2.7,
-   "usg_bump": 1.05
+   "usg_bump": 1.05,
+   "hold": "line 3.5 vs season avg 6.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -4936,10 +4938,11 @@
    "gap": 1.1,
    "edge": 0.24862790609932775,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "35 min proj (+4.4 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
    "extra_min": 4.4,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "line 4.5 vs season avg 5.9: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -5251,10 +5254,11 @@
    "gap": 1.2,
    "edge": 0.26441006130078315,
    "mkt_src": "Pinnacle",
-   "grade": "C",
+   "grade": "",
    "why": "38 min proj (+4.8 with Anthony Edwards, Terrence Shannon Jr. out), pace \u00d70.97",
    "extra_min": 4.8,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "line 4.5 vs season avg 6.0: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -5773,10 +5777,11 @@
    "gap": 0.4,
    "edge": 0.14504478557717881,
    "mkt_src": "Consensus (2)",
-   "grade": "C",
+   "grade": "",
    "why": "21 min proj (+2.4 with Jalen Williams, Chet Holmgren out), usage \u00d71.08, pace \u00d71.01",
    "extra_min": 2.4,
-   "usg_bump": 1.08
+   "usg_bump": 1.08,
+   "hold": "line 2.5 vs season avg 3.8: market likely pricing news"
   },
   {
    "kind": "Prop",
@@ -9377,7 +9382,8 @@
    "grade": "",
    "why": "28 min proj (+3.1 with Jalen Williams, Chet Holmgren out), pace \u00d71.01",
    "extra_min": 3.1,
-   "usg_bump": 1
+   "usg_bump": 1,
+   "hold": "line 2.5 vs season avg 3.3: market likely pricing news"
   },
   {
    "kind": "Prop",

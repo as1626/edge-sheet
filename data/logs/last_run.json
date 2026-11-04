@@ -1,10 +1,10 @@
 {
  "cmd": "rebuild",
  "ok": true,
- "at": "2026-11-04T20:04:08.350794+00:00",
+ "at": "2026-11-04T20:04:55.511178+00:00",
  "log": [
   "bbref players 2027: 449",
-  "rebuild: props A 3, B 1, held 51",
+  "rebuild: props A 3, B 1, held 57",
   "A Donovan Mitchell Over 21.5 pts -106 proj 30.0 ev 17.8 Consensus (2)",
   "A Trae Young Over 3.5 reb 140 proj 4.7 ev 15.6 Pinnacle",
   "B Sam Hauser Over 7.5 pts -104 proj 10.3 ev 14.3 Consensus (1)",
