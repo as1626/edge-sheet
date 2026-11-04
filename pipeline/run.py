@@ -1,5 +1,5 @@
 """Pipeline entry point.  python pipeline/run.py card|close|grade|page"""
-import sys, os, traceback
+import sys, os, json, traceback
 from datetime import timedelta, datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import log, LOG, load, save, now_et, to_et, am_to_dec, ROOT
@@ -169,6 +169,35 @@ def dry():
     miss = [k for k in {x for g in today for x in (g["home"], g["away"])} if k not in ratings]
     log("teams missing ratings:", miss)
 
+def preview():
+    """Model-only numbers for today's games (no odds): margin, total, factor breakdown."""
+    import nba_model as M
+    day = now_et().date()
+    inj = S.espn_injuries(); an = S.action_network(day)
+    t_cur = S.bbref_teams(SEASON); t_prev = cached(f"data/cache/teams_{PREV}.json", lambda: S.bbref_teams(PREV))
+    p_cur = S.bbref_players(SEASON)
+    R, lg = M.blend_ratings(t_cur, t_prev)
+    sched = {i: S.espn_scoreboard(day - timedelta(days=i)) for i in (1, 2, 3)}
+    games = S.espn_scoreboard(day)
+    rest = M.rest_flags(sched, games)
+    out = []
+    for g in games:
+        h, a = g["home"], g["away"]; rh, ra = R[h], R[a]
+        ih, nh = M.injury_impact(h, inj, p_cur, rh["g"]); ia, na = M.injury_impact(a, inj, p_cur, ra["g"])
+        poss = rh["pace"] * ra["pace"] / lg["pace"]
+        bh = poss * (rh["ortg"] + ra["drtg"] - lg["ortg"]) / 100; ba = poss * (ra["ortg"] + rh["drtg"] - lg["ortg"]) / 100
+        pen = lambda t: (M.B2B if rest[t]["b2b"] else 0) + (M.THREE_IN_FOUR if rest[t]["three_in_four"] else 0) + (M.TRAVEL if rest[t]["travel"] else 0)
+        fx = dict(ratings=bh - ba, injuries=poss / 100 * (ia - ih), rest=pen(a) - pen(h), home=M.HCA + (M.ALT_BONUS if h in ("Denver Nuggets", "Utah Jazz") else 0))
+        m = sum(fx.values()); tot = bh + ba - poss / 100 * 0.2 * (ih + ia)
+        x = an.get((a, h), {})
+        out.append(dict(game=f"{a} @ {h}", time=to_et(g["date"]).strftime("%-I:%M"), model_spread_home=round(-m, 1), model_total=round(tot, 1),
+                        mkt_spread_home=x.get("cur_spread_home"), mkt_total=x.get("cur_total"), open_spread_home=x.get("open_spread_home"),
+                        open_total=x.get("open_total"), tix_home=x.get("spread_home_tix"), money_home=x.get("spread_home_money"),
+                        over_tix=x.get("over_tix"), over_money=x.get("over_money"),
+                        factors={k: round(v, 1) for k, v in fx.items()}, inj_home=nh, inj_away=na, rest_home=rest[h], rest_away=rest[a]))
+    save(f"data/preview/{day}.json", out)
+    for o in out: log(json.dumps(o))
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "page"
     ok = True
@@ -177,6 +206,7 @@ if __name__ == "__main__":
         elif cmd == "close": close()
         elif cmd == "grade": grade()
         elif cmd == "dry": dry()
+        elif cmd == "preview": preview()
     except Exception:
         ok = False; log(traceback.format_exc())
     try:
