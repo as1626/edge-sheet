@@ -50,7 +50,11 @@ def add_multi(L, bets, ds):
     refreshable = lambda b: b.get("engine") == "Team model" or b["id"].endswith("|scan")
     L["bets"] = [b for b in L["bets"] if not (refreshable(b) and b["status"] == "pending" and not started(b) and b["date"] >= ds)]
     have = {b["id"] for b in L["bets"]}
-    L["bets"] += [b for b in bets if b["id"] not in have]
+    same_side = {(b["game"], b["market"], (b.get("pick_team") or b.get("side") or "").lower()) for b in L["bets"] if b["status"] == "pending"}
+    for b in bets:
+        k = (b["game"], b["market"], (b.get("pick_team") or b.get("side") or "").lower())
+        if b["id"] in have or k in same_side: continue
+        L["bets"].append(b); same_side.add(k)
     L["slate_date"] = ds; L["slate_label"] = now_et().strftime("%a %b %-d"); L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
 
 def bet_from_multi(r, policy):
@@ -63,8 +67,9 @@ def bet_from_multi(r, policy):
     why = " · ".join(f"{k.title()} {fmt(v)}" for k, v in (r.get("factors") or {}).items() if abs(v) >= 0.05) or r.get("proj", "")
     return dict(id=f'{d}|{a} @ {h}|{kind}', date=d, start=r["start"], sport=r["sport"], engine="Team model", game=f"{a} @ {h}",
                 away=a, home=h, market=kind, pick=pick, pick_team=r["team"], side=r["side"], line=r["line"], price=r["price"],
-                grade=r["grade"], stake=round(stake, 2), model_line=r["model_line"] if kind != "Moneyline" else None,
-                fair_line=r["fair_line"] if kind != "Moneyline" else None, pinnacle_open=r.get("mkt_line") if kind != "Moneyline" else None,
+                grade=r["grade"], stake=round(stake, 2), model_line=round(r["model_line"], 1) if kind != "Moneyline" else None,
+                fair_line=round(r["fair_line"], 1) if kind != "Moneyline" and r["fair_line"] is not None else None,
+                pinnacle_open=round(r["mkt_line"], 1) if kind != "Moneyline" and r.get("mkt_line") is not None else None,
                 ev_pct=round(r["ev"] * 100, 1), gap=r["gap"], why=why, projection=r.get("proj"), signals=[],
                 market_signal="neutral", close_line=None, close_src=None, status="pending", score=None, result_units=None,
                 note=("Tracked until this model is validated" if policy == 0 else None))
