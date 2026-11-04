@@ -241,6 +241,8 @@ def sanity_props(rows, players):
         explained = avg is not None and r["line"] > avg and (r.get("extra_min", 0) >= 2 or r.get("usg_bump", 1) >= 1.05)
         if avg and r["line"] > 0 and abs(avg - r["line"]) / r["line"] > 0.25 and not explained:
             r["grade"], r["hold"] = "", f"line {r['line']:g} vs season avg {avg:.1f}: market likely pricing news"
+        elif r.get("edge", 0) > 0.30 and r["line"] >= 3:
+            r["grade"], r["hold"] = "", f"projection {r['model_line']:g} vs line {r['line']:g}: gap too large to trust without news"
         elif r.get("mkt_src", "").startswith("Consensus (1)") and r["grade"] == "A":
             r["grade"] = "B"                                   # one outside book is thin market confirmation
     rows.sort(key=lambda r: -r["ev"])
