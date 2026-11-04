@@ -1,0 +1,3 @@
+401 152 https://api.the-odds-api.com/v4/sports
+200 276513 https://site.api.espn.com/apis/site/v2/sports/basketball/nba/scoreboard
+200 1081941 https://site.api.espn.com/apis/site/v2/sports/basketball/nba/injuries
