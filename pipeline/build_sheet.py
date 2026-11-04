@@ -395,6 +395,8 @@ page = f"""<!DOCTYPE html>
 
 {''.join('<div class="sh"><h2>For fun</h2><p>Light model leans from games not on the main card. Long odds, small stake.</p></div>' + parlay_card(p) for p in PARLAYS if p["date"] == SLATE_DATE)}
 
+{('<div class="sh"><h2>Held</h2><p>Model likes these, but the line is far from the player\'s average. Check news before betting.</p></div><div class="track">' + ''.join(f'<div><b>{esc(h["player"])} {esc(h["side"])} {h["line"]:g} {esc(h["stat"].upper())}</b><span>{esc(h["reason"])}</span></div>' for h in L.get("holds", [])) + '</div>') if L.get("holds") and IS_TODAY else ''}
+
 <div class="sh"><h2>Tracking</h2><p>Grade C. Graded for the record, no stake.</p></div>
 <div class="track">
 {''.join(f'<div><b>{esc(b["pick"])} {am(b["price"])}</b><span>{esc(b["away"])} at {esc(b["home"])} · {t_et(b["start"])} · CLV {"—" if clv(b) is None else num(clv(b))}{(" · FD now " + num(b["fd_latest"])) if b.get("fd_latest") not in (None, b["line"]) else ""}</span></div>' for b in track_today)}

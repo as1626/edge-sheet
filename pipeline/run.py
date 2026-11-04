@@ -77,7 +77,8 @@ def card():
     started = lambda b: to_et(b["start"]) <= now_et()
     L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and not started(b))]
     have = {b["id"] for b in L["bets"]}
-    new = [bet_from_side(r, ds) for r in sides if r["grade"]] + [bet_from_prop(r, ds) for r in props if r["grade"]]
+    new = [bet_from_side(r, ds) for r in sides if r["grade"]] + [bet_from_prop(r, ds) for r in props if r["grade"] in ("A", "B")]
+    new += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
     L["bets"] += [b for b in new if b["id"] not in have]
     L["slate_date"] = ds; L["slate_label"] = day.strftime("%a %b %-d")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
@@ -85,6 +86,40 @@ def card():
     L["credits"] = S.CREDITS["remaining"]
     save(LEDGER, L)
     log(f"card {ds}: {sum(b['grade']=='A' for b in new)} A, {sum(b['grade']=='B' for b in new)} B, {sum(b['grade']=='C' for b in new)} C")
+
+def rebuild():
+    """Re-grade today's saved card (no new odds credits): refresh player stats, apply prop sanity rules, rewrite ledger."""
+    import nba_model as M
+    day = now_et().date(); ds = day.isoformat()
+    C = load(f"data/cards/{ds}.json", None)
+    if not C: log("no saved card"); return
+    p_cur = S.bbref_players(SEASON)
+    for r in C["props"]:
+        r.setdefault("extra_min", 0); r.setdefault("usg_bump", 1)
+        if "with" in r["why"] and "min proj (+" in r["why"]:
+            try: r["extra_min"] = float(r["why"].split("(+")[1].split(" ")[0])
+            except Exception: pass
+        if "usage ×" in r["why"]: r["usg_bump"] = float(r["why"].split("usage ×")[1].split(",")[0])
+        if r["grade"] == "" and "hold" not in r:                 # re-evaluate original grade thresholds
+            e, ev = r["edge"], r["ev"]
+            r["grade"] = "A" if e >= 0.12 and ev >= 0.05 else "B" if e >= 0.08 and ev >= 0.03 else "C" if e >= 0.05 and ev > 0 else ""
+        elif r["grade"] == "C":
+            e, ev = r["edge"], r["ev"]
+            r["grade"] = "A" if e >= 0.12 and ev >= 0.05 else "B" if e >= 0.08 and ev >= 0.03 else "C"
+    C["props"] = M.sanity_props(C["props"], p_cur)
+    save(f"data/cards/{ds}.json", C)
+    L = load(LEDGER, {"bets": []})
+    L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and b["market"] == "Prop")]
+    props = C["props"]
+    L["bets"] += [bet_from_prop(r, ds) for r in props if r["grade"] in ("A", "B")]
+    L["bets"] += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
+    held = [r for r in props if r.get("hold")]
+    L["holds"] = [dict(player=r["player"], stat=r["stat"], side=r["side"], line=r["line"], reason=r["hold"]) for r in held if r["ev"] > 0.03][:6]
+    save(LEDGER, L)
+    log(f"rebuild: props A {sum(r['grade']=='A' for r in props)}, B {sum(r['grade']=='B' for r in props)}, held {len(held)}")
+    for r in props:
+        if r["grade"] in ("A", "B"): log(r["grade"], r["player"], r["side"], r["line"], r["stat"], r["price"], "proj", r["model_line"], "ev", round(r["ev"]*100, 1), r["mkt_src"])
+    for h in L["holds"]: log("HOLD", h)
 
 def close():
     day = now_et().date(); ds = day.isoformat()
@@ -206,6 +241,7 @@ if __name__ == "__main__":
         elif cmd == "close": close()
         elif cmd == "grade": grade()
         elif cmd == "dry": dry()
+        elif cmd == "rebuild": rebuild()
         elif cmd == "preview": preview()
     except Exception:
         ok = False; log(traceback.format_exc())
