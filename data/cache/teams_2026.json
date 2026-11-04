@@ -1,0 +1,182 @@
+{
+ "Oklahoma City Thunder": {
+  "ortg": 118.9,
+  "drtg": 107.7,
+  "pace": 99.3,
+  "g": 82.0
+ },
+ "San Antonio Spurs": {
+  "ortg": 119.6,
+  "drtg": 111.3,
+  "pace": 99.9,
+  "g": 82.0
+ },
+ "Detroit Pistons": {
+  "ortg": 117.9,
+  "drtg": 109.7,
+  "pace": 99.3,
+  "g": 82.0
+ },
+ "Boston Celtics": {
+  "ortg": 120.8,
+  "drtg": 112.7,
+  "pace": 94.8,
+  "g": 82.0
+ },
+ "New York Knicks": {
+  "ortg": 119.8,
+  "drtg": 113.3,
+  "pace": 96.8,
+  "g": 82.0
+ },
+ "Houston Rockets": {
+  "ortg": 118.6,
+  "drtg": 113.2,
+  "pace": 96.1,
+  "g": 82.0
+ },
+ "Denver Nuggets": {
+  "ortg": 122.6,
+  "drtg": 117.4,
+  "pace": 98.4,
+  "g": 82.0
+ },
+ "Charlotte Hornets": {
+  "ortg": 119.4,
+  "drtg": 114.4,
+  "pace": 96.8,
+  "g": 82.0
+ },
+ "Cleveland Cavaliers": {
+  "ortg": 119.2,
+  "drtg": 115.1,
+  "pace": 99.9,
+  "g": 82.0
+ },
+ "Minnesota Timberwolves": {
+  "ortg": 116.8,
+  "drtg": 113.5,
+  "pace": 100.5,
+  "g": 82.0
+ },
+ "Toronto Raptors": {
+  "ortg": 115.9,
+  "drtg": 113.0,
+  "pace": 98.4,
+  "g": 82.0
+ },
+ "Atlanta Hawks": {
+  "ortg": 116.1,
+  "drtg": 113.7,
+  "pace": 101.7,
+  "g": 82.0
+ },
+ "Miami Heat": {
+  "ortg": 116.7,
+  "drtg": 114.5,
+  "pace": 103.4,
+  "g": 82.0
+ },
+ "Los Angeles Lakers": {
+  "ortg": 118.2,
+  "drtg": 116.4,
+  "pace": 98.3,
+  "g": 82.0
+ },
+ "Phoenix Suns": {
+  "ortg": 115.4,
+  "drtg": 113.9,
+  "pace": 97.2,
+  "g": 82.0
+ },
+ "Los Angeles Clippers": {
+  "ortg": 117.3,
+  "drtg": 116.1,
+  "pace": 96.5,
+  "g": 82.0
+ },
+ "Orlando Magic": {
+  "ortg": 114.9,
+  "drtg": 114.3,
+  "pace": 100.0,
+  "g": 82.0
+ },
+ "Philadelphia 76ers": {
+  "ortg": 115.4,
+  "drtg": 115.5,
+  "pace": 99.4,
+  "g": 82.0
+ },
+ "Portland Trail Blazers": {
+  "ortg": 114.4,
+  "drtg": 114.7,
+  "pace": 100.5,
+  "g": 82.0
+ },
+ "Golden State Warriors": {
+  "ortg": 115.0,
+  "drtg": 115.6,
+  "pace": 99.0,
+  "g": 82.0
+ },
+ "New Orleans Pelicans": {
+  "ortg": 114.4,
+  "drtg": 118.9,
+  "pace": 100.3,
+  "g": 82.0
+ },
+ "Chicago Bulls": {
+  "ortg": 113.0,
+  "drtg": 118.1,
+  "pace": 102.5,
+  "g": 82.0
+ },
+ "Dallas Mavericks": {
+  "ortg": 111.2,
+  "drtg": 116.5,
+  "pace": 101.7,
+  "g": 82.0
+ },
+ "Memphis Grizzlies": {
+  "ortg": 112.9,
+  "drtg": 118.8,
+  "pace": 101.3,
+  "g": 82.0
+ },
+ "Milwaukee Bucks": {
+  "ortg": 112.9,
+  "drtg": 119.3,
+  "pace": 97.6,
+  "g": 82.0
+ },
+ "Indiana Pacers": {
+  "ortg": 110.9,
+  "drtg": 118.8,
+  "pace": 101.0,
+  "g": 82.0
+ },
+ "Utah Jazz": {
+  "ortg": 114.1,
+  "drtg": 122.3,
+  "pace": 102.3,
+  "g": 82.0
+ },
+ "Sacramento Kings": {
+  "ortg": 111.4,
+  "drtg": 121.5,
+  "pace": 99.2,
+  "g": 82.0
+ },
+ "Brooklyn Nets": {
+  "ortg": 108.7,
+  "drtg": 119.0,
+  "pace": 97.1,
+  "g": 82.0
+ },
+ "Washington Wizards": {
+  "ortg": 111.0,
+  "drtg": 122.7,
+  "pace": 101.4,
+  "g": 82.0
+ }
+}
