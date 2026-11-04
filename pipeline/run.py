@@ -149,6 +149,26 @@ def grade():
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     save(LEDGER, L)
 
+def dry():
+    """Exercise every non-odds source and the rest/injury logic."""
+    import nba_model as M
+    day = now_et().date()
+    an = S.action_network(day); log("AN sample", next(iter(an.items()), None))
+    inj = S.espn_injuries()
+    t_cur = S.bbref_teams(SEASON); t_prev = cached(f"data/cache/teams_{PREV}.json", lambda: S.bbref_teams(PREV))
+    log("teams cur/prev", len(t_cur), len(t_prev), "sample", next(iter(t_cur.items())))
+    p_cur = S.bbref_players(SEASON); p_prev = cached(f"data/cache/players_{PREV}.json", lambda: S.bbref_players(PREV))
+    log("player sample", next(iter(p_cur.values())))
+    ratings, lg = M.blend_ratings(t_cur, t_prev); log("league", {k: round(v, 1) for k, v in lg.items()})
+    sched = {i: S.espn_scoreboard(day - timedelta(days=i)) for i in (1, 2, 3)}
+    today = [dict(home=g["home"], away=g["away"]) for g in S.espn_scoreboard(day)]
+    rest = M.rest_flags(sched, today); log("rest flags", {k: v for k, v in rest.items() if any(v.values())})
+    for g in today[:14]:
+        ih, nh = M.injury_impact(g["home"], inj, p_cur, ratings[g["home"]]["g"]); ia, na = M.injury_impact(g["away"], inj, p_cur, ratings[g["away"]]["g"])
+        log(f'{g["away"]} @ {g["home"]}: inj {ia:.1f}/{ih:.1f}', na, nh, "AN" , (g["away"], g["home"]) in an)
+    miss = [k for k in {x for g in today for x in (g["home"], g["away"])} if k not in ratings]
+    log("teams missing ratings:", miss)
+
 if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "page"
     ok = True
@@ -156,6 +176,7 @@ if __name__ == "__main__":
         if cmd == "card": card()
         elif cmd == "close": close()
         elif cmd == "grade": grade()
+        elif cmd == "dry": dry()
     except Exception:
         ok = False; log(traceback.format_exc())
     try:
