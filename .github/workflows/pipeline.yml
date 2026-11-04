@@ -1,0 +1,49 @@
+name: pipeline
+on:
+  schedule:
+    - cron: "45 21 * * *"   # 4:45 PM ET  card: odds, splits, injuries, ratings, props -> picks
+    - cron: "50 23 * * *"   # 6:50 PM ET  closing lines for 7:00-8:00 tips
+    - cron: "20 1 * * *"    # 8:20 PM ET  closing lines for 8:30-9:30 tips
+    - cron: "50 2 * * *"    # 9:50 PM ET  closing lines for late tips
+    - cron: "30 8 * * *"    # 3:30 AM ET  grade results
+    - cron: "0 14 * * *"    # 9:00 AM ET  grade (catch-up)
+  push:
+    paths: ["triggers/**", "pipeline/**"]
+  workflow_dispatch:
+    inputs:
+      cmd: {description: "card | close | grade | page", default: "card"}
+permissions:
+  contents: write
+concurrency:
+  group: pipeline
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q pandas lxml html5lib
+      - name: pick command
+        id: cmd
+        run: |
+          case "${{ github.event_name }}:${{ github.event.schedule }}" in
+            "schedule:45 21 * * *") c=card;;
+            "schedule:50 23 * * *"|"schedule:20 1 * * *"|"schedule:50 2 * * *") c=close;;
+            schedule:*) c=grade;;
+            workflow_dispatch:*) c="${{ github.event.inputs.cmd }}";;
+            *) c=$(cat triggers/cmd 2>/dev/null || echo page);;
+          esac
+          echo "cmd=$c" >> "$GITHUB_OUTPUT"; echo "running $c"
+      - name: run
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: python pipeline/run.py ${{ steps.cmd.outputs.cmd }}
+      - name: publish
+        run: |
+          git config user.name "edge-bot"; git config user.email "edge-bot@users.noreply.github.com"
+          git add data index.html
+          git diff --cached --quiet && exit 0
+          git commit -m "pipeline: ${{ steps.cmd.outputs.cmd }} $(date -u +%FT%RZ)"
+          for i in 1 2 3; do git pull --rebase -q && git push -q && break; sleep 5; done
