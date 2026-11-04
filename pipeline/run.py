@@ -95,16 +95,14 @@ def multi_card(nba_odds):
         scans += X.price_scan(odds, label)
         try:
             if label == "NHL":
-                cur = S.nhl_teams(SEASON); prev = cached(f"data/cache/nhl_{PREV}.json", lambda: S.nhl_teams(PREV))
+                cur = S.nhl_teams(SEASON); prev = cached(f"data/cache/nhl2_{PREV}.json", lambda: S.nhl_teams(PREV))
                 R, lg = X.blend(cur, prev, X.CFG["NHL"]["prior_g"], ["gf", "ga"])
                 rows = X.nhl_model(odds, R, lg, X.resolver(list(R)))
             elif label == "NFL":
-                cur = S.nfl_teams(2026); prev = cached("data/cache/nfl_2025.json", lambda: S.nfl_teams(2025))
-                R, lg = X.blend(cur, prev, X.CFG["NFL"]["prior_g"], ["osrs", "dsrs", "ppg"])
+                R = S.espn_fpi("nfl"); lg = {}
                 rows = X.point_model("NFL", odds, R, lg, X.resolver(list(R)))
             elif label == "NCAAF":
-                cur = S.cfb_teams(2026); prev = cached("data/cache/cfb_2025.json", lambda: S.cfb_teams(2025))
-                R, lg = X.blend(cur, prev, X.CFG["NCAAF"]["prior_g"], ["osrs", "dsrs", "ppg"])
+                R = S.espn_fpi("college-football"); lg = {}
                 rows = X.point_model("NCAAF", odds, R, lg, X.resolver(list(R)))
             else:
                 cur = S.cbb_teams(SEASON); prev = cached(f"data/cache/cbb_{PREV}.json", lambda: S.cbb_teams(PREV))

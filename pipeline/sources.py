@@ -166,16 +166,47 @@ def odds_window(sport, days):
     return data
 
 def nhl_teams(season):
+    """GF/G and GA/G, regressed toward 5v5 expected goals (xGF/aGF) to strip finishing/goalie luck."""
     _, tabs = _tables(f"https://www.hockey-reference.com/leagues/NHL_{season}.html")
-    t = _find(tabs, ["GP", "GF", "GA"])
-    if t is None: raise RuntimeError("NHL team table not found")
-    tcol = "Team" if "Team" in t.columns else t.columns[1]
-    t = _num(t[t[tcol].notna() & (t[tcol] != "League Average")], ["GP", "GF", "GA"])
+    base = adv = None
+    for t in tabs:
+        f = _flat(t)
+        if "GF/G" in f.columns and "GA/G" in f.columns: base = f
+        if "xGF" in f.columns and "aGF" in f.columns: adv = f
+    if base is None: raise RuntimeError("NHL stats table not found")
+    name = lambda df: df.columns[1]
+    base = _num(base, ["GP", "GF/G", "GA/G"])
+    xg = {}
+    if adv is not None:
+        adv = _num(adv, ["xGF", "xGA", "aGF", "aGA"])
+        for r in adv.to_dict("records"):
+            if r["aGF"] and r["aGF"] == r["aGF"] and r["aGA"]:
+                xg[team(str(r[name(adv)]))] = (r["xGF"] / r["aGF"], r["xGA"] / r["aGA"])
     out = {}
-    for r in t.to_dict("records"):
-        if not r["GP"] or r["GP"] != r["GP"]: continue
-        out[team(str(r[tcol]))] = dict(gf=r["GF"] / r["GP"], ga=r["GA"] / r["GP"], g=r["GP"])
-    log(f"NHL teams {season}: {len(out)}")
+    for r in base.to_dict("records"):
+        tm = team(str(r[name(base)]))
+        if not r["GP"] or r["GP"] != r["GP"] or tm == "League Average": continue
+        fx, ax = xg.get(tm, (1.0, 1.0))
+        fx = min(1.3, max(0.7, fx)); ax = min(1.3, max(0.7, ax))
+        out[tm] = dict(gf=r["GF/G"] * (0.5 + 0.5 * fx), ga=r["GA/G"] * (0.5 + 0.5 * ax), g=r["GP"])
+    log(f"NHL teams {season}: {len(out)} (xG adj on {len(xg)})")
+    return out
+
+def espn_fpi(league):
+    """ESPN power index: {team displayName: dict(fpi, g)}. FPI = points vs an average team on a neutral field."""
+    d, _ = get_json(f"https://site.web.api.espn.com/apis/fitt/v3/sports/football/{league}/powerindex?region=us&lang=en&limit=500")
+    names = next((c["names"] for c in d.get("categories", []) if c.get("name") == "fpi"), [])
+    out = {}
+    for t in d.get("teams", []):
+        vals = None
+        for c in t.get("categories", []):
+            if c.get("name") == "fpi": vals = c.get("values")
+        if not vals: continue
+        v = dict(zip(names, vals))
+        g = sum(float(v.get(k) or 0) for k in ("numwins", "numlosses", "numties"))
+        try: out[team(t["team"]["displayName"])] = dict(fpi=float(v["fpi"]), g=g)
+        except (KeyError, TypeError, ValueError): pass
+    log(f"FPI {league}: {len(out)} teams", next(iter(out.items()), None))
     return out
 
 def nfl_teams(season):

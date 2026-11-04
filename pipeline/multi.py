@@ -109,12 +109,14 @@ def _grade(gap, e, gaps):
 
 # ---------- ratings-based point models (NFL, NCAAF, NCAAM) ----------
 def blend(cur, prev, prior_g, keys):
-    lg = {k: statistics.mean(v[k] for v in cur.values() if v.get(k) is not None) for k in keys}
+    lg = {k: statistics.mean(v[k] for v in (cur or prev).values() if v.get(k) is not None) for k in keys}
     out = {}
-    for t, c in cur.items():
+    for t in set(cur) | set(prev):
+        c = cur.get(t) or {**prev[t], "g": 0}
         p = prev.get(t) or {k: (0.0 if k in ("osrs", "dsrs") else lg[k]) for k in keys}
         w = (c.get("g") or 0) / ((c.get("g") or 0) + prior_g)
         out[t] = {k: w * c[k] + (1 - w) * p.get(k, lg[k]) for k in keys if c.get(k) is not None}
+        out[t]["g"] = c.get("g") or 0
     return out, lg
 
 def point_model(label, odds, ratings, lg, resolve):
@@ -131,6 +133,10 @@ def point_model(label, odds, ratings, lg, resolve):
             ph = poss * (h["ortg"] + a["drtg"] - lg["ortg"]) / 100 + cfg["hfa"] / 2
             pa = poss * (a["ortg"] + h["drtg"] - lg["ortg"]) / 100 - cfg["hfa"] / 2
             fx = dict(ratings=ph - pa - cfg["hfa"], home=cfg["hfa"]); proj = f"{poss:.0f} possessions"
+        elif "fpi" in h:
+            margin_ = h["fpi"] - a["fpi"] + cfg["hfa"]
+            ph, pa = 50 + margin_ / 2, 50 - margin_ / 2           # totals not modeled from FPI
+            fx = dict(ratings=h["fpi"] - a["fpi"], home=cfg["hfa"]); proj = f"FPI {m['home']} {h['fpi']:+.1f}, {m['away']} {a['fpi']:+.1f}"
         else:
             ph = lg["ppg"] + h["osrs"] - a["dsrs"] + cfg["hfa"] / 2
             pa = lg["ppg"] + a["osrs"] - h["dsrs"] - cfg["hfa"] / 2
@@ -148,7 +154,7 @@ def point_model(label, odds, ratings, lg, resolve):
                                  line=line, price=sp[side]["price"], model_line=-mod, fair_line=-fr, mkt_line=-(m["margin"] if side == "home" else -m["margin"]),
                                  gap=round(gap, 1), p=p, ev=e, grade=_grade(gap, e, cfg["gap"]),
                                  factors={k: (v if side == "home" else -v) for k, v in fx.items()}, proj=proj))
-        if to and len(to) == 2 and "total" in m:
+        if to and len(to) == 2 and "total" in m and "fpi" not in h:
             fair = cfg["w"] * total + (1 - cfg["w"]) * m["total"]; line = to["Over"]["point"]
             side = "Over" if total > line else "Under"; gap = abs(total - line)
             p = (1 - Phi((line - fair) / cfg["sd_t"])) if side == "Over" else Phi((line - fair) / cfg["sd_t"])
@@ -216,7 +222,11 @@ def resolver(names):
              "southern miss golden eagles": ["Southern Miss", "Southern Mississippi"], "louisiana ragin cajuns": ["Louisiana", "Louisiana-Lafayette"],
              "ul monroe warhawks": ["Louisiana-Monroe", "UL Monroe"], "hawaii rainbow warriors": ["Hawaii"], "sam houston bearkats": ["Sam Houston", "Sam Houston State"],
              "fiu panthers": ["FIU", "Florida International"], "fau owls": ["Florida Atlantic", "FAU"], "texas am aggies": ["Texas A&M"],
-             "umbc retrievers": ["UMBC", "Maryland-Baltimore County"], "liu sharks": ["LIU", "Long Island University"]}
+             "umbc retrievers": ["UMBC", "Maryland-Baltimore County"], "liu sharks": ["LIU", "Long Island University"],
+             "csu northridge matadors": ["Cal State Northridge"], "se louisiana lions": ["Southeastern Louisiana"],
+             "queens university royals": ["Queens (NC)", "Queens"], "fairleigh dickinson knights": ["Fairleigh Dickinson"],
+             "saint josephs hawks": ["Saint Joseph's"], "loyola marymount lions": ["Loyola Marymount"],
+             "california golden bears": ["California"], "south dakota coyotes": ["South Dakota"]}
     cache = {}
     def f(name):
         if name in cache: return cache[name]
