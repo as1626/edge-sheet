@@ -1,27 +1,6 @@
 {
- "cmd": "multi",
+ "cmd": "page",
  "ok": true,
- "at": "2026-11-04T20:18:59.679900+00:00",
- "log": [
-  "odds icehockey_nhl: 4 games, credits remaining 417",
-  "price scan NHL: 0 flags",
-  "NHL teams 2027: 32 (xG adj on 32)",
-  "NHL teams 2026: 32 (xG adj on 32)",
-  "NHL model: 8 priced, 0 A/B",
-  "odds americanfootball_nfl: 15 games, credits remaining 414",
-  "price scan NFL: 1 flags",
-  "FPI nfl: 32 teams ('San Francisco 49ers', {'fpi': 5.909, 'g': 7.0})",
-  "NFL model: 15 priced, 1 A/B",
-  "odds americanfootball_ncaaf: 61 games, credits remaining 411",
-  "price scan NCAAF: 0 flags",
-  "FPI college-football: 138 teams ('Notre Dame Fighting Irish', {'fpi': 26.817, 'g': 8.0})",
-  "NCAAF model: 55 priced, 5 A/B",
-  "NCAAF unmatched teams (5): ['Appalachian State Mountaineers', 'Merrimack Warriors', 'Sam Houston State Bearkats', 'Southern Mississippi Golden Eagles', 'UMass Minutemen']",
-  "odds basketball_ncaab: 10 games, credits remaining 408",
-  "price scan NCAAM: 0 flags",
-  "CBB teams 2027: 278",
-  "NCAAM model: 16 priced, 7 A/B",
-  "NCAAM unmatched teams (1): ['Fairleigh Dickinson Knights']",
-  "multi: 15 model plays, 1 price plays, credits 408"
- ]
+ "at": "2026-11-04T20:19:57.958813+00:00",
+ "log": []
 }
