@@ -242,7 +242,13 @@ def sanity_props(rows, players):
             r["grade"], r["hold"] = "", f"line {r['line']:g} vs season avg {avg:.1f}: market likely pricing news"
         elif r.get("mkt_src", "").startswith("Consensus (1)") and r["grade"] == "A":
             r["grade"] = "B"                                   # one outside book is thin market confirmation
-    return sanity_props(rows, players)
+    rows.sort(key=lambda r: -r["ev"])
+    seen, n = set(), 0
+    for r in rows:
+        if r["grade"] in ("A", "B"):
+            if r["player"] in seen or n >= MAX_PROPS: r["grade"] = "C"
+            else: seen.add(r["player"]); n += 1
+    return rows
 
 def project_props(prop_events, players, prev_players, ratings, lg, injuries, ctx):
     rows = []
@@ -307,10 +313,4 @@ def project_props(prop_events, players, prev_players, ratings, lg, injuries, ctx
                                      start=ev["commence_time"], event_id=ev["id"], line=line, price=price, model_line=round(mean, 1),
                                      p=pf, ev=ev_, gap=round(abs(mean - line), 1), edge=edge, mkt_src=src, grade=gr, why=why,
                                      extra_min=round(extra, 1), usg_bump=round(tc["usg_bump"], 3)))
-    rows.sort(key=lambda r: -r["ev"])
-    seen, n = set(), 0
-    for r in rows:
-        if r["grade"] in ("A", "B"):
-            if r["player"] in seen or n >= MAX_PROPS: r["grade"] = "C"
-            else: seen.add(r["player"]); n += 1
-    return rows
+    return sanity_props(rows, players)
