@@ -405,6 +405,10 @@ if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "page"
     ok = True
     try:
+        if cmd == "auto":   # scheduled runs: pick the job by Eastern time, not by cron string
+            h = now_et().hour
+            cmd = "card" if 12 <= h < 19 else "grade"
+            log(f"auto -> {cmd} ({now_et():%H:%M} ET)")
         if cmd == "card": card()
         elif cmd == "close": close()
         elif cmd == "grade": grade()

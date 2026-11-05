@@ -27,8 +27,7 @@ jobs:
         id: cmd
         run: |
           case "${{ github.event_name }}:${{ github.event.schedule }}" in
-            "schedule:17 19 * * *"|"schedule:37 20 * * *") c=card;;
-            schedule:*) c=grade;;
+            schedule:*) c=auto;;
             workflow_dispatch:*) c="${{ github.event.inputs.cmd }}";;
             *) c=$(cat triggers/cmd 2>/dev/null || echo page);;
           esac
