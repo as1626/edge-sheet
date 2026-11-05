@@ -438,7 +438,7 @@ if __name__ == "__main__":
     try:
         if cmd == "auto":   # scheduled runs: pick the job by Eastern time, not by cron string
             h = now_et().hour
-            cmd = "card" if 12 <= h < 19 else "grade"
+            cmd = "nflday" if now_et().weekday() == 6 and 9 <= h < 12 else "card" if 12 <= h < 19 else "grade"
             log(f"auto -> {cmd} ({now_et():%H:%M} ET)")
         if cmd == "card": card()
         elif cmd == "close": close()
@@ -446,6 +446,15 @@ if __name__ == "__main__":
         elif cmd == "dry": dry()
         elif cmd == "rebuild": rebuild()
         elif cmd == "closer": closer()
+        elif cmd == "nflday":      # Sunday morning: NFL lines (price scan + tracked model) and props before 1 PM kickoffs
+            import multi as X
+            L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
+            odds = S.odds_window("americanfootball_nfl", 1)
+            scans = [bet_from_scan(f) for f in X.price_scan(odds, "NFL")][:6]
+            R = S.espn_fpi("nfl"); rows = X.point_model("NFL", odds, R, {}, X.resolver(list(R)))
+            model = [bet_from_multi(r, X.STAKE_POLICY.get("NFL", 0)) for r in sorted(rows, key=lambda r: -r["ev"]) if r["grade"] in ("A", "B", "C")][:6]
+            add_multi(L, model + scans + nfl_props(hours=14, max_plays=8), ds)
+            L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
         elif cmd == "nflprops":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             bets = nfl_props(); log("nfl prop plays:", [(b["pick"], b["price"], b["ev_pct"], b["stake"]) for b in bets])
