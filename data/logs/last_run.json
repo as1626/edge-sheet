@@ -1,9 +1,11 @@
 {
  "cmd": "nflprops",
  "ok": true,
- "at": "2026-11-05T22:54:36.179759+00:00",
+ "at": "2026-11-05T22:55:21.410809+00:00",
  "log": [
-  "odds americanfootball_nfl: 1 pregame games, credits remaining 354",
+  "odds americanfootball_nfl: 1 pregame games, credits remaining 346",
+  "prop diag Jacksonville Jaguars @ Baltimore Ravens: outcomes by book {'draftkings': 84, 'fanduel': 84, 'betrivers': 62, 'betmgm': 70, 'espnbet': 64, 'pinnacle': 76}",
+  "prop diag: 70 FanDuel lines compared; best: [(3.6, 'Trevor Lawrence', 'Pass TDs', 'Over', 1.5, -118, 'Pinnacle'), (1.8, 'Rashod Bateman', 'Rec', 'Over', 1.5, 130, 'Pinnacle'), (1.2, 'Mark Andrews', 'Rec Yds', 'Over', 18.5, -113, 'Pinnacle'), (0.9, 'Josh Cameron', 'Rec', 'Under', 1.5, -180, 'Pinnacle'), (0.5, 'Brenton Strange', 'Rec', 'Over', 3.5, 102, 'Pinnacle'), (-0.4, \"Ja'Kobi Lane\", 'Rec', 'Over', 1.5, -108, 'Pinnacle')]",
   "prop scan NFL: 0 flags, 0 after one-per-player",
   "nfl prop plays: []"
  ]
