@@ -152,7 +152,8 @@ today = [b for b in BETS if b["date"] == SLATE_DATE and b["stake"] > 0]
 ORDER = {"A": 0, "B": 1, "Price": 2}
 today.sort(key=lambda b: (ORDER.get(b["grade"], 3), b["start"], -(b["ev_pct"] or 0)))
 later = [b for b in BETS if b["date"] > SLATE_DATE]
-track_today = sorted([b for b in BETS if b["date"] == SLATE_DATE and b["stake"] == 0], key=lambda b: -(b["ev_pct"] or 0))[:6]
+track_today = sorted([b for b in BETS if b["date"] == SLATE_DATE and b["stake"] == 0 and (b["ev_pct"] or 0) <= 15],
+                     key=lambda b: -(b["ev_pct"] or 0))[:6]      # very large "edges" from unvalidated models are noise; kept in ledger, not shown
 
 
 def parlay_card(p):

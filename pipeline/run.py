@@ -183,6 +183,8 @@ def card():
     else:
         note_props = f"Props skipped: {rem} Odds API credits left (floor {PROP_CREDIT_FLOOR})."
     log(note_props, f"credits remaining {S.CREDITS['remaining']}")
+    holds_today = [dict(player=r["player"], stat=r["stat"], side=r["side"], line=r["line"], reason=r["hold"])
+                   for r in props if r.get("hold") and r["ev"] > 0.03][:6]
     save(f"data/cards/{ds}.json", dict(sides=sides, props=props, rest=rest, injuries=inj, credits=S.CREDITS))
     L = load(LEDGER, {"bets": [], "snapshots": []})
     started = lambda b: to_et(b["start"]) <= now_et()
@@ -195,6 +197,7 @@ def card():
     L["slate_date"] = ds; L["slate_label"] = day.strftime("%a %b %-d")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     L["run_note"] = note_props
+    L["holds"] = holds_today
     L["credits"] = S.CREDITS["remaining"]
     save(LEDGER, L)
     log(f"card {ds}: {sum(b['grade']=='A' for b in new)} A, {sum(b['grade']=='B' for b in new)} B, {sum(b['grade']=='C' for b in new)} C")

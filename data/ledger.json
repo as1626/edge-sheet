@@ -3538,50 +3538,7 @@
  "slate_label": "Thu Nov 5",
  "run_note": "Props priced for 2 games.",
  "credits": "357",
- "holds": [
-  {
-   "player": "Donovan Mitchell",
-   "stat": "pts",
-   "side": "Over",
-   "line": 21.5,
-   "reason": "projection 30 vs line 21.5: gap too large to trust without news"
-  },
-  {
-   "player": "Trevon Brazile",
-   "stat": "reb",
-   "side": "Over",
-   "line": 4.5,
-   "reason": "line 4.5 vs season avg 6.3: market likely pricing news"
-  },
-  {
-   "player": "Trae Young",
-   "stat": "reb",
-   "side": "Over",
-   "line": 3.5,
-   "reason": "projection 4.7 vs line 3.5: gap too large to trust without news"
-  },
-  {
-   "player": "Trevon Brazile",
-   "stat": "pts",
-   "side": "Over",
-   "line": 5.5,
-   "reason": "line 5.5 vs season avg 8.3: market likely pricing news"
-  },
-  {
-   "player": "Sam Hauser",
-   "stat": "pts",
-   "side": "Over",
-   "line": 7.5,
-   "reason": "projection 10.3 vs line 7.5: gap too large to trust without news"
-  },
-  {
-   "player": "Ty Jerome",
-   "stat": "pts",
-   "side": "Over",
-   "line": 22.5,
-   "reason": "line 22.5 vs season avg 28.2: market likely pricing news"
-  }
- ],
+ "holds": [],
  "voided": [
   {
    "pick": "Under 255.5",
