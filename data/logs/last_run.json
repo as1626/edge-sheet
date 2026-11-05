@@ -1,6 +1,10 @@
 {
- "cmd": "page",
+ "cmd": "nflprops",
  "ok": true,
- "at": "2026-11-05T21:09:15.706599+00:00",
- "log": []
+ "at": "2026-11-05T22:54:36.179759+00:00",
+ "log": [
+  "odds americanfootball_nfl: 1 pregame games, credits remaining 354",
+  "prop scan NFL: 0 flags, 0 after one-per-player",
+  "nfl prop plays: []"
+ ]
 }
