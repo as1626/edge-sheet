@@ -24,6 +24,9 @@ def day_et(iso):
     return datetime.fromisoformat(iso.replace("Z", "+00:00")).astimezone(ET).strftime("%a %b %-d")
 
 def clv(b):
+    if b["market"] == "Moneyline" and b.get("close_price") is not None:
+        ip = lambda a: 1 / dec(a)
+        return round((ip(b["close_price"]) - ip(b["price"])) * 100, 1)       # + = we beat the close (pct-points)
     if b["close_line"] is None or b["line"] is None: return None
     if b["market"] == "Spread": return round(b["line"] - b["close_line"], 1)
     if b["pick"].startswith("Over"): return round(b["close_line"] - b["line"], 1)

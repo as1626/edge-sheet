@@ -3,7 +3,6 @@ on:
   schedule:
     - cron: "17 19 * * *"   # 2:17 PM ET  card (first attempt)
     - cron: "37 20 * * *"   # 3:37 PM ET  card (retry if the first was delayed/missed)
-    - cron: "7,37 23,0,1,2,3 * * *"   # 6:07 PM-10:37 PM ET every 30 min: closing lines for plays tipping soon
     - cron: "30 8 * * *"    # 3:30 AM ET  grade results
     - cron: "0 14 * * *"    # 9:00 AM ET  grade (catch-up)
   push:
@@ -29,7 +28,6 @@ jobs:
         run: |
           case "${{ github.event_name }}:${{ github.event.schedule }}" in
             "schedule:17 19 * * *"|"schedule:37 20 * * *") c=card;;
-            "schedule:7,37 23,0,1,2,3 * * *") c=close;;
             schedule:*) c=grade;;
             workflow_dispatch:*) c="${{ github.event.inputs.cmd }}";;
             *) c=$(cat triggers/cmd 2>/dev/null || echo page);;

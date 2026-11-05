@@ -1,0 +1,25 @@
+name: closer
+on:
+  schedule:
+    - cron: "41 22 * * *"   # 5:41 PM ET: stays running ~5.5h, capturing closing lines before each tip
+  push:
+    paths: ["triggers/closer"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: closer
+  cancel-in-progress: false
+jobs:
+  closer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 355
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install -q pandas lxml html5lib
+      - env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          EVENT: ${{ github.event_name }}
+        run: python pipeline/run.py closer

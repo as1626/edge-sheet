@@ -1,5 +1,5 @@
 """Pipeline entry point.  python pipeline/run.py card|close|grade|page"""
-import sys, os, json, traceback
+import sys, os, json, time, traceback
 from datetime import timedelta, datetime, timezone
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import log, LOG, load, save, now_et, to_et, am_to_dec, ROOT
@@ -8,8 +8,9 @@ import sources as S
 LEDGER = "data/ledger.json"
 SEASON, PREV = 2027, 2026
 PROP_CREDIT_FLOOR = 120          # skip props when Odds API credits run low
-STAKE = {"A": 1.0, "B": 0.5, "C": 0.0}
-PROP_STAKE = {"A": 0.5, "B": 0.25, "C": 0.0}
+STAKE_SCALE = 0.5   # half stakes until ~50 plays have closing-line data
+STAKE = {k: v * STAKE_SCALE for k, v in {"A": 1.0, "B": 0.5, "C": 0.0}.items()}
+PROP_STAKE = {k: v * STAKE_SCALE for k, v in {"A": 0.5, "B": 0.25, "C": 0.0}.items()}
 
 def fmt(x): return f"{x:+.1f}".replace("+0.0", "0.0")
 
@@ -80,7 +81,7 @@ def bet_from_scan(f):
     pick = f["pick"] if kind != "Total" else f'{f["side"]} {f["line"]:g}'
     return dict(id=f'{d}|{a} @ {h}|{kind}|{f["side"]}|scan', date=d, start=f["start"], sport=f["sport"], engine="Price edge",
                 game=f"{a} @ {h}", away=a, home=h, market=kind, pick=pick, pick_team=f["team"], side=f["side"].lower(), line=f["line"],
-                price=f["price"], grade="Price", stake=f["stake"], model_line=None, fair_line=f["fair_price"] if kind == "Moneyline" else None,
+                price=f["price"], grade="Price", stake=round(f["stake"] * STAKE_SCALE, 2), model_line=None, fair_line=f["fair_price"] if kind == "Moneyline" else None,
                 pinnacle_open=None, ev_pct=round(f["ev"] * 100, 1), gap=None,
                 why=f'{f["src"]} no-vig fair {("+" if f["fair_price"] > 0 else "")}{f["fair_price"]} ({f["fair_prob"]:.1%}) vs FanDuel {("+" if f["price"] > 0 else "")}{f["price"]}' + (" · verify: edge this large is often a stale line" if f["stale"] else ""),
                 signals=[], market_signal="neutral", close_line=None, close_src=None, status="pending", score=None, result_units=None)
@@ -262,6 +263,54 @@ def close():
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     save(LEDGER, L)
 
+def _publish(msg):
+    import subprocess, runpy
+    try: runpy.run_path(os.path.join(ROOT, "pipeline", "build_sheet.py"))
+    except Exception: log(traceback.format_exc()[-400:])
+    g = ["git", "-c", "user.name=edge-bot", "-c", "user.email=edge-bot@users.noreply.github.com"]
+    subprocess.run(g + ["add", "data", "index.html"], cwd=ROOT)
+    if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0: return
+    subprocess.run(g + ["commit", "-qm", msg], cwd=ROOT)
+    for _ in range(4):
+        if subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT).returncode == 0 and subprocess.run(["git", "push", "-q"], cwd=ROOT).returncode == 0: return
+        time.sleep(5)
+
+def closer(max_minutes=340):
+    """Stay running through the evening; capture Pinnacle closing lines 6-15 minutes before each tip."""
+    import multi as X
+    keys = {v[0]: k for k, v in X.SPORTS.items()}
+    t0 = time.time(); done = set()
+    while (time.time() - t0) / 60 < max_minutes:
+        L = load(LEDGER, {"bets": []})
+        pend = [b for b in L["bets"] if b["status"] == "pending" and b["market"] in ("Spread", "Total", "Moneyline")
+                and b.get("close_src") != "Pinnacle close" and to_et(b["start"]) > now_et()]
+        if not pend: log("closer: no pending games left"); break
+        due = [b for b in pend if (to_et(b["start"]) - now_et()).total_seconds() / 60 <= 15]
+        for sport in sorted({b["sport"] for b in due}):
+            try: odds = S.odds_games(keys[sport], now_et().date())
+            except Exception as ex: log(f"closer {sport}: {ex}"); continue
+            for e in odds:
+                h, a = S.team(e["home_team"]), S.team(e["away_team"])
+                pn = next((bk for bk in e.get("bookmakers", []) if bk["key"] == "pinnacle"), None)
+                for b in due:
+                    if b["sport"] != sport or (b["away"], b["home"]) != (a, h) or not pn: continue
+                    mk = {"Spread": "spreads", "Total": "totals", "Moneyline": "h2h"}[b["market"]]
+                    mm = next((m for m in pn["markets"] if m["key"] == mk), None)
+                    for o in (mm or {}).get("outcomes", []):
+                        hit = (o["name"].lower() == (b.get("side") or "").lower()) if b["market"] == "Total" else (S.team(o["name"]) == S.team(b["pick_team"] or ""))
+                        if hit:
+                            b["close_line"] = o.get("point") if b["market"] != "Moneyline" else None
+                            b["close_price"] = o["price"]; b["close_src"] = "Pinnacle close"
+                            log(f"close {b['pick']}: {o.get('point')} {o['price']}")
+        if due:
+            L2 = load(LEDGER, {"bets": []}); upd = {b["id"]: b for b in due if b.get("close_src") == "Pinnacle close"}
+            L2["bets"] = [upd.get(b["id"], b) for b in L2["bets"]]
+            L2["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET"); save(LEDGER, L2)
+            _publish(f"closer: {len(upd)} closing lines")
+        nxt = min(to_et(b["start"]) for b in pend)
+        wait = max(60, min(300, (nxt - now_et()).total_seconds() - 14 * 60))
+        time.sleep(wait)
+
 def settle(units, price, stake, res):
     return round(stake * (am_to_dec(price) - 1), 3) if res == "won" else (-stake if res == "lost" else 0.0)
 
@@ -361,6 +410,7 @@ if __name__ == "__main__":
         elif cmd == "grade": grade()
         elif cmd == "dry": dry()
         elif cmd == "rebuild": rebuild()
+        elif cmd == "closer": closer()
         elif cmd == "probe2": probe2()
         elif cmd == "multi":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()

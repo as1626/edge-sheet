@@ -71,7 +71,7 @@ def espn_injuries():
     return out
 
 def espn_scoreboard(day, path="basketball/nba"):
-    d, _ = get_json(f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={day.strftime('%Y%m%d')}&limit=300")
+    d, _ = get_json(f"https://site.api.espn.com/apis/site/v2/sports/{path}/scoreboard?dates={day.strftime('%Y%m%d')}&limit=300" + ("&groups=50" if "college-basketball" in path else "&groups=80" if "college-football" in path else ""))
     games = []
     for ev in d.get("events", []):
         c = ev["competitions"][0]

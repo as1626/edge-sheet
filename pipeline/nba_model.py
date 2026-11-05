@@ -19,7 +19,7 @@ HCA, ALT_BONUS = 2.0, 1.0
 B2B, THREE_IN_FOUR, TRAVEL = 1.5, 0.8, 0.5
 SD_MARGIN, SD_TOTAL = 12.5, 18.0
 W_MODEL = 0.35
-PRIOR_G = 12
+PRIOR_G = 20            # early-season results get less weight (Nov 4: hot starts DET/MEM lost outright)
 STATUS_W = {"Out": 1.0, "Doubtful": 0.8, "Day-To-Day": 0.35, "Questionable": 0.4, "Probable": 0.1}
 MAX_STAKED_SIDES, MAX_PROPS = 4, 4
 
@@ -193,6 +193,22 @@ def project_games(odds, ratings, lg, injuries, players, rest, an_map):
                              gap=round(gap, 1), p=p, ev=ev_, sig=sig, notes=notes,
                              factors=dict(pace=poss - lg["pace"], injuries=tot_inj), inj_note=inj_note,
                              grade=grade_side(gap, ev_, sig, "Total"), proj=f"{poss:.0f} possessions, total {total:.1f}"))
+    # totals: strip the model's slate-wide bias vs market (it ran ~+5 high on Nov 4), keep game-to-game differences
+    tots = [r for r in rows if r["kind"] == "Total"]
+    if len(tots) >= 4:
+        bias = statistics.mean(r["model_line"] - r["mkt_line"] for r in tots)
+        for r in tots:
+            r["model_line"] -= bias
+            r["fair_line"] = W_MODEL * r["model_line"] + (1 - W_MODEL) * r["mkt_line"]
+            side = "over" if r["model_line"] > r["line"] else "under"
+            if side != r["side"]:
+                r["grade"] = ""; r["gap"] = 0; continue
+            r["gap"] = round(abs(r["model_line"] - r["line"]), 1)
+            p = 1 - Phi((r["line"] - r["fair_line"]) / SD_TOTAL) if side == "over" else Phi((r["line"] - r["fair_line"]) / SD_TOTAL)
+            r["p"] = p; r["ev"] = p * am_to_dec(r["price"]) - 1
+            r["grade"] = grade_side(r["gap"], r["ev"], r["sig"], "Total")
+            r["proj"] += f" (bias-adjusted {-bias:+.1f})"
+        log(f"totals bias removed: {bias:+.1f}")
     # one play per game per market, cap staked plays
     rows.sort(key=lambda r: -r["ev"])
     staked = 0
@@ -276,7 +292,7 @@ def project_props(prop_events, players, prev_players, ratings, lg, injuries, ctx
                 tc = tctx[p["team"]]
                 if k in tc["out_keys"] or k in tc["shaky"] or k not in tc["act"]: continue
                 opp = a if p["team"] == h else h
-                extra = min(6.0, tc["out_min"] * 0.8 * p["mp"] / tc["act_min"])
+                extra = min(3.0, tc["out_min"] * 0.5 * p["mp"] / tc["act_min"])   # much of the freed minutes go to the bench
                 mins = min(38.0, p["mp"] + extra)
                 pace_f = g["poss"] / ratings[p["team"]]["pace"]
                 rate = _rate(p, prev_players.get(k), stat)
