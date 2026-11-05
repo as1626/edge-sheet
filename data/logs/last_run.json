@@ -1,6 +1,33 @@
 {
- "cmd": "grade",
+ "cmd": "card",
  "ok": true,
- "at": "2026-11-05T20:57:56.342424+00:00",
- "log": []
+ "at": "2026-11-05T21:08:02.449339+00:00",
+ "log": [
+  "odds basketball_nba: 2 pregame games, credits remaining 375",
+  "action network: 2 games, splits on 0",
+  "injuries: 91 listed across 29 teams",
+  "bbref players 2027: 453",
+  "Props priced for 2 games. credits remaining 369",
+  "price scan NBA: 0 flags",
+  "odds icehockey_nhl: 11 pregame games, credits remaining 366",
+  "price scan NHL: 0 flags",
+  "NHL teams 2027: 32 (xG adj on 32)",
+  "NHL model: 22 priced, 0 A/B",
+  "odds americanfootball_nfl: 15 pregame games, credits remaining 363",
+  "price scan NFL: 0 flags",
+  "FPI nfl: 32 teams ('San Francisco 49ers', {'fpi': 5.909, 'g': 7.0})",
+  "NFL model: 15 priced, 2 A/B",
+  "odds americanfootball_ncaaf: 58 pregame games, credits remaining 360",
+  "price scan NCAAF: 0 flags",
+  "FPI college-football: 138 teams ('Notre Dame Fighting Irish', {'fpi': 26.761, 'g': 8.0})",
+  "NCAAF model: 57 priced, 5 A/B",
+  "NCAAF unmatched teams (1): ['Merrimack Warriors']",
+  "odds basketball_ncaab: 43 pregame games, credits remaining 357",
+  "price scan NCAAM: 1 flags",
+  "CBB teams 2027: 288",
+  "NCAAM model: 64 priced, 29 A/B",
+  "NCAAM unmatched teams (3): ['Albany Great Danes', 'Loyola (Chi) Ramblers', 'UMass Lowell River Hawks']",
+  "multi: 22 model plays, 1 price plays, credits 357",
+  "card 2026-11-05: 3 A, 1 B, 11 C"
+ ]
 }

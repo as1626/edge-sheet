@@ -1,0 +1,2740 @@
+{
+ "sides": [
+  {
+   "kind": "Total",
+   "side": "over",
+   "team": null,
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "start": "2026-11-06T03:10:00Z",
+   "line": 236.5,
+   "price": -105,
+   "model_line": 241.369407574212,
+   "fair_line": 237.89957393203127,
+   "mkt_line": 236.031201970857,
+   "mkt_src": "Pinnacle",
+   "pn_line": 235.5,
+   "gap": 4.9,
+   "p": 0.5309881735432402,
+   "ev": 0.036691195965373735,
+   "sig": -1,
+   "notes": [
+    "total moved against (238.5\u2192235.5)"
+   ],
+   "factors": {
+    "pace": 2.7882812381034654,
+    "injuries": -0.03903378999522421
+   },
+   "inj_note": "Golden State Warriors: Gui Santos (Out)",
+   "grade": "C",
+   "proj": "102 possessions, total 241.4"
+  },
+  {
+   "kind": "Total",
+   "side": "over",
+   "team": null,
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "start": "2026-11-06T02:10:00Z",
+   "line": 222.5,
+   "price": -114,
+   "model_line": 226.12850381771426,
+   "fair_line": 223.7699763362,
+   "mkt_line": 222.5,
+   "mkt_src": "Pinnacle",
+   "pn_line": 222.5,
+   "gap": 3.6,
+   "p": 0.528123734962378,
+   "ev": -0.008609830860097478,
+   "sig": -1,
+   "notes": [
+    "total moved against (224.5\u2192222.5)"
+   ],
+   "factors": {
+    "pace": -2.292971461663896,
+    "injuries": -0.18509397505772893
+   },
+   "inj_note": "Phoenix Suns: Jordan Goodwin (Out); Orlando Magic: Paolo Banchero (Out)",
+   "grade": "",
+   "proj": "97 possessions, total 226.1"
+  },
+  {
+   "kind": "Spread",
+   "side": "away",
+   "team": "Orlando Magic",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "start": "2026-11-06T02:10:00Z",
+   "line": 1.5,
+   "price": -118,
+   "model_line": 0.12641298128144252,
+   "fair_line": 0.694244543448505,
+   "mkt_line": 1.0,
+   "mkt_src": "Pinnacle",
+   "pn_line": 1.0,
+   "gap": 1.4,
+   "p": 0.5256981956776162,
+   "ev": -0.028794858832878578,
+   "sig": 1,
+   "notes": [
+    "line moved toward (-2.5\u2192-1.5)"
+   ],
+   "factors": {
+    "ratings": -0.49559215883272145,
+    "injuries": 0.0691791775512791,
+    "rest": 2.3,
+    "location": -2.0
+   },
+   "inj_note": "Phoenix Suns: Jordan Goodwin (Out); Orlando Magic: Paolo Banchero (Out)",
+   "grade": "",
+   "proj": "Phoenix Suns 114, Orlando Magic 113"
+  },
+  {
+   "kind": "Spread",
+   "side": "home",
+   "team": "Golden State Warriors",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "start": "2026-11-06T03:10:00Z",
+   "line": -4.5,
+   "price": -105,
+   "model_line": -4.80935427916673,
+   "fair_line": -4.33121596934757,
+   "mkt_line": -4.073756879444944,
+   "mkt_src": "Pinnacle",
+   "pn_line": -4.0,
+   "gap": 0.3,
+   "p": 0.49461335679907714,
+   "ev": -0.034326303392277935,
+   "sig": 0,
+   "notes": [],
+   "factors": {
+    "ratings": 0.20452322914285048,
+    "injuries": -0.19516894997612103,
+    "rest": 2.8,
+    "location": 2.0
+   },
+   "inj_note": "Golden State Warriors: Gui Santos (Out)",
+   "grade": "",
+   "proj": "Golden State Warriors 123, Miami Heat 119"
+  }
+ ],
+ "props": [
+  {
+   "kind": "Prop",
+   "player": "Dillon Brooks",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 16.5,
+   "price": -104,
+   "model_line": 20.6,
+   "p": 0.5725173703022586,
+   "ev": 0.12301484174673805,
+   "gap": 4.1,
+   "edge": 0.2507365325121595,
+   "mkt_src": "Pinnacle",
+   "grade": "A",
+   "why": "32 min proj (+1.2 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "De'Anthony Melton",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 10.5,
+   "price": -102,
+   "model_line": 13.0,
+   "p": 0.5515127703012666,
+   "ev": 0.09221156471427294,
+   "gap": 2.5,
+   "edge": 0.2406480275678208,
+   "mkt_src": "Consensus (1)",
+   "grade": "B",
+   "why": "24 min proj, usage \u00d71.02, pace \u00d71.04, opp D \u00d71.02",
+   "extra_min": 0.8,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Devin Booker",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 5.5,
+   "price": 124,
+   "model_line": 5.9,
+   "p": 0.48705298838958905,
+   "ev": 0.09099869399267968,
+   "gap": 0.4,
+   "edge": 0.07637723789144117,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "36 min proj (+1.4 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.4,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Klay Thompson",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 11.5,
+   "price": -102,
+   "model_line": 13.4,
+   "p": 0.5500392067784672,
+   "ev": 0.08929333107108217,
+   "gap": 1.9,
+   "edge": 0.16477232776952788,
+   "mkt_src": "Consensus (2)",
+   "grade": "A",
+   "why": "24 min proj, pace \u00d70.99, opp D \u00d71.02",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Bobby Portis",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 8.5,
+   "price": -108,
+   "model_line": 10.9,
+   "p": 0.5582631530635307,
+   "ev": 0.07517347997420742,
+   "gap": 2.4,
+   "edge": 0.2863781117729432,
+   "mkt_src": "FanDuel no-vig",
+   "grade": "A",
+   "why": "22 min proj, pace \u00d70.99, opp D \u00d71.02",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Tristan Da Silva",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 12.5,
+   "price": 102,
+   "model_line": 14.3,
+   "p": 0.5252053759894642,
+   "ev": 0.060914859498717666,
+   "gap": 1.8,
+   "edge": 0.14520121388250076,
+   "mkt_src": "Pinnacle",
+   "grade": "C",
+   "why": "31 min proj (+1.6 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 1.6,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Yaxel Lendeborg",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 18.5,
+   "price": -128,
+   "model_line": 24.0,
+   "p": 0.5930129599479743,
+   "ev": 0.056304334907329334,
+   "gap": 5.5,
+   "edge": 0.2990925067241045,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "33 min proj (+1.0 with Gui Santos out), usage \u00d71.02, pace \u00d71.04, opp D \u00d71.02",
+   "extra_min": 1.0,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Miles Bridges",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 16.5,
+   "price": -108,
+   "model_line": 19.4,
+   "p": 0.5483194669229887,
+   "ev": 0.05602267703686725,
+   "gap": 2.9,
+   "edge": 0.17814816467281808,
+   "mkt_src": "Pinnacle",
+   "grade": "C",
+   "why": "34 min proj (+1.3 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 1.3,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Jamal Cain",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 6.5,
+   "price": 106,
+   "model_line": 7.8,
+   "p": 0.5125200551495929,
+   "ev": 0.055791313608161364,
+   "gap": 1.3,
+   "edge": 0.19589485711441876,
+   "mkt_src": "Pinnacle",
+   "grade": "C",
+   "why": "17 min proj, usage \u00d71.06, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 0.9,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Draymond Green",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 5.5,
+   "price": -110,
+   "model_line": 7.2,
+   "p": 0.5444850289702925,
+   "ev": 0.03947141894328565,
+   "gap": 1.7,
+   "edge": 0.3005471866667894,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "27 min proj, usage \u00d71.02, pace \u00d71.04, opp D \u00d71.02",
+   "extra_min": 0.9,
+   "usg_bump": 1.023,
+   "hold": "line 5.5 vs season avg 3.2: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Brandin Podziemski",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 5.5,
+   "price": 110,
+   "model_line": 6.0,
+   "p": 0.48780368303952953,
+   "ev": 0.024387734383012116,
+   "gap": 0.5,
+   "edge": 0.09064777246028623,
+   "mkt_src": "Consensus (1)",
+   "grade": "C",
+   "why": "35 min proj (+1.1 with Gui Santos out), pace \u00d71.04",
+   "extra_min": 1.1,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Bam Adebayo",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 18.5,
+   "price": -110,
+   "model_line": 19.7,
+   "p": 0.5365662913588449,
+   "ev": 0.02435382895779492,
+   "gap": 1.2,
+   "edge": 0.06443889526274026,
+   "mkt_src": "Consensus (1)",
+   "grade": "C",
+   "why": "32 min proj, pace \u00d70.99, opp D \u00d71.02",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Brandin Podziemski",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 16.5,
+   "price": -112,
+   "model_line": 18.5,
+   "p": 0.5407957697297868,
+   "ev": 0.023649135559953516,
+   "gap": 2.0,
+   "edge": 0.12009767216401479,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "35 min proj (+1.1 with Gui Santos out), usage \u00d71.02, pace \u00d71.04, opp D \u00d71.02",
+   "extra_min": 1.1,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Davion Mitchell",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 11.5,
+   "price": -118,
+   "model_line": 13.5,
+   "p": 0.5534686018296926,
+   "ev": 0.022509789820957415,
+   "gap": 2.0,
+   "edge": 0.170108732991413,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "35 min proj, pace \u00d70.99, opp D \u00d71.02",
+   "extra_min": 0.0,
+   "usg_bump": 1.0,
+   "hold": "line 11.5 vs season avg 15.4: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "De'Anthony Melton",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 2.5,
+   "price": 122,
+   "model_line": 2.7,
+   "p": 0.45946465513553536,
+   "ev": 0.02001153440088843,
+   "gap": 0.2,
+   "edge": 0.07803694182857975,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "24 min proj, usage \u00d71.02, pace \u00d71.04",
+   "extra_min": 0.8,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Jalen Green",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 16.5,
+   "price": -114,
+   "model_line": 19.0,
+   "p": 0.5428194087930192,
+   "ev": 0.018976784927246415,
+   "gap": 2.5,
+   "edge": 0.14939764044991824,
+   "mkt_src": "Pinnacle",
+   "grade": "C",
+   "why": "30 min proj (+1.2 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 1.2,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Franz Wagner",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 23.5,
+   "price": -102,
+   "model_line": 25.5,
+   "p": 0.5141104382504245,
+   "ev": 0.018140279672409276,
+   "gap": 2.0,
+   "edge": 0.08501321683778669,
+   "mkt_src": "FanDuel no-vig",
+   "grade": "C",
+   "why": "38 min proj (+2.0 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 2.0,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Devin Booker",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 25.5,
+   "price": -114,
+   "model_line": 28.6,
+   "p": 0.5415013239281379,
+   "ev": 0.016502485268609757,
+   "gap": 3.1,
+   "edge": 0.1202693519261923,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "36 min proj (+1.4 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 1.4,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Khaman Maluach",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 6.5,
+   "price": -102,
+   "model_line": 7.3,
+   "p": 0.510476315789527,
+   "ev": 0.010943292053769316,
+   "gap": 0.8,
+   "edge": 0.1289620101285734,
+   "mkt_src": "FanDuel no-vig",
+   "grade": "C",
+   "why": "20 min proj, usage \u00d71.03, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 0.8,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Andrew Wiggins",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 10.5,
+   "price": -125,
+   "model_line": 11.9,
+   "p": 0.5614447628509612,
+   "ev": 0.01060057313173024,
+   "gap": 1.4,
+   "edge": 0.13450698464819225,
+   "mkt_src": "Consensus (1)",
+   "grade": "C",
+   "why": "26 min proj, pace \u00d70.99, opp D \u00d71.02",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Pelle Larsson",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 10.5,
+   "price": -118,
+   "model_line": 12.3,
+   "p": 0.5465505384334872,
+   "ev": 0.009728960834747502,
+   "gap": 1.8,
+   "edge": 0.16829151082761365,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "30 min proj, pace \u00d70.99, opp D \u00d71.02",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Draymond Green",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 5.5,
+   "price": 126,
+   "model_line": 5.6,
+   "p": 0.4459019038947528,
+   "ev": 0.0077383028021411615,
+   "gap": 0.1,
+   "edge": 0.012767158916151222,
+   "mkt_src": "FanDuel no-vig",
+   "grade": "",
+   "why": "27 min proj, pace \u00d71.04",
+   "extra_min": 0.9,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Pelle Larsson",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -104,
+   "model_line": 3.8,
+   "p": 0.5132630335189854,
+   "ev": 0.006785181133394547,
+   "gap": 0.3,
+   "edge": 0.0912527531960465,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "30 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Khaman Maluach",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 5.5,
+   "price": -106,
+   "model_line": 6.5,
+   "p": 0.5172571635426383,
+   "ev": 0.0052356197149385775,
+   "gap": 1.0,
+   "edge": 0.17411799251834043,
+   "mkt_src": "Pinnacle",
+   "grade": "C",
+   "why": "20 min proj, pace \u00d71.00",
+   "extra_min": 0.8,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Collin Gillespie",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 9.5,
+   "price": -112,
+   "model_line": 10.8,
+   "p": 0.5307595536458973,
+   "ev": 0.004652012258305582,
+   "gap": 1.3,
+   "edge": 0.13254906731789412,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "27 min proj (+1.0 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 1.0,
+   "usg_bump": 1.035,
+   "hold": "line 9.5 vs season avg 6.8: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Georges Niang",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 7.5,
+   "price": -112,
+   "model_line": 8.2,
+   "p": 0.5304029355622376,
+   "ev": 0.003976985171378233,
+   "gap": 0.7,
+   "edge": 0.08801515059280808,
+   "mkt_src": "Consensus (2)",
+   "grade": "C",
+   "why": "21 min proj, usage \u00d71.02, pace \u00d71.04, opp D \u00d71.02",
+   "extra_min": 0.7,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Anthony Black",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 4.5,
+   "price": -130,
+   "model_line": 4.1,
+   "p": 0.5671152706884068,
+   "ev": 0.0033577866025658043,
+   "gap": 0.4,
+   "edge": 0.09536216190484165,
+   "mkt_src": "Pinnacle",
+   "grade": "C",
+   "why": "30 min proj (+1.6 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98",
+   "extra_min": 1.6,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Stephen Curry",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 27.5,
+   "price": -112,
+   "model_line": 29.8,
+   "p": 0.5300583720697752,
+   "ev": 0.003324775703503091,
+   "gap": 2.3,
+   "edge": 0.0851255823774892,
+   "mkt_src": "Consensus (1)",
+   "grade": "C",
+   "why": "30 min proj, usage \u00d71.02, pace \u00d71.04, opp D \u00d71.02",
+   "extra_min": 0.9,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Collin Gillespie",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 3.5,
+   "price": -125,
+   "model_line": 4.5,
+   "p": 0.5562947215213294,
+   "ev": 0.0013304987383930822,
+   "gap": 1.0,
+   "edge": 0.28365651349954646,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "27 min proj (+1.0 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.0,
+   "usg_bump": 1.035,
+   "hold": "line 3.5 vs season avg 4.5: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Davion Mitchell",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 6.5,
+   "price": -144,
+   "model_line": 8.0,
+   "p": 0.588908463418353,
+   "ev": -0.0021273258744574086,
+   "gap": 1.5,
+   "edge": 0.2337198027743613,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "35 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0,
+   "hold": "line 6.5 vs season avg 8.3: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Desmond Bane",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 20.5,
+   "price": -120,
+   "model_line": 21.9,
+   "p": 0.5427347191475491,
+   "ev": -0.004986348229493176,
+   "gap": 1.4,
+   "edge": 0.06883891032982227,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "37 min proj (+1.9 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 1.9,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Jalen Green",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 3.5,
+   "price": -108,
+   "model_line": 3.9,
+   "p": 0.5146805679263199,
+   "ev": -0.008763350660420888,
+   "gap": 0.4,
+   "edge": 0.1181942257670031,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "30 min proj (+1.2 with Jordan Goodwin, Rasheer Fleming out), pace \u00d71.00",
+   "extra_min": 1.2,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Wendell Carter Jr.",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 12.5,
+   "price": -114,
+   "model_line": 14.4,
+   "p": 0.5279770050584411,
+   "ev": -0.008885271206084178,
+   "gap": 1.9,
+   "edge": 0.14907657910457786,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "34 min proj (+1.8 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 1.8,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Anthony Black",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 4.5,
+   "price": -120,
+   "model_line": 4.0,
+   "p": 0.5395317044867982,
+   "ev": -0.010858541774203201,
+   "gap": 0.5,
+   "edge": 0.10474048441487721,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "30 min proj (+1.6 with Paolo Banchero, Jalen Suggs out), pace \u00d70.98",
+   "extra_min": 1.6,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Anthony Black",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 14.5,
+   "price": -130,
+   "model_line": 16.6,
+   "p": 0.5587422079713555,
+   "ev": -0.011456093589140237,
+   "gap": 2.1,
+   "edge": 0.1440852591217408,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "30 min proj (+1.6 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 1.6,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Miles Bridges",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 2.5,
+   "price": -146,
+   "model_line": 3.3,
+   "p": 0.5856806654373541,
+   "ev": -0.013168193852129417,
+   "gap": 0.8,
+   "edge": 0.33250240419051147,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "34 min proj (+1.3 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.3,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Franz Wagner",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 6.5,
+   "price": -112,
+   "model_line": 6.0,
+   "p": 0.5211338158588654,
+   "ev": -0.013568134267147647,
+   "gap": 0.5,
+   "edge": 0.08361963512983085,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "38 min proj (+2.0 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98",
+   "extra_min": 2.0,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Desmond Bane",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 3.5,
+   "price": 100,
+   "model_line": 3.7,
+   "p": 0.48853924709773633,
+   "ev": -0.022921505804527342,
+   "gap": 0.2,
+   "edge": 0.06207249312950504,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "37 min proj (+1.9 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98",
+   "extra_min": 1.9,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Tristan Da Silva",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 1.5,
+   "price": -138,
+   "model_line": 1.9,
+   "p": 0.5661495036738615,
+   "ev": -0.02359723279435466,
+   "gap": 0.4,
+   "edge": 0.2884197828141444,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "31 min proj (+1.6 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98",
+   "extra_min": 1.6,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Miles Bridges",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 6.5,
+   "price": 100,
+   "model_line": 6.7,
+   "p": 0.4881322320334908,
+   "ev": -0.02373553593301836,
+   "gap": 0.2,
+   "edge": 0.034841529649561116,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "34 min proj (+1.3 with Jordan Goodwin, Rasheer Fleming out), pace \u00d71.00",
+   "extra_min": 1.3,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Stephen Curry",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -118,
+   "model_line": 3.9,
+   "p": 0.5278195121501061,
+   "ev": -0.0248758165362446,
+   "gap": 0.4,
+   "edge": 0.12225028297157906,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "30 min proj, pace \u00d71.04",
+   "extra_min": 0.9,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Giannis Antetokounmpo",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 28.5,
+   "price": -118,
+   "model_line": 30.4,
+   "p": 0.5277622272434566,
+   "ev": -0.02498164797395319,
+   "gap": 1.9,
+   "edge": 0.06510656030270187,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "33 min proj, pace \u00d70.99, opp D \u00d71.02",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Giannis Antetokounmpo",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 10.5,
+   "price": -138,
+   "model_line": 11.7,
+   "p": 0.5618621470230718,
+   "ev": -0.030991369626876097,
+   "gap": 1.2,
+   "edge": 0.11149421389958106,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Brandin Podziemski",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -178,
+   "model_line": 5.0,
+   "p": 0.620356140007799,
+   "ev": -0.031129174594560993,
+   "gap": 1.5,
+   "edge": 0.428031942596224,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "35 min proj (+1.1 with Gui Santos out), usage \u00d71.02, pace \u00d71.04",
+   "extra_min": 1.1,
+   "usg_bump": 1.023,
+   "hold": "line 3.5 vs season avg 5.0: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Oso Ighodaro",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 2.5,
+   "price": -128,
+   "model_line": 2.8,
+   "p": 0.5402690071303702,
+   "ev": -0.03764583104902808,
+   "gap": 0.3,
+   "edge": 0.11581277594509878,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "22 min proj, usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 0.8,
+   "usg_bump": 1.035,
+   "hold": "line 2.5 vs season avg 4.3: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Yaxel Lendeborg",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 7.5,
+   "price": 104,
+   "model_line": 7.5,
+   "p": 0.4672678994418688,
+   "ev": -0.04677348513858759,
+   "gap": 0.0,
+   "edge": 0.0005375177518807562,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "33 min proj (+1.0 with Gui Santos out), pace \u00d71.04",
+   "extra_min": 1.0,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Jase Richardson",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 2.5,
+   "price": -114,
+   "model_line": 2.3,
+   "p": 0.5065081031781375,
+   "ev": -0.049186543156829465,
+   "gap": 0.2,
+   "edge": 0.09891244101430949,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "22 min proj (+1.2 with Paolo Banchero, Jalen Suggs out), pace \u00d70.98",
+   "extra_min": 1.2,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Yaxel Lendeborg",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -136,
+   "model_line": 4.2,
+   "p": 0.5469398357000848,
+   "ev": -0.05089852040279408,
+   "gap": 0.7,
+   "edge": 0.20803009320124158,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "33 min proj (+1.0 with Gui Santos out), usage \u00d71.02, pace \u00d71.04",
+   "extra_min": 1.0,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "De'Anthony Melton",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -125,
+   "model_line": 4.0,
+   "p": 0.5256934244569866,
+   "ev": -0.053751835977424056,
+   "gap": 0.5,
+   "edge": 0.13148997411475122,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "24 min proj, pace \u00d71.04",
+   "extra_min": 0.8,
+   "usg_bump": 1.023,
+   "hold": "line 3.5 vs season avg 4.5: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Wendell Carter Jr.",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 8.5,
+   "price": -125,
+   "model_line": 8.8,
+   "p": 0.5253351254878298,
+   "ev": -0.054396774121906355,
+   "gap": 0.3,
+   "edge": 0.030731754825190402,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "34 min proj (+1.8 with Paolo Banchero, Jalen Suggs out), pace \u00d70.98",
+   "extra_min": 1.8,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Franz Wagner",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 5.5,
+   "price": -154,
+   "model_line": 6.4,
+   "p": 0.573302979293942,
+   "ev": -0.05442235882687485,
+   "gap": 0.9,
+   "edge": 0.1568213818210071,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "38 min proj (+2.0 with Paolo Banchero, Jalen Suggs out), pace \u00d70.98",
+   "extra_min": 2.0,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Stephen Curry",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 4.5,
+   "price": -130,
+   "model_line": 4.8,
+   "p": 0.5310808637134954,
+   "ev": -0.06039539496843127,
+   "gap": 0.3,
+   "edge": 0.06587463332730002,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "30 min proj, usage \u00d71.02, pace \u00d71.04",
+   "extra_min": 0.9,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Jalen Green",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 2.5,
+   "price": -188,
+   "model_line": 3.4,
+   "p": 0.6120157411726674,
+   "ev": -0.06244397096953069,
+   "gap": 0.9,
+   "edge": 0.3527022238494327,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "30 min proj (+1.2 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.2,
+   "usg_bump": 1.035,
+   "hold": "line 2.5 vs season avg 3.3: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Oso Ighodaro",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 6.5,
+   "price": -118,
+   "model_line": 7.2,
+   "p": 0.507383914722716,
+   "ev": -0.06262971686820262,
+   "gap": 0.7,
+   "edge": 0.11450989129700363,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "22 min proj, usage \u00d71.03, pace \u00d71.00, opp D \u00d71.02",
+   "extra_min": 0.8,
+   "usg_bump": 1.035,
+   "hold": "line 6.5 vs season avg 8.3: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Davion Mitchell",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 2.5,
+   "price": -140,
+   "model_line": 2.4,
+   "p": 0.5447396918266753,
+   "ev": -0.06616052829712804,
+   "gap": 0.1,
+   "edge": 0.03895860810632694,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "35 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0,
+   "hold": "line 2.5 vs season avg 1.5: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Jase Richardson",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 8.5,
+   "price": -114,
+   "model_line": 8.6,
+   "p": 0.49683453750007744,
+   "ev": -0.0673456927630125,
+   "gap": 0.1,
+   "edge": 0.012878435301258866,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "22 min proj (+1.2 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98, opp D \u00d71.03",
+   "extra_min": 1.2,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Dillon Brooks",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 4.5,
+   "price": -172,
+   "model_line": 4.0,
+   "p": 0.5897348811353826,
+   "ev": -0.06739600192544137,
+   "gap": 0.5,
+   "edge": 0.10487071213934208,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "32 min proj (+1.2 with Jordan Goodwin, Rasheer Fleming out), pace \u00d71.00",
+   "extra_min": 1.2,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Jase Richardson",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 2.5,
+   "price": -130,
+   "model_line": 2.4,
+   "p": 0.5264964286363139,
+   "ev": -0.06850631856652167,
+   "gap": 0.1,
+   "edge": 0.05827693667184164,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "22 min proj (+1.2 with Paolo Banchero, Jalen Suggs out), usage \u00d71.06, pace \u00d70.98",
+   "extra_min": 1.2,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Devin Booker",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 3.5,
+   "price": -152,
+   "model_line": 3.8,
+   "p": 0.5601753761609591,
+   "ev": -0.07128819215419935,
+   "gap": 0.3,
+   "edge": 0.098313622806539,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "36 min proj (+1.4 with Jordan Goodwin, Rasheer Fleming out), pace \u00d71.00",
+   "extra_min": 1.4,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Desmond Bane",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 4.5,
+   "price": -152,
+   "model_line": 4.1,
+   "p": 0.559259170720519,
+   "ev": -0.07280716433177115,
+   "gap": 0.4,
+   "edge": 0.09424998690068126,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "37 min proj (+1.9 with Paolo Banchero, Jalen Suggs out), pace \u00d70.98",
+   "extra_min": 1.9,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Will Richard",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 2.5,
+   "price": -136,
+   "model_line": 2.3,
+   "p": 0.5341188853108418,
+   "ev": -0.07314664019589212,
+   "gap": 0.2,
+   "edge": 0.06996367799704543,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "19 min proj, pace \u00d71.04",
+   "extra_min": 0.6,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Georges Niang",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -158,
+   "model_line": 3.2,
+   "p": 0.56359817538408,
+   "ev": -0.0796941186766289,
+   "gap": 0.3,
+   "edge": 0.08113901430949737,
+   "mkt_src": "FanDuel no-vig",
+   "grade": "",
+   "why": "21 min proj, pace \u00d71.04",
+   "extra_min": 0.7,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Dillon Brooks",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 2.5,
+   "price": -168,
+   "model_line": 2.4,
+   "p": 0.5729615943257474,
+   "ev": -0.08598983762321233,
+   "gap": 0.1,
+   "edge": 0.04405949172724757,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "32 min proj (+1.2 with Jordan Goodwin, Rasheer Fleming out), usage \u00d71.03, pace \u00d71.00",
+   "extra_min": 1.2,
+   "usg_bump": 1.035
+  },
+  {
+   "kind": "Prop",
+   "player": "Will Richard",
+   "stat": "pts",
+   "stat_label": "Pts",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 5.5,
+   "price": -136,
+   "model_line": 6.0,
+   "p": 0.5264280362127638,
+   "ev": -0.08649252539549812,
+   "gap": 0.5,
+   "edge": 0.09420392109700435,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "19 min proj, usage \u00d71.02, pace \u00d71.04, opp D \u00d71.02",
+   "extra_min": 0.6,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Klay Thompson",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 2.5,
+   "price": -180,
+   "model_line": 2.1,
+   "p": 0.5869255318514337,
+   "ev": -0.08700472823110317,
+   "gap": 0.4,
+   "edge": 0.1714609496545318,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "24 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0,
+   "hold": "line 2.5 vs season avg 1.8: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Giannis Antetokounmpo",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 6.5,
+   "price": -168,
+   "model_line": 5.9,
+   "p": 0.5703603101787074,
+   "ev": -0.09013950519110958,
+   "gap": 0.6,
+   "edge": 0.08810017074349939,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "33 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Draymond Green",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Golden State Warriors",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 6.5,
+   "price": -158,
+   "model_line": 6.1,
+   "p": 0.5551865057353386,
+   "ev": -0.09342962987520664,
+   "gap": 0.4,
+   "edge": 0.058240788101756195,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "27 min proj, usage \u00d71.02, pace \u00d71.04",
+   "extra_min": 0.9,
+   "usg_bump": 1.023
+  },
+  {
+   "kind": "Prop",
+   "player": "Bam Adebayo",
+   "stat": "ast",
+   "stat_label": "Ast",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -158,
+   "model_line": 3.3,
+   "p": 0.5547518315999342,
+   "ev": -0.09413941422289218,
+   "gap": 0.2,
+   "edge": 0.053619769225360034,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "32 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Tristan Da Silva",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Orlando Magic",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 4.5,
+   "price": -158,
+   "model_line": 4.1,
+   "p": 0.5531873425658542,
+   "ev": -0.09669408618993425,
+   "gap": 0.4,
+   "edge": 0.0839198414269947,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "31 min proj (+1.6 with Paolo Banchero, Jalen Suggs out), pace \u00d70.98",
+   "extra_min": 1.6,
+   "usg_bump": 1.057
+  },
+  {
+   "kind": "Prop",
+   "player": "Collin Gillespie",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Orlando Magic",
+    "Phoenix Suns"
+   ],
+   "team": "Phoenix Suns",
+   "start": "2026-11-06T02:10:00Z",
+   "event_id": "2a76b31e02d1416de069a995589515fc",
+   "line": 3.5,
+   "price": -154,
+   "model_line": 3.3,
+   "p": 0.5450567184366564,
+   "ev": -0.10101034751356675,
+   "gap": 0.2,
+   "edge": 0.05718302562624787,
+   "mkt_src": "Pinnacle",
+   "grade": "",
+   "why": "27 min proj (+1.0 with Jordan Goodwin, Rasheer Fleming out), pace \u00d71.00",
+   "extra_min": 1.0,
+   "usg_bump": 1.035,
+   "hold": "line 3.5 vs season avg 2.2: market likely pricing news"
+  },
+  {
+   "kind": "Prop",
+   "player": "Bam Adebayo",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Under",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 9.5,
+   "price": -144,
+   "model_line": 9.1,
+   "p": 0.5296356458931606,
+   "ev": -0.10256182223658905,
+   "gap": 0.4,
+   "edge": 0.03807511220790074,
+   "mkt_src": "Consensus (1)",
+   "grade": "",
+   "why": "32 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  },
+  {
+   "kind": "Prop",
+   "player": "Andrew Wiggins",
+   "stat": "reb",
+   "stat_label": "Reb",
+   "side": "Over",
+   "game": [
+    "Miami Heat",
+    "Golden State Warriors"
+   ],
+   "team": "Miami Heat",
+   "start": "2026-11-06T03:10:00Z",
+   "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+   "line": 3.5,
+   "price": -125,
+   "model_line": 3.6,
+   "p": 0.49193121970501785,
+   "ev": -0.11452380453096789,
+   "gap": 0.1,
+   "edge": 0.0218061600933211,
+   "mkt_src": "Consensus (2)",
+   "grade": "",
+   "why": "26 min proj, pace \u00d70.99",
+   "extra_min": 0.0,
+   "usg_bump": 1.0
+  }
+ ],
+ "rest": {
+  "Phoenix Suns": {
+   "b2b": true,
+   "three_in_four": true,
+   "travel": false
+  },
+  "Orlando Magic": {
+   "b2b": false,
+   "three_in_four": false,
+   "travel": false
+  },
+  "Golden State Warriors": {
+   "b2b": false,
+   "three_in_four": false,
+   "travel": false
+  },
+  "Miami Heat": {
+   "b2b": true,
+   "three_in_four": true,
+   "travel": true
+  }
+ },
+ "injuries": {
+  "Atlanta Hawks": [
+   {
+    "name": "Jock Landale",
+    "key": "jock landale",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T14:58Z",
+    "note": "Landale is out for Wednesday's game against the Wizards with a left hip strain, Kevin Chouinard of the Hawks' official site reports."
+   },
+   {
+    "name": "Jalen Johnson",
+    "key": "jalen johnson",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T14:58Z",
+    "note": "Johnson (ankle) is listed as out for Wednesday's game in Washington."
+   },
+   {
+    "name": "Asa Newell",
+    "key": "asa newell",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T01:19Z",
+    "note": "Newell won't return to Wednesday's game against the Wizards due to a left great toe hyperextension, Brad Rowland of the Locked On Podcast Network reports. He'll finish with two points (1-1 FG), three rebounds and three assists across 10 minutes."
+   },
+   {
+    "name": "Mouhamed Gueye",
+    "key": "mouhamed gueye",
+    "status": "Out",
+    "date": "2026-10-19T19:38Z",
+    "note": "Gueye underwent surgery Tuesday to repair a fractured left foot that he suffered during a workout last week, Brad Rowland of the Locked On Podcast Network reports."
+   },
+   {
+    "name": "Henri Veesaar",
+    "key": "henri veesaar",
+    "status": "Out",
+    "date": "2026-09-21T19:50Z",
+    "note": "Veesaar was diagnosed with a torn right ACL and is expected to miss the 2026-27 season, the Hawks announced Monday."
+   }
+  ],
+  "Boston Celtics": [
+   {
+    "name": "Jayson Tatum",
+    "key": "jayson tatum",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T14:58Z",
+    "note": "Tatum will be rested Wednesday against the Bucks, Jack Simone of BostonSportsJournal.com reports."
+   },
+   {
+    "name": "Payton Pritchard",
+    "key": "payton pritchard",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T02:56Z",
+    "note": "Pritchard exited Wednesday's 109-102 win over the Bucks and did not return due to a right eye abrasion, finishing with 10 points (4-7 FG, 2-2 FT), five assists and one rebound across 18 minutes."
+   },
+   {
+    "name": "Devin Carter",
+    "key": "devin carter",
+    "status": "Out",
+    "date": "2026-11-04T23:58Z",
+    "note": "Carter (illness) practiced with the G League's Maine Celtics on Wednesday."
+   }
+  ],
+  "Brooklyn Nets": [
+   {
+    "name": "Noah Clowney",
+    "key": "noah clowney",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T07:12Z",
+    "note": "Clowney (knee) supplied seven points (3-6 FG, 1-4 3Pt), one rebound and one assist over 17 minutes during Wednesday's 114-104 victory over the Hornets."
+   },
+   {
+    "name": "Day'Ron Sharpe",
+    "key": "dayron sharpe",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T02:29Z",
+    "note": "Sharpe registered 15 points (5-7 FG, 1-1 3Pt, 4-5 FT), 13 rebounds and four assists across 26 minutes in Sunday's 98-90 win over the Pacers."
+   },
+   {
+    "name": "Egor Demin",
+    "key": "egor demin",
+    "status": "Out",
+    "date": "2026-10-29T17:09Z",
+    "note": "The Nets exercised Demin's third-year team option for the 2027-28 season, Sharif Phillips-Keaton of USA Today reports Thursday."
+   },
+   {
+    "name": "Tyler Bilodeau",
+    "key": "tyler bilodeau",
+    "status": "Out",
+    "date": "2026-10-25T17:19Z",
+    "note": "Bilodeau (shoulder) has been ruled out for Sunday's game against Indiana."
+   }
+  ],
+  "Charlotte Hornets": [
+   {
+    "name": "Kon Knueppel",
+    "key": "kon knueppel",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T17:12Z",
+    "note": "Knueppel exited Wednesday's game against the Nets after experiencing soreness in his left leg and he will not return, Brett Siegel of ClutchPoints.com reports."
+   },
+   {
+    "name": "Grant Williams",
+    "key": "grant williams",
+    "status": "Out",
+    "date": "2026-11-04T23:50Z",
+    "note": "The Hornets recalled Williams (hamstring) from the G League's Greensboro Swarm on Wednesday."
+   }
+  ],
+  "Chicago Bulls": [
+   {
+    "name": "Nic Claxton",
+    "key": "nic claxton",
+    "status": "Out",
+    "date": "2026-11-05T16:59Z",
+    "note": "The Bulls assigned Claxton (hamstring) to the G League's Windy City Bulls on Thursday."
+   },
+   {
+    "name": "Zach Collins",
+    "key": "zach collins",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T03:04Z",
+    "note": "Collins (undisclosed) exited to the locker room in the fourth quarter of Wednesday's 135-105 loss to the Knicks, finishing with three points (1-4 FG, 0-2 3Pt, 1-1 FT), three assists, one rebound and one steal across 14 minutes."
+   },
+   {
+    "name": "Jalen Smith",
+    "key": "jalen smith",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T01:35Z",
+    "note": "Smith (hand) won't return to Wednesday's game against the Knicks."
+   }
+  ],
+  "Cleveland Cavaliers": [
+   {
+    "name": "Peyton Watson",
+    "key": "peyton watson",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:03Z",
+    "note": "Watson (hamstring) is out for Wednesday's game in Oklahoma City."
+   },
+   {
+    "name": "Jarrett Allen",
+    "key": "jarrett allen",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T03:36Z",
+    "note": "Allen (knee) exited to the locker room in the first quarter of Wednesday's 124-116 loss to the Thunder and did not return, finishing with zero points (0-1 FG) and one rebound in seven minutes."
+   },
+   {
+    "name": "Tyrese Proctor",
+    "key": "tyrese proctor",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T03:32Z",
+    "note": "Proctor exited Wednesday's 124-116 loss to the Thunder in the fourth quarter and did not return due to an apparent ankle injury, finishing with 11 points (4-7 FG, 2-3 3Pt, 1-1 FT), one rebound and one steal across 22 minutes."
+   },
+   {
+    "name": "Jaylon Tyson",
+    "key": "jaylon tyson",
+    "status": "Out",
+    "date": "2026-11-05T00:33Z",
+    "note": "According to Cavaliers head coach Kenny Atkinson, Tyson (ankle) has been \"on the court lately progressing well,\" Chris Fedor of The Cleveland Plain Dealer reports."
+   }
+  ],
+  "Dallas Mavericks": [
+   {
+    "name": "Max Christie",
+    "key": "max christie",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:05Z",
+    "note": "Christie (hip) is out for Wednesday's game against the Spurs."
+   },
+   {
+    "name": "Santi Aldama",
+    "key": "santi aldama",
+    "status": "Out",
+    "date": "2026-11-04T23:38Z",
+    "note": "Aldama (knee) is out for Wednesday's game against the Spurs, Grant Afseth of DallasHoopsJournal.com reports."
+   },
+   {
+    "name": "Tarik Biberovic",
+    "key": "tarik biberovic",
+    "status": "Out",
+    "date": "2026-11-01T23:19Z",
+    "note": "Biberovic (heel) is listed as out for Monday's game against Sacramento."
+   },
+   {
+    "name": "Dereck Lively II",
+    "key": "dereck lively",
+    "status": "Out",
+    "date": "2026-11-01T22:57Z",
+    "note": "Lively (foot) is listed as out for Monday's game against the Kings."
+   },
+   {
+    "name": "Sergio de Larrea",
+    "key": "sergio de larrea",
+    "status": "Out",
+    "date": "2026-10-30T22:34Z",
+    "note": "Head coach Dusty May said Friday that de Larrea (knee) will be re-evaluated next week, Noah Weber of TheSmokingCuban.com reports."
+   }
+  ],
+  "Denver Nuggets": [
+   {
+    "name": "DeMar DeRozan",
+    "key": "demar derozan",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:04Z",
+    "note": "DeRozan has been ruled out for Wednesday's game against the Raptors due to lower-back spasms."
+   },
+   {
+    "name": "Spencer Jones",
+    "key": "spencer jones",
+    "status": "Out",
+    "date": "2026-11-03T23:51Z",
+    "note": "Jones (hamstring) is out for Wednesday's game against the Raptors."
+   },
+   {
+    "name": "Julian Strawther",
+    "key": "julian strawther",
+    "status": "Out",
+    "date": "2026-10-17T00:52Z",
+    "note": "Strawther (knee) was diagnosed with a left knee sprain Friday and will be re-evaluated in six weeks, Vinny Benedetto of The Denver Gazette reports."
+   }
+  ],
+  "Detroit Pistons": [
+   {
+    "name": "Isaiah Joe",
+    "key": "isaiah joe",
+    "status": "Out",
+    "date": "2026-11-03T21:18Z",
+    "note": "Joe (hip) has been ruled out for Wednesday's game against Philadelphia."
+   },
+   {
+    "name": "Jalen Duren",
+    "key": "jalen duren",
+    "status": "Out",
+    "date": "2026-10-25T14:56Z",
+    "note": "Duren will be re-evaluated in two weeks due to a right hamstring strain, Eric Vincent of ClutchPoints.com reports."
+   }
+  ],
+  "Golden State Warriors": [
+   {
+    "name": "Gui Santos",
+    "key": "gui santos",
+    "status": "Out",
+    "date": "2026-11-05T00:52Z",
+    "note": "Santos (knee) has been ruled out for Thursday's game against the Heat."
+   },
+   {
+    "name": "Kristaps Porzingis",
+    "key": "kristaps porzingis",
+    "status": "Out",
+    "date": "2026-11-04T17:00Z",
+    "note": "The Warriors have stopped issuing salary payments to Porzingis, who remains away from the team and is considering retirement, Anthony Slater and Shams Charania of ESPN reported Wednesday."
+   },
+   {
+    "name": "Moses Moody",
+    "key": "moses moody",
+    "status": "Out",
+    "date": "2026-10-16T16:14Z",
+    "note": "Moody (knee) is progressing toward a potential return between December and January after rupturing his left patellar tendon in March, Anthony Slater of ESPN reports."
+   },
+   {
+    "name": "Jimmy Butler III",
+    "key": "jimmy butler",
+    "status": "Out",
+    "date": "2026-10-16T16:11Z",
+    "note": "Butler (knee) could return sometime between January and February as he continues recovering from a torn right ACL, Anthony Slater of ESPN reports."
+   }
+  ],
+  "Houston Rockets": [
+   {
+    "name": "Clint Capela",
+    "key": "clint capela",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:04Z",
+    "note": "Capela (ankle) is out for Wednesday's game against the Timberwolves."
+   },
+   {
+    "name": "Steven Adams",
+    "key": "steven adams",
+    "status": "Out",
+    "date": "2026-11-05T00:21Z",
+    "note": "Head coach Ime Udoka said Wednesday that Adams (calf) is still without a timetable to return and will be evaluated on a \"weekly basis,\" Varun Shankar of the Houston Chronicle reports."
+   }
+  ],
+  "Indiana Pacers": [
+   {
+    "name": "Kelly Oubre Jr.",
+    "key": "kelly oubre",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:00Z",
+    "note": "Oubre (calf) has been ruled out for Wednesday's game against the Grizzlies."
+   },
+   {
+    "name": "T.J. McConnell",
+    "key": "tj mcconnell",
+    "status": "Out",
+    "date": "2026-11-02T18:19Z",
+    "note": "McConnell (hamstring) is out for Monday's game against the Hawks and remains week-to-week."
+   },
+   {
+    "name": "Johnny Furphy",
+    "key": "johnny furphy",
+    "status": "Out",
+    "date": "2026-10-30T19:06Z",
+    "note": "Furphy (knee) is practicing with the G League's Noblesville Boom, per Alex Golden of SI.com."
+   },
+   {
+    "name": "Ben Sheppard",
+    "key": "ben sheppard",
+    "status": "Out",
+    "date": "2026-10-28T21:41Z",
+    "note": "Head coach Rick Carlise confirmed Sheppard will miss \"months\" after undergoing surgery to repair a torn meniscus in his left knee, Tony East of Forbes.com reports."
+   },
+   {
+    "name": "Tyrese Haliburton",
+    "key": "tyrese haliburton",
+    "status": "Out",
+    "date": "2026-10-28T21:30Z",
+    "note": "Haliburton (hamstring) will miss at least the next two weeks of action, Shams Charania of ESPN reports."
+   }
+  ],
+  "Los Angeles Clippers": [
+   {
+    "name": "Yanic Konan Niederhauser",
+    "key": "yanic konan niederhauser",
+    "status": "Out",
+    "date": "2026-11-02T16:12Z",
+    "note": "The Clippers recalled Niederhauser (foot) from the G League's San Diego Clippers on Sunday."
+   },
+   {
+    "name": "Brandon Ingram",
+    "key": "brandon ingram",
+    "status": "Out",
+    "date": "2026-11-02T16:01Z",
+    "note": "The Clippers recalled Ingram (Achilles) from the G League's San Diego Clippers on Sunday."
+   },
+   {
+    "name": "Bradley Beal",
+    "key": "bradley beal",
+    "status": "Out",
+    "date": "2026-10-15T01:03Z",
+    "note": "Beal (knee) will not be ready for the start of the regular season, NBA writer Justin Russo reports."
+   },
+   {
+    "name": "Jordan Miller",
+    "key": "jordan miller",
+    "status": "Out",
+    "date": "2026-08-26T20:04Z",
+    "note": "Miller underwent surgery Wednesday to repair a torn left rotator cuff and will be re-evaluated in six months, per Law Murray of The Athletic."
+   }
+  ],
+  "Los Angeles Lakers": [
+   {
+    "name": "Adou Thiero",
+    "key": "adou thiero",
+    "status": "Out",
+    "date": "2026-11-05T18:30Z",
+    "note": "The Lakers recalled Thiero (knee) from the G League's Coachella Valley Lakers on Thursday, per Ryan Ward of SI.com."
+   }
+  ],
+  "Memphis Grizzlies": [
+   {
+    "name": "Isaiah Stewart",
+    "key": "isaiah stewart",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T03:40Z",
+    "note": "Stewart (knee) exited Wednesday's 107-103 loss to the Pacers and did not return, finishing with six points (3-4 FG) and one rebound in 10 minutes."
+   },
+   {
+    "name": "Scotty Pippen Jr.",
+    "key": "scotty pippen",
+    "status": "Out",
+    "date": "2026-11-03T23:19Z",
+    "note": "Pippen (back) won't play Wednesday against the Pacers."
+   }
+  ],
+  "Milwaukee Bucks": [
+   {
+    "name": "Kam Jones",
+    "key": "kam jones",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T14:58Z",
+    "note": "Jones (ankle) won't play Wednesday in Boston."
+   }
+  ],
+  "Minnesota Timberwolves": [
+   {
+    "name": "Terrence Shannon Jr.",
+    "key": "terrence shannon",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:03Z",
+    "note": "Shannon (hip) is out for Wednesday against the Rockets."
+   },
+   {
+    "name": "Anthony Edwards",
+    "key": "anthony edwards",
+    "status": "Out",
+    "date": "2026-10-29T18:33Z",
+    "note": "Edwards underwent a successful arthroscopic procedure on his right knee Thursday, the Timberwolves announced."
+   },
+   {
+    "name": "Donte DiVincenzo",
+    "key": "donte divincenzo",
+    "status": "Out",
+    "date": "2026-10-05T20:53Z",
+    "note": "DiVincenzo (Achilles) remains confident that he'll return during the 2026-27 season, Jon Krawczynski of The Athletic reports."
+   }
+  ],
+  "New Orleans Pelicans": [
+   {
+    "name": "Yves Missi",
+    "key": "yves missi",
+    "status": "Out",
+    "date": "2026-11-05T20:47Z",
+    "note": "Missi (knee) is out for Friday's game against Minnesota."
+   },
+   {
+    "name": "Trey Murphy III",
+    "key": "trey murphy",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T20:19Z",
+    "note": "Murphy (knee) is probable for Friday's game against Minnesota."
+   }
+  ],
+  "New York Knicks": [
+   {
+    "name": "Josh Hart",
+    "key": "josh hart",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:00Z",
+    "note": "Hart is out for Wednesday's game against the Bulls due to right ankle soreness."
+   }
+  ],
+  "Oklahoma City Thunder": [
+   {
+    "name": "Jaylin Williams",
+    "key": "jaylin williams",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:03Z",
+    "note": "Williams (back) is listed as out for Wednesday's game versus Cleveland, Clemente Almanza of USA Today reports."
+   },
+   {
+    "name": "Nikola Topic",
+    "key": "nikola topic",
+    "status": "Out",
+    "date": "2026-11-03T22:49Z",
+    "note": "Topic (back) is listed as out for Wednesday's game against Cleveland."
+   },
+   {
+    "name": "Thomas Sorber",
+    "key": "thomas sorber",
+    "status": "Out",
+    "date": "2026-11-03T22:45Z",
+    "note": "Sorber (knee) is out for Wednesday's game against the Cavaliers."
+   },
+   {
+    "name": "Cason Wallace",
+    "key": "cason wallace",
+    "status": "Out",
+    "date": "2026-10-31T01:16Z",
+    "note": "Wallace underwent surgery Friday to repair a torn labrum in his left shoulder and will be re-evaluated before the end of the regular season, Clemente Almanza of USA Today reports."
+   },
+   {
+    "name": "Chet Holmgren",
+    "key": "chet holmgren",
+    "status": "Out",
+    "date": "2026-10-31T01:02Z",
+    "note": "Holmgren underwent a biological treatment Friday to address a small patellar tendon tear and will miss at least 8-10 weeks, Nick Crain of Slam reports."
+   },
+   {
+    "name": "Jalen Williams",
+    "key": "jalen williams",
+    "status": "Out",
+    "date": "2026-10-28T23:41Z",
+    "note": "Williams (leg) underwent successful surgery Wednesday to \"address a fractured left fibula and reconstruction of ankle ligaments following a fracture and dislocation.\" He will be re-evaluated before the end of the regular season, Tim MacMahon of ESPN.com reports."
+   }
+  ],
+  "Orlando Magic": [
+   {
+    "name": "Jonathan Isaac",
+    "key": "jonathan isaac",
+    "status": "Out",
+    "date": "2026-11-05T15:12Z",
+    "note": "Orlando recalled Isaac (knee) from the G League's Osceola Magic on Wednesday."
+   },
+   {
+    "name": "Jalen Suggs",
+    "key": "jalen suggs",
+    "status": "Out",
+    "date": "2026-10-26T18:44Z",
+    "note": "Suggs has been diagnosed with a mild bone bruise in his right knee and will be re-evaluated in two weeks, Shams Charania of ESPN reports."
+   },
+   {
+    "name": "Paolo Banchero",
+    "key": "paolo banchero",
+    "status": "Out",
+    "date": "2026-10-24T16:47Z",
+    "note": "Banchero is expected to be sidelined for the next four-to-six weeks due to a right high-ankle sprain, Shams Charania of ESPN reports."
+   },
+   {
+    "name": "Noah Penda",
+    "key": "noah penda",
+    "status": "Out",
+    "date": "2026-10-17T22:19Z",
+    "note": "Penda was diagnosed with a partially torn right hamstring Saturday, Jason Beede of the Orlando Sentinel reports."
+   },
+   {
+    "name": "Izaiyah Nelson",
+    "key": "izaiyah nelson",
+    "status": "Out",
+    "date": "2026-09-28T21:33Z",
+    "note": "Team president Jeff Weltman said Monday that Nelson (ankle) remains about a month away from returning to the court after offseason surgery, per Philip Rossman-Reich of OrlandoMagicDaily.com."
+   }
+  ],
+  "Philadelphia 76ers": [
+   {
+    "name": "Adem Bona",
+    "key": "adem bona",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T03:01Z",
+    "note": "Bona exited Wednesday's 112-106 win over the Pistons in the fourth quarter and did not return due to an apparent head injury, finishing with five points (2-4 FG, 1-1 FT), two rebounds, one assist and one steal across 15 minutes."
+   },
+   {
+    "name": "Dominick Barlow",
+    "key": "dominick barlow",
+    "status": "Out",
+    "date": "2026-11-04T22:41Z",
+    "note": "Head coach Nick Nurse said Wednesday that Barlow (back) likely needs another 10-12 days before he's cleared to return to the court, Derek Bodner of AllPHLY.com reports."
+   },
+   {
+    "name": "Ariel Hukporti",
+    "key": "ariel hukporti",
+    "status": "Out",
+    "date": "2026-10-06T19:17Z",
+    "note": "Hukporti has sustained a season-ending ruptured right Achilles tendon, per Shams Charania of ESPN."
+   }
+  ],
+  "Phoenix Suns": [
+   {
+    "name": "Rasheer Fleming",
+    "key": "rasheer fleming",
+    "status": "Out",
+    "date": "2026-11-05T20:22Z",
+    "note": "Fleming is out for Thursday's game against the Magic due to a sprained left ankle."
+   },
+   {
+    "name": "Jordan Goodwin",
+    "key": "jordan goodwin",
+    "status": "Out",
+    "date": "2026-11-05T20:18Z",
+    "note": "Goodwin (calf) is out for Thursday's game against Orlando."
+   },
+   {
+    "name": "Mark Williams",
+    "key": "mark williams",
+    "status": "Out",
+    "date": "2026-09-11T16:03Z",
+    "note": "Williams underwent surgery Thursday to repair a torn labrum in his left shoulder and will miss an extended period of time, Shams Charania of ESPN reports."
+   }
+  ],
+  "Portland Trail Blazers": [
+   {
+    "name": "Vit Krejci",
+    "key": "vit krejci",
+    "status": "Out",
+    "date": "2026-11-05T05:17Z",
+    "note": "Head coach Micah Nori said that Krejci suffered a left leg fracture during Wednesday's 132-119 win over the Suns, Brett Siegel of ClutchPoints.com reports."
+   },
+   {
+    "name": "Ja Morant",
+    "key": "ja morant",
+    "status": "Out",
+    "date": "2026-10-30T18:45Z",
+    "note": "Morant has been diagnosed with a Grade 2 left hamstring strain and is expected to miss four weeks, Portland announced Friday."
+   },
+   {
+    "name": "Shaedon Sharpe",
+    "key": "shaedon sharpe",
+    "status": "Out",
+    "date": "2026-08-24T20:23Z",
+    "note": "Sharpe suffered a torn meniscus in his knee and is expected to miss six months, per Shams Charania of ESPN."
+   }
+  ],
+  "Sacramento Kings": [
+   {
+    "name": "Daeqwon Plowden",
+    "key": "daeqwon plowden",
+    "status": "Day-To-Day",
+    "date": "2026-11-05T15:05Z",
+    "note": "Plowden (illness) is out for Wednesday's game against the Lakers."
+   },
+   {
+    "name": "Maxime Raynaud",
+    "key": "maxime raynaud",
+    "status": "Out",
+    "date": "2026-10-26T22:07Z",
+    "note": "Raynaud (knee) is progressing in his rehabilitation and will be re-evaluated in approximately two weeks, Brenden Nunes of KHTK Sactown Sports 1140 reports."
+   },
+   {
+    "name": "Keegan Murray",
+    "key": "keegan murray",
+    "status": "Out",
+    "date": "2026-10-26T22:01Z",
+    "note": "Murray (ankle) will be re-evaluated in 10-to-14 days, NBA reporter Marc Stein reports."
+   },
+   {
+    "name": "Ben Simmons",
+    "key": "ben simmons",
+    "status": "Out",
+    "date": "2026-10-21T04:22Z",
+    "note": "Simmons underwent successful surgery Tuesday to repair a torn right Achilles tendon, James Ham of ESPN 1320 Sacramento reports."
+   }
+  ],
+  "San Antonio Spurs": [
+   {
+    "name": "Tobias Harris",
+    "key": "tobias harris",
+    "status": "Out",
+    "date": "2026-10-30T21:44Z",
+    "note": "Harris (calf) is listed as out for Saturday's game against Minnesota."
+   },
+   {
+    "name": "Jayden Quaintance",
+    "key": "jayden quaintance",
+    "status": "Out",
+    "date": "2026-10-05T21:43Z",
+    "note": "Quaintance has been around the team but has not yet been cleared for basketball activities, Matt Guzman of SI.com reports."
+   }
+  ],
+  "Toronto Raptors": [
+   {
+    "name": "Kawhi Leonard",
+    "key": "kawhi leonard",
+    "status": "Out",
+    "date": "2026-11-04T00:14Z",
+    "note": "Leonard has completed treatment to reduce swelling in his left knee and he will be re-evaluated in one week, Brett Siegel of ClutchPoints.com reports."
+   },
+   {
+    "name": "Nate Bittle",
+    "key": "nate bittle",
+    "status": "Out",
+    "date": "2026-11-02T20:20Z",
+    "note": "Bittle (foot) is out for Monday's game against the Clippers and remains without a timetable to return."
+   }
+  ],
+  "Utah Jazz": [
+   {
+    "name": "Jusuf Nurkic",
+    "key": "jusuf nurkic",
+    "status": "Out",
+    "date": "2026-11-03T23:07Z",
+    "note": "Nurkic (foot) is out for Wednesday's game against the Pelicans."
+   },
+   {
+    "name": "Jaren Jackson Jr.",
+    "key": "jaren jackson",
+    "status": "Out",
+    "date": "2026-10-27T19:25Z",
+    "note": "Jackson has been diagnosed with a torn MCL in his right knee and will be sidelined for 6-to-8 weeks, per Shams Charania of ESPN."
+   },
+   {
+    "name": "Trey Alexander",
+    "key": "trey alexander",
+    "status": "Out",
+    "date": "2026-10-24T23:18Z",
+    "note": "Alexander won't play Wednesday against the Grizzlies due to a left knee bone bruise."
+   }
+  ],
+  "Washington Wizards": [
+   {
+    "name": "Reece Beekman",
+    "key": "reece beekman",
+    "status": "Out",
+    "date": "2026-11-02T18:22Z",
+    "note": "The Wizards announced Monday that Beekman sustained a right acromioclavicular joint injury and will be re-evaluated in approximately three weeks."
+   },
+   {
+    "name": "Tristan Vukcevic",
+    "key": "tristan vukcevic",
+    "status": "Out",
+    "date": "2026-11-01T21:51Z",
+    "note": "Vukcevic (hip) is listed as out for Monday's game against Orlando."
+   },
+   {
+    "name": "Justin Champagnie",
+    "key": "justin champagnie",
+    "status": "Out",
+    "date": "2026-10-28T18:38Z",
+    "note": "Champagnie (foot) is expected to miss several months, per Josh Robbins of The Athletic."
+   },
+   {
+    "name": "Jamir Watkins",
+    "key": "jamir watkins",
+    "status": "Out",
+    "date": "2026-07-30T20:11Z",
+    "note": "The Wizards announced Thursday that Watkins has undergone surgery for a torn ACL."
+   }
+  ]
+ },
+ "credits": {
+  "remaining": "369",
+  "used": "131"
+ }
+}
