@@ -253,6 +253,7 @@ def resolver(names):
 PROP_LABEL = {"player_pass_yds": ("pass_yds", "Pass Yds"), "player_pass_tds": ("pass_tds", "Pass TDs"), "player_rush_yds": ("rush_yds", "Rush Yds"),
               "player_receptions": ("receptions", "Rec"), "player_reception_yds": ("rec_yds", "Rec Yds"),
               "player_points": ("pts", "Pts"), "player_rebounds": ("reb", "Reb"), "player_assists": ("ast", "Ast")}
+LAST_PROP_BEST = {}
 def prop_scan(events, label, min_ev=0.04, cons_extra=0.01, diag=False):
     flags = []; allp = []
     for ev in events:
@@ -281,6 +282,9 @@ def prop_scan(events, label, min_ev=0.04, cons_extra=0.01, diag=False):
                 for side, p, price in (("Over", po, pr["Over"]), ("Under", 1 - po, pr["Under"])):
                     e = p * am_to_dec(price) - 1
                     allp.append((round(e * 100, 1), player, lab, side, line, price, src))
+                    cur = LAST_PROP_BEST.get((away, home))
+                    if cur is None or e * 100 > cur["ev"]:
+                        LAST_PROP_BEST[(away, home)] = dict(ev=round(e * 100, 1), pick=f"{player} {side} {line:g} {lab}", price=price, src=src)
                     if e < min_ev + (0 if src == "Pinnacle" else cons_extra): continue
                     b_ = am_to_dec(price) - 1; kelly = max(0, (p * b_ - (1 - p)) / b_)
                     flags.append(dict(sport=label, player=player, stat=stat, stat_label=lab, side=side, line=line, price=price, fair_prob=p,

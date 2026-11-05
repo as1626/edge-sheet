@@ -165,6 +165,34 @@ def parlay_card(p):
     res = f'<span class="res {cls}">{num(round(p["result_units"],2))}u</span>' if p["status"] != "pending" else ""
     return f'<div class="parlay s-{cls}"><div class="ph"><div><span class="kk">{len(p["legs"])}-leg lotto · {p["stake"]:g}u</span><b>{am(p["price"])}</b></div><div class="pr"><span class="pill {cls}">{st}</span>{res}<span class="mut sm">Pays {p["stake"]*(p["price"]/100):.2f}u · not counted in record</span></div></div><ul>{"".join(legs)}</ul></div>'
 
+def games_table():
+    G = L.get("games") or {}
+    rows = G.get("rows") or []
+    if not rows: return ""
+    def cell(m, kind):
+        if not m: return '<td class="mut">—</td>'
+        if kind == "Moneyline":
+            return f'<td><span class="mut">{esc(m["side"])}</span> {am(m["fd"])}</td>'
+        fd = num(m["fd"]) if kind == "Spread" else f'{m["fd"]:g}'
+        ours = "—" if m["ours"] is None else (num(m["ours"]) if kind == "Spread" else f'{m["ours"]:g}')
+        return f'<td><span class="mut">{esc(m["side"])}</span><br><b class="n">{fd}</b> <span class="mut">vs ours</span> <b class="n">{ours}</b></td>'
+    def verdict(g):
+        gr = [m["grade"] for m in g["markets"].values()]
+        if any(x in ("A", "B") for x in gr): return '<span class="pill won">Play</span>'
+        if "C" in gr: return '<span class="pill push">Lean</span>'
+        return '<span class="pill pend">Pass</span>'
+    out = []
+    for g in rows:
+        sp = g["markets"].get("Spread"); to = g["markets"].get("Total"); ml = g["markets"].get("Moneyline")
+        pl = g.get("prop_lean")
+        prop = f'<div class="mut sm">Best prop price: {esc(pl["pick"])} {am(pl["price"])} ({num(pl["ev"])}% vs {esc(pl["src"])})</div>' if pl else ""
+        out.append(f'<tr data-sport="{esc(g["sport"])}"><td>{esc(g["sport"])}</td><td>{t_et(g["start"])}</td><td><b>{esc(g["away"])}</b> at <b>{esc(g["home"])}</b>{prop}</td>'
+                   f'{cell(sp or ml, "Spread" if sp else "Moneyline")}{cell(to, "Total")}<td>{verdict(g)}</td></tr>')
+    return ('<div class="sh"><h2>Every game</h2><p>Our number on every game priced today, including the ones we pass on. '
+            'Play = staked or tracked A/B · Lean = C · Pass = no meaningful gap. NFL and college lines are tracked-model numbers.</p></div>'
+            '<div class="logwrap"><table class="log"><thead><tr><th>Sport</th><th>Time (ET)</th><th>Game</th><th>Side</th><th>Total</th><th>Verdict</th></tr></thead><tbody>'
+            + "".join(out) + '</tbody></table></div>')
+
 # ---------- units chart ----------
 def chart():
     seq = sorted(graded, key=lambda b: b["start"])
@@ -327,6 +355,7 @@ h1 span{color:var(--sig)}
 .log th{font:600 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute);text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule)}
 .log td{padding:10px 12px;border-bottom:1px solid var(--rule);font-size:13.5px;vertical-align:top}
 .log td.n{font-family:var(--mono);font-size:12.5px;text-align:right}
+.log b.n{font-family:var(--mono);font-size:12.5px;font-weight:600}
 .log td.won{color:var(--won)} .log td.lost{color:var(--lost)}
 .log .empty{color:var(--mute);text-align:center;padding:26px}
 .mut{color:var(--mute)} .sm{font-size:12px}
@@ -410,6 +439,8 @@ page = f"""<!DOCTYPE html>
 
 {('<div class="sh"><h2>Held</h2><p>Model likes these, but the line is far from the player\'s average. Check news before betting.</p></div><div class="track">' + ''.join(f'<div><b>{esc(h["player"])} {esc(h["side"])} {h["line"]:g} {esc(h["stat"].upper())}</b><span>{esc(h["reason"])}</span></div>' for h in L.get("holds", [])) + '</div>') if L.get("holds") and IS_TODAY else ''}
 
+{games_table()}
+
 <div class="sh"><h2>Tracking</h2><p>Graded for the record, no stake: Grade C leans and models still being validated (college hoops).</p></div>
 <div class="track">
 {''.join(f'<div><b>{esc(b["pick"])} {am(b["price"])}</b><span>{esc(b["away"])} at {esc(b["home"])} · {t_et(b["start"])} · CLV {"—" if clv(b) is None else num(clv(b))}{(" · FD now " + num(b["fd_latest"])) if b.get("fd_latest") not in (None, b["line"]) else ""}</span></div>' for b in track_today)}
@@ -458,7 +489,7 @@ page = f"""<!DOCTYPE html>
 <script>
 document.querySelectorAll('.chips').forEach(function(g){{g.addEventListener('click',function(e){{var b=e.target.closest('.chip');if(!b)return;
 g.querySelectorAll('.chip').forEach(function(x){{x.classList.toggle('on',x===b)}});var s=b.dataset.s;
-document.querySelectorAll('.tix').forEach(function(t){{t.style.display=(s==='All'||t.dataset.sport===s)?'':'none'}});}});}});
+document.querySelectorAll('.tix, tr[data-sport]').forEach(function(t){{t.style.display=(s==='All'||t.dataset.sport===s)?'':'none'}});}});}});
 </script></body></html>"""
 open(os.path.join(ROOT, "index.html"), "w").write(page)
 print("ok", len(page), "bytes;", len(today), "plays,", len(track_today), "tracked,", len(later), "later; CLV", clvs)

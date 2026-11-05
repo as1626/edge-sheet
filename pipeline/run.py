@@ -6,6 +6,31 @@ from common import log, LOG, load, save, now_et, to_et, am_to_dec, ROOT
 import sources as S
 
 LEDGER = "data/ledger.json"
+GAMES = {}   # (sport, game) -> per-game summary for the "Every game" table
+
+def note_game(sport, away, home, start, kind, fd_line, our_line, gap, grade, ev, side_label):
+    k = (sport, f"{away} @ {home}")
+    g = GAMES.setdefault(k, dict(sport=sport, game=f"{away} @ {home}", away=away, home=home, start=start, markets={}))
+    cur = g["markets"].get(kind)
+    if cur is None or (gap or 0) > (cur["gap"] or 0):
+        g["markets"][kind] = dict(fd=fd_line, ours=None if our_line is None else round(our_line, 1), gap=gap, grade=grade or "",
+                                  ev=None if ev is None else round(ev * 100, 1), side=side_label)
+
+def note_rows(rows, sport=None):
+    for r in rows:
+        a, h = r["game"]
+        if r["kind"] == "Spread":
+            lab = f'{r["team"]} {r["line"]:+g}'
+            note_game(sport or r.get("sport", "NBA"), a, h, r["start"], "Spread", r["line"], r["model_line"], r["gap"], r["grade"], r["ev"], lab)
+        elif r["kind"] == "Total":
+            note_game(sport or r.get("sport", "NBA"), a, h, r["start"], "Total", r["line"], r["model_line"], r["gap"], r["grade"], r["ev"], f'{r["side"].title()} {r["line"]:g}')
+        elif r["kind"] == "Moneyline":
+            note_game(sport or r.get("sport", "NBA"), a, h, r["start"], "Moneyline", r["price"], None, r["gap"], r["grade"], r["ev"], f'{r["team"]} ML')
+
+def save_games(L, ds):
+    keep = [g for g in GAMES.values() if to_et(g["start"]) > now_et() - timedelta(hours=4) and (to_et(g["start"]) - now_et()).total_seconds() < 30 * 3600]
+    keep.sort(key=lambda g: (g["sport"], g["start"]))
+    if keep: L["games"] = dict(date=ds, rows=keep)
 SEASON, PREV = 2027, 2026
 PROP_CREDIT_FLOOR = 120          # skip props when Odds API credits run low
 STAKE_SCALE = 0.5   # half stakes until ~50 plays have closing-line data
@@ -98,6 +123,12 @@ def nfl_props(hours=30, max_plays=6):
         try: data.append(S.odds_props(e["id"], "americanfootball_nfl", S.NFL_PROP_MARKETS))
         except Exception as ex: log(f"nfl props {e['id']} failed: {ex}")
     flags = X.prop_scan(data, "NFL", diag=True)
+    for ev in data:
+        a, h = S.team(ev["away_team"]), S.team(ev["home_team"])
+        best = X.LAST_PROP_BEST.get((a, h))
+        if best:
+            k = ("NFL", f"{a} @ {h}"); g = GAMES.setdefault(k, dict(sport="NFL", game=f"{a} @ {h}", away=a, home=h, start=ev["commence_time"], markets={}))
+            g["prop_lean"] = best
     return [bet_from_propscan(f) for f in flags[:max_plays]]
 
 def bet_from_scan(f):
@@ -139,6 +170,7 @@ def multi_card(nba_odds):
                 cur = S.cbb_teams(SEASON); prev = cached(f"data/cache/cbb_{PREV}.json", lambda: S.cbb_teams(PREV))
                 R, lg = X.blend(cur, prev, X.CFG["NCAAM"]["prior_g"], ["ortg", "drtg", "pace"])
                 rows = X.point_model("NCAAM", odds, R, lg, X.resolver(list(R)))
+            note_rows(rows, label)
             unmatched = sorted({n for e in odds for n in (S.team(e["home_team"]), S.team(e["away_team"])) if not X.resolver(list(R))(n)})
             if unmatched: log(f"{label} unmatched teams ({len(unmatched)}): {unmatched[:12]}")
             pol = X.STAKE_POLICY.get(label, 0)
@@ -195,6 +227,7 @@ def card():
     today = [dict(home=S.team(e["home_team"]), away=S.team(e["away_team"])) for e in odds]
     rest = M.rest_flags(sched, today)
     sides, ctx = M.project_games(odds, ratings, lg, inj, p_cur, rest, an)
+    note_rows(sides, "NBA")
     props = []
     rem = int(S.CREDITS["remaining"] or 0)
     if rem - 3 * len(odds) >= PROP_CREDIT_FLOOR:
@@ -224,6 +257,7 @@ def card():
     L["slate_date"] = ds; L["slate_label"] = day.strftime("%a %b %-d")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     L["run_note"] = note_props
+    save_games(L, ds)
     L["holds"] = holds_today
     L["credits"] = S.CREDITS["remaining"]
     save(LEDGER, L)
@@ -451,18 +485,18 @@ if __name__ == "__main__":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             odds = S.odds_window("americanfootball_nfl", 1)
             scans = [bet_from_scan(f) for f in X.price_scan(odds, "NFL")][:6]
-            R = S.espn_fpi("nfl"); rows = X.point_model("NFL", odds, R, {}, X.resolver(list(R)))
+            R = S.espn_fpi("nfl"); rows = X.point_model("NFL", odds, R, {}, X.resolver(list(R))); note_rows(rows, "NFL")
             model = [bet_from_multi(r, X.STAKE_POLICY.get("NFL", 0)) for r in sorted(rows, key=lambda r: -r["ev"]) if r["grade"] in ("A", "B", "C")][:6]
             add_multi(L, model + scans + nfl_props(hours=14, max_plays=8), ds)
-            L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
+            L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
         elif cmd == "nflprops":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             bets = nfl_props(); log("nfl prop plays:", [(b["pick"], b["price"], b["ev_pct"], b["stake"]) for b in bets])
-            add_multi(L, bets, ds); L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
+            add_multi(L, bets, ds); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
         elif cmd == "probe2": probe2()
         elif cmd == "multi":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
-            add_multi(L, multi_card([]), ds); L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
+            add_multi(L, multi_card([]), ds); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
         elif cmd == "preview": preview()
     except Exception:
         ok = False; log(traceback.format_exc())

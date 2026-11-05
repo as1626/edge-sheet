@@ -126,6 +126,7 @@ h1 span{color:var(--sig)}
 .log th{font:600 10px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--mute);text-align:left;padding:10px 12px;border-bottom:1px solid var(--rule)}
 .log td{padding:10px 12px;border-bottom:1px solid var(--rule);font-size:13.5px;vertical-align:top}
 .log td.n{font-family:var(--mono);font-size:12.5px;text-align:right}
+.log b.n{font-family:var(--mono);font-size:12.5px;font-weight:600}
 .log td.won{color:var(--won)} .log td.lost{color:var(--lost)}
 .log .empty{color:var(--mute);text-align:center;padding:26px}
 .mut{color:var(--mute)} .sm{font-size:12px}
@@ -281,6 +282,8 @@ h1 span{color:var(--sig)}
 
 
 
+<div class="sh"><h2>Every game</h2><p>Our number on every game priced today, including the ones we pass on. Play = staked or tracked A/B · Lean = C · Pass = no meaningful gap. NFL and college lines are tracked-model numbers.</p></div><div class="logwrap"><table class="log"><thead><tr><th>Sport</th><th>Time (ET)</th><th>Game</th><th>Side</th><th>Total</th><th>Verdict</th></tr></thead><tbody><tr data-sport="NFL"><td>NFL</td><td>8:15 PM</td><td><b>Jacksonville Jaguars</b> at <b>Baltimore Ravens</b><div class="mut sm">Best prop price: Trevor Lawrence Over 1.5 Pass TDs −118 (+3.6% vs Pinnacle)</div></td><td><span class="mut">Baltimore Ravens +3.5</span><br><b class="n">+3.5</b> <span class="mut">vs ours</span> <b class="n">+3.1</b></td><td class="mut">—</td><td><span class="pill pend">Pass</span></td></tr></tbody></table></div>
+
 <div class="sh"><h2>Tracking</h2><p>Graded for the record, no stake: Grade C leans and models still being validated (college hoops).</p></div>
 <div class="track">
 <div><b>Devin Booker Over 5.5 Ast +124</b><span>Orlando Magic at Phoenix Suns · 9:10 PM · CLV —</span></div><div><b>Tristan Da Silva Over 12.5 Pts +102</b><span>Orlando Magic at Phoenix Suns · 9:10 PM · CLV —</span></div><div><b>Yaxel Lendeborg Over 18.5 Pts −128</b><span>Miami Heat at Golden State Warriors · 10:10 PM · CLV —</span></div><div><b>Miles Bridges Over 16.5 Pts −108</b><span>Orlando Magic at Phoenix Suns · 9:10 PM · CLV —</span></div><div><b>Jamal Cain Over 6.5 Pts +106</b><span>Orlando Magic at Phoenix Suns · 9:10 PM · CLV —</span></div><div><b>Over 236.5 −105</b><span>Miami Heat at Golden State Warriors · 10:10 PM · CLV —</span></div>
@@ -353,5 +356,5 @@ h1 span{color:var(--sig)}
 <script>
 document.querySelectorAll('.chips').forEach(function(g){g.addEventListener('click',function(e){var b=e.target.closest('.chip');if(!b)return;
 g.querySelectorAll('.chip').forEach(function(x){x.classList.toggle('on',x===b)});var s=b.dataset.s;
-document.querySelectorAll('.tix').forEach(function(t){t.style.display=(s==='All'||t.dataset.sport===s)?'':'none'});});});
+document.querySelectorAll('.tix, tr[data-sport]').forEach(function(t){t.style.display=(s==='All'||t.dataset.sport===s)?'':'none'});});});
 </script></body></html>
