@@ -74,7 +74,7 @@ def bet_from_prop(r, day):
 def add_multi(L, bets, ds):
     started = lambda b: to_et(b["start"]) <= now_et()
     refreshable = lambda b: b.get("engine") == "Team model" or b["id"].endswith("|scan")
-    L["bets"] = [b for b in L["bets"] if not (refreshable(b) and b["status"] == "pending" and not started(b) and b["date"] >= ds)]
+    L["bets"] = [b for b in L["bets"] if not (refreshable(b) and b["status"] == "pending" and not started(b) and b["date"] >= ds and b["stake"] == 0)]
     have = {b["id"] for b in L["bets"]}
     same_side = {(b["game"], b["market"], (b.get("pick_team") or b.get("side") or "").lower()) for b in L["bets"] if b["status"] == "pending"}
     for b in bets:
@@ -246,7 +246,8 @@ def card():
     save(f"data/cards/{ds}.json", dict(sides=sides, props=props, rest=rest, injuries=inj, credits=S.CREDITS))
     L = load(LEDGER, {"bets": [], "snapshots": []})
     started = lambda b: to_et(b["start"]) <= now_et()
-    L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and not started(b))]
+    # posted staked plays are permanent; only unstaked (tracked) entries are refreshed
+    L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and not started(b) and b["stake"] == 0)]
     have = {b["id"] for b in L["bets"]}
     new = [bet_from_side(r, ds) for r in sides if r["grade"]] + [bet_from_prop(r, ds) for r in props if r["grade"] in ("A", "B")]
     new += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
@@ -285,7 +286,7 @@ def rebuild():
     C["props"] = M.sanity_props(C["props"], p_cur)
     save(f"data/cards/{ds}.json", C)
     L = load(LEDGER, {"bets": []})
-    L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and b["market"] == "Prop")]
+    L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and b["market"] == "Prop" and b["stake"] == 0)]
     props = C["props"]
     L["bets"] += [bet_from_prop(r, ds) for r in props if r["grade"] in ("A", "B")]
     L["bets"] += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
