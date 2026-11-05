@@ -479,9 +479,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Philadelphia 76ers 112, Detroit Pistons 106",
+   "result_units": -1.0
   },
   {
    "id": "2026-11-04|Utah Jazz @ New Orleans Pelicans|Total",
@@ -515,9 +515,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Utah Jazz 113, New Orleans Pelicans 120",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Indiana Pacers @ Memphis Grizzlies|Spread",
@@ -551,9 +551,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Indiana Pacers 107, Memphis Grizzlies 103",
+   "result_units": -1.0
   },
   {
    "id": "2026-11-04|Indiana Pacers @ Memphis Grizzlies|Total",
@@ -587,9 +587,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Indiana Pacers 107, Memphis Grizzlies 103",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Atlanta Hawks @ Washington Wizards|Spread",
@@ -623,9 +623,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Atlanta Hawks 120, Washington Wizards 105",
+   "result_units": 0.87
   },
   {
    "id": "2026-11-04|Utah Jazz @ New Orleans Pelicans|Spread",
@@ -657,9 +657,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Utah Jazz 113, New Orleans Pelicans 120",
+   "result_units": 0.435
   },
   {
    "id": "2026-11-04|Milwaukee Bucks @ Boston Celtics|Spread",
@@ -693,9 +693,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Milwaukee Bucks 102, Boston Celtics 109",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Minnesota Timberwolves @ Houston Rockets|Total",
@@ -729,9 +729,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Minnesota Timberwolves 117, Houston Rockets 107",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Atlanta Hawks @ Washington Wizards|Total",
@@ -765,9 +765,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Atlanta Hawks 120, Washington Wizards 105",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Chicago Bulls @ New York Knicks|Spread",
@@ -801,9 +801,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Chicago Bulls 105, New York Knicks 135",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Minnesota Timberwolves @ Houston Rockets|Spread",
@@ -837,9 +837,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Minnesota Timberwolves 117, Houston Rockets 107",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Milwaukee Bucks @ Boston Celtics|Total",
@@ -873,9 +873,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Milwaukee Bucks 102, Boston Celtics 109",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Charlotte Hornets @ Brooklyn Nets|Spread",
@@ -909,9 +909,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Charlotte Hornets 104, Brooklyn Nets 114",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Brayden Burries|pts",
@@ -944,9 +944,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Brayden Burries: 9 PTS",
+   "result_units": 0.463
   },
   {
    "id": "2026-11-04|James Harden|ast",
@@ -979,9 +979,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "James Harden: 6 AST",
+   "result_units": -0.5
   },
   {
    "id": "2026-11-04|Pascal Siakam|pts",
@@ -1014,9 +1014,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Pascal Siakam: 20 PTS",
+   "result_units": -0.5
   },
   {
    "id": "2026-11-04|Fred VanVleet|ast",
@@ -1049,9 +1049,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Fred VanVleet: 3 AST",
+   "result_units": -0.5
   },
   {
    "id": "2026-11-04|Paul George|pts",
@@ -1084,9 +1084,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Paul George: 25 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Jaylen Wells|pts",
@@ -1119,9 +1119,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Jaylen Wells: 0 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Derik Queen|pts",
@@ -1154,9 +1154,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Derik Queen: 20 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Donovan Mitchell|ast",
@@ -1189,9 +1189,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Donovan Mitchell: 6 AST",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Paul George|reb",
@@ -1224,9 +1224,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Paul George: 3 REB",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Jalen Brunson|pts",
@@ -1259,9 +1259,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Jalen Brunson: 33 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Karl-Anthony Towns|pts",
@@ -1294,9 +1294,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Karl-Anthony Towns: 17 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Andrew Nembhard|pts",
@@ -1329,9 +1329,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Andrew Nembhard: 22 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Daniss Jenkins|pts",
@@ -1364,9 +1364,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Daniss Jenkins: 5 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Longwood Lancers @ Saint Joseph's Hawks|Total",
@@ -1396,9 +1396,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Longwood Lancers 73, Saint Joseph's Hawks 82",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -1429,9 +1429,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "SE Louisiana Lions 59, Auburn Tigers 92",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -1499,9 +1499,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Miami Heat 117, Los Angeles Clippers 116",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Miami Heat @ Los Angeles Clippers|Total",
@@ -1535,9 +1535,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Miami Heat 117, Los Angeles Clippers 116",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Los Angeles Lakers @ Sacramento Kings|Total",
@@ -1571,9 +1571,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Los Angeles Lakers 116, Sacramento Kings 103",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Dallas Mavericks @ San Antonio Spurs|Spread",
@@ -1605,9 +1605,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Dallas Mavericks 111, San Antonio Spurs 112",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Toronto Raptors @ Denver Nuggets|Total",
@@ -1639,9 +1639,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Toronto Raptors 109, Denver Nuggets 128",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Dallas Mavericks @ San Antonio Spurs|Total",
@@ -1675,9 +1675,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Dallas Mavericks 111, San Antonio Spurs 112",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Keldon Johnson|reb",
@@ -1710,9 +1710,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Keldon Johnson: 5 REB",
+   "result_units": 0.31
   },
   {
    "id": "2026-11-04|Sandro Mamukelashvili|pts",
@@ -1745,9 +1745,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Sandro Mamukelashvili: 2 PTS",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-04|Devin Booker|pts",
@@ -1780,9 +1780,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Devin Booker: 33 PTS",
+   "result_units": 0.25
   },
   {
    "id": "2026-11-04|Kyrie Irving|pts",
@@ -1815,9 +1815,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Kyrie Irving: 29 PTS",
+   "result_units": 0.236
   },
   {
    "id": "2026-11-04|Keldon Johnson|pts",
@@ -1850,9 +1850,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Keldon Johnson: 4 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Quentin Grimes|ast",
@@ -1885,9 +1885,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Quentin Grimes: 1 AST",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|DeMar DeRozan|ast",
@@ -1920,9 +1920,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "push",
+   "score": "Did not play (void)",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Jalen Green|pts",
@@ -1955,9 +1955,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Jalen Green: 22 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Luka Don\u010di\u0107|pts",
@@ -1990,9 +1990,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Luka Don\u010di\u0107: 40 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|Rui Hachimura|pts",
@@ -2025,9 +2025,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Rui Hachimura: 21 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Bobby Portis|pts",
@@ -2060,9 +2060,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Bobby Portis: 4 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Naji Marshall|pts",
@@ -2095,9 +2095,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Naji Marshall: 22 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-04|De'Aaron Fox|pts",
@@ -2130,9 +2130,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "De'Aaron Fox: 10 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-04|Khaman Maluach|pts",
@@ -2165,9 +2165,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Khaman Maluach: 6 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Cincinnati Bengals @ Atlanta Falcons|Spread",
@@ -2560,9 +2560,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Radford Highlanders 70, California Golden Bears 84",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   }
  ],
@@ -2580,7 +2580,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Wed Nov 4 \u00b7 8:49 PM ET",
+ "updated_label": "Thu Nov 5 \u00b7 7:29 AM ET",
  "slate_date": "2026-11-04",
  "slate_label": "Wed Nov 4",
  "run_note": "Props priced for 5 games.",

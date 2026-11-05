@@ -1,8 +1,29 @@
 {
- "cmd": "close",
+ "cmd": "grade",
  "ok": true,
- "at": "2026-11-05T10:44:57.194244+00:00",
+ "at": "2026-11-05T12:29:51.706062+00:00",
  "log": [
-  "close: nothing tipping soon"
+  "graded Detroit Pistons -2.5: lost -1.00u",
+  "graded Over 232.5: won +0.00u",
+  "graded Memphis Grizzlies -5.5: lost -1.00u",
+  "graded Over 228.5: lost -0.00u",
+  "graded Atlanta Hawks -2.5: won +0.87u",
+  "graded New Orleans Pelicans -4.5: won +0.43u",
+  "graded Boston Celtics -11.5: lost -0.00u",
+  "graded Over 219.5: won +0.00u",
+  "graded Over 231.5: lost -0.00u",
+  "graded New York Knicks -11.5: won +0.00u",
+  "graded Minnesota Timberwolves +7.5: won +0.00u",
+  "graded Over 221.5: lost -0.00u",
+  "graded Charlotte Hornets -3.5: lost -0.00u",
+  "graded Under 151.5: lost -0.00u",
+  "graded Under 151.5: won +0.00u",
+  "graded Los Angeles Clippers +5.5: won +0.00u",
+  "graded Over 233.5: lost -0.00u",
+  "graded Over 233.5: lost -0.00u",
+  "graded San Antonio Spurs -12.5: lost -0.00u",
+  "graded Over 231.5: won +0.00u",
+  "graded Over 226.5: lost -0.00u",
+  "graded California Golden Bears -16.5: lost -0.00u"
  ]
 }
