@@ -253,8 +253,8 @@ def resolver(names):
 PROP_LABEL = {"player_pass_yds": ("pass_yds", "Pass Yds"), "player_pass_tds": ("pass_tds", "Pass TDs"), "player_rush_yds": ("rush_yds", "Rush Yds"),
               "player_receptions": ("receptions", "Rec"), "player_reception_yds": ("rec_yds", "Rec Yds"),
               "player_points": ("pts", "Pts"), "player_rebounds": ("reb", "Reb"), "player_assists": ("ast", "Ast")}
-def prop_scan(events, label, min_ev=0.04, cons_extra=0.01):
-    flags = []
+def prop_scan(events, label, min_ev=0.04, cons_extra=0.01, diag=False):
+    flags = []; allp = []
     for ev in events:
         home, away = team(ev["home_team"]), team(ev["away_team"])
         books = {b["key"]: b for b in ev.get("bookmakers", [])}
@@ -280,11 +280,17 @@ def prop_scan(events, label, min_ev=0.04, cons_extra=0.01):
                 else: continue
                 for side, p, price in (("Over", po, pr["Over"]), ("Under", 1 - po, pr["Under"])):
                     e = p * am_to_dec(price) - 1
+                    allp.append((round(e * 100, 1), player, lab, side, line, price, src))
                     if e < min_ev + (0 if src == "Pinnacle" else cons_extra): continue
                     b_ = am_to_dec(price) - 1; kelly = max(0, (p * b_ - (1 - p)) / b_)
                     flags.append(dict(sport=label, player=player, stat=stat, stat_label=lab, side=side, line=line, price=price, fair_prob=p,
                                       fair_price=prob_to_am(p), ev=e, src=src, books=len(fair), stake=min(0.5, round(kelly * 0.25 * 100, 2)),
                                       game=(away, home), start=ev["commence_time"], event_id=ev["id"], stale=e > 0.10))
+    if diag:
+        for ev in events:
+            bks = {b["key"]: sum(len(m["outcomes"]) for m in b.get("markets", [])) for b in ev.get("bookmakers", [])}
+            log(f"prop diag {ev.get('away_team')} @ {ev.get('home_team')}: outcomes by book {bks}")
+        log(f"prop diag: {len(allp)} FanDuel lines compared; best: {sorted(allp, reverse=True)[:6]}")
     flags.sort(key=lambda r: -r["ev"])
     seen, out = set(), []
     for f in flags:                       # one play per player

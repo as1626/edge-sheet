@@ -97,7 +97,7 @@ def nfl_props(hours=30, max_plays=6):
     for e in evs:
         try: data.append(S.odds_props(e["id"], "americanfootball_nfl", S.NFL_PROP_MARKETS))
         except Exception as ex: log(f"nfl props {e['id']} failed: {ex}")
-    flags = X.prop_scan(data, "NFL")
+    flags = X.prop_scan(data, "NFL", diag=True)
     return [bet_from_propscan(f) for f in flags[:max_plays]]
 
 def bet_from_scan(f):
