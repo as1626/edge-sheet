@@ -20,11 +20,14 @@ def _track(h):
 def odds_games(sport="basketball_nba", day=None):
     """Game markets for games starting on ET date `day` (datetime.date)."""
     day = day or now_et().date()
-    start = f"{day.isoformat()}T05:00:00Z"; end = f"{(day + timedelta(days=1)).isoformat()}T09:00:00Z"
+    from datetime import timezone as _tz
+    soon = (now_et() + timedelta(minutes=5)).astimezone(_tz.utc)
+    start = max(f"{day.isoformat()}T05:00:00Z", soon.strftime("%Y-%m-%dT%H:%M:%SZ")); end = f"{(day + timedelta(days=1)).isoformat()}T09:00:00Z"
     q = urllib.parse.urlencode({"apiKey": _key(), "bookmakers": BOOKS, "markets": "h2h,spreads,totals",
                                 "oddsFormat": "american", "commenceTimeFrom": start, "commenceTimeTo": end})
     data, h = get_json(f"{ODDS}/sports/{sport}/odds?{q}"); _track(h)
-    log(f"odds {sport}: {len(data)} games, credits remaining {CREDITS['remaining']}")
+    data = [e for e in data if to_et(e["commence_time"]) > now_et() + timedelta(minutes=5)]   # pregame only, never live odds
+    log(f"odds {sport}: {len(data)} pregame games, credits remaining {CREDITS['remaining']}")
     return data
 
 PROP_MARKETS = "player_points,player_rebounds,player_assists"
@@ -157,12 +160,13 @@ def _find(tabs, need):
 
 def odds_window(sport, days):
     """All games for `sport` starting from now through `days` days ahead."""
-    start = now_et().astimezone(__import__("datetime").timezone.utc)
+    start = (now_et() + timedelta(minutes=5)).astimezone(__import__("datetime").timezone.utc)
     end = start + timedelta(days=days)
     q = urllib.parse.urlencode({"apiKey": _key(), "bookmakers": BOOKS, "markets": "h2h,spreads,totals", "oddsFormat": "american",
                                 "commenceTimeFrom": start.strftime("%Y-%m-%dT%H:%M:%SZ"), "commenceTimeTo": end.strftime("%Y-%m-%dT%H:%M:%SZ")})
     data, h = get_json(f"{ODDS}/sports/{sport}/odds?{q}"); _track(h)
-    log(f"odds {sport}: {len(data)} games, credits remaining {CREDITS['remaining']}")
+    data = [e for e in data if to_et(e["commence_time"]) > now_et() + timedelta(minutes=5)]   # pregame only, never live odds
+    log(f"odds {sport}: {len(data)} pregame games, credits remaining {CREDITS['remaining']}")
     return data
 
 def nhl_teams(season):

@@ -1,10 +1,9 @@
 name: pipeline
 on:
   schedule:
-    - cron: "45 21 * * *"   # 4:45 PM ET  card: odds, splits, injuries, ratings, props -> picks
-    - cron: "50 23 * * *"   # 6:50 PM ET  closing lines for 7:00-8:00 tips
-    - cron: "20 1 * * *"    # 8:20 PM ET  closing lines for 8:30-9:30 tips
-    - cron: "50 2 * * *"    # 9:50 PM ET  closing lines for late tips
+    - cron: "17 19 * * *"   # 2:17 PM ET  card (first attempt)
+    - cron: "37 20 * * *"   # 3:37 PM ET  card (retry if the first was delayed/missed)
+    - cron: "7,37 23,0,1,2,3 * * *"   # 6:07 PM-10:37 PM ET every 30 min: closing lines for plays tipping soon
     - cron: "30 8 * * *"    # 3:30 AM ET  grade results
     - cron: "0 14 * * *"    # 9:00 AM ET  grade (catch-up)
   push:
@@ -29,8 +28,8 @@ jobs:
         id: cmd
         run: |
           case "${{ github.event_name }}:${{ github.event.schedule }}" in
-            "schedule:45 21 * * *") c=card;;
-            "schedule:50 23 * * *"|"schedule:20 1 * * *"|"schedule:50 2 * * *") c=close;;
+            "schedule:17 19 * * *"|"schedule:37 20 * * *") c=card;;
+            "schedule:7,37 23,0,1,2,3 * * *") c=close;;
             schedule:*) c=grade;;
             workflow_dispatch:*) c="${{ github.event.inputs.cmd }}";;
             *) c=$(cat triggers/cmd 2>/dev/null || echo page);;
@@ -39,6 +38,7 @@ jobs:
       - name: run
         env:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          EVENT: ${{ github.event_name }}
         run: python pipeline/run.py ${{ steps.cmd.outputs.cmd }}
       - name: publish
         run: |

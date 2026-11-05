@@ -53,7 +53,7 @@ def add_multi(L, bets, ds):
     same_side = {(b["game"], b["market"], (b.get("pick_team") or b.get("side") or "").lower()) for b in L["bets"] if b["status"] == "pending"}
     for b in bets:
         k = (b["game"], b["market"], (b.get("pick_team") or b.get("side") or "").lower())
-        if b["id"] in have or k in same_side: continue
+        if b["id"] in have or k in same_side or not pregame(b): continue
         L["bets"].append(b); same_side.add(k)
     L["slate_date"] = ds; L["slate_label"] = now_et().strftime("%a %b %-d"); L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
 
@@ -148,9 +148,14 @@ def probe2():
     for i, t in enumerate(pd.read_html(io.StringIO(html))[:8]):
         log("nhl tab", i, t.shape, [str(c) for c in t.columns][:20], t.head(2).astype(str).values.tolist()[:2])
 
+def pregame(b, minutes=5):
+    return to_et(b["start"]) > now_et() + timedelta(minutes=minutes)
+
 def card():
     import nba_model as M
     day = now_et().date(); ds = day.isoformat()
+    if os.environ.get("EVENT") == "schedule" and load(f"data/cards/{ds}.json", None):
+        log(f"card for {ds} already built; scheduled retry skipped"); return
     odds = S.odds_games("basketball_nba", day)
     if not odds:
         log("no NBA games today")
@@ -184,7 +189,7 @@ def card():
     have = {b["id"] for b in L["bets"]}
     new = [bet_from_side(r, ds) for r in sides if r["grade"]] + [bet_from_prop(r, ds) for r in props if r["grade"] in ("A", "B")]
     new += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
-    L["bets"] += [b for b in new if b["id"] not in have]
+    L["bets"] += [b for b in new if b["id"] not in have and pregame(b)]
     add_multi(L, multi_card(odds), ds)
     L["slate_date"] = ds; L["slate_label"] = day.strftime("%a %b %-d")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
