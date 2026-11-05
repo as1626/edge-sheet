@@ -123,7 +123,7 @@ def ticket(b, i):
         side, ln = pick.split(" ")
         pick_html = f'{esc(side)} <em>{esc(ln)}</em>'
     elif b["market"] == "Prop":
-        pick_html = f'{esc(b["player"])} <em>{esc(b["side"][0])} {b["line"]:g}</em> <span class="stat">{esc(b["stat"].upper())}</span>'
+        pick_html = f'{esc(b["player"])} <em>{esc(b["side"][0])} {b["line"]:g}</em> <span class="stat">{esc(b["stat"].replace("_", " ").upper())}</span>'
     else:
         pick_html = f'{esc(pick.replace(" ML",""))} <em>ML</em>'
     return f'''<article class="tix g-{b["grade"]} s-{cls}" data-sport="{esc(b["sport"])}" style="--i:{i}">

@@ -247,3 +247,48 @@ def resolver(names):
         cache[name] = r
         return r
     return f
+
+
+# ---------- prop price scan (any sport): FanDuel vs Pinnacle / consensus no-vig at the same line ----------
+PROP_LABEL = {"player_pass_yds": ("pass_yds", "Pass Yds"), "player_pass_tds": ("pass_tds", "Pass TDs"), "player_rush_yds": ("rush_yds", "Rush Yds"),
+              "player_receptions": ("receptions", "Rec"), "player_reception_yds": ("rec_yds", "Rec Yds"),
+              "player_points": ("pts", "Pts"), "player_rebounds": ("reb", "Reb"), "player_assists": ("ast", "Ast")}
+def prop_scan(events, label, min_ev=0.04, cons_extra=0.01):
+    flags = []
+    for ev in events:
+        home, away = team(ev["home_team"]), team(ev["away_team"])
+        books = {b["key"]: b for b in ev.get("bookmakers", [])}
+        fd = books.get("fanduel")
+        if not fd: continue
+        for mk in fd.get("markets", []):
+            if mk["key"] not in PROP_LABEL: continue
+            stat, lab = PROP_LABEL[mk["key"]]
+            fdp = {}
+            for o in mk["outcomes"]:
+                fdp.setdefault((o.get("description"), o.get("point")), {})[o["name"]] = o["price"]
+            for (player, line), pr in fdp.items():
+                if "Over" not in pr or "Under" not in pr or line is None: continue
+                fair = {}
+                for bk, b in books.items():
+                    if bk == "fanduel": continue
+                    for m2 in b.get("markets", []):
+                        if m2["key"] != mk["key"]: continue
+                        pp = {o["name"]: o["price"] for o in m2["outcomes"] if o.get("description") == player and o.get("point") == line}
+                        if "Over" in pp and "Under" in pp: fair[bk] = devig2(pp["Over"], pp["Under"])[0]
+                if "pinnacle" in fair: po, src = fair["pinnacle"], "Pinnacle"
+                elif len(fair) >= 2: po, src = statistics.median(fair.values()), f"Consensus ({len(fair)})"
+                else: continue
+                for side, p, price in (("Over", po, pr["Over"]), ("Under", 1 - po, pr["Under"])):
+                    e = p * am_to_dec(price) - 1
+                    if e < min_ev + (0 if src == "Pinnacle" else cons_extra): continue
+                    b_ = am_to_dec(price) - 1; kelly = max(0, (p * b_ - (1 - p)) / b_)
+                    flags.append(dict(sport=label, player=player, stat=stat, stat_label=lab, side=side, line=line, price=price, fair_prob=p,
+                                      fair_price=prob_to_am(p), ev=e, src=src, books=len(fair), stake=min(0.5, round(kelly * 0.25 * 100, 2)),
+                                      game=(away, home), start=ev["commence_time"], event_id=ev["id"], stale=e > 0.10))
+    flags.sort(key=lambda r: -r["ev"])
+    seen, out = set(), []
+    for f in flags:                       # one play per player
+        if f["player"] in seen: continue
+        seen.add(f["player"]); out.append(f)
+    log(f"prop scan {label}: {len(flags)} flags, {len(out)} after one-per-player")
+    return out

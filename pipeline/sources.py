@@ -31,9 +31,10 @@ def odds_games(sport="basketball_nba", day=None):
     return data
 
 PROP_MARKETS = "player_points,player_rebounds,player_assists"
-def odds_props(event_id, sport="basketball_nba"):
-    q = urllib.parse.urlencode({"apiKey": _key(), "bookmakers": "fanduel,pinnacle,draftkings,betmgm,williamhill_us",
-                                "markets": PROP_MARKETS, "oddsFormat": "american"})
+NFL_PROP_MARKETS = "player_pass_yds,player_pass_tds,player_rush_yds,player_receptions,player_reception_yds"
+def odds_props(event_id, sport="basketball_nba", markets=None):
+    q = urllib.parse.urlencode({"apiKey": _key(), "bookmakers": "fanduel,pinnacle,draftkings,betmgm,williamhill_us,betrivers,espnbet,fanatics",
+                                "markets": markets or PROP_MARKETS, "oddsFormat": "american"})
     data, h = get_json(f"{ODDS}/sports/{sport}/events/{event_id}/odds?{q}"); _track(h)
     return data
 
@@ -81,6 +82,22 @@ def espn_scoreboard(day, path="basketball/nba"):
                           home_pts=int(side["home"].get("score") or 0), away_pts=int(side["away"].get("score") or 0),
                           final=c["status"]["type"].get("completed", False)))
     return games
+
+def espn_box_nfl(event_id):
+    """{player_key: {'pass_yds','pass_tds','rush_yds','receptions','rec_yds'}} from ESPN NFL game summary."""
+    d, _ = get_json(f"https://site.api.espn.com/apis/site/v2/sports/football/nfl/summary?event={event_id}")
+    out = {}
+    for tb in d.get("boxscore", {}).get("players", []):
+        for st in tb.get("statistics", []):
+            cat = st.get("name"); labels = [l.upper() for l in st.get("labels", [])]
+            for a in st.get("athletes", []):
+                v = dict(zip(labels, a.get("stats", [])))
+                k = pname(a["athlete"]["displayName"]); o = out.setdefault(k, {})
+                f = lambda x: float(str(x).replace(",", "")) if x not in (None, "", "-", "--") else 0.0
+                if cat == "passing": o["pass_yds"] = f(v.get("YDS")); o["pass_tds"] = f(v.get("TD"))
+                elif cat == "rushing": o["rush_yds"] = f(v.get("YDS"))
+                elif cat == "receiving": o["receptions"] = f(v.get("REC")); o["rec_yds"] = f(v.get("YDS"))
+    return out
 
 def espn_box(event_id):
     """{player_key: {'pts','reb','ast','min'}} from ESPN game summary."""

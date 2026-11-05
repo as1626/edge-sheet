@@ -75,6 +75,31 @@ def bet_from_multi(r, policy):
                 market_signal="neutral", close_line=None, close_src=None, status="pending", score=None, result_units=None,
                 note=("Tracked until this model is validated" if policy == 0 else None))
 
+def bet_from_propscan(f):
+    a, h = f["game"]; d = to_et(f["start"]).date().isoformat()
+    stake = round(min(f["stake"], 0.25 if f["stale"] else f["stake"]) * STAKE_SCALE, 2)
+    return dict(id=f'{d}|{f["player"]}|{f["stat"]}|scan', date=d, start=f["start"], sport=f["sport"], engine="Price edge",
+                game=f"{a} @ {h}", away=a, home=h, market="Prop", player=f["player"], stat=f["stat"], side=f["side"],
+                pick=f'{f["player"]} {f["side"]} {f["line"]:g} {f["stat_label"]}', pick_team=None, event_id=f["event_id"],
+                line=f["line"], price=f["price"], grade="Price", stake=stake, model_line=None, fair_line=None, pinnacle_open=None,
+                ev_pct=round(f["ev"] * 100, 1), gap=None,
+                why=f'{f["src"]} no-vig fair {("+" if f["fair_price"] > 0 else "")}{f["fair_price"]} ({f["fair_prob"]:.1%}) vs FanDuel {("+" if f["price"] > 0 else "")}{f["price"]}' + (" · verify: edge this large is often a stale line" if f["stale"] else ""),
+                signals=[], market_signal="neutral", close_line=None, close_src=None, status="pending", score=None, result_units=None)
+
+def nfl_props(hours=30, max_plays=6):
+    """Prop price scan for NFL games kicking off in the next `hours` (about 5 credits per game)."""
+    import multi as X
+    odds = S.odds_window("americanfootball_nfl", 2)
+    evs = [e for e in odds if (to_et(e["commence_time"]) - now_et()).total_seconds() / 3600 <= hours]
+    rem = int(S.CREDITS["remaining"] or 0)
+    if rem - 5 * len(evs) < PROP_CREDIT_FLOOR: log(f"nfl props skipped: {rem} credits"); return []
+    data = []
+    for e in evs:
+        try: data.append(S.odds_props(e["id"], "americanfootball_nfl", S.NFL_PROP_MARKETS))
+        except Exception as ex: log(f"nfl props {e['id']} failed: {ex}")
+    flags = X.prop_scan(data, "NFL")
+    return [bet_from_propscan(f) for f in flags[:max_plays]]
+
 def bet_from_scan(f):
     a, h = f["game"]; d = to_et(f["start"]).date().isoformat()
     kind = {"h2h": "Moneyline", "spreads": "Spread", "totals": "Total"}[f["key"]]
@@ -194,6 +219,8 @@ def card():
     new += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
     L["bets"] += [b for b in new if b["id"] not in have and pregame(b)]
     add_multi(L, multi_card(odds), ds)
+    try: add_multi(L, nfl_props(), ds)
+    except Exception: log("nfl props failed: " + traceback.format_exc()[-400:])
     L["slate_date"] = ds; L["slate_label"] = day.strftime("%a %b %-d")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     L["run_note"] = note_props
@@ -334,13 +361,14 @@ def grade():
         if not g or not g["final"]: continue
         hp, ap = g["home_pts"], g["away_pts"]
         if b["market"] == "Prop":
-            if g["id"] not in boxes: boxes[g["id"]] = S.espn_box(g["id"])
+            if g["id"] not in boxes: boxes[g["id"]] = S.espn_box_nfl(g["id"]) if b["sport"] == "NFL" else S.espn_box(g["id"])
             st = boxes[g["id"]].get(S.pname(b["player"]))
+            if st is not None and b["stat"] not in st: st = dict(st, **{b["stat"]: 0.0})     # played but no stat line in that category
             if st is None: b["status"], b["result_units"], b["score"] = "push", 0.0, "Did not play (void)"
             else:
                 v = st[b["stat"]]; diff = (v - b["line"]) * (1 if b["side"] == "Over" else -1)
                 b["status"] = "won" if diff > 0 else "lost" if diff < 0 else "push"
-                b["score"] = f'{b["player"]}: {v:g} {b["stat"].upper()}'
+                b["score"] = f'{b["player"]}: {v:g} {b["stat"].replace("_", " ").upper()}'
                 b["result_units"] = settle(None, b["price"], b["stake"], b["status"])
             continue
         b["score"] = f'{b["away"]} {ap}, {b["home"]} {hp}'
@@ -418,6 +446,10 @@ if __name__ == "__main__":
         elif cmd == "dry": dry()
         elif cmd == "rebuild": rebuild()
         elif cmd == "closer": closer()
+        elif cmd == "nflprops":
+            L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
+            bets = nfl_props(); log("nfl prop plays:", [(b["pick"], b["price"], b["ev_pct"], b["stake"]) for b in bets])
+            add_multi(L, bets, ds); L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
         elif cmd == "probe2": probe2()
         elif cmd == "multi":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
