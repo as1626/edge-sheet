@@ -1,26 +1,9 @@
 {
- "cmd": "multi",
+ "cmd": "card",
  "ok": true,
- "at": "2026-11-06T23:27:55.864271+00:00",
+ "at": "2026-11-06T23:44:35.437229+00:00",
  "log": [
-  "odds icehockey_nhl: 3 pregame games, credits remaining 216",
-  "price scan NHL: 0 flags",
-  "NHL teams 2027: 32 (xG adj on 32)",
-  "NHL model: 6 priced, 1 A/B",
-  "odds americanfootball_nfl: 14 pregame games, credits remaining 213",
-  "price scan NFL: 0 flags",
-  "FPI nfl: 32 teams ('San Francisco 49ers', {'fpi': 5.913, 'g': 7.0})",
-  "NFL model: 14 priced, 2 A/B",
-  "odds americanfootball_ncaaf: 56 pregame games, credits remaining 210",
-  "price scan NCAAF: 0 flags",
-  "FPI college-football: 138 teams ('Notre Dame Fighting Irish', {'fpi': 26.77, 'g': 8.0})",
-  "NCAAF model: 55 priced, 8 A/B",
-  "NCAAF unmatched teams (1): ['Merrimack Warriors']",
-  "odds basketball_ncaab: 52 pregame games, credits remaining 207",
-  "price scan NCAAM: 0 flags",
-  "CBB teams 2027: 306",
-  "NCAAM model: 68 priced, 42 A/B",
-  "NCAAM unmatched teams (7): ['Boston Univ. Terriers', 'Cal Baptist Lancers', 'Miss Valley St Delta Devils', \"Mt. St. Mary's Mountaineers\", 'N Colorado Bears', 'UIC Flames', 'UMKC Kangaroos']",
-  "multi: 23 model plays, 0 price plays, credits 207"
+  "auto -> card (18:44 ET)",
+  "card for 2026-11-06 already built; scheduled retry skipped"
  ]
 }
