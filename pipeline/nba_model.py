@@ -257,7 +257,7 @@ def sanity_props(rows, players):
         explained = avg is not None and r["line"] > avg and (r.get("extra_min", 0) >= 2 or r.get("usg_bump", 1) >= 1.05)
         if avg and r["line"] > 0 and abs(avg - r["line"]) / r["line"] > 0.25 and not explained:
             r["grade"], r["hold"] = "", f"line {r['line']:g} vs season avg {avg:.1f}: market likely pricing news"
-        elif r.get("edge", 0) > 0.30 and r["line"] >= 3:
+        elif r.get("edge", 0) > 0.20 and r["line"] >= 3:
             r["grade"], r["hold"] = "", f"projection {r['model_line']:g} vs line {r['line']:g}: gap too large to trust without news"
         elif r.get("mkt_src", "").startswith("Consensus (1)") and r["grade"] == "A":
             r["grade"] = "B"                                   # one outside book is thin market confirmation
@@ -268,6 +268,38 @@ def sanity_props(rows, players):
             if r["player"] in seen or n >= MAX_PROPS: r["grade"] = "C"
             else: seen.add(r["player"]); n += 1
     return rows
+
+ALLPROPS = []
+
+def calibrate_props(rows):
+    """Remove the slate-wide over-projection per stat (40 of 42 prop plays were overs through Nov 5).
+    Divide each projection by the median projection/line ratio for that stat, then re-price and re-grade."""
+    ratios = {}
+    for st in {r["stat"] for r in rows}:
+        xs = sorted(x for s_, x in ALLPROPS if s_ == st and 0.3 < x < 3)
+        if len(xs) >= 10: ratios[st] = xs[len(xs) // 2]
+    out = []
+    for r in rows:
+        k = ratios.get(r["stat"], 1.0)
+        mean = r["model_line"] / k; line = r["line"]
+        sd = _sd(r["stat"], mean)
+        p_over_m = 1 - Phi((line - mean) / sd)
+        p_over = 0.4 * p_over_m + 0.6 * r["p_mkt_over"]
+        side = r["side"]
+        pf = p_over if side == "Over" else 1 - p_over
+        ev_ = pf * am_to_dec(r["price"]) - 1
+        edge = (mean - line) / max(line, 1) * (1 if side == "Over" else -1)
+        mkt_ev = (r["p_mkt_over"] if side == "Over" else 1 - r["p_mkt_over"]) * am_to_dec(r["price"]) - 1
+        if edge <= 0: continue
+        # grades: modest model gap AND the market agrees FanDuel's price is fair-or-better. Big gaps are suspect, not strong.
+        gr = ("A" if 0.06 <= edge <= 0.18 and ev_ >= 0.04 and mkt_ev >= 0.0 else
+              "B" if 0.05 <= edge <= 0.20 and ev_ >= 0.025 and mkt_ev >= -0.02 else
+              "C" if edge >= 0.04 and ev_ > 0 else "")
+        r.update(model_line=round(mean, 1), p=pf, ev=ev_, edge=edge, gap=round(abs(mean - line), 1), grade=gr, mkt_ev=round(mkt_ev, 3),
+                 why=r["why"] + (f", slate calib ÷{k:.2f}" if abs(k - 1) > 0.01 else ""))
+        out.append(r)
+    log("prop calibration ratios: " + ", ".join(f"{k} {v:.2f}" for k, v in ratios.items()))
+    return out
 
 def project_props(prop_events, players, prev_players, ratings, lg, injuries, ctx):
     rows = []
@@ -303,6 +335,7 @@ def project_props(prop_events, players, prev_players, ratings, lg, injuries, ctx
                     mean = rate * mins * pace_f * (1 + (tc["usg_bump"] - 1) * 0.5)
                 else:
                     mean = rate * mins * pace_f
+                ALLPROPS.append((stat, mean / line if line else 1.0))
                 sd = _sd(stat, mean)
                 p_over_model = 1 - Phi((line - mean) / sd)
                 # market fair: Pinnacle same line, else median of other books at same line, else FanDuel itself
@@ -321,7 +354,7 @@ def project_props(prop_events, players, prev_players, ratings, lg, injuries, ctx
                 for side, pf, price in (("Over", fair_over, pr["Over"]), ("Under", 1 - fair_over, pr["Under"])):
                     ev_ = pf * am_to_dec(price) - 1
                     edge = (mean - line) / max(line, 1) * (1 if side == "Over" else -1)
-                    if edge <= 0: continue
+                    if edge <= -0.10: continue
                     gr = "A" if edge >= 0.12 and ev_ >= 0.05 else "B" if edge >= 0.08 and ev_ >= 0.03 else "C" if edge >= 0.05 and ev_ > 0 else ""
                     why = f"{mins:.0f} min proj"
                     if extra > 1: why += f" (+{extra:.1f} with {', '.join(tc['outs'][:2])} out)"
@@ -331,5 +364,6 @@ def project_props(prop_events, players, prev_players, ratings, lg, injuries, ctx
                     rows.append(dict(kind="Prop", player=p["name"], stat=stat, stat_label=lab, side=side, game=(a, h), team=p["team"],
                                      start=ev["commence_time"], event_id=ev["id"], line=line, price=price, model_line=round(mean, 1),
                                      p=pf, ev=ev_, gap=round(abs(mean - line), 1), edge=edge, mkt_src=src, grade=gr, why=why,
-                                     extra_min=round(extra, 1), usg_bump=round(tc["usg_bump"], 3)))
+                                     extra_min=round(extra, 1), usg_bump=round(tc["usg_bump"], 3), p_mkt_over=p_mkt))
+    rows = calibrate_props(rows)
     return sanity_props(rows, players)
