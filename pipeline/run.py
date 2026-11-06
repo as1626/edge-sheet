@@ -71,10 +71,11 @@ def bet_from_prop(r, day):
                 market_signal="neutral", mkt_src=r["mkt_src"], close_line=None, close_src=None, status="pending", score=None,
                 result_units=None)
 
-def add_multi(L, bets, ds):
+def add_multi(L, bets, ds, refresh=True):
     started = lambda b: to_et(b["start"]) <= now_et()
     refreshable = lambda b: b.get("engine") == "Team model" or b["id"].endswith("|scan")
-    L["bets"] = [b for b in L["bets"] if not (refreshable(b) and b["status"] == "pending" and not started(b) and b["date"] >= ds and b["stake"] == 0)]
+    if refresh:   # replace unstarted tracked entries with this run's view (only when this call carries the full multi-sport set)
+        L["bets"] = [b for b in L["bets"] if not (refreshable(b) and b["status"] == "pending" and not started(b) and b["date"] >= ds and b["stake"] == 0)]
     have = {b["id"] for b in L["bets"]}
     same_side = {(b["game"], b["market"], (b.get("pick_team") or b.get("side") or "").lower()) for b in L["bets"] if b["status"] == "pending"}
     for b in bets:
@@ -253,7 +254,7 @@ def card():
     new += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
     L["bets"] += [b for b in new if b["id"] not in have and pregame(b)]
     add_multi(L, multi_card(odds), ds)
-    try: add_multi(L, nfl_props(), ds)
+    try: add_multi(L, nfl_props(), ds, refresh=False)
     except Exception: log("nfl props failed: " + traceback.format_exc()[-400:])
     L["slate_date"] = ds; L["slate_label"] = day.strftime("%a %b %-d")
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
@@ -493,7 +494,7 @@ if __name__ == "__main__":
         elif cmd == "nflprops":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             bets = nfl_props(); log("nfl prop plays:", [(b["pick"], b["price"], b["ev_pct"], b["stake"]) for b in bets])
-            add_multi(L, bets, ds); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
+            add_multi(L, bets, ds, refresh=False); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
         elif cmd == "probe2": probe2()
         elif cmd == "multi":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
