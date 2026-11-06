@@ -1,9 +1,6 @@
 {
- "cmd": "grade",
+ "cmd": "page",
  "ok": true,
- "at": "2026-11-06T15:23:31.854567+00:00",
- "log": [
-  "graded Over 236.5: lost -0.00u",
-  "graded Utah Utes ML: won +0.14u"
- ]
+ "at": "2026-11-06T15:25:18.101688+00:00",
+ "log": []
 }
