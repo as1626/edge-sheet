@@ -2267,9 +2267,9 @@
    "mkt_src": "Pinnacle",
    "close_line": 236.5,
    "close_src": "Pinnacle close",
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Miami Heat 100, Golden State Warriors 120",
+   "result_units": -0.0,
    "close_price": -107
   },
   {
@@ -2303,9 +2303,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Bobby Portis: 0 PTS",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-05|Jalen Green|pts",
@@ -2338,9 +2338,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Jalen Green: 6 PTS",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-05|Klay Thompson|pts",
@@ -2373,9 +2373,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Klay Thompson: 11 PTS",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-05|Yaxel Lendeborg|pts",
@@ -2408,9 +2408,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Yaxel Lendeborg: 17 PTS",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-05|Devin Booker|pts",
@@ -2443,9 +2443,9 @@
    "mkt_src": "Consensus (3)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Devin Booker: 30 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-05|De'Anthony Melton|pts",
@@ -2478,9 +2478,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "De'Anthony Melton: 5 PTS",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-05|Davion Mitchell|ast",
@@ -2513,9 +2513,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Davion Mitchell: 8 AST",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-05|Tristan Da Silva|pts",
@@ -2548,9 +2548,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Tristan Da Silva: 18 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-05|Khaman Maluach|reb",
@@ -2583,9 +2583,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Khaman Maluach: 6 REB",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-05|Devin Booker|ast",
@@ -2618,9 +2618,9 @@
    "mkt_src": "Consensus (3)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Devin Booker: 8 AST",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-05|Jamal Cain|pts",
@@ -2653,9 +2653,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Jamal Cain: 5 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-05|Miles Bridges|pts",
@@ -2688,9 +2688,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Miles Bridges: 18 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-05|Dillon Brooks|pts",
@@ -2723,9 +2723,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Dillon Brooks: 24 PTS",
+   "result_units": 0.24
   },
   {
    "id": "2026-11-05|Wendell Carter Jr.|pts",
@@ -2758,9 +2758,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Wendell Carter Jr.: 27 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-05|Towson Tigers @ Utah Utes|Moneyline|home|scan",
@@ -2789,9 +2789,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Towson Tigers 57, Utah Utes 67",
+   "result_units": 0.143
   }
  ],
  "snapshots": [
@@ -2808,7 +2808,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Thu Nov 5 \u00b7 9:56 PM ET",
+ "updated_label": "Fri Nov 6 \u00b7 10:23 AM ET",
  "slate_date": "2026-11-05",
  "slate_label": "Thu Nov 5",
  "run_note": "Props priced for 2 games.",
