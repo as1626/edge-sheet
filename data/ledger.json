@@ -2792,6 +2792,710 @@
    "status": "won",
    "score": "Towson Tigers 57, Utah Utes 67",
    "result_units": 0.143
+  },
+  {
+   "id": "2026-11-06|Washington Wizards @ Atlanta Hawks|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Washington Wizards @ Atlanta Hawks",
+   "away": "Washington Wizards",
+   "home": "Atlanta Hawks",
+   "market": "Spread",
+   "pick": "Atlanta Hawks -8.5",
+   "pick_team": "Atlanta Hawks",
+   "side": "home",
+   "line": -8.5,
+   "price": -105,
+   "grade": "A",
+   "stake": 0.5,
+   "model_line": -13.6,
+   "fair_line": -10.3,
+   "pinnacle_open": -8.5,
+   "ev_pct": 8.6,
+   "gap": 5.1,
+   "why": "Ratings +11.2 \u00b7 Injuries +0.3 \u00b7 Home/court +2.0",
+   "signals": [
+    "line moved toward (-6.5\u2192-8.5)"
+   ],
+   "injuries": "Atlanta Hawks: Jalen Johnson (Day-To-Day); Washington Wizards: Anthony Davis (Day-To-Day), Justin Champagnie (Out)",
+   "projection": "Atlanta Hawks 126, Washington Wizards 112",
+   "market_signal": "with us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Philadelphia 76ers @ Cleveland Cavaliers|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:40:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Philadelphia 76ers @ Cleveland Cavaliers",
+   "away": "Philadelphia 76ers",
+   "home": "Cleveland Cavaliers",
+   "market": "Spread",
+   "pick": "Cleveland Cavaliers +2.5",
+   "pick_team": "Cleveland Cavaliers",
+   "side": "home",
+   "line": 2.5,
+   "price": -112,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -3.4,
+   "fair_line": 0.4,
+   "pinnacle_open": 2.5,
+   "ev_pct": 7.1,
+   "gap": 5.9,
+   "why": "Ratings +1.8 \u00b7 Injuries -0.4 \u00b7 Home/court +2.0",
+   "signals": [
+    "line moved against (-1.5\u2192+2.5)"
+   ],
+   "injuries": "Cleveland Cavaliers: Jarrett Allen (Day-To-Day)",
+   "projection": "Cleveland Cavaliers 119, Philadelphia 76ers 115",
+   "market_signal": "against us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Utah Jazz @ Dallas Mavericks|Total",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Utah Jazz @ Dallas Mavericks",
+   "away": "Utah Jazz",
+   "home": "Dallas Mavericks",
+   "market": "Total",
+   "pick": "Over 226.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 226.5,
+   "price": -105,
+   "grade": "A",
+   "stake": 0.5,
+   "model_line": 233.8,
+   "fair_line": 228.5,
+   "pinnacle_open": 225.5,
+   "ev_pct": 6.5,
+   "gap": 7.3,
+   "why": "Pace vs avg (poss) +3.5 \u00b7 Injuries -0.2",
+   "signals": [
+    "total moved toward (224.5\u2192225.5)"
+   ],
+   "injuries": "Dallas Mavericks: Kyrie Irving (Day-To-Day); Utah Jazz: Jaren Jackson Jr. (Out)",
+   "projection": "103 possessions, total 240.1 (bias-adjusted -6.3)",
+   "market_signal": "with us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Oklahoma City Thunder @ Memphis Grizzlies|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Oklahoma City Thunder @ Memphis Grizzlies",
+   "away": "Oklahoma City Thunder",
+   "home": "Memphis Grizzlies",
+   "market": "Spread",
+   "pick": "Oklahoma City Thunder -4.5",
+   "pick_team": "Oklahoma City Thunder",
+   "side": "away",
+   "line": -4.5,
+   "price": -106,
+   "grade": "A",
+   "stake": 0.5,
+   "model_line": -7.6,
+   "fair_line": -5.6,
+   "pinnacle_open": -4.0,
+   "ev_pct": 4.2,
+   "gap": 3.1,
+   "why": "Ratings +9.6 \u00b7 Home/court -2.0",
+   "signals": [
+    "line moved toward (+3.5\u2192+4.5)"
+   ],
+   "injuries": "Memphis Grizzlies: Isaiah Stewart (Out), Scotty Pippen Jr. (Out); Oklahoma City Thunder: Cason Wallace (Out), Chet Holmgren (Out), Jalen Williams (Out)",
+   "projection": "Memphis Grizzlies 111, Oklahoma City Thunder 119",
+   "market_signal": "with us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Toronto Raptors @ Milwaukee Bucks|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Toronto Raptors @ Milwaukee Bucks",
+   "away": "Toronto Raptors",
+   "home": "Milwaukee Bucks",
+   "market": "Spread",
+   "pick": "Toronto Raptors -4.5",
+   "pick_team": "Toronto Raptors",
+   "side": "away",
+   "line": -4.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -8.2,
+   "fair_line": -5.9,
+   "pinnacle_open": -5.0,
+   "ev_pct": 3.7,
+   "gap": 3.7,
+   "why": "Ratings +11.1 \u00b7 Injuries -1.0 \u00b7 Home/court -2.0",
+   "signals": [
+    "line moved against (+7.5\u2192+4.5)"
+   ],
+   "injuries": "Toronto Raptors: Immanuel Quickley (Day-To-Day), Scottie Barnes (Day-To-Day), Kawhi Leonard (Out)",
+   "projection": "Milwaukee Bucks 111, Toronto Raptors 119",
+   "market_signal": "against us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Boston Celtics @ Charlotte Hornets|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Spread",
+   "pick": "Charlotte Hornets +9.5",
+   "pick_team": "Charlotte Hornets",
+   "side": "home",
+   "line": 9.5,
+   "price": -108,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 6.1,
+   "fair_line": 8.6,
+   "pinnacle_open": 10.0,
+   "ev_pct": 1.9,
+   "gap": 3.4,
+   "why": "Ratings -7.1 \u00b7 Injuries -1.0 \u00b7 Home/court +2.0",
+   "signals": [
+    "line moved against (+8.5\u2192+9.5)"
+   ],
+   "injuries": "Charlotte Hornets: Moussa Diabat\u00e9 (Out)",
+   "projection": "Charlotte Hornets 105, Boston Celtics 111",
+   "market_signal": "against us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Jerami Grant|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Oklahoma City Thunder @ Memphis Grizzlies",
+   "away": "Oklahoma City Thunder",
+   "home": "Memphis Grizzlies",
+   "market": "Prop",
+   "player": "Jerami Grant",
+   "stat": "pts",
+   "side": "Over",
+   "pick": "Jerami Grant Over 10.5 Pts",
+   "pick_team": "Memphis Grizzlies",
+   "event_id": "86684f64a8ec8385537a36c3b3768935",
+   "line": 10.5,
+   "price": -114,
+   "grade": "B",
+   "stake": 0.125,
+   "model_line": 12.0,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.1,
+   "gap": 1.5,
+   "why": "26 min proj (+1.4 with Isaiah Stewart, Scotty Pippen Jr. out), usage \u00d71.06, pace \u00d70.99, opp D \u00d70.96, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Consensus (3)",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Keldon Johnson|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T03:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "San Antonio Spurs @ Sacramento Kings",
+   "away": "San Antonio Spurs",
+   "home": "Sacramento Kings",
+   "market": "Prop",
+   "player": "Keldon Johnson",
+   "stat": "pts",
+   "side": "Over",
+   "pick": "Keldon Johnson Over 9.5 Pts",
+   "pick_team": "San Antonio Spurs",
+   "event_id": "d24eb5492983d6e28be3b96df396fa12",
+   "line": 9.5,
+   "price": -122,
+   "grade": "B",
+   "stake": 0.125,
+   "model_line": 10.5,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 2.9,
+   "gap": 1.0,
+   "why": "23 min proj, pace \u00d71.00, opp D \u00d71.07, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Dyson Daniels|ast",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Washington Wizards @ Atlanta Hawks",
+   "away": "Washington Wizards",
+   "home": "Atlanta Hawks",
+   "market": "Prop",
+   "player": "Dyson Daniels",
+   "stat": "ast",
+   "side": "Under",
+   "pick": "Dyson Daniels Under 5.5 Ast",
+   "pick_team": "Atlanta Hawks",
+   "event_id": "9246c91f746732472c13e94bd8e7be85",
+   "line": 5.5,
+   "price": -128,
+   "grade": "B",
+   "stake": 0.125,
+   "model_line": 4.7,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 2.8,
+   "gap": 0.8,
+   "why": "31 min proj (+1.2 with Jock Landale, Asa Newell out), usage \u00d71.04, pace \u00d71.01, slate calib \u00f71.14",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Jayson Tatum|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Prop",
+   "player": "Jayson Tatum",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Jayson Tatum Under 26.5 Pts",
+   "pick_team": "Boston Celtics",
+   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+   "line": 26.5,
+   "price": -111,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 21.3,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 12.3,
+   "gap": 5.2,
+   "why": "35 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Consensus (4)",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|RJ Barrett|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Toronto Raptors @ Milwaukee Bucks",
+   "away": "Toronto Raptors",
+   "home": "Milwaukee Bucks",
+   "market": "Prop",
+   "player": "RJ Barrett",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "RJ Barrett Under 24.5 Pts",
+   "pick_team": "Toronto Raptors",
+   "event_id": "1c60a090180de530cfe273a5d6a381e6",
+   "line": 24.5,
+   "price": -108,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 19.8,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 12.1,
+   "gap": 4.7,
+   "why": "33 min proj, usage \u00d71.03, pace \u00d70.99, opp D \u00d71.06, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Consensus (3)",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Grayson Allen|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Prop",
+   "player": "Grayson Allen",
+   "stat": "pts",
+   "side": "Over",
+   "pick": "Grayson Allen Over 13.5 Pts",
+   "pick_team": "Charlotte Hornets",
+   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+   "line": 13.5,
+   "price": 106,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 15.9,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 8.2,
+   "gap": 2.4,
+   "why": "29 min proj (+3.0 with Dennis Schr\u00f6der, Moussa Diabat\u00e9 out), usage \u00d71.12, pace \u00d70.96, opp D \u00d70.99, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "FanDuel no-vig",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|De'Andre Hunter|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T03:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "San Antonio Spurs @ Sacramento Kings",
+   "away": "San Antonio Spurs",
+   "home": "Sacramento Kings",
+   "market": "Prop",
+   "player": "De'Andre Hunter",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "De'Andre Hunter Under 11.5 Pts",
+   "pick_team": "Sacramento Kings",
+   "event_id": "d24eb5492983d6e28be3b96df396fa12",
+   "line": 11.5,
+   "price": -102,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 9.4,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 7.9,
+   "gap": 2.1,
+   "why": "32 min proj, pace \u00d71.00, opp D \u00d70.97, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Consensus (2)",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Cooper Flagg|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Utah Jazz @ Dallas Mavericks",
+   "away": "Utah Jazz",
+   "home": "Dallas Mavericks",
+   "market": "Prop",
+   "player": "Cooper Flagg",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Cooper Flagg Under 26.5 Pts",
+   "pick_team": "Dallas Mavericks",
+   "event_id": "62a92e31b546d31ba57caf792815bf65",
+   "line": 26.5,
+   "price": -125,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 21.9,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 5.0,
+   "gap": 4.6,
+   "why": "35 min proj, pace \u00d71.02, opp D \u00d71.07, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Consensus (2)",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Ajay Mitchell|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Oklahoma City Thunder @ Memphis Grizzlies",
+   "away": "Oklahoma City Thunder",
+   "home": "Memphis Grizzlies",
+   "market": "Prop",
+   "player": "Ajay Mitchell",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Ajay Mitchell Under 20.5 Pts",
+   "pick_team": "Oklahoma City Thunder",
+   "event_id": "86684f64a8ec8385537a36c3b3768935",
+   "line": 20.5,
+   "price": -118,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 17.3,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.7,
+   "gap": 3.2,
+   "why": "30 min proj (+2.9 with Jalen Williams, Chet Holmgren out), usage \u00d71.09, pace \u00d71.01, opp D \u00d71.03, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Consensus (1)",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Payton Pritchard|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Prop",
+   "player": "Payton Pritchard",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Payton Pritchard Under 13.5 Pts",
+   "pick_team": "Boston Celtics",
+   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+   "line": 13.5,
+   "price": -120,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 11.6,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.5,
+   "gap": 1.9,
+   "why": "27 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Dyson Daniels|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Washington Wizards @ Atlanta Hawks",
+   "away": "Washington Wizards",
+   "home": "Atlanta Hawks",
+   "market": "Prop",
+   "player": "Dyson Daniels",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Dyson Daniels Under 12.5 Pts",
+   "pick_team": "Atlanta Hawks",
+   "event_id": "9246c91f746732472c13e94bd8e7be85",
+   "line": 12.5,
+   "price": -132,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 10.1,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.3,
+   "gap": 2.4,
+   "why": "31 min proj (+1.2 with Jock Landale, Asa Newell out), usage \u00d71.04, pace \u00d71.01, opp D \u00d71.06, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Neemias Queta|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Prop",
+   "player": "Neemias Queta",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Neemias Queta Under 9.5 Pts",
+   "pick_team": "Boston Celtics",
+   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+   "line": 9.5,
+   "price": -115,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 8.0,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.2,
+   "gap": 1.5,
+   "why": "23 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Cameron Boozer|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Oklahoma City Thunder @ Memphis Grizzlies",
+   "away": "Oklahoma City Thunder",
+   "home": "Memphis Grizzlies",
+   "market": "Prop",
+   "player": "Cameron Boozer",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Cameron Boozer Under 16.5 Pts",
+   "pick_team": "Memphis Grizzlies",
+   "event_id": "86684f64a8ec8385537a36c3b3768935",
+   "line": 16.5,
+   "price": -102,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 15.3,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.0,
+   "gap": 1.2,
+   "why": "34 min proj (+1.8 with Isaiah Stewart, Scotty Pippen Jr. out), usage \u00d71.06, pace \u00d70.99, opp D \u00d70.96, slate calib \u00f71.15",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Anaheim Ducks @ Calgary Flames|Moneyline",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NHL",
+   "engine": "Team model",
+   "game": "Anaheim Ducks @ Calgary Flames",
+   "away": "Anaheim Ducks",
+   "home": "Calgary Flames",
+   "market": "Moneyline",
+   "pick": "Anaheim Ducks ML",
+   "pick_team": "Anaheim Ducks",
+   "side": "away",
+   "line": null,
+   "price": 125,
+   "grade": "A",
+   "stake": 0.25,
+   "model_line": null,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 5.2,
+   "gap": 11.4,
+   "why": "xG Calgary Flames 3.23, Anaheim Ducks 3.56; win 55% vs market 43%",
+   "projection": "xG Calgary Flames 3.23, Anaheim Ducks 3.56; win 55% vs market 43%",
+   "signals": [],
+   "market_signal": "neutral",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
   }
  ],
  "snapshots": [
@@ -2808,18 +3512,53 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Fri Nov 6 \u00b7 11:02 AM ET",
- "slate_date": "2026-11-05",
- "slate_label": "Thu Nov 5",
- "run_note": "Props priced for 2 games.",
- "credits": "312",
+ "updated_label": "Fri Nov 6 \u00b7 3:17 PM ET",
+ "slate_date": "2026-11-06",
+ "slate_label": "Fri Nov 6",
+ "run_note": "Props priced for 9 games.",
+ "credits": "264",
  "holds": [
   {
-   "player": "Draymond Green",
+   "player": "Collin Murray-Boyles",
+   "stat": "pts",
+   "side": "Under",
+   "line": 14.5,
+   "reason": "line 14.5 vs season avg 9.6: market likely pricing news"
+  },
+  {
+   "player": "Collin Murray-Boyles",
+   "stat": "reb",
+   "side": "Under",
+   "line": 6.5,
+   "reason": "line 6.5 vs season avg 4.8: market likely pricing news"
+  },
+  {
+   "player": "Malik Monk",
+   "stat": "pts",
+   "side": "Under",
+   "line": 11.5,
+   "reason": "line 11.5 vs season avg 8.0: market likely pricing news"
+  },
+  {
+   "player": "Malik Monk",
+   "stat": "ast",
+   "side": "Under",
+   "line": 3.5,
+   "reason": "projection 2.3 vs line 3.5: gap too large to trust without news"
+  },
+  {
+   "player": "AJ Dybantsa",
+   "stat": "pts",
+   "side": "Under",
+   "line": 19.5,
+   "reason": "projection 15 vs line 19.5: gap too large to trust without news"
+  },
+  {
+   "player": "Zaccharie Risacher",
    "stat": "pts",
    "side": "Over",
-   "line": 5.5,
-   "reason": "line 5.5 vs season avg 3.2: market likely pricing news"
+   "line": 7.5,
+   "reason": "projection 9.4 vs line 7.5: gap too large to trust without news"
   }
  ],
  "voided": [
@@ -2915,89 +3654,230 @@
   }
  ],
  "games": {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "rows": [
    {
     "sport": "NBA",
-    "game": "Orlando Magic @ Phoenix Suns",
-    "away": "Orlando Magic",
-    "home": "Phoenix Suns",
-    "start": "2026-11-06T02:10:00Z",
+    "game": "Washington Wizards @ Atlanta Hawks",
+    "away": "Washington Wizards",
+    "home": "Atlanta Hawks",
+    "start": "2026-11-07T00:10:00Z",
     "markets": {
-     "Total": {
-      "fd": 222.5,
-      "ours": 226.1,
-      "gap": 3.6,
-      "grade": "",
-      "ev": -0.3,
-      "side": "Over 222.5"
-     },
      "Spread": {
-      "fd": 1.5,
-      "ours": 0.1,
-      "gap": 1.4,
+      "fd": -8.5,
+      "ours": -13.6,
+      "gap": 5.1,
+      "grade": "A",
+      "ev": 8.6,
+      "side": "Atlanta Hawks -8.5"
+     },
+     "Total": {
+      "fd": 229.5,
+      "ours": 232.0,
+      "gap": 2.5,
       "grade": "",
-      "ev": -3.2,
-      "side": "Orlando Magic +1.5"
+      "ev": -3.6,
+      "side": "Over 229.5"
      }
     }
    },
    {
     "sport": "NBA",
-    "game": "Miami Heat @ Golden State Warriors",
-    "away": "Miami Heat",
-    "home": "Golden State Warriors",
-    "start": "2026-11-06T03:10:00Z",
+    "game": "Boston Celtics @ Charlotte Hornets",
+    "away": "Boston Celtics",
+    "home": "Charlotte Hornets",
+    "start": "2026-11-07T00:10:00Z",
     "markets": {
-     "Total": {
-      "fd": 236.5,
-      "ours": 241.4,
-      "gap": 4.9,
+     "Spread": {
+      "fd": 9.5,
+      "ours": 6.1,
+      "gap": 3.4,
       "grade": "C",
-      "ev": 3.1,
-      "side": "Over 236.5"
+      "ev": 1.9,
+      "side": "Charlotte Hornets +9.5"
      },
-     "Spread": {
-      "fd": -3.5,
-      "ours": -4.8,
-      "gap": 1.3,
-      "grade": "",
-      "ev": -1.8,
-      "side": "Golden State Warriors -3.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "UTSA Roadrunners @ Florida Atlantic Owls",
-    "away": "UTSA Roadrunners",
-    "home": "Florida Atlantic Owls",
-    "start": "2026-11-06T00:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -7.5,
-      "ours": -8.6,
+     "Total": {
+      "fd": 208.5,
+      "ours": 209.6,
       "gap": 1.1,
       "grade": "",
-      "ev": 1.0,
-      "side": "UTSA Roadrunners -7.5"
+      "ev": -1.3,
+      "side": "Over 208.5"
      }
     }
    },
    {
-    "sport": "NCAAF",
-    "game": "James Madison Dukes @ Southern Mississippi Golden Eagles",
-    "away": "James Madison Dukes",
-    "home": "Southern Mississippi Golden Eagles",
-    "start": "2026-11-06T01:00:00Z",
+    "sport": "NBA",
+    "game": "Philadelphia 76ers @ Cleveland Cavaliers",
+    "away": "Philadelphia 76ers",
+    "home": "Cleveland Cavaliers",
+    "start": "2026-11-07T00:40:00Z",
     "markets": {
      "Spread": {
-      "fd": -13.5,
-      "ours": -14.2,
-      "gap": 0.7,
+      "fd": 2.5,
+      "ours": -3.4,
+      "gap": 5.9,
+      "grade": "C",
+      "ev": 7.1,
+      "side": "Cleveland Cavaliers +2.5"
+     },
+     "Total": {
+      "fd": 231.5,
+      "ours": 227.6,
+      "gap": 0,
       "grade": "",
-      "ev": -3.2,
-      "side": "James Madison Dukes -13.5"
+      "ev": -0.7,
+      "side": "Over 231.5"
+     }
+    }
+   },
+   {
+    "sport": "NBA",
+    "game": "Utah Jazz @ Dallas Mavericks",
+    "away": "Utah Jazz",
+    "home": "Dallas Mavericks",
+    "start": "2026-11-07T01:10:00Z",
+    "markets": {
+     "Total": {
+      "fd": 226.5,
+      "ours": 233.8,
+      "gap": 7.3,
+      "grade": "A",
+      "ev": 6.5,
+      "side": "Over 226.5"
+     },
+     "Spread": {
+      "fd": 7.5,
+      "ours": 7.0,
+      "gap": 0.5,
+      "grade": "",
+      "ev": -4.2,
+      "side": "Utah Jazz +7.5"
+     }
+    }
+   },
+   {
+    "sport": "NBA",
+    "game": "Oklahoma City Thunder @ Memphis Grizzlies",
+    "away": "Oklahoma City Thunder",
+    "home": "Memphis Grizzlies",
+    "start": "2026-11-07T01:10:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -4.5,
+      "ours": -7.6,
+      "gap": 3.1,
+      "grade": "A",
+      "ev": 4.2,
+      "side": "Oklahoma City Thunder -4.5"
+     },
+     "Total": {
+      "fd": 223.5,
+      "ours": 223.9,
+      "gap": 0.4,
+      "grade": "",
+      "ev": -4.8,
+      "side": "Over 223.5"
+     }
+    }
+   },
+   {
+    "sport": "NBA",
+    "game": "Toronto Raptors @ Milwaukee Bucks",
+    "away": "Toronto Raptors",
+    "home": "Milwaukee Bucks",
+    "start": "2026-11-07T01:10:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -4.5,
+      "ours": -8.2,
+      "gap": 3.7,
+      "grade": "C",
+      "ev": 3.7,
+      "side": "Toronto Raptors -4.5"
+     },
+     "Total": {
+      "fd": 229.5,
+      "ours": 223.5,
+      "gap": 0,
+      "grade": "",
+      "ev": -5.4,
+      "side": "Over 229.5"
+     }
+    }
+   },
+   {
+    "sport": "NBA",
+    "game": "Minnesota Timberwolves @ New Orleans Pelicans",
+    "away": "Minnesota Timberwolves",
+    "home": "New Orleans Pelicans",
+    "start": "2026-11-07T01:10:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -3.5,
+      "ours": -5.1,
+      "gap": 1.6,
+      "grade": "",
+      "ev": -1.9,
+      "side": "Minnesota Timberwolves -3.5"
+     },
+     "Total": {
+      "fd": 230.5,
+      "ours": 230.7,
+      "gap": 0.2,
+      "grade": "",
+      "ev": -5.0,
+      "side": "Over 230.5"
+     }
+    }
+   },
+   {
+    "sport": "NBA",
+    "game": "Portland Trail Blazers @ Los Angeles Lakers",
+    "away": "Portland Trail Blazers",
+    "home": "Los Angeles Lakers",
+    "start": "2026-11-07T03:10:00Z",
+    "markets": {
+     "Total": {
+      "fd": 231.5,
+      "ours": 231.3,
+      "gap": 0,
+      "grade": "",
+      "ev": 5.0,
+      "side": "Over 231.5"
+     },
+     "Spread": {
+      "fd": 3.5,
+      "ours": 3.4,
+      "gap": 0.1,
+      "grade": "",
+      "ev": -3.9,
+      "side": "Portland Trail Blazers +3.5"
+     }
+    }
+   },
+   {
+    "sport": "NBA",
+    "game": "San Antonio Spurs @ Sacramento Kings",
+    "away": "San Antonio Spurs",
+    "home": "Sacramento Kings",
+    "start": "2026-11-07T03:10:00Z",
+    "markets": {
+     "Total": {
+      "fd": 231.5,
+      "ours": 228.4,
+      "gap": 0,
+      "grade": "",
+      "ev": 0.4,
+      "side": "Over 231.5"
+     },
+     "Spread": {
+      "fd": 17.5,
+      "ours": 17.5,
+      "gap": 0.0,
+      "grade": "",
+      "ev": -6.1,
+      "side": "Sacramento Kings +17.5"
      }
     }
    },
@@ -3013,7 +3893,7 @@
       "ours": -6.9,
       "gap": 0.4,
       "grade": "",
-      "ev": -1.6,
+      "ev": -4.7,
       "side": "SMU Mustangs -6.5"
      }
     }
@@ -3026,12 +3906,12 @@
     "start": "2026-11-07T00:30:00Z",
     "markets": {
      "Spread": {
-      "fd": 2.5,
-      "ours": 0.9,
-      "gap": 1.6,
+      "fd": 1.5,
+      "ours": 1.2,
+      "gap": 0.3,
       "grade": "",
-      "ev": -3.0,
-      "side": "South Florida Bulls +2.5"
+      "ev": -3.4,
+      "side": "South Florida Bulls +1.5"
      }
     }
    },
@@ -3047,7 +3927,7 @@
       "ours": -6.3,
       "gap": 1.8,
       "grade": "",
-      "ev": -2.4,
+      "ev": -1.4,
       "side": "Nebraska Cornhuskers -4.5"
      }
     }
@@ -3060,12 +3940,12 @@
     "start": "2026-11-07T02:00:00Z",
     "markets": {
      "Spread": {
-      "fd": -10.5,
+      "fd": -9.5,
       "ours": -12.1,
-      "gap": 1.6,
+      "gap": 2.6,
       "grade": "",
-      "ev": -1.1,
-      "side": "New Mexico Lobos -10.5"
+      "ev": -4.4,
+      "side": "New Mexico Lobos -9.5"
      }
     }
    },
@@ -3077,1037 +3957,1883 @@
     "start": "2026-11-07T03:15:00Z",
     "markets": {
      "Spread": {
-      "fd": -7.5,
+      "fd": -6.5,
       "ours": -8.2,
-      "gap": 0.7,
+      "gap": 1.7,
       "grade": "",
-      "ev": -5.4,
-      "side": "Arizona Wildcats -7.5"
+      "ev": -6.0,
+      "side": "Arizona Wildcats -6.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "LIU Sharks @ Seton Hall Pirates",
-    "away": "LIU Sharks",
-    "home": "Seton Hall Pirates",
-    "start": "2026-11-05T23:30:00Z",
+    "sport": "NCAAF",
+    "game": "BYU Cougars @ Utah Utes",
+    "away": "BYU Cougars",
+    "home": "Utah Utes",
+    "start": "2026-11-07T17:00:00Z",
     "markets": {
      "Spread": {
-      "fd": -17.5,
-      "ours": -17.9,
-      "gap": 0.4,
+      "fd": -4.5,
+      "ours": -6.0,
+      "gap": 1.5,
       "grade": "",
-      "ev": -4.9,
-      "side": "Seton Hall Pirates -17.5"
-     },
-     "Total": {
-      "fd": 135.5,
-      "ours": 132.8,
-      "gap": 2.7,
-      "grade": "",
-      "ev": -2.1,
-      "side": "Under 135.5"
+      "ev": 0.0,
+      "side": "Utah Utes -4.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Howard Bison @ Alcorn St Braves",
-    "away": "Howard Bison",
-    "home": "Alcorn St Braves",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "Iowa State Cyclones @ Baylor Bears",
+    "away": "Iowa State Cyclones",
+    "home": "Baylor Bears",
+    "start": "2026-11-07T17:00:00Z",
     "markets": {
      "Spread": {
       "fd": -9.5,
-      "ours": -9.7,
-      "gap": 0.2,
+      "ours": -11.5,
+      "gap": 2.0,
       "grade": "",
-      "ev": -8.1,
-      "side": "Howard Bison -9.5"
-     },
-     "Total": {
-      "fd": 150.5,
-      "ours": 146.4,
-      "gap": 4.1,
-      "grade": "B",
-      "ev": 5.9,
-      "side": "Under 150.5"
+      "ev": -4.9,
+      "side": "Baylor Bears -9.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Binghamton Bearcats @ Saint Peter's Peacocks",
-    "away": "Binghamton Bearcats",
-    "home": "Saint Peter's Peacocks",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -7.5,
-      "ours": -13.3,
-      "gap": 5.8,
-      "grade": "A",
-      "ev": 5.9,
-      "side": "Saint Peter's Peacocks -7.5"
-     },
-     "Total": {
-      "fd": 135.5,
-      "ours": 131.4,
-      "gap": 4.1,
-      "grade": "",
-      "ev": -2.2,
-      "side": "Under 135.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Bryant Bulldogs @ Quinnipiac Bobcats",
-    "away": "Bryant Bulldogs",
-    "home": "Quinnipiac Bobcats",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "Florida State Seminoles @ Boston College Eagles",
+    "away": "Florida State Seminoles",
+    "home": "Boston College Eagles",
+    "start": "2026-11-07T17:00:00Z",
     "markets": {
      "Spread": {
       "fd": -6.5,
-      "ours": -14.5,
-      "gap": 8.0,
-      "grade": "A",
-      "ev": 10.1,
-      "side": "Quinnipiac Bobcats -6.5"
-     },
-     "Total": {
-      "fd": 148.5,
-      "ours": 140.7,
-      "gap": 7.8,
-      "grade": "A",
-      "ev": 5.0,
-      "side": "Under 148.5"
+      "ours": -9.5,
+      "gap": 3.0,
+      "grade": "",
+      "ev": -0.3,
+      "side": "Florida State Seminoles -6.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Buffalo Bulls @ Pittsburgh Panthers",
-    "away": "Buffalo Bulls",
-    "home": "Pittsburgh Panthers",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 17.5,
-      "ours": 11.8,
-      "gap": 5.7,
-      "grade": "A",
-      "ev": 8.5,
-      "side": "Buffalo Bulls +17.5"
-     },
-     "Total": {
-      "fd": 150.5,
-      "ours": 145.5,
-      "gap": 5.0,
-      "grade": "B",
-      "ev": 2.5,
-      "side": "Under 150.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Central Connecticut St Blue Devils @ Syracuse Orange",
-    "away": "Central Connecticut St Blue Devils",
+    "sport": "NCAAF",
+    "game": "Clemson Tigers @ Syracuse Orange",
+    "away": "Clemson Tigers",
     "home": "Syracuse Orange",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 134.5,
-      "ours": 141.0,
-      "gap": 6.5,
-      "grade": "A",
-      "ev": 3.4,
-      "side": "Over 134.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Georgia St Panthers @ Charlotte 49ers",
-    "away": "Georgia St Panthers",
-    "home": "Charlotte 49ers",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 11.5,
-      "ours": -11.5,
-      "gap": 23.0,
-      "grade": "A",
-      "ev": 37.5,
-      "side": "Georgia St Panthers +11.5"
-     },
-     "Total": {
-      "fd": 143.5,
-      "ours": 158.5,
-      "gap": 15.0,
-      "grade": "A",
-      "ev": 17.4,
-      "side": "Over 143.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Green Bay Phoenix @ Cincinnati Bearcats",
-    "away": "Green Bay Phoenix",
-    "home": "Cincinnati Bearcats",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 152.5,
-      "ours": 141.5,
-      "gap": 11.0,
-      "grade": "A",
-      "ev": 8.7,
-      "side": "Under 152.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Cornell Big Red @ Lehigh Mountain Hawks",
-    "away": "Cornell Big Red",
-    "home": "Lehigh Mountain Hawks",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 1.5,
-      "ours": -4.2,
-      "gap": 5.7,
-      "grade": "A",
-      "ev": 5.7,
-      "side": "Cornell Big Red +1.5"
-     },
-     "Total": {
-      "fd": 159.5,
-      "ours": 162.4,
-      "gap": 2.9,
-      "grade": "C",
-      "ev": 1.3,
-      "side": "Over 159.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Delaware St Hornets @ Navy Midshipmen",
-    "away": "Delaware St Hornets",
-    "home": "Navy Midshipmen",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -8.5,
-      "ours": -10.6,
-      "gap": 2.1,
-      "grade": "",
-      "ev": -0.6,
-      "side": "Navy Midshipmen -8.5"
-     },
-     "Total": {
-      "fd": 136.5,
-      "ours": 131.7,
-      "gap": 4.8,
-      "grade": "B",
-      "ev": 2.4,
-      "side": "Under 136.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Vermont Catamounts @ Fairfield Stags",
-    "away": "Vermont Catamounts",
-    "home": "Fairfield Stags",
-    "start": "2026-11-06T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 1.5,
-      "ours": -0.9,
-      "gap": 2.4,
-      "grade": "",
-      "ev": -1.0,
-      "side": "Fairfield Stags +1.5"
-     },
-     "Total": {
-      "fd": 139.5,
-      "ours": 137.5,
-      "gap": 2.0,
-      "grade": "",
-      "ev": 0.6,
-      "side": "Under 139.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Hofstra Pride @ Princeton Tigers",
-    "away": "Hofstra Pride",
-    "home": "Princeton Tigers",
-    "start": "2026-11-06T00:00:00Z",
+    "start": "2026-11-07T17:00:00Z",
     "markets": {
      "Spread": {
       "fd": 2.5,
-      "ours": -7.1,
-      "gap": 9.6,
-      "grade": "A",
-      "ev": 15.1,
-      "side": "Hofstra Pride +2.5"
-     },
-     "Total": {
-      "fd": 137.5,
-      "ours": 132.6,
-      "gap": 4.9,
+      "ours": 2.3,
+      "gap": 0.2,
       "grade": "",
-      "ev": -0.5,
-      "side": "Under 137.5"
+      "ev": -3.4,
+      "side": "Syracuse Orange +2.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "NJIT Highlanders @ Iona Gaels",
-    "away": "NJIT Highlanders",
-    "home": "Iona Gaels",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "UCLA Bruins @ Minnesota Golden Gophers",
+    "away": "UCLA Bruins",
+    "home": "Minnesota Golden Gophers",
+    "start": "2026-11-07T17:00:00Z",
     "markets": {
      "Spread": {
-      "fd": -9.5,
-      "ours": -10.1,
-      "gap": 0.6,
-      "grade": "",
-      "ev": -2.2,
-      "side": "Iona Gaels -9.5"
-     },
-     "Total": {
-      "fd": 146.5,
-      "ours": 136.9,
-      "gap": 9.6,
-      "grade": "A",
-      "ev": 12.2,
-      "side": "Under 146.5"
+      "fd": -4.5,
+      "ours": -7.0,
+      "gap": 2.5,
+      "grade": "C",
+      "ev": 1.0,
+      "side": "UCLA Bruins -4.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Maine Black Bears @ Sacred Heart Pioneers",
-    "away": "Maine Black Bears",
-    "home": "Sacred Heart Pioneers",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "Texas Longhorns @ Missouri Tigers",
+    "away": "Texas Longhorns",
+    "home": "Missouri Tigers",
+    "start": "2026-11-07T17:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -2.5,
+      "ours": -7.2,
+      "gap": 4.7,
+      "grade": "",
+      "ev": -3.9,
+      "side": "Texas Longhorns -2.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "North Carolina Tar Heels @ UConn Huskies",
+    "away": "North Carolina Tar Heels",
+    "home": "UConn Huskies",
+    "start": "2026-11-07T17:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -7.5,
+      "ours": -11.6,
+      "gap": 4.1,
+      "grade": "",
+      "ev": -0.3,
+      "side": "North Carolina Tar Heels -7.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Tulsa Golden Hurricane @ Tulane Green Wave",
+    "away": "Tulsa Golden Hurricane",
+    "home": "Tulane Green Wave",
+    "start": "2026-11-07T17:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 2.5,
+      "ours": -1.3,
+      "gap": 3.8,
+      "grade": "C",
+      "ev": 1.2,
+      "side": "Tulane Green Wave +2.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Duke Blue Devils @ NC State Wolfpack",
+    "away": "Duke Blue Devils",
+    "home": "NC State Wolfpack",
+    "start": "2026-11-07T17:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -4.5,
+      "ours": -6.7,
+      "gap": 2.2,
+      "grade": "",
+      "ev": -1.9,
+      "side": "Duke Blue Devils -4.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Maryland Terrapins @ Purdue Boilermakers",
+    "away": "Maryland Terrapins",
+    "home": "Purdue Boilermakers",
+    "start": "2026-11-07T17:30:00Z",
     "markets": {
      "Spread": {
       "fd": -5.5,
-      "ours": -6.3,
-      "gap": 0.8,
+      "ours": -8.9,
+      "gap": 3.4,
       "grade": "",
-      "ev": -3.9,
-      "side": "Sacred Heart Pioneers -5.5"
-     },
-     "Total": {
-      "fd": 142.5,
-      "ours": 136.6,
-      "gap": 5.9,
-      "grade": "A",
-      "ev": 6.5,
-      "side": "Under 142.5"
+      "ev": -2.6,
+      "side": "Purdue Boilermakers -5.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "UMBC Retrievers @ Marist Red Foxes",
-    "away": "UMBC Retrievers",
-    "home": "Marist Red Foxes",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "Arkansas Razorbacks @ Auburn Tigers",
+    "away": "Arkansas Razorbacks",
+    "home": "Auburn Tigers",
+    "start": "2026-11-07T17:45:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -10.5,
+      "ours": -11.4,
+      "gap": 0.9,
+      "grade": "",
+      "ev": -1.0,
+      "side": "Auburn Tigers -10.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Old Dominion Monarchs @ Coastal Carolina Chanticleers",
+    "away": "Old Dominion Monarchs",
+    "home": "Coastal Carolina Chanticleers",
+    "start": "2026-11-07T18:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -6.5,
+      "ours": -8.6,
+      "gap": 2.1,
+      "grade": "",
+      "ev": -5.3,
+      "side": "Coastal Carolina Chanticleers -6.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Oklahoma State Cowboys @ Kansas State Wildcats",
+    "away": "Oklahoma State Cowboys",
+    "home": "Kansas State Wildcats",
+    "start": "2026-11-07T18:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 6.5,
+      "ours": 3.4,
+      "gap": 3.1,
+      "grade": "",
+      "ev": -0.1,
+      "side": "Kansas State Wildcats +6.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Georgia State Panthers @ Appalachian State Mountaineers",
+    "away": "Georgia State Panthers",
+    "home": "Appalachian State Mountaineers",
+    "start": "2026-11-07T19:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 6.5,
+      "ours": 3.3,
+      "gap": 3.2,
+      "grade": "C",
+      "ev": 0.4,
+      "side": "Georgia State Panthers +6.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "UL Monroe Warhawks @ Arkansas State Red Wolves",
+    "away": "UL Monroe Warhawks",
+    "home": "Arkansas State Red Wolves",
+    "start": "2026-11-07T20:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -14.5,
+      "ours": -19.2,
+      "gap": 4.7,
+      "grade": "B",
+      "ev": 2.1,
+      "side": "Arkansas State Red Wolves -14.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Delaware Blue Hens @ Kennesaw State Owls",
+    "away": "Delaware Blue Hens",
+    "home": "Kennesaw State Owls",
+    "start": "2026-11-07T20:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 1.5,
+      "ours": 0.5,
+      "gap": 1.0,
+      "grade": "",
+      "ev": -0.3,
+      "side": "Kennesaw State Owls +1.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Texas A&M Aggies @ South Carolina Gamecocks",
+    "away": "Texas A&M Aggies",
+    "home": "South Carolina Gamecocks",
+    "start": "2026-11-07T20:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 6.5,
+      "ours": 2.2,
+      "gap": 4.3,
+      "grade": "A",
+      "ev": 3.9,
+      "side": "Texas A&M Aggies +6.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Alabama Crimson Tide @ LSU Tigers",
+    "away": "Alabama Crimson Tide",
+    "home": "LSU Tigers",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 6.5,
+      "ours": 2.7,
+      "gap": 3.8,
+      "grade": "",
+      "ev": -1.1,
+      "side": "Alabama Crimson Tide +6.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Charlotte 49ers @ UAB Blazers",
+    "away": "Charlotte 49ers",
+    "home": "UAB Blazers",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -8.5,
+      "ours": -8.8,
+      "gap": 0.3,
+      "grade": "",
+      "ev": -1.6,
+      "side": "UAB Blazers -8.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Cincinnati Bearcats @ Houston Cougars",
+    "away": "Cincinnati Bearcats",
+    "home": "Houston Cougars",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -10.5,
+      "ours": -11.9,
+      "gap": 1.4,
+      "grade": "",
+      "ev": -6.6,
+      "side": "Houston Cougars -10.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Marshall Thundering Herd @ Georgia Southern Eagles",
+    "away": "Marshall Thundering Herd",
+    "home": "Georgia Southern Eagles",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -10.5,
+      "ours": -12.6,
+      "gap": 2.1,
+      "grade": "C",
+      "ev": 0.5,
+      "side": "Georgia Southern Eagles -10.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Western Kentucky Hilltoppers @ Middle Tennessee Blue Raiders",
+    "away": "Western Kentucky Hilltoppers",
+    "home": "Middle Tennessee Blue Raiders",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 2.5,
+      "ours": 0.8,
+      "gap": 1.7,
+      "grade": "",
+      "ev": -1.6,
+      "side": "Middle Tennessee Blue Raiders +2.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Temple Owls @ Navy Midshipmen",
+    "away": "Temple Owls",
+    "home": "Navy Midshipmen",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 7.5,
+      "ours": 7.1,
+      "gap": 0.4,
+      "grade": "",
+      "ev": -5.5,
+      "side": "Temple Owls +7.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Oregon Ducks @ Ohio State Buckeyes",
+    "away": "Oregon Ducks",
+    "home": "Ohio State Buckeyes",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -7.5,
+      "ours": -11.4,
+      "gap": 3.9,
+      "grade": "C",
+      "ev": 0.5,
+      "side": "Ohio State Buckeyes -7.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Penn State Nittany Lions @ Washington Huskies",
+    "away": "Penn State Nittany Lions",
+    "home": "Washington Huskies",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 2.5,
+      "ours": -2.6,
+      "gap": 5.1,
+      "grade": "B",
+      "ev": 1.9,
+      "side": "Penn State Nittany Lions +2.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "UCF Knights @ Kansas Jayhawks",
+    "away": "UCF Knights",
+    "home": "Kansas Jayhawks",
+    "start": "2026-11-07T20:45:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -3.5,
+      "ours": -4.1,
+      "gap": 0.6,
+      "grade": "",
+      "ev": -1.4,
+      "side": "Kansas Jayhawks -3.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Missouri State Bears @ Florida International Panthers",
+    "away": "Missouri State Bears",
+    "home": "Florida International Panthers",
+    "start": "2026-11-07T21:00:00Z",
     "markets": {
      "Spread": {
       "fd": 4.5,
-      "ours": 3.6,
-      "gap": 0.9,
+      "ours": 4.4,
+      "gap": 0.1,
       "grade": "",
-      "ev": -2.7,
-      "side": "UMBC Retrievers +4.5"
-     },
-     "Total": {
-      "fd": 136.5,
-      "ours": 133.1,
-      "gap": 3.4,
-      "grade": "C",
-      "ev": 5.3,
-      "side": "Under 136.5"
+      "ev": -5.9,
+      "side": "Missouri State Bears +4.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Mercer Bears @ Virginia Tech Hokies",
-    "away": "Mercer Bears",
-    "home": "Virginia Tech Hokies",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "Louisiana Tech Bulldogs @ Troy Trojans",
+    "away": "Louisiana Tech Bulldogs",
+    "home": "Troy Trojans",
+    "start": "2026-11-07T21:00:00Z",
     "markets": {
-     "Total": {
-      "fd": 154.5,
-      "ours": 157.8,
-      "gap": 3.3,
+     "Spread": {
+      "fd": 5.5,
+      "ours": 5.3,
+      "gap": 0.2,
       "grade": "",
-      "ev": -1.5,
-      "side": "Over 154.5"
+      "ev": -3.1,
+      "side": "Troy Trojans +5.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Mercyhurst Lakers @ Notre Dame Fighting Irish",
-    "away": "Mercyhurst Lakers",
-    "home": "Notre Dame Fighting Irish",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "Rice Owls @ North Texas Mean Green",
+    "away": "Rice Owls",
+    "home": "North Texas Mean Green",
+    "start": "2026-11-07T21:00:00Z",
     "markets": {
-     "Total": {
-      "fd": 136.5,
-      "ours": 134.1,
+     "Spread": {
+      "fd": -16.5,
+      "ours": -19.4,
+      "gap": 2.9,
+      "grade": "",
+      "ev": -3.8,
+      "side": "North Texas Mean Green -16.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Northern Illinois Huskies @ San Jose State Spartans",
+    "away": "Northern Illinois Huskies",
+    "home": "San Jose State Spartans",
+    "start": "2026-11-07T21:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -10.5,
+      "ours": -11.9,
+      "gap": 1.4,
+      "grade": "",
+      "ev": -2.1,
+      "side": "San Jose State Spartans -10.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Vanderbilt Commodores @ Mississippi State Bulldogs",
+    "away": "Vanderbilt Commodores",
+    "home": "Mississippi State Bulldogs",
+    "start": "2026-11-07T21:15:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -2.5,
+      "ours": -9.9,
+      "gap": 7.4,
+      "grade": "B",
+      "ev": 1.8,
+      "side": "Mississippi State Bulldogs -2.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Rutgers Scarlet Knights @ Wisconsin Badgers",
+    "away": "Rutgers Scarlet Knights",
+    "home": "Wisconsin Badgers",
+    "start": "2026-11-07T21:15:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 17.5,
+      "ours": 15.1,
       "gap": 2.4,
       "grade": "",
-      "ev": -0.5,
-      "side": "Under 136.5"
+      "ev": -3.4,
+      "side": "Rutgers Scarlet Knights +17.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "New Hampshire Wildcats @ Rider Broncs",
-    "away": "New Hampshire Wildcats",
-    "home": "Rider Broncs",
-    "start": "2026-11-06T00:00:00Z",
+    "sport": "NCAAF",
+    "game": "South Alabama Jaguars @ Louisiana Ragin Cajuns",
+    "away": "South Alabama Jaguars",
+    "home": "Louisiana Ragin Cajuns",
+    "start": "2026-11-07T22:00:00Z",
     "markets": {
      "Spread": {
-      "fd": -0.5,
-      "ours": -1.1,
+      "fd": -7.5,
+      "ours": -9.5,
+      "gap": 2.0,
+      "grade": "",
+      "ev": -3.3,
+      "side": "Louisiana Ragin Cajuns -7.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Boise State Broncos @ Colorado State Rams",
+    "away": "Boise State Broncos",
+    "home": "Colorado State Rams",
+    "start": "2026-11-07T23:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -16.5,
+      "ours": -21.3,
+      "gap": 4.8,
+      "grade": "B",
+      "ev": 2.0,
+      "side": "Boise State Broncos -16.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Kentucky Wildcats @ Tennessee Volunteers",
+    "away": "Kentucky Wildcats",
+    "home": "Tennessee Volunteers",
+    "start": "2026-11-07T23:15:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -5.5,
+      "ours": -6.2,
+      "gap": 0.7,
+      "grade": "",
+      "ev": -5.0,
+      "side": "Tennessee Volunteers -5.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Sam Houston State Bearkats @ Jacksonville State Gamecocks",
+    "away": "Sam Houston State Bearkats",
+    "home": "Jacksonville State Gamecocks",
+    "start": "2026-11-08T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 16.5,
+      "ours": 15.1,
+      "gap": 1.4,
+      "grade": "",
+      "ev": -1.3,
+      "side": "Sam Houston State Bearkats +16.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Air Force Falcons @ Army Black Knights",
+    "away": "Air Force Falcons",
+    "home": "Army Black Knights",
+    "start": "2026-11-08T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -3.5,
+      "ours": -4.1,
       "gap": 0.6,
       "grade": "",
-      "ev": -12.1,
-      "side": "Rider Broncs -0.5"
-     },
-     "Total": {
-      "fd": 141.5,
-      "ours": 134.8,
-      "gap": 6.7,
-      "grade": "A",
-      "ev": 7.0,
-      "side": "Under 141.5"
+      "ev": -4.2,
+      "side": "Army Black Knights -3.5"
      }
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Stonehill Skyhawks @ Fordham Rams",
-    "away": "Stonehill Skyhawks",
-    "home": "Fordham Rams",
-    "start": "2026-11-06T00:30:00Z",
-    "markets": {
-     "Total": {
-      "fd": 141.5,
-      "ours": 125.7,
-      "gap": 15.8,
-      "grade": "A",
-      "ev": 20.7,
-      "side": "Under 141.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Jackson St Tigers @ Tulane Green Wave",
-    "away": "Jackson St Tigers",
-    "home": "Tulane Green Wave",
-    "start": "2026-11-06T00:30:00Z",
+    "sport": "NCAAF",
+    "game": "Colorado Buffaloes @ Arizona State Sun Devils",
+    "away": "Colorado Buffaloes",
+    "home": "Arizona State Sun Devils",
+    "start": "2026-11-08T00:30:00Z",
     "markets": {
      "Spread": {
-      "fd": -12.5,
-      "ours": -17.0,
-      "gap": 4.5,
-      "grade": "C",
-      "ev": 1.0,
-      "side": "Tulane Green Wave -12.5"
-     },
-     "Total": {
-      "fd": 151.5,
-      "ours": 150.5,
+      "fd": -3.5,
+      "ours": -4.8,
+      "gap": 1.3,
+      "grade": "",
+      "ev": -5.6,
+      "side": "Arizona State Sun Devils -3.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Georgia Bulldogs @ Ole Miss Rebels",
+    "away": "Georgia Bulldogs",
+    "home": "Ole Miss Rebels",
+    "start": "2026-11-08T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 3.5,
+      "ours": 1.5,
+      "gap": 2.0,
+      "grade": "",
+      "ev": -2.8,
+      "side": "Ole Miss Rebels +3.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
+    "away": "Louisville Cardinals",
+    "home": "Georgia Tech Yellow Jackets",
+    "start": "2026-11-08T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -14.5,
+      "ours": -15.5,
       "gap": 1.0,
       "grade": "",
-      "ev": -7.1,
-      "side": "Under 151.5"
+      "ev": -3.7,
+      "side": "Louisville Cardinals -14.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Iowa Hawkeyes @ Northwestern Wildcats",
+    "away": "Iowa Hawkeyes",
+    "home": "Northwestern Wildcats",
+    "start": "2026-11-08T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 1.5,
+      "ours": -2.2,
+      "gap": 3.7,
+      "grade": "",
+      "ev": -2.6,
+      "side": "Northwestern Wildcats +1.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Miami Hurricanes @ Notre Dame Fighting Irish",
+    "away": "Miami Hurricanes",
+    "home": "Notre Dame Fighting Irish",
+    "start": "2026-11-08T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 7.5,
+      "ours": 2.9,
+      "gap": 4.6,
+      "grade": "",
+      "ev": -0.7,
+      "side": "Miami Hurricanes +7.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Michigan State Spartans @ Michigan Wolverines",
+    "away": "Michigan State Spartans",
+    "home": "Michigan Wolverines",
+    "start": "2026-11-08T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 14.5,
+      "ours": 12.9,
+      "gap": 1.6,
+      "grade": "",
+      "ev": -3.2,
+      "side": "Michigan State Spartans +14.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Oklahoma Sooners @ Florida Gators",
+    "away": "Oklahoma Sooners",
+    "home": "Florida Gators",
+    "start": "2026-11-08T00:45:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 5.5,
+      "ours": 4.5,
+      "gap": 1.0,
+      "grade": "",
+      "ev": -1.5,
+      "side": "Oklahoma Sooners +5.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Liberty Flames @ New Mexico State Aggies",
+    "away": "Liberty Flames",
+    "home": "New Mexico State Aggies",
+    "start": "2026-11-08T01:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -16.5,
+      "ours": -18.2,
+      "gap": 1.7,
+      "grade": "",
+      "ev": -1.3,
+      "side": "Liberty Flames -16.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "Northwestern St Demons @ Mississippi St Bulldogs",
-    "away": "Northwestern St Demons",
-    "home": "Mississippi St Bulldogs",
-    "start": "2026-11-06T00:30:00Z",
+    "game": "Massachusetts Minutemen @ Boston College Eagles",
+    "away": "Massachusetts Minutemen",
+    "home": "Boston College Eagles",
+    "start": "2026-11-06T21:00:00Z",
     "markets": {
+     "Spread": {
+      "fd": -5.5,
+      "ours": -7.4,
+      "gap": 1.9,
+      "grade": "",
+      "ev": -2.6,
+      "side": "Boston College Eagles -5.5"
+     },
      "Total": {
-      "fd": 150.5,
-      "ours": 139.6,
-      "gap": 10.9,
-      "grade": "A",
-      "ev": 7.6,
-      "side": "Under 150.5"
+      "fd": 143.5,
+      "ours": 138.5,
+      "gap": 5.0,
+      "grade": "B",
+      "ev": 1.8,
+      "side": "Under 143.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "Coastal Carolina Chanticleers @ Duke Blue Devils",
-    "away": "Coastal Carolina Chanticleers",
-    "home": "Duke Blue Devils",
-    "start": "2026-11-06T01:00:00Z",
+    "game": "Arkansas-Pine Bluff Golden Lions @ Baylor Bears",
+    "away": "Arkansas-Pine Bluff Golden Lions",
+    "home": "Baylor Bears",
+    "start": "2026-11-06T22:00:00Z",
     "markets": {
      "Total": {
-      "fd": 149.5,
-      "ours": 139.6,
-      "gap": 9.9,
+      "fd": 163.5,
+      "ours": 175.2,
+      "gap": 11.7,
       "grade": "A",
       "ev": 8.3,
+      "side": "Over 163.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Northeastern Huskies @ Virginia Cavaliers",
+    "away": "Northeastern Huskies",
+    "home": "Virginia Cavaliers",
+    "start": "2026-11-06T22:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 160.5,
+      "ours": 152.0,
+      "gap": 8.5,
+      "grade": "A",
+      "ev": 10.0,
+      "side": "Under 160.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Eastern Washington Eagles @ Oregon Ducks",
+    "away": "Eastern Washington Eagles",
+    "home": "Oregon Ducks",
+    "start": "2026-11-06T23:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 16.5,
+      "ours": 10.9,
+      "gap": 5.6,
+      "grade": "A",
+      "ev": 8.2,
+      "side": "Eastern Washington Eagles +16.5"
+     },
+     "Total": {
+      "fd": 149.5,
+      "ours": 147.0,
+      "gap": 2.5,
+      "grade": "",
+      "ev": -3.8,
       "side": "Under 149.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "Le Moyne Dolphins @ Creighton Bluejays",
-    "away": "Le Moyne Dolphins",
-    "home": "Creighton Bluejays",
-    "start": "2026-11-06T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 155.5,
-      "ours": 151.5,
-      "gap": 4.0,
-      "grade": "",
-      "ev": -0.0,
-      "side": "Under 155.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "East Texas A&M Lions @ Rice Owls",
-    "away": "East Texas A&M Lions",
-    "home": "Rice Owls",
-    "start": "2026-11-06T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -3.5,
-      "ours": -7.8,
-      "gap": 4.3,
-      "grade": "",
-      "ev": -0.5,
-      "side": "Rice Owls -3.5"
-     },
-     "Total": {
-      "fd": 144.5,
-      "ours": 143.3,
-      "gap": 1.2,
-      "grade": "",
-      "ev": -6.1,
-      "side": "Under 144.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Jacksonville Dolphins @ Florida Gators",
-    "away": "Jacksonville Dolphins",
-    "home": "Florida Gators",
-    "start": "2026-11-06T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 155.5,
-      "ours": 148.4,
-      "gap": 7.1,
-      "grade": "A",
-      "ev": 3.0,
-      "side": "Under 155.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Gardner-Webb Bulldogs @ Texas Longhorns",
-    "away": "Gardner-Webb Bulldogs",
-    "home": "Texas Longhorns",
-    "start": "2026-11-06T01:00:00Z",
+    "game": "Youngstown St Penguins @ Ohio State Buckeyes",
+    "away": "Youngstown St Penguins",
+    "home": "Ohio State Buckeyes",
+    "start": "2026-11-06T23:30:00Z",
     "markets": {
      "Total": {
       "fd": 154.5,
-      "ours": 158.4,
-      "gap": 3.9,
-      "grade": "B",
-      "ev": 4.8,
-      "side": "Over 154.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Jacksonville St Gamecocks @ South Alabama Jaguars",
-    "away": "Jacksonville St Gamecocks",
-    "home": "South Alabama Jaguars",
-    "start": "2026-11-06T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -4.5,
-      "ours": -9.2,
-      "gap": 4.7,
-      "grade": "B",
-      "ev": 2.0,
-      "side": "South Alabama Jaguars -4.5"
-     },
-     "Total": {
-      "fd": 140.5,
-      "ours": 136.9,
-      "gap": 3.6,
-      "grade": "",
-      "ev": -0.5,
-      "side": "Under 140.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Toledo Rockets @ Michigan St Spartans",
-    "away": "Toledo Rockets",
-    "home": "Michigan St Spartans",
-    "start": "2026-11-06T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 154.5,
-      "ours": 161.3,
-      "gap": 6.8,
+      "ours": 147.5,
+      "gap": 7.0,
       "grade": "A",
-      "ev": 3.9,
-      "side": "Over 154.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Northern Illinois Huskies @ Tulsa Golden Hurricane",
-    "away": "Northern Illinois Huskies",
-    "home": "Tulsa Golden Hurricane",
-    "start": "2026-11-06T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -13.5,
-      "ours": -26.6,
-      "gap": 13.1,
-      "grade": "A",
-      "ev": 16.1,
-      "side": "Tulsa Golden Hurricane -13.5"
-     },
-     "Total": {
-      "fd": 154.5,
-      "ours": 153.2,
-      "gap": 1.3,
-      "grade": "",
-      "ev": -4.4,
+      "ev": 5.6,
       "side": "Under 154.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "VMI Keydets @ SMU Mustangs",
-    "away": "VMI Keydets",
-    "home": "SMU Mustangs",
-    "start": "2026-11-06T01:00:00Z",
+    "game": "Valparaiso Beacons @ Purdue Boilermakers",
+    "away": "Valparaiso Beacons",
+    "home": "Purdue Boilermakers",
+    "start": "2026-11-06T23:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 143.5,
+      "ours": 141.1,
+      "gap": 2.4,
+      "grade": "",
+      "ev": -3.2,
+      "side": "Under 143.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "South Carolina St Bulldogs @ South Carolina Upstate Spartans",
+    "away": "South Carolina St Bulldogs",
+    "home": "South Carolina Upstate Spartans",
+    "start": "2026-11-06T23:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 3.5,
+      "ours": -14.4,
+      "gap": 17.9,
+      "grade": "A",
+      "ev": 28.4,
+      "side": "South Carolina St Bulldogs +3.5"
+     },
+     "Total": {
+      "fd": 148.5,
+      "ours": 142.0,
+      "gap": 6.5,
+      "grade": "A",
+      "ev": 5.3,
+      "side": "Under 148.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "American Eagles @ Clemson Tigers",
+    "away": "American Eagles",
+    "home": "Clemson Tigers",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -15.5,
+      "ours": -22.4,
+      "gap": 6.9,
+      "grade": "A",
+      "ev": 7.8,
+      "side": "Clemson Tigers -15.5"
+     },
+     "Total": {
+      "fd": 141.5,
+      "ours": 138.1,
+      "gap": 3.4,
+      "grade": "",
+      "ev": -0.6,
+      "side": "Under 141.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Austin Peay Governors @ Kennesaw St Owls",
+    "away": "Austin Peay Governors",
+    "home": "Kennesaw St Owls",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 5.5,
+      "ours": 5.4,
+      "gap": 0.1,
+      "grade": "",
+      "ev": -3.8,
+      "side": "Austin Peay Governors +5.5"
+     },
+     "Total": {
+      "fd": 161.5,
+      "ours": 160.2,
+      "gap": 1.3,
+      "grade": "",
+      "ev": -6.8,
+      "side": "Under 161.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Indiana St Sycamores @ Ball State Cardinals",
+    "away": "Indiana St Sycamores",
+    "home": "Ball State Cardinals",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 1.5,
+      "ours": -17.6,
+      "gap": 19.1,
+      "grade": "A",
+      "ev": 29.1,
+      "side": "Indiana St Sycamores +1.5"
+     },
+     "Total": {
+      "fd": 147.5,
+      "ours": 136.1,
+      "gap": 11.4,
+      "grade": "A",
+      "ev": 12.3,
+      "side": "Under 147.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Coppin St Eagles @ George Mason Patriots",
+    "away": "Coppin St Eagles",
+    "home": "George Mason Patriots",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 140.5,
+      "ours": 136.3,
+      "gap": 4.2,
+      "grade": "B",
+      "ev": 2.9,
+      "side": "Under 140.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "East Tennessee St Buccaneers @ NC State Wolfpack",
+    "away": "East Tennessee St Buccaneers",
+    "home": "NC State Wolfpack",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -17.5,
+      "ours": -17.6,
+      "gap": 0.1,
+      "grade": "",
+      "ev": -4.8,
+      "side": "NC State Wolfpack -17.5"
+     },
+     "Total": {
+      "fd": 151.5,
+      "ours": 149.3,
+      "gap": 2.2,
+      "grade": "",
+      "ev": -3.1,
+      "side": "Under 151.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Eastern Michigan Eagles @ Xavier Musketeers",
+    "away": "Eastern Michigan Eagles",
+    "home": "Xavier Musketeers",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 151.5,
+      "ours": 153.7,
+      "gap": 2.2,
+      "grade": "",
+      "ev": 2.3,
+      "side": "Over 151.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "UNC Greensboro Spartans @ Elon Phoenix",
+    "away": "UNC Greensboro Spartans",
+    "home": "Elon Phoenix",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -8.5,
+      "ours": -8.9,
+      "gap": 0.4,
+      "grade": "",
+      "ev": -4.2,
+      "side": "Elon Phoenix -8.5"
+     },
+     "Total": {
+      "fd": 153.5,
+      "ours": 156.3,
+      "gap": 2.8,
+      "grade": "",
+      "ev": -2.5,
+      "side": "Over 153.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Troy Trojans @ Florida St Seminoles",
+    "away": "Troy Trojans",
+    "home": "Florida St Seminoles",
+    "start": "2026-11-07T00:00:00Z",
     "markets": {
      "Total": {
       "fd": 159.5,
-      "ours": 160.3,
-      "gap": 0.8,
+      "ours": 150.5,
+      "gap": 9.0,
+      "grade": "A",
+      "ev": 7.2,
+      "side": "Under 159.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Presbyterian Blue Hose @ Georgia Bulldogs",
+    "away": "Presbyterian Blue Hose",
+    "home": "Georgia Bulldogs",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 156.5,
+      "ours": 156.0,
+      "gap": 0.5,
       "grade": "",
-      "ev": -1.0,
+      "ev": -2.3,
+      "side": "Under 156.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Georgia Southern Eagles @ Georgia Tech Yellow Jackets",
+    "away": "Georgia Southern Eagles",
+    "home": "Georgia Tech Yellow Jackets",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 17.5,
+      "ours": 11.2,
+      "gap": 6.3,
+      "grade": "A",
+      "ev": 6.1,
+      "side": "Georgia Southern Eagles +17.5"
+     },
+     "Total": {
+      "fd": 159.5,
+      "ours": 160.5,
+      "gap": 1.0,
+      "grade": "",
+      "ev": -3.1,
       "side": "Over 159.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "South Florida Bulls @ DePaul Blue Demons",
-    "away": "South Florida Bulls",
-    "home": "DePaul Blue Demons",
-    "start": "2026-11-06T01:30:00Z",
+    "game": "Holy Cross Crusaders @ Villanova Wildcats",
+    "away": "Holy Cross Crusaders",
+    "home": "Villanova Wildcats",
+    "start": "2026-11-07T00:00:00Z",
     "markets": {
-     "Spread": {
-      "fd": 6.5,
-      "ours": -2.2,
-      "gap": 8.7,
-      "grade": "A",
-      "ev": 13.0,
-      "side": "South Florida Bulls +6.5"
-     },
      "Total": {
-      "fd": 149.5,
-      "ours": 150.4,
-      "gap": 0.9,
-      "grade": "",
-      "ev": -3.9,
-      "side": "Over 149.5"
+      "fd": 151.5,
+      "ours": 140.4,
+      "gap": 11.1,
+      "grade": "A",
+      "ev": 8.9,
+      "side": "Under 151.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "Pennsylvania Quakers @ Illinois Fighting Illini",
-    "away": "Pennsylvania Quakers",
-    "home": "Illinois Fighting Illini",
-    "start": "2026-11-06T01:30:00Z",
+    "game": "James Madison Dukes @ Kentucky Wildcats",
+    "away": "James Madison Dukes",
+    "home": "Kentucky Wildcats",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 156.5,
+      "ours": 149.8,
+      "gap": 6.7,
+      "grade": "A",
+      "ev": 6.2,
+      "side": "Under 156.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Missouri Tigers @ Saint Louis Billikens",
+    "away": "Missouri Tigers",
+    "home": "Saint Louis Billikens",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 1.5,
+      "ours": -9.4,
+      "gap": 10.9,
+      "grade": "A",
+      "ev": 16.8,
+      "side": "Saint Louis Billikens +1.5"
+     },
+     "Total": {
+      "fd": 161.5,
+      "ours": 160.4,
+      "gap": 1.1,
+      "grade": "",
+      "ev": -4.1,
+      "side": "Under 161.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "New Haven Chargers @ Rutgers Scarlet Knights",
+    "away": "New Haven Chargers",
+    "home": "Rutgers Scarlet Knights",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 137.5,
+      "ours": 127.1,
+      "gap": 10.4,
+      "grade": "A",
+      "ev": 9.0,
+      "side": "Under 137.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Wofford Terriers @ North Carolina Tar Heels",
+    "away": "Wofford Terriers",
+    "home": "North Carolina Tar Heels",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 156.5,
+      "ours": 151.2,
+      "gap": 5.3,
+      "grade": "A",
+      "ev": 5.1,
+      "side": "Under 156.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Stetson Hatters @ West Virginia Mountaineers",
+    "away": "Stetson Hatters",
+    "home": "West Virginia Mountaineers",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 141.5,
+      "ours": 133.1,
+      "gap": 8.4,
+      "grade": "A",
+      "ev": 13.4,
+      "side": "Under 141.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Yale Bulldogs @ UCF Knights",
+    "away": "Yale Bulldogs",
+    "home": "UCF Knights",
+    "start": "2026-11-07T00:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 9.5,
+      "ours": 6.5,
+      "gap": 3.0,
+      "grade": "C",
+      "ev": 1.4,
+      "side": "Yale Bulldogs +9.5"
+     },
+     "Total": {
+      "fd": 152.5,
+      "ours": 152.1,
+      "gap": 0.4,
+      "grade": "",
+      "ev": -1.5,
+      "side": "Under 152.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Arkansas St Red Wolves @ Alabama Crimson Tide",
+    "away": "Arkansas St Red Wolves",
+    "home": "Alabama Crimson Tide",
+    "start": "2026-11-07T00:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 177.5,
+      "ours": 186.4,
+      "gap": 8.9,
+      "grade": "A",
+      "ev": 6.9,
+      "side": "Over 177.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Delaware Blue Hens @ Wisconsin Badgers",
+    "away": "Delaware Blue Hens",
+    "home": "Wisconsin Badgers",
+    "start": "2026-11-07T00:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 156.5,
+      "ours": 146.1,
+      "gap": 10.4,
+      "grade": "A",
+      "ev": 14.5,
+      "side": "Under 156.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Florida Atlantic Owls @ Wright St Raiders",
+    "away": "Florida Atlantic Owls",
+    "home": "Wright St Raiders",
+    "start": "2026-11-07T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 3.5,
+      "ours": -1.3,
+      "gap": 4.8,
+      "grade": "A",
+      "ev": 3.8,
+      "side": "Florida Atlantic Owls +3.5"
+     },
+     "Total": {
+      "fd": 156.5,
+      "ours": 153.8,
+      "gap": 2.7,
+      "grade": "C",
+      "ev": 1.6,
+      "side": "Under 156.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Nicholls St Colonels @ UAB Blazers",
+    "away": "Nicholls St Colonels",
+    "home": "UAB Blazers",
+    "start": "2026-11-07T00:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 15.5,
+      "ours": 12.8,
+      "gap": 2.7,
+      "grade": "C",
+      "ev": 2.0,
+      "side": "Nicholls St Colonels +15.5"
+     },
+     "Total": {
+      "fd": 155.5,
+      "ours": 150.3,
+      "gap": 5.2,
+      "grade": "A",
+      "ev": 3.2,
+      "side": "Under 155.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Detroit Mercy Titans @ Marquette Golden Eagles",
+    "away": "Detroit Mercy Titans",
+    "home": "Marquette Golden Eagles",
+    "start": "2026-11-07T01:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 154.5,
+      "ours": 148.4,
+      "gap": 6.1,
+      "grade": "A",
+      "ev": 6.2,
+      "side": "Under 154.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Southern Miss Golden Eagles @ Iowa State Cyclones",
+    "away": "Southern Miss Golden Eagles",
+    "home": "Iowa State Cyclones",
+    "start": "2026-11-07T01:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 144.5,
+      "ours": 148.0,
+      "gap": 3.5,
+      "grade": "B",
+      "ev": 5.5,
+      "side": "Over 144.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Texas Southern Tigers @ LSU Tigers",
+    "away": "Texas Southern Tigers",
+    "home": "LSU Tigers",
+    "start": "2026-11-07T01:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 160.5,
+      "ours": 163.3,
+      "gap": 2.8,
+      "grade": "C",
+      "ev": 2.9,
+      "side": "Over 160.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Texas A&M-CC Islanders @ Louisiana Ragin' Cajuns",
+    "away": "Texas A&M-CC Islanders",
+    "home": "Louisiana Ragin' Cajuns",
+    "start": "2026-11-07T01:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 3.5,
+      "ours": -20.0,
+      "gap": 23.5,
+      "grade": "A",
+      "ev": 37.8,
+      "side": "Texas A&M-CC Islanders +3.5"
+     },
+     "Total": {
+      "fd": 129.5,
+      "ours": 146.0,
+      "gap": 16.5,
+      "grade": "A",
+      "ev": 18.8,
+      "side": "Over 129.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "UConn Huskies @ Michigan Wolverines",
+    "away": "UConn Huskies",
+    "home": "Michigan Wolverines",
+    "start": "2026-11-07T01:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 7.5,
+      "ours": -6.7,
+      "gap": 14.2,
+      "grade": "A",
+      "ev": 17.4,
+      "side": "Michigan Wolverines +7.5"
+     },
+     "Total": {
+      "fd": 141.5,
+      "ours": 147.7,
+      "gap": 6.2,
+      "grade": "A",
+      "ev": 5.1,
+      "side": "Over 141.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "St. Thomas (MN) Tommies @ Minnesota Golden Gophers",
+    "away": "St. Thomas (MN) Tommies",
+    "home": "Minnesota Golden Gophers",
+    "start": "2026-11-07T01:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 14.5,
+      "ours": 8.4,
+      "gap": 6.1,
+      "grade": "A",
+      "ev": 5.9,
+      "side": "St. Thomas (MN) Tommies +14.5"
+     },
+     "Total": {
+      "fd": 150.5,
+      "ours": 138.6,
+      "gap": 11.9,
+      "grade": "A",
+      "ev": 13.5,
+      "side": "Under 150.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Northern Kentucky Norse @ Texas A&M Aggies",
+    "away": "Northern Kentucky Norse",
+    "home": "Texas A&M Aggies",
+    "start": "2026-11-07T01:00:00Z",
     "markets": {
      "Total": {
       "fd": 172.5,
-      "ours": 148.6,
-      "gap": 23.9,
-      "grade": "A",
-      "ev": 32.5,
+      "ours": 168.6,
+      "gap": 3.9,
+      "grade": "B",
+      "ev": 3.7,
       "side": "Under 172.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "Bethune-Cookman Wildcats @ Texas Tech Red Raiders",
-    "away": "Bethune-Cookman Wildcats",
-    "home": "Texas Tech Red Raiders",
-    "start": "2026-11-06T02:00:00Z",
+    "game": "Stony Brook Seawolves @ Northwestern Wildcats",
+    "away": "Stony Brook Seawolves",
+    "home": "Northwestern Wildcats",
+    "start": "2026-11-07T01:00:00Z",
     "markets": {
+     "Spread": {
+      "fd": -12.5,
+      "ours": -18.4,
+      "gap": 5.9,
+      "grade": "A",
+      "ev": 7.4,
+      "side": "Northwestern Wildcats -12.5"
+     },
      "Total": {
-      "fd": 149.5,
-      "ours": 151.7,
-      "gap": 2.2,
-      "grade": "",
-      "ev": -1.0,
-      "side": "Over 149.5"
+      "fd": 144.5,
+      "ours": 137.5,
+      "gap": 7.0,
+      "grade": "A",
+      "ev": 6.8,
+      "side": "Under 144.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "Towson Tigers @ Utah Utes",
-    "away": "Towson Tigers",
-    "home": "Utah Utes",
-    "start": "2026-11-06T02:00:00Z",
+    "game": "Southern Jaguars @ TCU Horned Frogs",
+    "away": "Southern Jaguars",
+    "home": "TCU Horned Frogs",
+    "start": "2026-11-07T01:00:00Z",
     "markets": {
-     "Spread": {
-      "fd": -7.5,
-      "ours": -7.9,
-      "gap": 0.4,
-      "grade": "",
-      "ev": -4.8,
-      "side": "Utah Utes -7.5"
-     },
      "Total": {
-      "fd": 136.5,
-      "ours": 137.3,
-      "gap": 0.8,
-      "grade": "",
-      "ev": -0.6,
-      "side": "Over 136.5"
+      "fd": 152.5,
+      "ours": 158.4,
+      "gap": 5.9,
+      "grade": "A",
+      "ev": 5.9,
+      "side": "Over 152.5"
      }
     }
    },
    {
     "sport": "NCAAM",
-    "game": "Cal Poly Mustangs @ Arizona Wildcats",
-    "away": "Cal Poly Mustangs",
-    "home": "Arizona Wildcats",
-    "start": "2026-11-06T03:30:00Z",
-    "markets": {
-     "Total": {
-      "fd": 173.5,
-      "ours": 173.0,
-      "gap": 0.5,
-      "grade": "",
-      "ev": -3.5,
-      "side": "Under 173.5"
-     }
-    }
-   },
-   {
-    "sport": "NFL",
-    "game": "Jacksonville Jaguars @ Baltimore Ravens",
-    "away": "Jacksonville Jaguars",
-    "home": "Baltimore Ravens",
-    "start": "2026-11-06T01:15:00Z",
+    "game": "Central Arkansas Bears @ Ole Miss Rebels",
+    "away": "Central Arkansas Bears",
+    "home": "Ole Miss Rebels",
+    "start": "2026-11-07T01:30:00Z",
     "markets": {
      "Spread": {
-      "fd": 9.5,
-      "ours": 8.7,
-      "gap": 0.8,
-      "grade": "",
-      "ev": -2.2,
-      "side": "Baltimore Ravens +9.5"
+      "fd": 17.5,
+      "ours": 14.3,
+      "gap": 3.2,
+      "grade": "B",
+      "ev": 2.1,
+      "side": "Central Arkansas Bears +17.5"
+     },
+     "Total": {
+      "fd": 154.5,
+      "ours": 146.8,
+      "gap": 7.7,
+      "grade": "A",
+      "ev": 8.0,
+      "side": "Under 154.5"
      }
-    },
-    "prop_lean": {
-     "ev": 3.6,
-     "pick": "Trevor Lawrence Over 1.5 Pass TDs",
-     "price": -118,
-     "src": "Pinnacle"
     }
    },
    {
-    "sport": "NHL",
-    "game": "Boston Bruins @ Pittsburgh Penguins",
-    "away": "Boston Bruins",
-    "home": "Pittsburgh Penguins",
-    "start": "2026-11-06T00:10:00Z",
+    "sport": "NCAAM",
+    "game": "Eastern Illinois Panthers @ Iowa Hawkeyes",
+    "away": "Eastern Illinois Panthers",
+    "home": "Iowa Hawkeyes",
+    "start": "2026-11-07T01:30:00Z",
     "markets": {
-     "Moneyline": {
-      "fd": -115,
-      "ours": null,
-      "gap": 4.2,
-      "grade": "",
-      "ev": -4.2,
-      "side": "Pittsburgh Penguins ML"
-     },
      "Total": {
-      "fd": 6.5,
-      "ours": 6.5,
-      "gap": 0.04,
+      "fd": 134.5,
+      "ours": 129.4,
+      "gap": 5.1,
+      "grade": "B",
+      "ev": 1.7,
+      "side": "Under 134.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Idaho State Bengals @ Wyoming Cowboys",
+    "away": "Idaho State Bengals",
+    "home": "Wyoming Cowboys",
+    "start": "2026-11-07T01:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 145.5,
+      "ours": 150.7,
+      "gap": 5.2,
+      "grade": "A",
+      "ev": 5.2,
+      "side": "Over 145.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Omaha Mavericks @ BYU Cougars",
+    "away": "Omaha Mavericks",
+    "home": "BYU Cougars",
+    "start": "2026-11-07T02:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 160.5,
+      "ours": 155.8,
+      "gap": 4.7,
       "grade": "",
       "ev": -1.5,
-      "side": "Under 6.5"
+      "side": "Under 160.5"
      }
     }
    },
    {
-    "sport": "NHL",
-    "game": "Carolina Hurricanes @ New York Islanders",
-    "away": "Carolina Hurricanes",
-    "home": "New York Islanders",
-    "start": "2026-11-06T00:10:00Z",
+    "sport": "NCAAM",
+    "game": "CSU Northridge Matadors @ Kansas St Wildcats",
+    "away": "CSU Northridge Matadors",
+    "home": "Kansas St Wildcats",
+    "start": "2026-11-07T02:00:00Z",
     "markets": {
-     "Moneyline": {
-      "fd": 164,
-      "ours": null,
-      "gap": 3.7,
-      "grade": "",
-      "ev": -5.3,
-      "side": "New York Islanders ML"
+     "Spread": {
+      "fd": -10.5,
+      "ours": -23.4,
+      "gap": 12.9,
+      "grade": "A",
+      "ev": 18.2,
+      "side": "Kansas St Wildcats -10.5"
      },
      "Total": {
-      "fd": 5.5,
-      "ours": 6.1,
-      "gap": 0.63,
-      "grade": "",
-      "ev": -3.3,
-      "side": "Over 5.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Chicago Blackhawks @ Tampa Bay Lightning",
-    "away": "Chicago Blackhawks",
-    "home": "Tampa Bay Lightning",
-    "start": "2026-11-06T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": 360,
-      "ours": null,
-      "gap": 4.6,
-      "grade": "",
-      "ev": -5.0,
-      "side": "Chicago Blackhawks ML"
-     },
-     "Total": {
-      "fd": 6.5,
-      "ours": 6.1,
-      "gap": 0.39,
+      "fd": 163.5,
+      "ours": 157.3,
+      "gap": 6.2,
       "grade": "C",
-      "ev": 0.6,
+      "ev": 0.1,
+      "side": "Under 163.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Idaho Vandals @ Colorado St Rams",
+    "away": "Idaho Vandals",
+    "home": "Colorado St Rams",
+    "start": "2026-11-07T02:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 16.5,
+      "ours": 12.3,
+      "gap": 4.2,
+      "grade": "C",
+      "ev": 1.3,
+      "side": "Idaho Vandals +16.5"
+     },
+     "Total": {
+      "fd": 151.5,
+      "ours": 154.3,
+      "gap": 2.8,
+      "grade": "C",
+      "ev": 0.2,
+      "side": "Over 151.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Middle Tennessee Blue Raiders @ Kansas Jayhawks",
+    "away": "Middle Tennessee Blue Raiders",
+    "home": "Kansas Jayhawks",
+    "start": "2026-11-07T02:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 156.5,
+      "ours": 142.4,
+      "gap": 14.1,
+      "grade": "A",
+      "ev": 14.7,
+      "side": "Under 156.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Wagner Seahawks @ Miami Hurricanes",
+    "away": "Wagner Seahawks",
+    "home": "Miami Hurricanes",
+    "start": "2026-11-07T02:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 146.5,
+      "ours": 144.0,
+      "gap": 2.5,
+      "grade": "C",
+      "ev": 0.8,
+      "side": "Under 146.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Queens University Royals @ Oklahoma St Cowboys",
+    "away": "Queens University Royals",
+    "home": "Oklahoma St Cowboys",
+    "start": "2026-11-07T02:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 178.5,
+      "ours": 167.0,
+      "gap": 11.5,
+      "grade": "A",
+      "ev": 10.9,
+      "side": "Under 178.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Portland Pilots @ UT-Arlington Mavericks",
+    "away": "Portland Pilots",
+    "home": "UT-Arlington Mavericks",
+    "start": "2026-11-07T02:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 1.5,
+      "ours": -4.0,
+      "gap": 5.5,
+      "grade": "C",
+      "ev": 1.4,
+      "side": "UT-Arlington Mavericks +1.5"
+     },
+     "Total": {
+      "fd": 150.5,
+      "ours": 137.5,
+      "gap": 13.0,
+      "grade": "A",
+      "ev": 12.7,
+      "side": "Under 150.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Tarleton State Texans @ San Diego Toreros",
+    "away": "Tarleton State Texans",
+    "home": "San Diego Toreros",
+    "start": "2026-11-07T02:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 7.5,
+      "ours": 4.4,
+      "gap": 3.1,
+      "grade": "C",
+      "ev": 1.5,
+      "side": "Tarleton State Texans +7.5"
+     },
+     "Total": {
+      "fd": 148.5,
+      "ours": 155.1,
+      "gap": 6.6,
+      "grade": "A",
+      "ev": 4.8,
+      "side": "Over 148.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "North Dakota St Bison @ San Francisco Dons",
+    "away": "North Dakota St Bison",
+    "home": "San Francisco Dons",
+    "start": "2026-11-07T03:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -9.5,
+      "ours": -13.9,
+      "gap": 4.4,
+      "grade": "B",
+      "ev": 2.4,
+      "side": "San Francisco Dons -9.5"
+     },
+     "Total": {
+      "fd": 146.5,
+      "ours": 148.4,
+      "gap": 1.9,
+      "grade": "",
+      "ev": -6.5,
+      "side": "Over 146.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "Oakland Golden Grizzlies @ Stanford Cardinal",
+    "away": "Oakland Golden Grizzlies",
+    "home": "Stanford Cardinal",
+    "start": "2026-11-07T03:00:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -13.5,
+      "ours": -14.1,
+      "gap": 0.6,
+      "grade": "",
+      "ev": -6.7,
+      "side": "Stanford Cardinal -13.5"
+     },
+     "Total": {
+      "fd": 145.5,
+      "ours": 158.0,
+      "gap": 12.5,
+      "grade": "A",
+      "ev": 18.3,
+      "side": "Over 145.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAM",
+    "game": "North Florida Ospreys @ UCLA Bruins",
+    "away": "North Florida Ospreys",
+    "home": "UCLA Bruins",
+    "start": "2026-11-07T03:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 155.5,
+      "ours": 160.5,
+      "gap": 5.0,
+      "grade": "A",
+      "ev": 4.3,
+      "side": "Over 155.5"
+     }
+    }
+   },
+   {
+    "sport": "NHL",
+    "game": "Columbus Blue Jackets @ Buffalo Sabres",
+    "away": "Columbus Blue Jackets",
+    "home": "Buffalo Sabres",
+    "start": "2026-11-07T00:10:00Z",
+    "markets": {
+     "Moneyline": {
+      "fd": 146,
+      "ours": null,
+      "gap": 6.4,
+      "grade": "",
+      "ev": -0.4,
+      "side": "Columbus Blue Jackets ML"
+     },
+     "Total": {
+      "fd": 6.5,
+      "ours": 6.2,
+      "gap": 0.35,
+      "grade": "",
+      "ev": -1.3,
       "side": "Under 6.5"
      }
     }
    },
    {
     "sport": "NHL",
-    "game": "Dallas Stars @ Columbus Blue Jackets",
-    "away": "Dallas Stars",
-    "home": "Columbus Blue Jackets",
-    "start": "2026-11-06T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": -126,
-      "ours": null,
-      "gap": 3.8,
-      "grade": "",
-      "ev": -0.5,
-      "side": "Dallas Stars ML"
-     },
-     "Total": {
-      "fd": 5.5,
-      "ours": 5.6,
-      "gap": 0.07,
-      "grade": "",
-      "ev": -2.8,
-      "side": "Under 5.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Vegas Golden Knights @ Detroit Red Wings",
-    "away": "Vegas Golden Knights",
-    "home": "Detroit Red Wings",
-    "start": "2026-11-06T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": 122,
-      "ours": null,
-      "gap": 4.6,
-      "grade": "",
-      "ev": -4.4,
-      "side": "Detroit Red Wings ML"
-     },
-     "Total": {
-      "fd": 5.5,
-      "ours": 5.8,
-      "gap": 0.34,
-      "grade": "",
-      "ev": -4.0,
-      "side": "Under 5.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Utah Mammoth @ Montr\u00e9al Canadiens",
-    "away": "Utah Mammoth",
-    "home": "Montr\u00e9al Canadiens",
-    "start": "2026-11-06T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": -122,
-      "ours": null,
-      "gap": 3.3,
-      "grade": "",
-      "ev": -2.3,
-      "side": "Utah Mammoth ML"
-     },
-     "Total": {
-      "fd": 6.5,
-      "ours": 6.8,
-      "gap": 0.26,
-      "grade": "",
-      "ev": -4.3,
-      "side": "Under 6.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "St Louis Blues @ New Jersey Devils",
-    "away": "St Louis Blues",
-    "home": "New Jersey Devils",
-    "start": "2026-11-06T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": 184,
-      "ours": null,
-      "gap": 7.3,
-      "grade": "",
-      "ev": -4.0,
-      "side": "St Louis Blues ML"
-     },
-     "Total": {
-      "fd": 5.5,
-      "ours": 6.0,
-      "gap": 0.54,
-      "grade": "",
-      "ev": -3.3,
-      "side": "Over 5.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Philadelphia Flyers @ New York Rangers",
-    "away": "Philadelphia Flyers",
-    "home": "New York Rangers",
-    "start": "2026-11-06T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": -146,
-      "ours": null,
-      "gap": 2.3,
-      "grade": "",
-      "ev": -1.8,
-      "side": "New York Rangers ML"
-     },
-     "Total": {
-      "fd": 5.5,
-      "ours": 5.6,
-      "gap": 0.09,
-      "grade": "",
-      "ev": -2.0,
-      "side": "Under 5.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Vancouver Canucks @ Winnipeg Jets",
-    "away": "Vancouver Canucks",
-    "home": "Winnipeg Jets",
-    "start": "2026-11-06T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": 176,
-      "ours": null,
-      "gap": 6.0,
-      "grade": "",
-      "ev": -3.2,
-      "side": "Vancouver Canucks ML"
-     },
-     "Total": {
-      "fd": 6.5,
-      "ours": 6.7,
-      "gap": 0.15,
-      "grade": "",
-      "ev": -4.1,
-      "side": "Over 6.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Anaheim Ducks @ Edmonton Oilers",
+    "game": "Anaheim Ducks @ Calgary Flames",
     "away": "Anaheim Ducks",
-    "home": "Edmonton Oilers",
-    "start": "2026-11-06T01:10:00Z",
+    "home": "Calgary Flames",
+    "start": "2026-11-07T01:10:00Z",
     "markets": {
      "Moneyline": {
-      "fd": 158,
+      "fd": 125,
       "ours": null,
-      "gap": 0.1,
-      "grade": "",
-      "ev": -6.6,
+      "gap": 11.4,
+      "grade": "A",
+      "ev": 5.2,
       "side": "Anaheim Ducks ML"
      },
      "Total": {
       "fd": 6.5,
-      "ours": 7.4,
-      "gap": 0.91,
+      "ours": 6.8,
+      "gap": 0.29,
       "grade": "",
       "ev": -2.9,
       "side": "Over 6.5"
@@ -4116,25 +5842,25 @@
    },
    {
     "sport": "NHL",
-    "game": "Nashville Predators @ Colorado Avalanche",
-    "away": "Nashville Predators",
-    "home": "Colorado Avalanche",
-    "start": "2026-11-06T02:40:00Z",
+    "game": "San Jose Sharks @ Minnesota Wild",
+    "away": "San Jose Sharks",
+    "home": "Minnesota Wild",
+    "start": "2026-11-07T01:10:00Z",
     "markets": {
      "Moneyline": {
-      "fd": 180,
+      "fd": 220,
       "ours": null,
-      "gap": 4.6,
+      "gap": 1.1,
       "grade": "",
-      "ev": -2.7,
-      "side": "Nashville Predators ML"
+      "ev": -8.8,
+      "side": "San Jose Sharks ML"
      },
      "Total": {
       "fd": 6.5,
-      "ours": 6.6,
-      "gap": 0.07,
+      "ours": 6.4,
+      "gap": 0.12,
       "grade": "",
-      "ev": -4.0,
+      "ev": -2.4,
       "side": "Under 6.5"
      }
     }
