@@ -2830,42 +2830,6 @@
    "result_units": null
   },
   {
-   "id": "2026-11-06|Philadelphia 76ers @ Cleveland Cavaliers|Spread",
-   "date": "2026-11-06",
-   "start": "2026-11-07T00:40:00Z",
-   "sport": "NBA",
-   "engine": "Factor model",
-   "game": "Philadelphia 76ers @ Cleveland Cavaliers",
-   "away": "Philadelphia 76ers",
-   "home": "Cleveland Cavaliers",
-   "market": "Spread",
-   "pick": "Cleveland Cavaliers +2.5",
-   "pick_team": "Cleveland Cavaliers",
-   "side": "home",
-   "line": 2.5,
-   "price": -112,
-   "grade": "C",
-   "stake": 0.0,
-   "model_line": -3.4,
-   "fair_line": 0.4,
-   "pinnacle_open": 2.5,
-   "ev_pct": 7.1,
-   "gap": 5.9,
-   "why": "Ratings +1.8 \u00b7 Injuries -0.4 \u00b7 Home/court +2.0",
-   "signals": [
-    "line moved against (-1.5\u2192+2.5)"
-   ],
-   "injuries": "Cleveland Cavaliers: Jarrett Allen (Day-To-Day)",
-   "projection": "Cleveland Cavaliers 119, Philadelphia 76ers 115",
-   "market_signal": "against us",
-   "mkt_src": "Pinnacle",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
-  },
-  {
    "id": "2026-11-06|Utah Jazz @ Dallas Mavericks|Total",
    "date": "2026-11-06",
    "start": "2026-11-07T01:10:00Z",
@@ -2930,78 +2894,6 @@
    "injuries": "Memphis Grizzlies: Isaiah Stewart (Out), Scotty Pippen Jr. (Out); Oklahoma City Thunder: Cason Wallace (Out), Chet Holmgren (Out), Jalen Williams (Out)",
    "projection": "Memphis Grizzlies 111, Oklahoma City Thunder 119",
    "market_signal": "with us",
-   "mkt_src": "Pinnacle",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
-  },
-  {
-   "id": "2026-11-06|Toronto Raptors @ Milwaukee Bucks|Spread",
-   "date": "2026-11-06",
-   "start": "2026-11-07T01:10:00Z",
-   "sport": "NBA",
-   "engine": "Factor model",
-   "game": "Toronto Raptors @ Milwaukee Bucks",
-   "away": "Toronto Raptors",
-   "home": "Milwaukee Bucks",
-   "market": "Spread",
-   "pick": "Toronto Raptors -4.5",
-   "pick_team": "Toronto Raptors",
-   "side": "away",
-   "line": -4.5,
-   "price": -110,
-   "grade": "C",
-   "stake": 0.0,
-   "model_line": -8.2,
-   "fair_line": -5.9,
-   "pinnacle_open": -5.0,
-   "ev_pct": 3.7,
-   "gap": 3.7,
-   "why": "Ratings +11.1 \u00b7 Injuries -1.0 \u00b7 Home/court -2.0",
-   "signals": [
-    "line moved against (+7.5\u2192+4.5)"
-   ],
-   "injuries": "Toronto Raptors: Immanuel Quickley (Day-To-Day), Scottie Barnes (Day-To-Day), Kawhi Leonard (Out)",
-   "projection": "Milwaukee Bucks 111, Toronto Raptors 119",
-   "market_signal": "against us",
-   "mkt_src": "Pinnacle",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
-  },
-  {
-   "id": "2026-11-06|Boston Celtics @ Charlotte Hornets|Spread",
-   "date": "2026-11-06",
-   "start": "2026-11-07T00:10:00Z",
-   "sport": "NBA",
-   "engine": "Factor model",
-   "game": "Boston Celtics @ Charlotte Hornets",
-   "away": "Boston Celtics",
-   "home": "Charlotte Hornets",
-   "market": "Spread",
-   "pick": "Charlotte Hornets +9.5",
-   "pick_team": "Charlotte Hornets",
-   "side": "home",
-   "line": 9.5,
-   "price": -108,
-   "grade": "C",
-   "stake": 0.0,
-   "model_line": 6.1,
-   "fair_line": 8.6,
-   "pinnacle_open": 10.0,
-   "ev_pct": 1.9,
-   "gap": 3.4,
-   "why": "Ratings -7.1 \u00b7 Injuries -1.0 \u00b7 Home/court +2.0",
-   "signals": [
-    "line moved against (+8.5\u2192+9.5)"
-   ],
-   "injuries": "Charlotte Hornets: Moussa Diabat\u00e9 (Out)",
-   "projection": "Charlotte Hornets 105, Boston Celtics 111",
-   "market_signal": "against us",
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
@@ -3115,6 +3007,252 @@
    "result_units": null
   },
   {
+   "id": "2026-11-06|Anaheim Ducks @ Calgary Flames|Moneyline",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NHL",
+   "engine": "Team model",
+   "game": "Anaheim Ducks @ Calgary Flames",
+   "away": "Anaheim Ducks",
+   "home": "Calgary Flames",
+   "market": "Moneyline",
+   "pick": "Anaheim Ducks ML",
+   "pick_team": "Anaheim Ducks",
+   "side": "away",
+   "line": null,
+   "price": 125,
+   "grade": "A",
+   "stake": 0.25,
+   "model_line": null,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 5.2,
+   "gap": 11.4,
+   "why": "xG Calgary Flames 3.23, Anaheim Ducks 3.56; win 55% vs market 43%",
+   "projection": "xG Calgary Flames 3.23, Anaheim Ducks 3.56; win 55% vs market 43%",
+   "signals": [],
+   "market_signal": "neutral",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-06|Philadelphia 76ers @ Cleveland Cavaliers|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:40:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Philadelphia 76ers @ Cleveland Cavaliers",
+   "away": "Philadelphia 76ers",
+   "home": "Cleveland Cavaliers",
+   "market": "Spread",
+   "pick": "Cleveland Cavaliers +2.5",
+   "pick_team": "Cleveland Cavaliers",
+   "side": "home",
+   "line": 2.5,
+   "price": -106,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -3.4,
+   "fair_line": 0.6,
+   "pinnacle_open": 2.5,
+   "ev_pct": 9.1,
+   "gap": 5.9,
+   "why": "Ratings +1.8 \u00b7 Injuries -0.4 \u00b7 Home/court +2.0",
+   "signals": [
+    "line moved against (-1.5\u2192+2.5)"
+   ],
+   "injuries": "Cleveland Cavaliers: Jarrett Allen (Day-To-Day)",
+   "projection": "Cleveland Cavaliers 119, Philadelphia 76ers 115",
+   "market_signal": "against us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Toronto Raptors @ Milwaukee Bucks|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Toronto Raptors @ Milwaukee Bucks",
+   "away": "Toronto Raptors",
+   "home": "Milwaukee Bucks",
+   "market": "Spread",
+   "pick": "Toronto Raptors -4.5",
+   "pick_team": "Toronto Raptors",
+   "side": "away",
+   "line": -4.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -8.2,
+   "fair_line": -5.9,
+   "pinnacle_open": -5.0,
+   "ev_pct": 3.7,
+   "gap": 3.7,
+   "why": "Ratings +11.1 \u00b7 Injuries -1.0 \u00b7 Home/court -2.0",
+   "signals": [
+    "line moved against (+7.5\u2192+4.5)"
+   ],
+   "injuries": "Toronto Raptors: Immanuel Quickley (Day-To-Day), Scottie Barnes (Day-To-Day), Kawhi Leonard (Out)",
+   "projection": "Milwaukee Bucks 111, Toronto Raptors 119",
+   "market_signal": "against us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Boston Celtics @ Charlotte Hornets|Spread",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Factor model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Spread",
+   "pick": "Charlotte Hornets +9.5",
+   "pick_team": "Charlotte Hornets",
+   "side": "home",
+   "line": 9.5,
+   "price": -105,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 6.1,
+   "fair_line": 8.8,
+   "pinnacle_open": 10.0,
+   "ev_pct": 2.1,
+   "gap": 3.4,
+   "why": "Ratings -7.1 \u00b7 Injuries -1.0 \u00b7 Home/court +2.0",
+   "signals": [
+    "line moved against (+8.5\u2192+10)"
+   ],
+   "injuries": "Charlotte Hornets: Moussa Diabat\u00e9 (Out)",
+   "projection": "Charlotte Hornets 105, Boston Celtics 111",
+   "market_signal": "against us",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Tyler Herro|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Toronto Raptors @ Milwaukee Bucks",
+   "away": "Toronto Raptors",
+   "home": "Milwaukee Bucks",
+   "market": "Prop",
+   "player": "Tyler Herro",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Tyler Herro Under 20.5 Pts",
+   "pick_team": "Milwaukee Bucks",
+   "event_id": "1c60a090180de530cfe273a5d6a381e6",
+   "line": 20.5,
+   "price": 100,
+   "grade": "A",
+   "stake": 0.25,
+   "model_line": 18.1,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 15.7,
+   "gap": 2.4,
+   "why": "31 min proj, pace \u00d71.00, opp D \u00d71.00, slate calib \u00f71.16",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Ayo Dosunmu|ast",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Minnesota Timberwolves @ New Orleans Pelicans",
+   "away": "Minnesota Timberwolves",
+   "home": "New Orleans Pelicans",
+   "market": "Prop",
+   "player": "Ayo Dosunmu",
+   "stat": "ast",
+   "side": "Under",
+   "pick": "Ayo Dosunmu Under 4.5 Ast",
+   "pick_team": "Minnesota Timberwolves",
+   "event_id": "5e4708fadda49a3c06fd7ac50414020e",
+   "line": 4.5,
+   "price": 110,
+   "grade": "B",
+   "stake": 0.125,
+   "model_line": 4.1,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 5.9,
+   "gap": 0.4,
+   "why": "33 min proj (+2.3 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.12, pace \u00d71.01, slate calib \u00f71.13",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Derrick White|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Prop",
+   "player": "Derrick White",
+   "stat": "pts",
+   "side": "Under",
+   "pick": "Derrick White Under 13.5 Pts",
+   "pick_team": "Boston Celtics",
+   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+   "line": 13.5,
+   "price": -118,
+   "grade": "B",
+   "stake": 0.125,
+   "model_line": 11.8,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.2,
+   "gap": 1.7,
+   "why": "31 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.16",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
    "id": "2026-11-06|Jayson Tatum|pts",
    "date": "2026-11-06",
    "start": "2026-11-07T00:10:00Z",
@@ -3131,15 +3269,15 @@
    "pick_team": "Boston Celtics",
    "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
    "line": 26.5,
-   "price": -111,
+   "price": -113,
    "grade": "C",
    "stake": 0.0,
-   "model_line": 21.3,
+   "model_line": 21.2,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 12.3,
-   "gap": 5.2,
-   "why": "35 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.15",
+   "ev_pct": 11.1,
+   "gap": 5.3,
+   "why": "35 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.16",
    "signals": [],
    "market_signal": "neutral",
    "mkt_src": "Consensus (4)",
@@ -3150,101 +3288,31 @@
    "result_units": null
   },
   {
-   "id": "2026-11-06|RJ Barrett|pts",
-   "date": "2026-11-06",
-   "start": "2026-11-07T01:10:00Z",
-   "sport": "NBA",
-   "engine": "Prop model",
-   "game": "Toronto Raptors @ Milwaukee Bucks",
-   "away": "Toronto Raptors",
-   "home": "Milwaukee Bucks",
-   "market": "Prop",
-   "player": "RJ Barrett",
-   "stat": "pts",
-   "side": "Under",
-   "pick": "RJ Barrett Under 24.5 Pts",
-   "pick_team": "Toronto Raptors",
-   "event_id": "1c60a090180de530cfe273a5d6a381e6",
-   "line": 24.5,
-   "price": -108,
-   "grade": "C",
-   "stake": 0.0,
-   "model_line": 19.8,
-   "fair_line": null,
-   "pinnacle_open": null,
-   "ev_pct": 12.1,
-   "gap": 4.7,
-   "why": "33 min proj, usage \u00d71.03, pace \u00d70.99, opp D \u00d71.06, slate calib \u00f71.15",
-   "signals": [],
-   "market_signal": "neutral",
-   "mkt_src": "Consensus (3)",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
-  },
-  {
-   "id": "2026-11-06|Grayson Allen|pts",
+   "id": "2026-11-06|AJ Dybantsa|pts",
    "date": "2026-11-06",
    "start": "2026-11-07T00:10:00Z",
    "sport": "NBA",
    "engine": "Prop model",
-   "game": "Boston Celtics @ Charlotte Hornets",
-   "away": "Boston Celtics",
-   "home": "Charlotte Hornets",
+   "game": "Washington Wizards @ Atlanta Hawks",
+   "away": "Washington Wizards",
+   "home": "Atlanta Hawks",
    "market": "Prop",
-   "player": "Grayson Allen",
-   "stat": "pts",
-   "side": "Over",
-   "pick": "Grayson Allen Over 13.5 Pts",
-   "pick_team": "Charlotte Hornets",
-   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
-   "line": 13.5,
-   "price": 106,
-   "grade": "C",
-   "stake": 0.0,
-   "model_line": 15.9,
-   "fair_line": null,
-   "pinnacle_open": null,
-   "ev_pct": 8.2,
-   "gap": 2.4,
-   "why": "29 min proj (+3.0 with Dennis Schr\u00f6der, Moussa Diabat\u00e9 out), usage \u00d71.12, pace \u00d70.96, opp D \u00d70.99, slate calib \u00f71.15",
-   "signals": [],
-   "market_signal": "neutral",
-   "mkt_src": "FanDuel no-vig",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
-  },
-  {
-   "id": "2026-11-06|De'Andre Hunter|pts",
-   "date": "2026-11-06",
-   "start": "2026-11-07T03:10:00Z",
-   "sport": "NBA",
-   "engine": "Prop model",
-   "game": "San Antonio Spurs @ Sacramento Kings",
-   "away": "San Antonio Spurs",
-   "home": "Sacramento Kings",
-   "market": "Prop",
-   "player": "De'Andre Hunter",
+   "player": "AJ Dybantsa",
    "stat": "pts",
    "side": "Under",
-   "pick": "De'Andre Hunter Under 11.5 Pts",
-   "pick_team": "Sacramento Kings",
-   "event_id": "d24eb5492983d6e28be3b96df396fa12",
-   "line": 11.5,
-   "price": -102,
+   "pick": "AJ Dybantsa Under 18.5 Pts",
+   "pick_team": "Washington Wizards",
+   "event_id": "9246c91f746732472c13e94bd8e7be85",
+   "line": 18.5,
+   "price": -106,
    "grade": "C",
    "stake": 0.0,
-   "model_line": 9.4,
+   "model_line": 14.9,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 7.9,
-   "gap": 2.1,
-   "why": "32 min proj, pace \u00d71.00, opp D \u00d70.97, slate calib \u00f71.15",
+   "ev_pct": 10.7,
+   "gap": 3.6,
+   "why": "31 min proj, pace \u00d71.02, opp D \u00d71.00, slate calib \u00f71.16",
    "signals": [],
    "market_signal": "neutral",
    "mkt_src": "Consensus (2)",
@@ -3271,15 +3339,50 @@
    "pick_team": "Dallas Mavericks",
    "event_id": "62a92e31b546d31ba57caf792815bf65",
    "line": 26.5,
-   "price": -125,
+   "price": -113,
    "grade": "C",
    "stake": 0.0,
-   "model_line": 21.9,
+   "model_line": 21.8,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 5.0,
-   "gap": 4.6,
-   "why": "35 min proj, pace \u00d71.02, opp D \u00d71.07, slate calib \u00f71.15",
+   "ev_pct": 9.7,
+   "gap": 4.7,
+   "why": "35 min proj, pace \u00d71.02, opp D \u00d71.07, slate calib \u00f71.16",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Consensus (2)",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Grayson Allen|pts",
+   "date": "2026-11-06",
+   "start": "2026-11-07T00:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Boston Celtics @ Charlotte Hornets",
+   "away": "Boston Celtics",
+   "home": "Charlotte Hornets",
+   "market": "Prop",
+   "player": "Grayson Allen",
+   "stat": "pts",
+   "side": "Over",
+   "pick": "Grayson Allen Over 13.5 Pts",
+   "pick_team": "Charlotte Hornets",
+   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+   "line": 13.5,
+   "price": 100,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 15.8,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 8.5,
+   "gap": 2.3,
+   "why": "29 min proj (+3.0 with Dennis Schr\u00f6der, Moussa Diabat\u00e9 out), usage \u00d71.12, pace \u00d70.96, opp D \u00d70.99, slate calib \u00f71.16",
    "signals": [],
    "market_signal": "neutral",
    "mkt_src": "Consensus (2)",
@@ -3306,18 +3409,18 @@
    "pick_team": "Oklahoma City Thunder",
    "event_id": "86684f64a8ec8385537a36c3b3768935",
    "line": 20.5,
-   "price": -118,
+   "price": -113,
    "grade": "C",
    "stake": 0.0,
    "model_line": 17.3,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 4.7,
+   "ev_pct": 8.4,
    "gap": 3.2,
-   "why": "30 min proj (+2.9 with Jalen Williams, Chet Holmgren out), usage \u00d71.09, pace \u00d71.01, opp D \u00d71.03, slate calib \u00f71.15",
+   "why": "30 min proj (+2.9 with Jalen Williams, Chet Holmgren out), usage \u00d71.09, pace \u00d71.01, opp D \u00d71.03, slate calib \u00f71.16",
    "signals": [],
    "market_signal": "neutral",
-   "mkt_src": "Consensus (1)",
+   "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
    "status": "pending",
@@ -3325,31 +3428,66 @@
    "result_units": null
   },
   {
-   "id": "2026-11-06|Payton Pritchard|pts",
+   "id": "2026-11-06|Luka Don\u010di\u0107|pts",
    "date": "2026-11-06",
-   "start": "2026-11-07T00:10:00Z",
+   "start": "2026-11-07T03:10:00Z",
    "sport": "NBA",
    "engine": "Prop model",
-   "game": "Boston Celtics @ Charlotte Hornets",
-   "away": "Boston Celtics",
-   "home": "Charlotte Hornets",
+   "game": "Portland Trail Blazers @ Los Angeles Lakers",
+   "away": "Portland Trail Blazers",
+   "home": "Los Angeles Lakers",
    "market": "Prop",
-   "player": "Payton Pritchard",
+   "player": "Luka Don\u010di\u0107",
    "stat": "pts",
    "side": "Under",
-   "pick": "Payton Pritchard Under 13.5 Pts",
-   "pick_team": "Boston Celtics",
-   "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
-   "line": 13.5,
-   "price": -120,
+   "pick": "Luka Don\u010di\u0107 Under 35.5 Pts",
+   "pick_team": "Los Angeles Lakers",
+   "event_id": "83d77fe350d56a036fd7a3404e78249a",
+   "line": 35.5,
+   "price": -114,
    "grade": "C",
    "stake": 0.0,
-   "model_line": 11.6,
+   "model_line": 31.4,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 4.5,
-   "gap": 1.9,
-   "why": "27 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.15",
+   "ev_pct": 5.5,
+   "gap": 4.1,
+   "why": "36 min proj, pace \u00d71.01, opp D \u00d71.01, slate calib \u00f71.16",
+   "signals": [],
+   "market_signal": "neutral",
+   "mkt_src": "Pinnacle",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null
+  },
+  {
+   "id": "2026-11-06|Ty Jerome|ast",
+   "date": "2026-11-06",
+   "start": "2026-11-07T01:10:00Z",
+   "sport": "NBA",
+   "engine": "Prop model",
+   "game": "Oklahoma City Thunder @ Memphis Grizzlies",
+   "away": "Oklahoma City Thunder",
+   "home": "Memphis Grizzlies",
+   "market": "Prop",
+   "player": "Ty Jerome",
+   "stat": "ast",
+   "side": "Over",
+   "pick": "Ty Jerome Over 5.5 Ast",
+   "pick_team": "Memphis Grizzlies",
+   "event_id": "86684f64a8ec8385537a36c3b3768935",
+   "line": 5.5,
+   "price": 100,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 6.5,
+   "fair_line": null,
+   "pinnacle_open": null,
+   "ev_pct": 4.8,
+   "gap": 1.0,
+   "why": "32 min proj (+1.7 with Isaiah Stewart, Scotty Pippen Jr. out), usage \u00d71.06, pace \u00d70.99, slate calib \u00f71.13",
    "signals": [],
    "market_signal": "neutral",
    "mkt_src": "Pinnacle",
@@ -3382,9 +3520,9 @@
    "model_line": 10.1,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 4.3,
+   "ev_pct": 4.6,
    "gap": 2.4,
-   "why": "31 min proj (+1.2 with Jock Landale, Asa Newell out), usage \u00d71.04, pace \u00d71.01, opp D \u00d71.06, slate calib \u00f71.15",
+   "why": "31 min proj (+1.2 with Jock Landale, Asa Newell out), usage \u00d71.04, pace \u00d71.01, opp D \u00d71.06, slate calib \u00f71.16",
    "signals": [],
    "market_signal": "neutral",
    "mkt_src": "Pinnacle",
@@ -3414,12 +3552,12 @@
    "price": -115,
    "grade": "C",
    "stake": 0.0,
-   "model_line": 8.0,
+   "model_line": 7.9,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 4.2,
-   "gap": 1.5,
-   "why": "23 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.15",
+   "ev_pct": 4.4,
+   "gap": 1.6,
+   "why": "23 min proj, pace \u00d70.97, opp D \u00d71.01, slate calib \u00f71.16",
    "signals": [],
    "market_signal": "neutral",
    "mkt_src": "Pinnacle",
@@ -3430,31 +3568,31 @@
    "result_units": null
   },
   {
-   "id": "2026-11-06|Cameron Boozer|pts",
+   "id": "2026-11-06|Jonathan Kuminga|pts",
    "date": "2026-11-06",
    "start": "2026-11-07T01:10:00Z",
    "sport": "NBA",
    "engine": "Prop model",
-   "game": "Oklahoma City Thunder @ Memphis Grizzlies",
-   "away": "Oklahoma City Thunder",
-   "home": "Memphis Grizzlies",
+   "game": "Minnesota Timberwolves @ New Orleans Pelicans",
+   "away": "Minnesota Timberwolves",
+   "home": "New Orleans Pelicans",
    "market": "Prop",
-   "player": "Cameron Boozer",
+   "player": "Jonathan Kuminga",
    "stat": "pts",
-   "side": "Under",
-   "pick": "Cameron Boozer Under 16.5 Pts",
-   "pick_team": "Memphis Grizzlies",
-   "event_id": "86684f64a8ec8385537a36c3b3768935",
-   "line": 16.5,
-   "price": -102,
+   "side": "Over",
+   "pick": "Jonathan Kuminga Over 14.5 Pts",
+   "pick_team": "Minnesota Timberwolves",
+   "event_id": "5e4708fadda49a3c06fd7ac50414020e",
+   "line": 14.5,
+   "price": -113,
    "grade": "C",
    "stake": 0.0,
-   "model_line": 15.3,
+   "model_line": 16.4,
    "fair_line": null,
    "pinnacle_open": null,
-   "ev_pct": 4.0,
-   "gap": 1.2,
-   "why": "34 min proj (+1.8 with Isaiah Stewart, Scotty Pippen Jr. out), usage \u00d71.06, pace \u00d70.99, opp D \u00d70.96, slate calib \u00f71.15",
+   "ev_pct": 4.2,
+   "gap": 1.9,
+   "why": "33 min proj (+2.3 with Anthony Edwards, Terrence Shannon Jr. out), usage \u00d71.12, pace \u00d71.01, opp D \u00d71.03, slate calib \u00f71.16",
    "signals": [],
    "market_signal": "neutral",
    "mkt_src": "Pinnacle",
@@ -3463,39 +3601,6 @@
    "status": "pending",
    "score": null,
    "result_units": null
-  },
-  {
-   "id": "2026-11-06|Anaheim Ducks @ Calgary Flames|Moneyline",
-   "date": "2026-11-06",
-   "start": "2026-11-07T01:10:00Z",
-   "sport": "NHL",
-   "engine": "Team model",
-   "game": "Anaheim Ducks @ Calgary Flames",
-   "away": "Anaheim Ducks",
-   "home": "Calgary Flames",
-   "market": "Moneyline",
-   "pick": "Anaheim Ducks ML",
-   "pick_team": "Anaheim Ducks",
-   "side": "away",
-   "line": null,
-   "price": 125,
-   "grade": "A",
-   "stake": 0.25,
-   "model_line": null,
-   "fair_line": null,
-   "pinnacle_open": null,
-   "ev_pct": 5.2,
-   "gap": 11.4,
-   "why": "xG Calgary Flames 3.23, Anaheim Ducks 3.56; win 55% vs market 43%",
-   "projection": "xG Calgary Flames 3.23, Anaheim Ducks 3.56; win 55% vs market 43%",
-   "signals": [],
-   "market_signal": "neutral",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
-   "note": null
   }
  ],
  "snapshots": [
@@ -3512,12 +3617,19 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Fri Nov 6 \u00b7 3:17 PM ET",
+ "updated_label": "Fri Nov 6 \u00b7 4:53 PM ET",
  "slate_date": "2026-11-06",
  "slate_label": "Fri Nov 6",
  "run_note": "Props priced for 9 games.",
- "credits": "264",
+ "credits": "219",
  "holds": [
+  {
+   "player": "Malik Monk",
+   "stat": "pts",
+   "side": "Under",
+   "line": 12.5,
+   "reason": "line 12.5 vs season avg 8.0: market likely pricing news"
+  },
   {
    "player": "Collin Murray-Boyles",
    "stat": "pts",
@@ -3526,39 +3638,32 @@
    "reason": "line 14.5 vs season avg 9.6: market likely pricing news"
   },
   {
-   "player": "Collin Murray-Boyles",
-   "stat": "reb",
-   "side": "Under",
-   "line": 6.5,
-   "reason": "line 6.5 vs season avg 4.8: market likely pricing news"
-  },
-  {
-   "player": "Malik Monk",
+   "player": "RJ Barrett",
    "stat": "pts",
    "side": "Under",
-   "line": 11.5,
-   "reason": "line 11.5 vs season avg 8.0: market likely pricing news"
+   "line": 25.5,
+   "reason": "projection 19.7 vs line 25.5: gap too large to trust without news"
+  },
+  {
+   "player": "Brayden Burries",
+   "stat": "pts",
+   "side": "Under",
+   "line": 10.5,
+   "reason": "projection 7.7 vs line 10.5: gap too large to trust without news"
   },
   {
    "player": "Malik Monk",
    "stat": "ast",
    "side": "Under",
-   "line": 3.5,
-   "reason": "projection 2.3 vs line 3.5: gap too large to trust without news"
+   "line": 4.5,
+   "reason": "projection 2.3 vs line 4.5: gap too large to trust without news"
   },
   {
-   "player": "AJ Dybantsa",
+   "player": "Jaylen Clark",
    "stat": "pts",
    "side": "Under",
-   "line": 19.5,
-   "reason": "projection 15 vs line 19.5: gap too large to trust without news"
-  },
-  {
-   "player": "Zaccharie Risacher",
-   "stat": "pts",
-   "side": "Over",
-   "line": 7.5,
-   "reason": "projection 9.4 vs line 7.5: gap too large to trust without news"
+   "line": 6.5,
+   "reason": "projection 4.4 vs line 6.5: gap too large to trust without news"
   }
  ],
  "voided": [
@@ -3668,15 +3773,15 @@
       "ours": -13.6,
       "gap": 5.1,
       "grade": "A",
-      "ev": 8.6,
+      "ev": 8.9,
       "side": "Atlanta Hawks -8.5"
      },
      "Total": {
       "fd": 229.5,
-      "ours": 232.0,
-      "gap": 2.5,
+      "ours": 232.1,
+      "gap": 2.6,
       "grade": "",
-      "ev": -3.6,
+      "ev": -0.6,
       "side": "Over 229.5"
      }
     }
@@ -3693,15 +3798,15 @@
       "ours": 6.1,
       "gap": 3.4,
       "grade": "C",
-      "ev": 1.9,
+      "ev": 2.1,
       "side": "Charlotte Hornets +9.5"
      },
      "Total": {
       "fd": 208.5,
-      "ours": 209.6,
-      "gap": 1.1,
+      "ours": 209.7,
+      "gap": 1.2,
       "grade": "",
-      "ev": -1.3,
+      "ev": -1.1,
       "side": "Over 208.5"
      }
     }
@@ -3718,12 +3823,12 @@
       "ours": -3.4,
       "gap": 5.9,
       "grade": "C",
-      "ev": 7.1,
+      "ev": 9.1,
       "side": "Cleveland Cavaliers +2.5"
      },
      "Total": {
       "fd": 231.5,
-      "ours": 227.6,
+      "ours": 227.7,
       "gap": 0,
       "grade": "",
       "ev": -0.7,
@@ -3740,10 +3845,10 @@
     "markets": {
      "Total": {
       "fd": 226.5,
-      "ours": 233.8,
-      "gap": 7.3,
+      "ours": 233.9,
+      "gap": 7.4,
       "grade": "A",
-      "ev": 6.5,
+      "ev": 6.4,
       "side": "Over 226.5"
      },
      "Spread": {
@@ -3773,10 +3878,10 @@
      },
      "Total": {
       "fd": 223.5,
-      "ours": 223.9,
-      "gap": 0.4,
+      "ours": 224.0,
+      "gap": 0.5,
       "grade": "",
-      "ev": -4.8,
+      "ev": -4.3,
       "side": "Over 223.5"
      }
     }
@@ -3798,10 +3903,10 @@
      },
      "Total": {
       "fd": 229.5,
-      "ours": 223.5,
+      "ours": 223.7,
       "gap": 0,
       "grade": "",
-      "ev": -5.4,
+      "ev": -5.7,
       "side": "Over 229.5"
      }
     }
@@ -3823,10 +3928,10 @@
      },
      "Total": {
       "fd": 230.5,
-      "ours": 230.7,
-      "gap": 0.2,
+      "ours": 230.8,
+      "gap": 0.3,
       "grade": "",
-      "ev": -5.0,
+      "ev": -4.8,
       "side": "Over 230.5"
      }
     }
@@ -3840,19 +3945,19 @@
     "markets": {
      "Total": {
       "fd": 231.5,
-      "ours": 231.3,
+      "ours": 231.5,
       "gap": 0,
       "grade": "",
       "ev": 5.0,
       "side": "Over 231.5"
      },
      "Spread": {
-      "fd": 3.5,
-      "ours": 3.4,
+      "fd": -3.5,
+      "ours": -3.6,
       "gap": 0.1,
       "grade": "",
-      "ev": -3.9,
-      "side": "Portland Trail Blazers +3.5"
+      "ev": -5.1,
+      "side": "Los Angeles Lakers -3.5"
      }
     }
    },
@@ -3865,10 +3970,10 @@
     "markets": {
      "Total": {
       "fd": 231.5,
-      "ours": 228.4,
+      "ours": 228.5,
       "gap": 0,
       "grade": "",
-      "ev": 0.4,
+      "ev": 1.6,
       "side": "Over 231.5"
      },
      "Spread": {
@@ -3876,7 +3981,7 @@
       "ours": 17.5,
       "gap": 0.0,
       "grade": "",
-      "ev": -6.1,
+      "ev": -6.7,
       "side": "Sacramento Kings +17.5"
      }
     }
@@ -3923,12 +4028,12 @@
     "start": "2026-11-07T01:00:00Z",
     "markets": {
      "Spread": {
-      "fd": -4.5,
+      "fd": -3.5,
       "ours": -6.3,
-      "gap": 1.8,
+      "gap": 2.8,
       "grade": "",
-      "ev": -1.4,
-      "side": "Nebraska Cornhuskers -4.5"
+      "ev": -0.5,
+      "side": "Nebraska Cornhuskers -3.5"
      }
     }
    },
@@ -4046,7 +4151,7 @@
       "ours": -7.0,
       "gap": 2.5,
       "grade": "C",
-      "ev": 1.0,
+      "ev": 0.1,
       "side": "UCLA Bruins -4.5"
      }
     }
@@ -4301,7 +4406,7 @@
       "ours": -11.9,
       "gap": 1.4,
       "grade": "",
-      "ev": -6.6,
+      "ev": -4.4,
       "side": "Houston Cougars -10.5"
      }
     }
@@ -4335,7 +4440,7 @@
       "ours": 0.8,
       "gap": 1.7,
       "grade": "",
-      "ev": -1.6,
+      "ev": -2.1,
       "side": "Middle Tennessee Blue Raiders +2.5"
      }
     }
@@ -4385,8 +4490,8 @@
       "fd": 2.5,
       "ours": -2.6,
       "gap": 5.1,
-      "grade": "B",
-      "ev": 1.9,
+      "grade": "C",
+      "ev": 1.4,
       "side": "Penn State Nittany Lions +2.5"
      }
     }
@@ -4505,7 +4610,7 @@
       "ours": 15.1,
       "gap": 2.4,
       "grade": "",
-      "ev": -3.4,
+      "ev": -5.4,
       "side": "Rutgers Scarlet Knights +17.5"
      }
     }
@@ -4675,7 +4780,7 @@
       "ours": 2.9,
       "gap": 4.6,
       "grade": "",
-      "ev": -0.7,
+      "ev": -3.3,
       "side": "Miami Hurricanes +7.5"
      }
     }
@@ -4732,27 +4837,87 @@
     }
    },
    {
-    "sport": "NCAAM",
-    "game": "Massachusetts Minutemen @ Boston College Eagles",
-    "away": "Massachusetts Minutemen",
-    "home": "Boston College Eagles",
-    "start": "2026-11-06T21:00:00Z",
+    "sport": "NCAAF",
+    "game": "Fresno State Bulldogs @ Utah State Aggies",
+    "away": "Fresno State Bulldogs",
+    "home": "Utah State Aggies",
+    "start": "2026-11-08T02:30:00Z",
     "markets": {
      "Spread": {
-      "fd": -5.5,
-      "ours": -7.4,
+      "fd": -2.5,
+      "ours": -4.4,
       "gap": 1.9,
       "grade": "",
-      "ev": -2.6,
-      "side": "Boston College Eagles -5.5"
-     },
-     "Total": {
-      "fd": 143.5,
-      "ours": 138.5,
-      "gap": 5.0,
+      "ev": -4.3,
+      "side": "Fresno State Bulldogs -2.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Hawaii Rainbow Warriors @ UTEP Miners",
+    "away": "Hawaii Rainbow Warriors",
+    "home": "UTEP Miners",
+    "start": "2026-11-08T02:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -8.5,
+      "ours": -12.6,
+      "gap": 4.1,
       "grade": "B",
-      "ev": 1.8,
-      "side": "Under 143.5"
+      "ev": 2.1,
+      "side": "Hawaii Rainbow Warriors -8.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "West Virginia Mountaineers @ Texas Tech Red Raiders",
+    "away": "West Virginia Mountaineers",
+    "home": "Texas Tech Red Raiders",
+    "start": "2026-11-08T02:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -16.5,
+      "ours": -17.7,
+      "gap": 1.2,
+      "grade": "",
+      "ev": -4.2,
+      "side": "Texas Tech Red Raiders -16.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Texas State Bobcats @ Oregon State Beavers",
+    "away": "Texas State Bobcats",
+    "home": "Oregon State Beavers",
+    "start": "2026-11-08T03:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 6.5,
+      "ours": 6.2,
+      "gap": 0.3,
+      "grade": "",
+      "ev": -3.4,
+      "side": "Texas State Bobcats +6.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Wyoming Cowboys @ UNLV Rebels",
+    "away": "Wyoming Cowboys",
+    "home": "UNLV Rebels",
+    "start": "2026-11-08T03:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": -4.5,
+      "ours": -12.0,
+      "gap": 7.5,
+      "grade": "A",
+      "ev": 5.5,
+      "side": "UNLV Rebels -4.5"
      }
     }
    },
@@ -4768,7 +4933,7 @@
       "ours": 175.2,
       "gap": 11.7,
       "grade": "A",
-      "ev": 8.3,
+      "ev": 10.8,
       "side": "Over 163.5"
      }
     }
@@ -4785,7 +4950,7 @@
       "ours": 152.0,
       "gap": 8.5,
       "grade": "A",
-      "ev": 10.0,
+      "ev": 8.2,
       "side": "Under 160.5"
      }
     }
@@ -4798,19 +4963,19 @@
     "start": "2026-11-06T23:00:00Z",
     "markets": {
      "Spread": {
-      "fd": 16.5,
+      "fd": 15.5,
       "ours": 10.9,
-      "gap": 5.6,
+      "gap": 4.6,
       "grade": "A",
-      "ev": 8.2,
-      "side": "Eastern Washington Eagles +16.5"
+      "ev": 5.9,
+      "side": "Eastern Washington Eagles +15.5"
      },
      "Total": {
       "fd": 149.5,
       "ours": 147.0,
       "gap": 2.5,
       "grade": "",
-      "ev": -3.8,
+      "ev": -3.4,
       "side": "Under 149.5"
      }
     }
@@ -4827,7 +4992,7 @@
       "ours": 147.5,
       "gap": 7.0,
       "grade": "A",
-      "ev": 5.6,
+      "ev": 5.1,
       "side": "Under 154.5"
      }
     }
@@ -4861,7 +5026,7 @@
       "ours": -14.4,
       "gap": 17.9,
       "grade": "A",
-      "ev": 28.4,
+      "ev": 27.4,
       "side": "South Carolina St Bulldogs +3.5"
      },
      "Total": {
@@ -4886,7 +5051,7 @@
       "ours": -22.4,
       "gap": 6.9,
       "grade": "A",
-      "ev": 7.8,
+      "ev": 8.5,
       "side": "Clemson Tigers -15.5"
      },
      "Total": {
@@ -4911,7 +5076,7 @@
       "ours": 5.4,
       "gap": 0.1,
       "grade": "",
-      "ev": -3.8,
+      "ev": -2.4,
       "side": "Austin Peay Governors +5.5"
      },
      "Total": {
@@ -4936,7 +5101,7 @@
       "ours": -17.6,
       "gap": 19.1,
       "grade": "A",
-      "ev": 29.1,
+      "ev": 31.0,
       "side": "Indiana St Sycamores +1.5"
      },
      "Total": {
@@ -5003,7 +5168,7 @@
       "ours": 153.7,
       "gap": 2.2,
       "grade": "",
-      "ev": 2.3,
+      "ev": 0.9,
       "side": "Over 151.5"
      }
     }
@@ -5024,12 +5189,12 @@
       "side": "Elon Phoenix -8.5"
      },
      "Total": {
-      "fd": 153.5,
+      "fd": 152.5,
       "ours": 156.3,
-      "gap": 2.8,
-      "grade": "",
-      "ev": -2.5,
-      "side": "Over 153.5"
+      "gap": 3.8,
+      "grade": "C",
+      "ev": 1.2,
+      "side": "Over 152.5"
      }
     }
    },
@@ -5045,7 +5210,7 @@
       "ours": 150.5,
       "gap": 9.0,
       "grade": "A",
-      "ev": 7.2,
+      "ev": 9.5,
       "side": "Under 159.5"
      }
     }
@@ -5058,12 +5223,12 @@
     "start": "2026-11-07T00:00:00Z",
     "markets": {
      "Total": {
-      "fd": 156.5,
+      "fd": 157.5,
       "ours": 156.0,
-      "gap": 0.5,
+      "gap": 1.5,
       "grade": "",
-      "ev": -2.3,
-      "side": "Under 156.5"
+      "ev": -2.0,
+      "side": "Under 157.5"
      }
     }
    },
@@ -5079,7 +5244,7 @@
       "ours": 11.2,
       "gap": 6.3,
       "grade": "A",
-      "ev": 6.1,
+      "ev": 8.5,
       "side": "Georgia Southern Eagles +17.5"
      },
      "Total": {
@@ -5087,7 +5252,7 @@
       "ours": 160.5,
       "gap": 1.0,
       "grade": "",
-      "ev": -3.1,
+      "ev": -3.8,
       "side": "Over 159.5"
      }
     }
@@ -5104,7 +5269,7 @@
       "ours": 140.4,
       "gap": 11.1,
       "grade": "A",
-      "ev": 8.9,
+      "ev": 9.7,
       "side": "Under 151.5"
      }
     }
@@ -5121,7 +5286,7 @@
       "ours": 149.8,
       "gap": 6.7,
       "grade": "A",
-      "ev": 6.2,
+      "ev": 6.6,
       "side": "Under 156.5"
      }
     }
@@ -5138,7 +5303,7 @@
       "ours": -9.4,
       "gap": 10.9,
       "grade": "A",
-      "ev": 16.8,
+      "ev": 12.1,
       "side": "Saint Louis Billikens +1.5"
      },
      "Total": {
@@ -5163,7 +5328,7 @@
       "ours": 127.1,
       "gap": 10.4,
       "grade": "A",
-      "ev": 9.0,
+      "ev": 7.7,
       "side": "Under 137.5"
      }
     }
@@ -5197,7 +5362,7 @@
       "ours": 133.1,
       "gap": 8.4,
       "grade": "A",
-      "ev": 13.4,
+      "ev": 11.7,
       "side": "Under 141.5"
      }
     }
@@ -5214,7 +5379,7 @@
       "ours": 6.5,
       "gap": 3.0,
       "grade": "C",
-      "ev": 1.4,
+      "ev": 0.6,
       "side": "Yale Bulldogs +9.5"
      },
      "Total": {
@@ -5239,7 +5404,7 @@
       "ours": 186.4,
       "gap": 8.9,
       "grade": "A",
-      "ev": 6.9,
+      "ev": 6.5,
       "side": "Over 177.5"
      }
     }
@@ -5256,7 +5421,7 @@
       "ours": 146.1,
       "gap": 10.4,
       "grade": "A",
-      "ev": 14.5,
+      "ev": 15.6,
       "side": "Under 156.5"
      }
     }
@@ -5298,16 +5463,16 @@
       "ours": 12.8,
       "gap": 2.7,
       "grade": "C",
-      "ev": 2.0,
+      "ev": 4.7,
       "side": "Nicholls St Colonels +15.5"
      },
      "Total": {
-      "fd": 155.5,
+      "fd": 158.5,
       "ours": 150.3,
-      "gap": 5.2,
+      "gap": 8.2,
       "grade": "A",
-      "ev": 3.2,
-      "side": "Under 155.5"
+      "ev": 7.9,
+      "side": "Under 158.5"
      }
     }
    },
@@ -5323,7 +5488,7 @@
       "ours": 148.4,
       "gap": 6.1,
       "grade": "A",
-      "ev": 6.2,
+      "ev": 5.8,
       "side": "Under 154.5"
      }
     }
@@ -5357,7 +5522,7 @@
       "ours": 163.3,
       "gap": 2.8,
       "grade": "C",
-      "ev": 2.9,
+      "ev": 2.3,
       "side": "Over 160.5"
      }
     }
@@ -5399,16 +5564,16 @@
       "ours": -6.7,
       "gap": 14.2,
       "grade": "A",
-      "ev": 17.4,
+      "ev": 19.6,
       "side": "Michigan Wolverines +7.5"
      },
      "Total": {
-      "fd": 141.5,
+      "fd": 142.5,
       "ours": 147.7,
-      "gap": 6.2,
+      "gap": 5.2,
       "grade": "A",
-      "ev": 5.1,
-      "side": "Over 141.5"
+      "ev": 4.9,
+      "side": "Over 142.5"
      }
     }
    },
@@ -5428,12 +5593,12 @@
       "side": "St. Thomas (MN) Tommies +14.5"
      },
      "Total": {
-      "fd": 150.5,
+      "fd": 149.5,
       "ours": 138.6,
-      "gap": 11.9,
+      "gap": 10.9,
       "grade": "A",
-      "ev": 13.5,
-      "side": "Under 150.5"
+      "ev": 11.8,
+      "side": "Under 149.5"
      }
     }
    },
@@ -5445,12 +5610,12 @@
     "start": "2026-11-07T01:00:00Z",
     "markets": {
      "Total": {
-      "fd": 172.5,
+      "fd": 171.5,
       "ours": 168.6,
-      "gap": 3.9,
-      "grade": "B",
-      "ev": 3.7,
-      "side": "Under 172.5"
+      "gap": 2.9,
+      "grade": "C",
+      "ev": 4.4,
+      "side": "Under 171.5"
      }
     }
    },
@@ -5466,7 +5631,7 @@
       "ours": -18.4,
       "gap": 5.9,
       "grade": "A",
-      "ev": 7.4,
+      "ev": 6.1,
       "side": "Northwestern Wildcats -12.5"
      },
      "Total": {
@@ -5474,7 +5639,7 @@
       "ours": 137.5,
       "gap": 7.0,
       "grade": "A",
-      "ev": 6.8,
+      "ev": 7.0,
       "side": "Under 144.5"
      }
     }
@@ -5567,7 +5732,7 @@
       "ours": 155.8,
       "gap": 4.7,
       "grade": "",
-      "ev": -1.5,
+      "ev": -3.9,
       "side": "Under 160.5"
      }
     }
@@ -5634,7 +5799,7 @@
       "ours": 142.4,
       "gap": 14.1,
       "grade": "A",
-      "ev": 14.7,
+      "ev": 13.7,
       "side": "Under 156.5"
      }
     }
@@ -5651,7 +5816,7 @@
       "ours": 144.0,
       "gap": 2.5,
       "grade": "C",
-      "ev": 0.8,
+      "ev": 1.1,
       "side": "Under 146.5"
      }
     }
@@ -5664,12 +5829,12 @@
     "start": "2026-11-07T02:00:00Z",
     "markets": {
      "Total": {
-      "fd": 178.5,
+      "fd": 177.5,
       "ours": 167.0,
-      "gap": 11.5,
+      "gap": 10.5,
       "grade": "A",
-      "ev": 10.9,
-      "side": "Under 178.5"
+      "ev": 7.5,
+      "side": "Under 177.5"
      }
     }
    },
@@ -5684,8 +5849,8 @@
       "fd": 1.5,
       "ours": -4.0,
       "gap": 5.5,
-      "grade": "C",
-      "ev": 1.4,
+      "grade": "A",
+      "ev": 10.5,
       "side": "UT-Arlington Mavericks +1.5"
      },
      "Total": {
@@ -5693,7 +5858,7 @@
       "ours": 137.5,
       "gap": 13.0,
       "grade": "A",
-      "ev": 12.7,
+      "ev": 12.6,
       "side": "Under 150.5"
      }
     }
@@ -5734,8 +5899,8 @@
       "fd": -9.5,
       "ours": -13.9,
       "gap": 4.4,
-      "grade": "B",
-      "ev": 2.4,
+      "grade": "",
+      "ev": -0.9,
       "side": "San Francisco Dons -9.5"
      },
      "Total": {
@@ -5743,7 +5908,7 @@
       "ours": 148.4,
       "gap": 1.9,
       "grade": "",
-      "ev": -6.5,
+      "ev": -5.7,
       "side": "Over 146.5"
      }
     }
@@ -5760,7 +5925,7 @@
       "ours": -14.1,
       "gap": 0.6,
       "grade": "",
-      "ev": -6.7,
+      "ev": -6.4,
       "side": "Stanford Cardinal -13.5"
      },
      "Total": {
@@ -5768,7 +5933,7 @@
       "ours": 158.0,
       "gap": 12.5,
       "grade": "A",
-      "ev": 18.3,
+      "ev": 15.4,
       "side": "Over 145.5"
      }
     }
@@ -5802,7 +5967,7 @@
       "ours": null,
       "gap": 6.4,
       "grade": "",
-      "ev": -0.4,
+      "ev": -0.5,
       "side": "Columbus Blue Jackets ML"
      },
      "Total": {
@@ -5823,11 +5988,11 @@
     "start": "2026-11-07T01:10:00Z",
     "markets": {
      "Moneyline": {
-      "fd": 125,
+      "fd": 122,
       "ours": null,
-      "gap": 11.4,
-      "grade": "A",
-      "ev": 5.2,
+      "gap": 12.4,
+      "grade": "B",
+      "ev": 2.2,
       "side": "Anaheim Ducks ML"
      },
      "Total": {
@@ -5835,7 +6000,7 @@
       "ours": 6.8,
       "gap": 0.29,
       "grade": "",
-      "ev": -2.9,
+      "ev": -3.5,
       "side": "Over 6.5"
      }
     }
@@ -5850,9 +6015,9 @@
      "Moneyline": {
       "fd": 220,
       "ours": null,
-      "gap": 1.1,
+      "gap": 1.3,
       "grade": "",
-      "ev": -8.8,
+      "ev": -9.2,
       "side": "San Jose Sharks ML"
      },
      "Total": {
