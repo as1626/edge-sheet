@@ -1,6 +1,15 @@
 {
- "cmd": "page",
+ "cmd": "cfbday",
  "ok": true,
- "at": "2026-11-07T12:30:34.298084+00:00",
- "log": []
+ "at": "2026-11-07T14:58:18.007568+00:00",
+ "log": [
+  "auto -> cfbday (09:58 ET)",
+  "odds americanfootball_ncaaf: 51 pregame games, credits remaining 198",
+  "FPI college-football: 138 teams ('Notre Dame Fighting Irish', {'fpi': 26.784, 'g': 8.0})",
+  "dk splits NCAAF: 50 games",
+  "AN ncaaf: 63 games, opens on 63",
+  "cfb card: 57 graded (1 A, 3 B), dk matched 48/51",
+  "price scan NCAAF: 1 flags",
+  "staked: [('Utah Utes -4.5', -106, 0.125, 'B'), ('Merrimack Warriors +47.5', -110, 0.125, 'B'), ('Under 58.5', -115, 0.125, 'B'), ('Tulane Green Wave +2.5', -102, 0.25, 'A'), ('Rutgers Scarlet Knights ML', 920, 0.05, 'Price')]"
+ ]
 }
