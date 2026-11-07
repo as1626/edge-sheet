@@ -129,7 +129,7 @@ def ticket(b, i):
     return f'''<article class="tix g-{b["grade"]} s-{cls}" data-sport="{esc(b["sport"])}" style="--i:{i}">
   <div class="stub"><span class="gl">{b["grade"] if len(b["grade"])==1 else "$"}</span><span class="gk">{"Grade" if len(b["grade"])==1 else "Price"}</span></div>
   <div class="body">
-    <div class="meta"><span>{esc(b["sport"])}</span>{('<span class="note">' + esc(b["engine"]) + '</span>') if b.get("engine") in ("Price edge", "Team model") else ""}<span>{when} ET</span><span>{esc(b["market"])}</span><span class="pill {cls}">{st}</span>{res}</div>
+    <div class="meta"><span>{esc(b["sport"])}</span>{('<span class="note">' + esc(b["engine"]) + '</span>') if b.get("engine") in ("Price edge", "Team model", "CFB card") else ""}<span>{when} ET</span><span>{esc(b["market"])}</span><span class="pill {cls}">{st}</span>{res}</div>
     <h3 class="pick">{pick_html}<span class="px">{am(b["price"])}</span></h3>
     <div class="game">{esc(b["away"])} <i>at</i> {esc(b["home"])}{(" · " + esc(b["projection"])) if b.get("projection") else ""}</div>
     {score}
@@ -150,6 +150,7 @@ def ticket(b, i):
 
 today = [b for b in BETS if b["date"] == SLATE_DATE and b["stake"] > 0]
 ORDER = {"A": 0, "B": 1, "Price": 2}
+L = L  # closes are merged by run.py before build
 today.sort(key=lambda b: (ORDER.get(b["grade"], 3), b["start"], -(b["ev_pct"] or 0)))
 later = [b for b in BETS if b["date"] > SLATE_DATE]
 track_today = sorted([b for b in BETS if b["date"] == SLATE_DATE and b["stake"] == 0 and (b["ev_pct"] or 0) <= 15],

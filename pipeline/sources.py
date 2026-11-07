@@ -271,3 +271,59 @@ def cbb_teams(season):
         out[s] = dict(ortg=r["ORtg"], drtg=r["DRtg"], pace=pace.get(s, 68.0), g=(r.get("W") or 0) + (r.get("L") or 0))
     log(f"CBB teams {season}: {len(out)}")
     return out
+
+
+# ---------- DraftKings Network betting splits (handle % and bets %) ----------
+DK_GROUPS = {"NCAAF": 87637, "NFL": 88808}
+def dk_splits(label, max_pages=8):
+    """[{away, home, start, ml:{team:(odds,handle,bets)}, spread:{team:(line,odds,handle,bets)}, total:{'over'/'under':(line,odds,handle,bets)}}]"""
+    import html as H
+    out = []
+    for page in range(1, max_pages + 1):
+        url = f"https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg={DK_GROUPS[label]}&tb_edate=today&tb_emt=0&tb_page={page}"
+        try: body, _ = get(url)
+        except Exception as ex: log(f"dk splits page {page}: {ex}"); break
+        blocks = body.split('<div class="tb-se ')[1:]
+        if not blocks: break
+        for b in blocks:
+            t = H.unescape(re.sub(r"<[^>]+>", " | ", b)); t = re.sub(r"(\s*\|\s*)+", "|", t); t = re.sub(r"\s+", " ", t)
+            parts = [x.strip() for x in t.split("|") if x.strip()]
+            try:
+                title = next(x for x in parts if " @ " in x); away, home = [x.strip() for x in title.split(" @ ")]
+                g = dict(away=away, home=home, ml={}, spread={}, total={})
+                sec = None
+                i = 0
+                while i < len(parts):
+                    x = parts[i]
+                    if x in ("Moneyline", "Spread", "Total"): sec = x; i += 1; continue
+                    if sec and i + 3 < len(parts) and parts[i + 2].endswith("%") and parts[i + 3].endswith("%"):
+                        odds = int(parts[i + 1].replace("−", "-").replace("+", ""))
+                        hd, bt = float(parts[i + 2][:-1]), float(parts[i + 3][:-1])
+                        if sec == "Moneyline": g["ml"][x] = (odds, hd, bt)
+                        elif sec == "Spread":
+                            m = re.match(r"(.+?) ([+-−]?[\d.]+)$", x)
+                            if m: g["spread"][m.group(1)] = (float(m.group(2).replace("−", "-")), odds, hd, bt)
+                        else:
+                            m = re.match(r"(Over|Under) ([\d.]+)$", x)
+                            if m: g["total"][m.group(1).lower()] = (float(m.group(2)), odds, hd, bt)
+                        i += 4; continue
+                    i += 1
+                out.append(g)
+            except StopIteration: pass
+        if f"tb_page={page + 1}" not in body: break
+    log(f"dk splits {label}: {len(out)} games")
+    return out
+
+def an_lines(league="ncaaf", day=None):
+    """Open (book 30) and current consensus (book 15) spread/total keyed by (away, home) full names."""
+    day = day or now_et().date()
+    d, _ = get_json(f"https://api.actionnetwork.com/web/v1/scoreboard/{league}?period=game&bookIds=15,30&date={day.strftime('%Y%m%d')}" + ("&division=FBS" if league == "ncaaf" else ""))
+    out = {}
+    for g in d.get("games", []):
+        tm = {t["id"]: team(t.get("full_name") or t.get("display_name", "")) for t in g.get("teams", [])}
+        books = {o.get("book_id"): o for o in g.get("odds", []) if o.get("type", "game") == "game"}
+        out[(tm.get(g["away_team_id"]), tm.get(g["home_team_id"]))] = dict(
+            open_spread_home=books.get(30, {}).get("spread_home"), cur_spread_home=books.get(15, {}).get("spread_home"),
+            open_total=books.get(30, {}).get("total"), cur_total=books.get(15, {}).get("total"))
+    log(f"AN {league}: {len(out)} games, opens on {sum(v['open_spread_home'] is not None for v in out.values())}")
+    return out

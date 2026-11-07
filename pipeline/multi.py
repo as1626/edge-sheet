@@ -302,3 +302,85 @@ def prop_scan(events, label, min_ev=0.04, cons_extra=0.01, diag=False):
         seen.add(f["player"]); out.append(f)
     log(f"prop scan {label}: {len(flags)} flags, {len(out)} after one-per-player")
     return out
+
+
+# ---------- college football day card: model + line movement + sharp money + price ----------
+def _match_dk(dk, away, home):
+    pa, ph = pname(away), pname(home)
+    best = None
+    for g in dk:
+        da, dh = pname(g["away"]), pname(g["home"])
+        if (pa == da or pa.startswith(da + " ")) and (ph == dh or ph.startswith(dh + " ")):
+            score = len(da) + len(dh)
+            if best is None or score > best[0]: best = (score, g)
+    return best[1] if best else None
+
+def _dk_side(g, kind, side_name):
+    """Return (handle, bets) for a side. side_name: team full name or 'over'/'under'."""
+    if not g: return None
+    if kind == "total": v = g["total"].get(side_name); return (v[2], v[3]) if v else None
+    key = pname(side_name)
+    for k, v in g["spread"].items():
+        if key == pname(k) or key.startswith(pname(k) + " "): return (v[2], v[3])
+    return None
+
+def cfb_card(odds, fpi, dk, an, label="NCAAF"):
+    cfg = CFG[label]; res = resolver(list(fpi)); rows = []
+    for ev in odds:
+        m = market_numbers(ev, cfg["sd_m"], cfg["sd_t"])
+        if not m or "margin" not in m: continue
+        home, away = m["home"], m["away"]; fd = m["fd"]
+        g = _match_dk(dk, away, home)
+        a = an.get((away, home)) or {}
+        rh, ra = res(home), res(away)
+        model_margin = (fpi[rh]["fpi"] - fpi[ra]["fpi"] + cfg["hfa"]) if rh and ra else None
+        sp = fd.get("spreads"); to = fd.get("totals")
+        cands = []
+        if sp and len(sp) == 2:
+            for side in ("home", "away"):
+                line = sp[side]["point"]; price = sp[side]["price"]; tm = m[side]
+                mk = m["margin"] if side == "home" else -m["margin"]
+                p_mkt = Phi((mk + line) / cfg["sd_m"]); mkt_ev = p_mkt * am_to_dec(price) - 1
+                gap = None if model_margin is None else ((model_margin if side == "home" else -model_margin) + line)
+                o, c = a.get("open_spread_home"), a.get("cur_spread_home")
+                move = None if o is None or c is None else ((o - c) if side == "home" else (c - o))
+                hb = _dk_side(g, "spread", tm)
+                cands.append(dict(kind="Spread", side=side, team=tm, line=line, price=price, mkt_ev=mkt_ev, gap=gap, move=move, hb=hb,
+                                  model_line=None if gap is None else -(model_margin if side == "home" else -model_margin), mkt_line=-mk))
+        if to and len(to) == 2 and "total" in m:
+            for side in ("Over", "Under"):
+                line = to[side]["point"]; price = to[side]["price"]
+                p_mkt = (1 - Phi((line - m["total"]) / cfg["sd_t"])) if side == "Over" else Phi((line - m["total"]) / cfg["sd_t"])
+                o, c = a.get("open_total"), a.get("cur_total")
+                move = None if o is None or c is None else ((c - o) if side == "Over" else (o - c))
+                cands.append(dict(kind="Total", side=side.lower(), team=None, line=line, price=price, mkt_ev=p_mkt * am_to_dec(price) - 1,
+                                  gap=None, move=move, hb=_dk_side(g, "total", side.lower()), model_line=None, mkt_line=m["total"]))
+        for c in cands:
+            sig, notes = 0, []
+            if c["move"] is not None and abs(c["move"]) >= 0.5:
+                if c["move"] > 0: sig += 1; notes.append(f"line moved our way {c['move']:+g} since open")
+                elif c["move"] <= -1: sig -= 1; notes.append(f"line moved against {c['move']:+g} since open")
+            if c["hb"]:
+                h, b = c["hb"]; d = h - b
+                if d >= 15: sig += 1; notes.append(f"sharp money: {h:.0f}% of handle on {b:.0f}% of bets")
+                elif d <= -15: sig -= 1; notes.append(f"public side: {b:.0f}% of bets but {h:.0f}% of handle")
+                if c["move"] is not None and c["move"] >= 0.5 and b < 45: sig += 1; notes.append("reverse line movement")
+            gap = c["gap"]
+            if c["kind"] == "Spread" and gap is not None and gap >= 3 and sig >= 1 and c["mkt_ev"] >= -0.01: gr = "A"
+            elif sig >= 2 and c["mkt_ev"] >= -0.015 and (gap is None or gap >= -1.5): gr = "B"
+            elif (gap is not None and gap >= 3 and sig >= 0) or (sig >= 1 and (gap is None or gap >= 0)): gr = "C"
+            else: gr = ""
+            if not gr: continue
+            score = sig * 2 + (min(gap, 8) / 4 if gap else 0) + c["mkt_ev"] * 20
+            rows.append(dict(sport=label, kind=c["kind"], side=c["side"], team=c["team"], game=(away, home), start=ev["commence_time"],
+                             line=c["line"], price=c["price"], model_line=c["model_line"], fair_line=None, mkt_line=c["mkt_line"],
+                             gap=None if gap is None else round(gap, 1), p=None, ev=c["mkt_ev"], grade=gr, sig=sig, notes=notes, score=score,
+                             factors={}, proj=(f"FPI line {c['model_line']:+.1f}" if c["model_line"] is not None else "") ))
+    rows.sort(key=lambda r: -r["score"])
+    seen = set(); out = []
+    for r in rows:                                    # one play per game per market
+        k = (r["game"], r["kind"])
+        if k in seen: continue
+        seen.add(k); out.append(r)
+    log(f"cfb card: {len(out)} graded ({sum(r['grade']=='A' for r in out)} A, {sum(r['grade']=='B' for r in out)} B), dk matched {sum(1 for e in odds if _match_dk(dk, team(e['away_team']), team(e['home_team'])))}/{len(odds)}")
+    return out

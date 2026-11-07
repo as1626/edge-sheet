@@ -236,6 +236,44 @@ def probe2():
 def pregame(b, minutes=5):
     return to_et(b["start"]) > now_et() + timedelta(minutes=minutes)
 
+CLOSES = "data/closes.json"
+def merge_closes(L):
+    C = load(CLOSES, {})
+    for b in L["bets"]:
+        c = C.get(b["id"])
+        if c: b.update(c)
+    return L
+
+def cfbday():
+    """Saturday college football card (before noon kickoffs)."""
+    import multi as X
+    ds = now_et().date().isoformat()
+    odds = S.odds_games("americanfootball_ncaaf", now_et().date())
+    fpi = S.espn_fpi("college-football"); dk = S.dk_splits("NCAAF"); an = S.an_lines("ncaaf")
+    rows = X.cfb_card(odds, fpi, dk, an)
+    scans = X.price_scan(odds, "NCAAF")
+    bets = []
+    staked = 0
+    for r in rows:
+        stake = {"A": 0.5, "B": 0.25}.get(r["grade"], 0.0) * STAKE_SCALE
+        if stake and staked >= 8: stake = 0.0
+        if stake: staked += 1
+        b = bet_from_multi(dict(r, model_line=r["model_line"] if r["model_line"] is not None else r["mkt_line"],
+                                fair_line=r["mkt_line"], factors={}), 1.0)
+        b.update(stake=round(stake, 3), signals=r["notes"], engine="CFB card", why=(r["proj"] + (" · " if r["proj"] and r["notes"] else "") + " · ".join(r["notes"])) or "market signals",
+                 market_signal="with us" if r["sig"] >= 1 else "against us" if r["sig"] < 0 else "neutral",
+                 ev_pct=round(r["ev"] * 100, 1), note=None)
+        b["id"] = b["id"] + "|cfb"
+        bets.append(b)
+    bets += [bet_from_scan(f) for f in scans][:4]
+    L = load(LEDGER, {"bets": []})
+    L["bets"] = [b for b in L["bets"] if not (b.get("engine") == "CFB card" and b["status"] == "pending" and b["stake"] == 0 and pregame(b))]
+    add_multi(L, bets, ds, refresh=False)
+    for r in rows: note_game("NCAAF", r["game"][0], r["game"][1], r["start"], r["kind"], r["line"], r["model_line"], r["gap"], r["grade"], r["ev"],
+                             f'{r["team"]} {r["line"]:+g}' if r["kind"] == "Spread" else f'{r["side"].title()} {r["line"]:g}')
+    save_games(L, ds); L["credits"] = S.CREDITS["remaining"]; save(LEDGER, L)
+    log("staked:", [(b["pick"], b["price"], b["stake"], b["grade"]) for b in bets if b["stake"] > 0])
+
 def card():
     import nba_model as M
     day = now_et().date(); ds = day.isoformat()
@@ -360,7 +398,7 @@ def _publish(msg):
     try: runpy.run_path(os.path.join(ROOT, "pipeline", "build_sheet.py"))
     except Exception: log(traceback.format_exc()[-400:])
     g = ["git", "-c", "user.name=edge-bot", "-c", "user.email=edge-bot@users.noreply.github.com"]
-    subprocess.run(g + ["add", "data", "index.html"], cwd=ROOT)
+    subprocess.run(g + ["add", "data/closes.json", "index.html"], cwd=ROOT)
     if subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT).returncode == 0: return
     subprocess.run(g + ["commit", "-qm", msg], cwd=ROOT)
     for _ in range(4):
@@ -373,7 +411,8 @@ def closer(max_minutes=340):
     keys = {v[0]: k for k, v in X.SPORTS.items()}
     t0 = time.time(); done = set()
     while (time.time() - t0) / 60 < max_minutes:
-        L = load(LEDGER, {"bets": []})
+        import subprocess; subprocess.run(["git", "pull", "--rebase", "-q"], cwd=ROOT)
+        L = merge_closes(load(LEDGER, {"bets": []}))
         pend = [b for b in L["bets"] if b["status"] == "pending" and b["market"] in ("Spread", "Total", "Moneyline")
                 and b.get("close_src") != "Pinnacle close" and to_et(b["start"]) > now_et()]
         if not pend: log("closer: no pending games left"); break
@@ -395,10 +434,12 @@ def closer(max_minutes=340):
                             b["close_price"] = o["price"]; b["close_src"] = "Pinnacle close"
                             log(f"close {b['pick']}: {o.get('point')} {o['price']}")
         if due:
-            L2 = load(LEDGER, {"bets": []}); upd = {b["id"]: b for b in due if b.get("close_src") == "Pinnacle close"}
-            L2["bets"] = [upd.get(b["id"], b) for b in L2["bets"]]
-            L2["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET"); save(LEDGER, L2)
-            _publish(f"closer: {len(upd)} closing lines")
+            C = load(CLOSES, {})
+            for b in due:
+                if b.get("close_src") == "Pinnacle close":
+                    C[b["id"]] = {k: b.get(k) for k in ("close_line", "close_price", "close_src")}
+            save(CLOSES, C)
+            _publish(f"closer: {len(C)} closing lines on file")
         nxt = min(to_et(b["start"]) for b in pend)
         wait = max(60, min(300, (nxt - now_et()).total_seconds() - 14 * 60))
         time.sleep(wait)
@@ -498,9 +539,15 @@ if __name__ == "__main__":
     cmd = sys.argv[1] if len(sys.argv) > 1 else "page"
     ok = True
     try:
+        _L = load(LEDGER, None)
+        if _L: save(LEDGER, merge_closes(_L))
+    except Exception: pass
+    try:
         if cmd == "auto":   # scheduled runs: pick the job by Eastern time, not by cron string
             h = now_et().hour
-            cmd = "nflday" if now_et().weekday() == 6 and 9 <= h < 12 else "card" if 12 <= h < 19 else "grade"
+            wd = now_et().weekday()
+            cmd = ("nflday" if wd == 6 and 9 <= h < 12 else "cfbday" if wd == 5 and 8 <= h < 12 else
+                   "card" if 12 <= h < 19 else "grade")
             log(f"auto -> {cmd} ({now_et():%H:%M} ET)")
         if cmd == "card": card()
         elif cmd == "close": close()
@@ -508,6 +555,7 @@ if __name__ == "__main__":
         elif cmd == "dry": dry()
         elif cmd == "rebuild": rebuild()
         elif cmd == "closer": closer()
+        elif cmd == "cfbday": cfbday()
         elif cmd == "nflday":      # Sunday morning: NFL lines (price scan + tracked model) and props before 1 PM kickoffs
             import multi as X
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
