@@ -127,9 +127,9 @@ def ticket(b, i):
     else:
         pick_html = f'{esc(pick.replace(" ML",""))} <em>ML</em>'
     return f'''<article class="tix g-{b["grade"]} s-{cls}" data-sport="{esc(b["sport"])}" style="--i:{i}">
-  <div class="stub"><span class="gl">{b["grade"] if len(b["grade"])==1 else "$"}</span><span class="gk">{"Grade" if len(b["grade"])==1 else "Price"}</span></div>
+  <div class="stub"><span class="gl">{b["grade"] if len(b["grade"])==1 else ("R" if b["grade"]=="Read" else "$")}</span><span class="gk">{"Grade" if len(b["grade"])==1 else ("Read" if b["grade"]=="Read" else "Price")}</span></div>
   <div class="body">
-    <div class="meta"><span>{esc(b["sport"])}</span>{('<span class="note">' + esc(b["engine"]) + '</span>') if b.get("engine") in ("Price edge", "Team model", "CFB card") else ""}<span>{when} ET</span><span>{esc(b["market"])}</span><span class="pill {cls}">{st}</span>{res}</div>
+    <div class="meta"><span>{esc(b["sport"])}</span>{('<span class="note">' + esc(b["engine"]) + '</span>') if b.get("engine") in ("Price edge", "Team model", "CFB card", "Analyst read") else ""}<span>{when} ET</span><span>{esc(b["market"])}</span><span class="pill {cls}">{st}</span>{res}</div>
     <h3 class="pick">{pick_html}<span class="px">{am(b["price"])}</span></h3>
     <div class="game">{esc(b["away"])} <i>at</i> {esc(b["home"])}{(" · " + esc(b["projection"])) if b.get("projection") else ""}</div>
     {score}
@@ -139,7 +139,7 @@ def ticket(b, i):
     {('<p class="inj">Injuries: ' + esc(b["injuries"]) + '</p>') if b.get("injuries") else ""}
     <ul class="facts">
       <li><span>Stake</span><b>{stake}</b></li>
-      <li><span>EV</span><b>{num(b["ev_pct"])}%</b></li>
+      {('<li><span>EV</span><b>' + num(b["ev_pct"]) + '%</b></li>') if b.get("ev_pct") is not None else ""}
       {"<li><span>Model gap</span><b>"+f'{b["gap"]:g} pts'+"</b></li>" if b.get("gap") is not None else ""}
       <li><span>Sharp move</span><b class="sig {b["market_signal"].split()[0]}">{esc(b["market_signal"])}</b></li>
       <li><span>CLV</span><b>{clv_txt}</b></li>
@@ -149,7 +149,7 @@ def ticket(b, i):
 </article>'''
 
 today = [b for b in BETS if b["date"] == SLATE_DATE and b["stake"] > 0]
-ORDER = {"A": 0, "B": 1, "Price": 2}
+ORDER = {"Read": 0, "A": 1, "B": 2, "Price": 3}
 L = L  # closes are merged by run.py before build
 today.sort(key=lambda b: (ORDER.get(b["grade"], 3), b["start"], -(b["ev_pct"] or 0)))
 later = [b for b in BETS if b["date"] > SLATE_DATE]
@@ -294,6 +294,7 @@ h1 span{color:var(--sig)}
 .g-A .gl{color:var(--sig)}
 .g-B .gl{color:var(--ink)}
 .g-Price .gl{color:var(--sig)}
+.g-Read .gl{color:var(--won)}
 .body{padding:14px 16px 14px;min-width:0}
 .meta{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:center;font:600 10.5px/1 var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--mute)}
 .pill{font:600 9.5px/1 var(--mono);letter-spacing:.1em;text-transform:uppercase;padding:4px 7px;border-radius:999px;border:1px solid currentColor}
