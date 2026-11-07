@@ -188,6 +188,15 @@ def multi_card(nba_odds):
     log(f"multi: {len(bets)} model plays, {len(sc)} price plays, credits {S.CREDITS['remaining']}")
     return bets + sc
 
+def probe4():
+    import re, html as H
+    body, _ = S.get("https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&tb_edate=today&tb_emt=0")
+    blocks = body.split('<div class="tb-se ')[1:3]
+    for b in blocks:
+        t = H.unescape(re.sub(r"<[^>]+>", " | ", b)); t = re.sub(r"(\s*\|\s*)+", " | ", t); t = re.sub(r"\s+", " ", t)
+        log("BLOCK", t[:1500])
+    log("pages", sorted(set(re.findall(r"tb_page=(\d+)", body))), "n blocks", body.count('<div class="tb-se '))
+
 def probe3():
     import re
     for u in ["https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
@@ -514,6 +523,7 @@ if __name__ == "__main__":
             add_multi(L, bets, ds, refresh=False); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
         elif cmd == "probe2": probe2()
         elif cmd == "probe3": probe3()
+        elif cmd == "probe4": probe4()
         elif cmd == "multi":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             add_multi(L, multi_card([]), ds); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
