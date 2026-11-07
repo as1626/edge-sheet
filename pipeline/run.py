@@ -188,6 +188,23 @@ def multi_card(nba_odds):
     log(f"multi: {len(bets)} model plays, {len(sc)} price plays, credits {S.CREDITS['remaining']}")
     return bets + sc
 
+def probe3():
+    import re
+    for u in ["https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/",
+              "https://dknetwork.draftkings.com/draftkings-sportsbook-betting-splits/?tb_eg=87637&tb_edate=today&tb_emt=0",
+              "https://api.actionnetwork.com/web/v1/scoreboard/ncaaf?period=game&bookIds=15,30&division=FBS"]:
+        try:
+            body, h = S.get(u)
+            log("URL", u, "len", len(body), "ctype", h.get("Content-Type"))
+            log("tb_eg ids", sorted(set(re.findall(r"tb_eg=(\d+)", body)))[:20])
+            i = body.find("tb-se"); j = body.find("Spread")
+            log("snippet tb-se", body[i-300:i+1500].replace("\n", " ")[:1800] if i > 0 else "none")
+            log("snippet Spread", body[j-800:j+600].replace("\n", " ")[:1400] if j > 0 else "none")
+            if "actionnetwork" in u:
+                d = json.loads(body); g = d["games"][0]
+                log("AN ncaaf games", len(d["games"]), "odds sample", json.dumps(g.get("odds", [])[:2])[:900])
+        except Exception as ex: log("ERR", u, repr(ex))
+
 def probe2():
     import io, re
     for lg in ("nfl", "college-football"):
@@ -496,6 +513,7 @@ if __name__ == "__main__":
             bets = nfl_props(); log("nfl prop plays:", [(b["pick"], b["price"], b["ev_pct"], b["stake"]) for b in bets])
             add_multi(L, bets, ds, refresh=False); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
         elif cmd == "probe2": probe2()
+        elif cmd == "probe3": probe3()
         elif cmd == "multi":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             add_multi(L, multi_card([]), ds); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
