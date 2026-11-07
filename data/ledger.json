@@ -4328,6 +4328,2046 @@
    "result_units": 0.0,
    "note": "Tracked until this model is validated",
    "close_price": -108
+  },
+  {
+   "id": "2026-11-07|Texas Longhorns @ Missouri Tigers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Texas Longhorns @ Missouri Tigers",
+   "away": "Texas Longhorns",
+   "home": "Missouri Tigers",
+   "market": "Total",
+   "pick": "Under 42.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 42.5,
+   "price": -112,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 42.2,
+   "fair_line": 42.2,
+   "pinnacle_open": 42.2,
+   "ev_pct": -3.6,
+   "gap": null,
+   "why": "line moved our way +9 since open \u00b7 sharp money: 69% of handle on 31% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +9 since open",
+    "sharp money: 69% of handle on 31% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Charlotte 49ers @ UAB Blazers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Charlotte 49ers @ UAB Blazers",
+   "away": "Charlotte 49ers",
+   "home": "UAB Blazers",
+   "market": "Total",
+   "pick": "Under 47.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 47.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 47.3,
+   "fair_line": 47.3,
+   "pinnacle_open": 47.3,
+   "ev_pct": -3.6,
+   "gap": null,
+   "why": "line moved our way +4 since open \u00b7 sharp money: 66% of handle on 40% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +4 since open",
+    "sharp money: 66% of handle on 40% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Penn State Nittany Lions @ Washington Huskies|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Penn State Nittany Lions @ Washington Huskies",
+   "away": "Penn State Nittany Lions",
+   "home": "Washington Huskies",
+   "market": "Total",
+   "pick": "Under 44.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 44.5,
+   "price": -118,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 43.9,
+   "fair_line": 43.9,
+   "pinnacle_open": 43.9,
+   "ev_pct": -4.6,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 sharp money: 50% of handle on 29% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "sharp money: 50% of handle on 29% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|BYU Cougars @ Utah Utes|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "BYU Cougars @ Utah Utes",
+   "away": "BYU Cougars",
+   "home": "Utah Utes",
+   "market": "Total",
+   "pick": "Under 49.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 49.5,
+   "price": -115,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 49.2,
+   "fair_line": 49.2,
+   "pinnacle_open": 49.2,
+   "ev_pct": -4.7,
+   "gap": null,
+   "why": "line moved our way +2 since open \u00b7 sharp money: 80% of handle on 42% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open",
+    "sharp money: 80% of handle on 42% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|UCLA Bruins @ Minnesota Golden Gophers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "UCLA Bruins @ Minnesota Golden Gophers",
+   "away": "UCLA Bruins",
+   "home": "Minnesota Golden Gophers",
+   "market": "Total",
+   "pick": "Under 38.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 38.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 38.6,
+   "fair_line": 38.6,
+   "pinnacle_open": 38.6,
+   "ev_pct": -5.0,
+   "gap": null,
+   "why": "line moved our way +4 since open \u00b7 sharp money: 65% of handle on 35% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +4 since open",
+    "sharp money: 65% of handle on 35% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Oklahoma Sooners @ Florida Gators|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:45:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Oklahoma Sooners @ Florida Gators",
+   "away": "Oklahoma Sooners",
+   "home": "Florida Gators",
+   "market": "Total",
+   "pick": "Under 44.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 44.5,
+   "price": -104,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 45.3,
+   "fair_line": 45.3,
+   "pinnacle_open": 45.3,
+   "ev_pct": -6.1,
+   "gap": null,
+   "why": "line moved our way +4 since open \u00b7 sharp money: 80% of handle on 43% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +4 since open",
+    "sharp money: 80% of handle on 43% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Iowa State Cyclones @ Baylor Bears|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Iowa State Cyclones @ Baylor Bears",
+   "away": "Iowa State Cyclones",
+   "home": "Baylor Bears",
+   "market": "Total",
+   "pick": "Under 50.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 50.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 51.0,
+   "fair_line": 51.0,
+   "pinnacle_open": 51.0,
+   "ev_pct": -7.2,
+   "gap": null,
+   "why": "line moved our way +2 since open \u00b7 sharp money: 57% of handle on 20% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open",
+    "sharp money: 57% of handle on 20% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Liberty Flames @ New Mexico State Aggies|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T01:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Liberty Flames @ New Mexico State Aggies",
+   "away": "Liberty Flames",
+   "home": "New Mexico State Aggies",
+   "market": "Spread",
+   "pick": "Liberty Flames -15.5",
+   "pick_team": "Liberty Flames",
+   "side": "away",
+   "line": -15.5,
+   "price": -114,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -18.1,
+   "fair_line": -16.3,
+   "pinnacle_open": -16.3,
+   "ev_pct": -2.4,
+   "gap": 2.6,
+   "why": "FPI line -18.1 \u00b7 line moved our way +3 since open \u00b7 sharp money: 99% of handle on 78% of bets",
+   "projection": "FPI line -18.1",
+   "signals": [
+    "line moved our way +3 since open",
+    "sharp money: 99% of handle on 78% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Merrimack Warriors @ Wake Forest Demon Deacons|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Merrimack Warriors @ Wake Forest Demon Deacons",
+   "away": "Merrimack Warriors",
+   "home": "Wake Forest Demon Deacons",
+   "market": "Spread",
+   "pick": "Merrimack Warriors +46.5",
+   "pick_team": "Merrimack Warriors",
+   "side": "away",
+   "line": 46.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 47.5,
+   "fair_line": 47.5,
+   "pinnacle_open": 47.5,
+   "ev_pct": -9.3,
+   "gap": null,
+   "why": "line moved our way +3 since open \u00b7 sharp money: 40% of handle on 21% of bets \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +3 since open",
+    "sharp money: 40% of handle on 21% of bets",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|BYU Cougars @ Utah Utes|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "BYU Cougars @ Utah Utes",
+   "away": "BYU Cougars",
+   "home": "Utah Utes",
+   "market": "Spread",
+   "pick": "Utah Utes -4.5",
+   "pick_team": "Utah Utes",
+   "side": "home",
+   "line": -4.5,
+   "price": -106,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -5.9,
+   "fair_line": -4.6,
+   "pinnacle_open": -4.6,
+   "ev_pct": -2.3,
+   "gap": 1.4,
+   "why": "FPI line -5.9 \u00b7 line moved our way +1.5 since open \u00b7 reverse line movement",
+   "projection": "FPI line -5.9",
+   "signals": [
+    "line moved our way +1.5 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Louisville Cardinals @ Georgia Tech Yellow Jackets|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
+   "away": "Louisville Cardinals",
+   "home": "Georgia Tech Yellow Jackets",
+   "market": "Spread",
+   "pick": "Louisville Cardinals -14.5",
+   "pick_team": "Louisville Cardinals",
+   "side": "away",
+   "line": -14.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -15.8,
+   "fair_line": -14.8,
+   "pinnacle_open": -14.8,
+   "ev_pct": -3.2,
+   "gap": 1.3,
+   "why": "FPI line -15.8 \u00b7 line moved our way +1 since open \u00b7 sharp money: 87% of handle on 56% of bets",
+   "projection": "FPI line -15.8",
+   "signals": [
+    "line moved our way +1 since open",
+    "sharp money: 87% of handle on 56% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Oklahoma State Cowboys @ Kansas State Wildcats|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T18:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Oklahoma State Cowboys @ Kansas State Wildcats",
+   "away": "Oklahoma State Cowboys",
+   "home": "Kansas State Wildcats",
+   "market": "Total",
+   "pick": "Over 62.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 62.5,
+   "price": -105,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 62.6,
+   "fair_line": 62.6,
+   "pinnacle_open": 62.6,
+   "ev_pct": -1.7,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 sharp money: 97% of handle on 70% of bets",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "sharp money: 97% of handle on 70% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Georgia Bulldogs @ Ole Miss Rebels|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Georgia Bulldogs @ Ole Miss Rebels",
+   "away": "Georgia Bulldogs",
+   "home": "Ole Miss Rebels",
+   "market": "Spread",
+   "pick": "Ole Miss Rebels +3.5",
+   "pick_team": "Ole Miss Rebels",
+   "side": "home",
+   "line": 3.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 1.5,
+   "fair_line": 3.5,
+   "pinnacle_open": 3.5,
+   "ev_pct": -4.5,
+   "gap": 2.0,
+   "why": "FPI line +1.5 \u00b7 line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "FPI line +1.5",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Liberty Flames @ New Mexico State Aggies|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T01:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Liberty Flames @ New Mexico State Aggies",
+   "away": "Liberty Flames",
+   "home": "New Mexico State Aggies",
+   "market": "Total",
+   "pick": "Under 46.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 46.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 46.1,
+   "fair_line": 46.1,
+   "pinnacle_open": 46.1,
+   "ev_pct": -2.5,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Georgia State Panthers @ Appalachian State Mountaineers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T19:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Georgia State Panthers @ Appalachian State Mountaineers",
+   "away": "Georgia State Panthers",
+   "home": "Appalachian State Mountaineers",
+   "market": "Total",
+   "pick": "Under 54.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 54.5,
+   "price": -115,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 53.8,
+   "fair_line": 53.8,
+   "pinnacle_open": 53.8,
+   "ev_pct": -2.8,
+   "gap": null,
+   "why": "line moved our way +3 since open \u00b7 sharp money: 95% of handle on 55% of bets",
+   "projection": "",
+   "signals": [
+    "line moved our way +3 since open",
+    "sharp money: 95% of handle on 55% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|West Virginia Mountaineers @ Texas Tech Red Raiders|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T02:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "West Virginia Mountaineers @ Texas Tech Red Raiders",
+   "away": "West Virginia Mountaineers",
+   "home": "Texas Tech Red Raiders",
+   "market": "Spread",
+   "pick": "Texas Tech Red Raiders -16.5",
+   "pick_team": "Texas Tech Red Raiders",
+   "side": "home",
+   "line": -16.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -17.7,
+   "fair_line": -16.5,
+   "pinnacle_open": -16.5,
+   "ev_pct": -4.4,
+   "gap": 1.2,
+   "why": "FPI line -17.7 \u00b7 line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "FPI line -17.7",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Florida State Seminoles @ Boston College Eagles|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Florida State Seminoles @ Boston College Eagles",
+   "away": "Florida State Seminoles",
+   "home": "Boston College Eagles",
+   "market": "Total",
+   "pick": "Over 52.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 52.5,
+   "price": -106,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 52.4,
+   "fair_line": 52.4,
+   "pinnacle_open": 52.4,
+   "ev_pct": -3.3,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 sharp money: 80% of handle on 63% of bets",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "sharp money: 80% of handle on 63% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Louisiana Tech Bulldogs @ Troy Trojans|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T21:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Louisiana Tech Bulldogs @ Troy Trojans",
+   "away": "Louisiana Tech Bulldogs",
+   "home": "Troy Trojans",
+   "market": "Total",
+   "pick": "Over 47.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 47.5,
+   "price": -112,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 47.8,
+   "fair_line": 47.8,
+   "pinnacle_open": 47.8,
+   "ev_pct": -3.6,
+   "gap": null,
+   "why": "line moved our way +2 since open \u00b7 sharp money: 100% of handle on 80% of bets",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open",
+    "sharp money: 100% of handle on 80% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Kentucky Wildcats @ Tennessee Volunteers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T23:15:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Kentucky Wildcats @ Tennessee Volunteers",
+   "away": "Kentucky Wildcats",
+   "home": "Tennessee Volunteers",
+   "market": "Total",
+   "pick": "Under 49.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 49.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 49.3,
+   "fair_line": 49.3,
+   "pinnacle_open": 49.3,
+   "ev_pct": -3.6,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Colorado Buffaloes @ Arizona State Sun Devils|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Colorado Buffaloes @ Arizona State Sun Devils",
+   "away": "Colorado Buffaloes",
+   "home": "Arizona State Sun Devils",
+   "market": "Total",
+   "pick": "Under 48.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 48.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 48.3,
+   "fair_line": 48.3,
+   "pinnacle_open": 48.3,
+   "ev_pct": -3.7,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Clemson Tigers @ Syracuse Orange|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Clemson Tigers @ Syracuse Orange",
+   "away": "Clemson Tigers",
+   "home": "Syracuse Orange",
+   "market": "Spread",
+   "pick": "Syracuse Orange +2.5",
+   "pick_team": "Syracuse Orange",
+   "side": "home",
+   "line": 2.5,
+   "price": -115,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 2.0,
+   "fair_line": 2.0,
+   "pinnacle_open": 2.0,
+   "ev_pct": -4.3,
+   "gap": 0.5,
+   "why": "FPI line +2.0 \u00b7 line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "FPI line +2.0",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Sam Houston State Bearkats @ Jacksonville State Gamecocks|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Sam Houston State Bearkats @ Jacksonville State Gamecocks",
+   "away": "Sam Houston State Bearkats",
+   "home": "Jacksonville State Gamecocks",
+   "market": "Total",
+   "pick": "Under 45.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 45.5,
+   "price": -105,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 45.8,
+   "fair_line": 45.8,
+   "pinnacle_open": 45.8,
+   "ev_pct": -3.8,
+   "gap": null,
+   "why": "line moved our way +2 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Arkansas Razorbacks @ Auburn Tigers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:45:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Arkansas Razorbacks @ Auburn Tigers",
+   "away": "Arkansas Razorbacks",
+   "home": "Auburn Tigers",
+   "market": "Total",
+   "pick": "Over 53.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 53.5,
+   "price": -118,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 54.2,
+   "fair_line": 54.2,
+   "pinnacle_open": 54.2,
+   "ev_pct": -3.9,
+   "gap": null,
+   "why": "line moved our way +6 since open \u00b7 sharp money: 99% of handle on 50% of bets",
+   "projection": "",
+   "signals": [
+    "line moved our way +6 since open",
+    "sharp money: 99% of handle on 50% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Kentucky Wildcats @ Tennessee Volunteers|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T23:15:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Kentucky Wildcats @ Tennessee Volunteers",
+   "away": "Kentucky Wildcats",
+   "home": "Tennessee Volunteers",
+   "market": "Spread",
+   "pick": "Tennessee Volunteers -5.5",
+   "pick_team": "Tennessee Volunteers",
+   "side": "home",
+   "line": -5.5,
+   "price": -115,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -6.2,
+   "fair_line": -5.7,
+   "pinnacle_open": -5.7,
+   "ev_pct": -5.5,
+   "gap": 0.7,
+   "why": "FPI line -6.2 \u00b7 line moved our way +0.5 since open \u00b7 sharp money: 73% of handle on 51% of bets",
+   "projection": "FPI line -6.2",
+   "signals": [
+    "line moved our way +0.5 since open",
+    "sharp money: 73% of handle on 51% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Cincinnati Bearcats @ Houston Cougars|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Cincinnati Bearcats @ Houston Cougars",
+   "away": "Cincinnati Bearcats",
+   "home": "Houston Cougars",
+   "market": "Spread",
+   "pick": "Houston Cougars -10.5",
+   "pick_team": "Houston Cougars",
+   "side": "home",
+   "line": -10.5,
+   "price": -114,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -12.0,
+   "fair_line": -10.3,
+   "pinnacle_open": -10.3,
+   "ev_pct": -6.9,
+   "gap": 1.5,
+   "why": "FPI line -12.0 \u00b7 line moved our way +1 since open \u00b7 sharp money: 86% of handle on 57% of bets",
+   "projection": "FPI line -12.0",
+   "signals": [
+    "line moved our way +1 since open",
+    "sharp money: 86% of handle on 57% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Alabama Crimson Tide @ LSU Tigers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Alabama Crimson Tide @ LSU Tigers",
+   "away": "Alabama Crimson Tide",
+   "home": "LSU Tigers",
+   "market": "Total",
+   "pick": "Under 52.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 52.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 52.7,
+   "fair_line": 52.7,
+   "pinnacle_open": 52.7,
+   "ev_pct": -5.4,
+   "gap": null,
+   "why": "line moved our way +2 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Old Dominion Monarchs @ Coastal Carolina Chanticleers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T18:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Old Dominion Monarchs @ Coastal Carolina Chanticleers",
+   "away": "Old Dominion Monarchs",
+   "home": "Coastal Carolina Chanticleers",
+   "market": "Total",
+   "pick": "Under 44.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 44.5,
+   "price": -105,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 45.1,
+   "fair_line": 45.1,
+   "pinnacle_open": 45.1,
+   "ev_pct": -5.6,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|UCF Knights @ Kansas Jayhawks|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:45:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "UCF Knights @ Kansas Jayhawks",
+   "away": "UCF Knights",
+   "home": "Kansas Jayhawks",
+   "market": "Total",
+   "pick": "Under 48.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 48.5,
+   "price": -115,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 48.3,
+   "fair_line": 48.3,
+   "pinnacle_open": 48.3,
+   "ev_pct": -5.6,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Clemson Tigers @ Syracuse Orange|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Clemson Tigers @ Syracuse Orange",
+   "away": "Clemson Tigers",
+   "home": "Syracuse Orange",
+   "market": "Total",
+   "pick": "Over 49.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 49.5,
+   "price": -114,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 49.6,
+   "fair_line": 49.6,
+   "pinnacle_open": 49.6,
+   "ev_pct": -5.7,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 sharp money: 91% of handle on 69% of bets",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "sharp money: 91% of handle on 69% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Merrimack Warriors @ Wake Forest Demon Deacons|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Merrimack Warriors @ Wake Forest Demon Deacons",
+   "away": "Merrimack Warriors",
+   "home": "Wake Forest Demon Deacons",
+   "market": "Total",
+   "pick": "Under 58.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 58.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 58.9,
+   "fair_line": 58.9,
+   "pinnacle_open": 58.9,
+   "ev_pct": -6.8,
+   "gap": null,
+   "why": "line moved our way +1 since open \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Colorado Buffaloes @ Arizona State Sun Devils|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Colorado Buffaloes @ Arizona State Sun Devils",
+   "away": "Colorado Buffaloes",
+   "home": "Arizona State Sun Devils",
+   "market": "Spread",
+   "pick": "Arizona State Sun Devils -3.5",
+   "pick_team": "Arizona State Sun Devils",
+   "side": "home",
+   "line": -3.5,
+   "price": -102,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -4.8,
+   "fair_line": -3.9,
+   "pinnacle_open": -3.9,
+   "ev_pct": 1.0,
+   "gap": 1.3,
+   "why": "FPI line -4.8 \u00b7 sharp money: 91% of handle on 64% of bets",
+   "projection": "FPI line -4.8",
+   "signals": [
+    "sharp money: 91% of handle on 64% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Delaware Blue Hens @ Kennesaw State Owls|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Delaware Blue Hens @ Kennesaw State Owls",
+   "away": "Delaware Blue Hens",
+   "home": "Kennesaw State Owls",
+   "market": "Spread",
+   "pick": "Kennesaw State Owls +1.5",
+   "pick_team": "Kennesaw State Owls",
+   "side": "home",
+   "line": 1.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 0.5,
+   "fair_line": 0.7,
+   "pinnacle_open": 0.7,
+   "ev_pct": -0.8,
+   "gap": 1.0,
+   "why": "FPI line +0.5 \u00b7 sharp money: 39% of handle on 22% of bets",
+   "projection": "FPI line +0.5",
+   "signals": [
+    "sharp money: 39% of handle on 22% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Northern Illinois Huskies @ San Jose State Spartans|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T21:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Northern Illinois Huskies @ San Jose State Spartans",
+   "away": "Northern Illinois Huskies",
+   "home": "San Jose State Spartans",
+   "market": "Total",
+   "pick": "Over 52.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 52.5,
+   "price": -106,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 52.7,
+   "fair_line": 52.7,
+   "pinnacle_open": 52.7,
+   "ev_pct": -1.7,
+   "gap": null,
+   "why": "line moved our way +2 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Texas State Bobcats @ Oregon State Beavers|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T03:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Texas State Bobcats @ Oregon State Beavers",
+   "away": "Texas State Bobcats",
+   "home": "Oregon State Beavers",
+   "market": "Spread",
+   "pick": "Texas State Bobcats +6.5",
+   "pick_team": "Texas State Bobcats",
+   "side": "away",
+   "line": 6.5,
+   "price": -114,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 6.2,
+   "fair_line": 5.7,
+   "pinnacle_open": 5.7,
+   "ev_pct": -2.4,
+   "gap": 0.3,
+   "why": "FPI line +6.2 \u00b7 line moved our way +3 since open \u00b7 public side: 42% of bets but 25% of handle \u00b7 reverse line movement",
+   "projection": "FPI line +6.2",
+   "signals": [
+    "line moved our way +3 since open",
+    "public side: 42% of bets but 25% of handle",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Texas A&M Aggies @ South Carolina Gamecocks|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Texas A&M Aggies @ South Carolina Gamecocks",
+   "away": "Texas A&M Aggies",
+   "home": "South Carolina Gamecocks",
+   "market": "Total",
+   "pick": "Over 52.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 52.5,
+   "price": -108,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 52.7,
+   "fair_line": 52.7,
+   "pinnacle_open": 52.7,
+   "ev_pct": -2.8,
+   "gap": null,
+   "why": "sharp money: 97% of handle on 75% of bets",
+   "projection": "",
+   "signals": [
+    "sharp money: 97% of handle on 75% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Cincinnati Bearcats @ Houston Cougars|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Cincinnati Bearcats @ Houston Cougars",
+   "away": "Cincinnati Bearcats",
+   "home": "Houston Cougars",
+   "market": "Total",
+   "pick": "Over 60.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 60.5,
+   "price": -114,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 61.1,
+   "fair_line": 61.1,
+   "pinnacle_open": 61.1,
+   "ev_pct": -3.0,
+   "gap": null,
+   "why": "line moved our way +1 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Maryland Terrapins @ Purdue Boilermakers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Maryland Terrapins @ Purdue Boilermakers",
+   "away": "Maryland Terrapins",
+   "home": "Purdue Boilermakers",
+   "market": "Total",
+   "pick": "Under 57.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 57.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 57.3,
+   "fair_line": 57.3,
+   "pinnacle_open": 57.3,
+   "ev_pct": -3.2,
+   "gap": null,
+   "why": "sharp money: 70% of handle on 24% of bets",
+   "projection": "",
+   "signals": [
+    "sharp money: 70% of handle on 24% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Louisville Cardinals @ Georgia Tech Yellow Jackets|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
+   "away": "Louisville Cardinals",
+   "home": "Georgia Tech Yellow Jackets",
+   "market": "Total",
+   "pick": "Over 62.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 62.5,
+   "price": -108,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 62.6,
+   "fair_line": 62.6,
+   "pinnacle_open": 62.6,
+   "ev_pct": -3.3,
+   "gap": null,
+   "why": "line moved our way +4 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +4 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|South Alabama Jaguars @ Louisiana Ragin Cajuns|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T22:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "South Alabama Jaguars @ Louisiana Ragin Cajuns",
+   "away": "South Alabama Jaguars",
+   "home": "Louisiana Ragin Cajuns",
+   "market": "Total",
+   "pick": "Over 56.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 56.5,
+   "price": -112,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 56.8,
+   "fair_line": 56.8,
+   "pinnacle_open": 56.8,
+   "ev_pct": -3.7,
+   "gap": null,
+   "why": "sharp money: 99% of handle on 67% of bets",
+   "projection": "",
+   "signals": [
+    "sharp money: 99% of handle on 67% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Iowa State Cyclones @ Baylor Bears|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Iowa State Cyclones @ Baylor Bears",
+   "away": "Iowa State Cyclones",
+   "home": "Baylor Bears",
+   "market": "Spread",
+   "pick": "Baylor Bears -9.5",
+   "pick_team": "Baylor Bears",
+   "side": "home",
+   "line": -9.5,
+   "price": -118,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -11.6,
+   "fair_line": -9.6,
+   "pinnacle_open": -9.6,
+   "ev_pct": -7.1,
+   "gap": 2.1,
+   "why": "FPI line -11.6 \u00b7 sharp money: 86% of handle on 63% of bets",
+   "projection": "FPI line -11.6",
+   "signals": [
+    "sharp money: 86% of handle on 63% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Temple Owls @ Navy Midshipmen|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Temple Owls @ Navy Midshipmen",
+   "away": "Temple Owls",
+   "home": "Navy Midshipmen",
+   "market": "Spread",
+   "pick": "Temple Owls +7.5",
+   "pick_team": "Temple Owls",
+   "side": "away",
+   "line": 7.5,
+   "price": -122,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 7.1,
+   "fair_line": 6.6,
+   "pinnacle_open": 6.6,
+   "ev_pct": -4.9,
+   "gap": 0.4,
+   "why": "FPI line +7.1 \u00b7 sharp money: 89% of handle on 62% of bets",
+   "projection": "FPI line +7.1",
+   "signals": [
+    "sharp money: 89% of handle on 62% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Old Dominion Monarchs @ Coastal Carolina Chanticleers|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T18:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Old Dominion Monarchs @ Coastal Carolina Chanticleers",
+   "away": "Old Dominion Monarchs",
+   "home": "Coastal Carolina Chanticleers",
+   "market": "Spread",
+   "pick": "Coastal Carolina Chanticleers -6.5",
+   "pick_team": "Coastal Carolina Chanticleers",
+   "side": "home",
+   "line": -6.5,
+   "price": -120,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -8.7,
+   "fair_line": -6.7,
+   "pinnacle_open": -6.7,
+   "ev_pct": -7.3,
+   "gap": 2.2,
+   "why": "FPI line -8.7 \u00b7 sharp money: 83% of handle on 56% of bets",
+   "projection": "FPI line -8.7",
+   "signals": [
+    "sharp money: 83% of handle on 56% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|UCF Knights @ Kansas Jayhawks|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:45:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "UCF Knights @ Kansas Jayhawks",
+   "away": "UCF Knights",
+   "home": "Kansas Jayhawks",
+   "market": "Spread",
+   "pick": "Kansas Jayhawks -3.5",
+   "pick_team": "Kansas Jayhawks",
+   "side": "home",
+   "line": -3.5,
+   "price": -112,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -4.1,
+   "fair_line": -3.5,
+   "pinnacle_open": -3.5,
+   "ev_pct": -5.4,
+   "gap": 0.6,
+   "why": "FPI line -4.1 \u00b7 line moved our way +2 since open",
+   "projection": "FPI line -4.1",
+   "signals": [
+    "line moved our way +2 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Oregon Ducks @ Ohio State Buckeyes|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Oregon Ducks @ Ohio State Buckeyes",
+   "away": "Oregon Ducks",
+   "home": "Ohio State Buckeyes",
+   "market": "Total",
+   "pick": "Under 45.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 45.5,
+   "price": -115,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 45.2,
+   "fair_line": 45.2,
+   "pinnacle_open": 45.2,
+   "ev_pct": -4.7,
+   "gap": null,
+   "why": "line moved our way +7 since open \u00b7 public side: 38% of bets but 21% of handle \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +7 since open",
+    "public side: 38% of bets but 21% of handle",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Rice Owls @ North Texas Mean Green|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T21:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Rice Owls @ North Texas Mean Green",
+   "away": "Rice Owls",
+   "home": "North Texas Mean Green",
+   "market": "Spread",
+   "pick": "North Texas Mean Green -16.5",
+   "pick_team": "North Texas Mean Green",
+   "side": "home",
+   "line": -16.5,
+   "price": -108,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -19.4,
+   "fair_line": -15.5,
+   "pinnacle_open": -15.5,
+   "ev_pct": -8.5,
+   "gap": 2.9,
+   "why": "FPI line -19.4 \u00b7 sharp money: 97% of handle on 79% of bets",
+   "projection": "FPI line -19.4",
+   "signals": [
+    "sharp money: 97% of handle on 79% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Rutgers Scarlet Knights @ Wisconsin Badgers|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T21:15:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Rutgers Scarlet Knights @ Wisconsin Badgers",
+   "away": "Rutgers Scarlet Knights",
+   "home": "Wisconsin Badgers",
+   "market": "Total",
+   "pick": "Under 45.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 45.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 45.6,
+   "fair_line": 45.6,
+   "pinnacle_open": 45.6,
+   "ev_pct": -5.0,
+   "gap": null,
+   "why": "sharp money: 100% of handle on 71% of bets",
+   "projection": "",
+   "signals": [
+    "sharp money: 100% of handle on 71% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Georgia Bulldogs @ Ole Miss Rebels|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Georgia Bulldogs @ Ole Miss Rebels",
+   "away": "Georgia Bulldogs",
+   "home": "Ole Miss Rebels",
+   "market": "Total",
+   "pick": "Over 56.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 56.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 56.4,
+   "fair_line": 56.4,
+   "pinnacle_open": 56.4,
+   "ev_pct": -5.0,
+   "gap": null,
+   "why": "line moved our way +1 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|North Carolina Tar Heels @ UConn Huskies|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "North Carolina Tar Heels @ UConn Huskies",
+   "away": "North Carolina Tar Heels",
+   "home": "UConn Huskies",
+   "market": "Total",
+   "pick": "Over 54.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 54.5,
+   "price": -114,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 54.7,
+   "fair_line": 54.7,
+   "pinnacle_open": 54.7,
+   "ev_pct": -5.3,
+   "gap": null,
+   "why": "line moved our way +3 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +3 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Temple Owls @ Navy Midshipmen|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Temple Owls @ Navy Midshipmen",
+   "away": "Temple Owls",
+   "home": "Navy Midshipmen",
+   "market": "Total",
+   "pick": "Over 54.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 54.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 54.3,
+   "fair_line": 54.3,
+   "pinnacle_open": 54.3,
+   "ev_pct": -5.4,
+   "gap": null,
+   "why": "line moved our way +2 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Louisiana Tech Bulldogs @ Troy Trojans|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T21:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Louisiana Tech Bulldogs @ Troy Trojans",
+   "away": "Louisiana Tech Bulldogs",
+   "home": "Troy Trojans",
+   "market": "Spread",
+   "pick": "Troy Trojans +5.5",
+   "pick_team": "Troy Trojans",
+   "side": "home",
+   "line": 5.5,
+   "price": -105,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 5.3,
+   "fair_line": 6.3,
+   "pinnacle_open": 6.3,
+   "ev_pct": -6.3,
+   "gap": 0.2,
+   "why": "FPI line +5.3 \u00b7 line moved our way +0.5 since open \u00b7 public side: 33% of bets but 13% of handle \u00b7 reverse line movement",
+   "projection": "FPI line +5.3",
+   "signals": [
+    "line moved our way +0.5 since open",
+    "public side: 33% of bets but 13% of handle",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Western Kentucky Hilltoppers @ Middle Tennessee Blue Raiders|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T20:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Western Kentucky Hilltoppers @ Middle Tennessee Blue Raiders",
+   "away": "Western Kentucky Hilltoppers",
+   "home": "Middle Tennessee Blue Raiders",
+   "market": "Total",
+   "pick": "Over 53.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 53.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 53.2,
+   "fair_line": 53.2,
+   "pinnacle_open": 53.2,
+   "ev_pct": -6.4,
+   "gap": null,
+   "why": "line moved our way +1 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +1 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Fresno State Bulldogs @ Utah State Aggies|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T02:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Fresno State Bulldogs @ Utah State Aggies",
+   "away": "Fresno State Bulldogs",
+   "home": "Utah State Aggies",
+   "market": "Total",
+   "pick": "Over 43.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 43.5,
+   "price": -108,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 43.0,
+   "fair_line": 43.0,
+   "pinnacle_open": 43.0,
+   "ev_pct": -6.4,
+   "gap": null,
+   "why": "line moved our way +2 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +2 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Wyoming Cowboys @ UNLV Rebels|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T03:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Wyoming Cowboys @ UNLV Rebels",
+   "away": "Wyoming Cowboys",
+   "home": "UNLV Rebels",
+   "market": "Total",
+   "pick": "Over 49.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 49.5,
+   "price": -105,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 48.7,
+   "fair_line": 48.7,
+   "pinnacle_open": 48.7,
+   "ev_pct": -6.6,
+   "gap": null,
+   "why": "line moved our way +3 since open \u00b7 public side: 40% of bets but 21% of handle \u00b7 reverse line movement",
+   "projection": "",
+   "signals": [
+    "line moved our way +3 since open",
+    "public side: 40% of bets but 21% of handle",
+    "reverse line movement"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Michigan State Spartans @ Michigan Wolverines|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Michigan State Spartans @ Michigan Wolverines",
+   "away": "Michigan State Spartans",
+   "home": "Michigan Wolverines",
+   "market": "Total",
+   "pick": "Under 39.5",
+   "pick_team": null,
+   "side": "under",
+   "line": 39.5,
+   "price": -110,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 39.9,
+   "fair_line": 39.9,
+   "pinnacle_open": 39.9,
+   "ev_pct": -6.8,
+   "gap": null,
+   "why": "sharp money: 82% of handle on 46% of bets",
+   "projection": "",
+   "signals": [
+    "sharp money: 82% of handle on 46% of bets"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|West Virginia Mountaineers @ Texas Tech Red Raiders|Total|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T02:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "West Virginia Mountaineers @ Texas Tech Red Raiders",
+   "away": "West Virginia Mountaineers",
+   "home": "Texas Tech Red Raiders",
+   "market": "Total",
+   "pick": "Over 65.5",
+   "pick_team": null,
+   "side": "over",
+   "line": 65.5,
+   "price": -118,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 65.4,
+   "fair_line": 65.4,
+   "pinnacle_open": 65.4,
+   "ev_pct": -8.1,
+   "gap": null,
+   "why": "line moved our way +3 since open",
+   "projection": "",
+   "signals": [
+    "line moved our way +3 since open"
+   ],
+   "market_signal": "with us",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Texas Longhorns @ Missouri Tigers|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-07T17:00:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Texas Longhorns @ Missouri Tigers",
+   "away": "Texas Longhorns",
+   "home": "Missouri Tigers",
+   "market": "Spread",
+   "pick": "Texas Longhorns -2.5",
+   "pick_team": "Texas Longhorns",
+   "side": "away",
+   "line": -2.5,
+   "price": -120,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": -7.2,
+   "fair_line": -3.0,
+   "pinnacle_open": -3.0,
+   "ev_pct": -6.2,
+   "gap": 4.7,
+   "why": "FPI line -7.2 \u00b7 line moved against -3 since open \u00b7 sharp money: 72% of handle on 53% of bets",
+   "projection": "FPI line -7.2",
+   "signals": [
+    "line moved against -3 since open",
+    "sharp money: 72% of handle on 53% of bets"
+   ],
+   "market_signal": "neutral",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
+  },
+  {
+   "id": "2026-11-07|Miami Hurricanes @ Notre Dame Fighting Irish|Spread|cfb",
+   "date": "2026-11-07",
+   "start": "2026-11-08T00:30:00Z",
+   "sport": "NCAAF",
+   "engine": "CFB card",
+   "game": "Miami Hurricanes @ Notre Dame Fighting Irish",
+   "away": "Miami Hurricanes",
+   "home": "Notre Dame Fighting Irish",
+   "market": "Spread",
+   "pick": "Miami Hurricanes +7.5",
+   "pick_team": "Miami Hurricanes",
+   "side": "away",
+   "line": 7.5,
+   "price": -120,
+   "grade": "C",
+   "stake": 0.0,
+   "model_line": 2.9,
+   "fair_line": 7.6,
+   "pinnacle_open": 7.6,
+   "ev_pct": -8.7,
+   "gap": 4.6,
+   "why": "FPI line +2.9",
+   "projection": "FPI line +2.9",
+   "signals": [],
+   "market_signal": "neutral",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": null
   }
  ],
  "snapshots": [
@@ -4344,11 +6384,11 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Sat Nov 7 \u00b7 7:17 AM ET",
- "slate_date": "2026-11-06",
- "slate_label": "Fri Nov 6",
+ "updated_label": "Sat Nov 7 \u00b7 7:21 AM ET",
+ "slate_date": "2026-11-07",
+ "slate_label": "Sat Nov 7",
  "run_note": "Props priced for 9 games.",
- "credits": "207",
+ "credits": "201",
  "holds": [
   {
    "player": "Malik Monk",
@@ -4486,90 +6526,30 @@
   }
  ],
  "games": {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "rows": [
    {
     "sport": "NCAAF",
-    "game": "Virginia Tech Hokies @ SMU Mustangs",
-    "away": "Virginia Tech Hokies",
-    "home": "SMU Mustangs",
-    "start": "2026-11-07T00:00:00Z",
+    "game": "Texas Longhorns @ Missouri Tigers",
+    "away": "Texas Longhorns",
+    "home": "Missouri Tigers",
+    "start": "2026-11-07T17:00:00Z",
     "markets": {
+     "Total": {
+      "fd": 42.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.6,
+      "side": "Under 42.5"
+     },
      "Spread": {
-      "fd": -5.5,
-      "ours": -6.9,
-      "gap": 1.4,
-      "grade": "",
-      "ev": -2.4,
-      "side": "SMU Mustangs -5.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "South Florida Bulls @ East Carolina Pirates",
-    "away": "South Florida Bulls",
-    "home": "East Carolina Pirates",
-    "start": "2026-11-07T00:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 1.5,
-      "ours": 1.2,
-      "gap": 0.3,
-      "grade": "",
-      "ev": -3.2,
-      "side": "South Florida Bulls +1.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Nebraska Cornhuskers @ Illinois Fighting Illini",
-    "away": "Nebraska Cornhuskers",
-    "home": "Illinois Fighting Illini",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -3.5,
-      "ours": -6.3,
-      "gap": 2.8,
-      "grade": "",
-      "ev": -2.4,
-      "side": "Nebraska Cornhuskers -3.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "New Mexico Lobos @ Nevada Wolf Pack",
-    "away": "New Mexico Lobos",
-    "home": "Nevada Wolf Pack",
-    "start": "2026-11-07T02:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -9.5,
-      "ours": -12.1,
-      "gap": 2.6,
-      "grade": "",
-      "ev": -4.4,
-      "side": "New Mexico Lobos -9.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "TCU Horned Frogs @ Arizona Wildcats",
-    "away": "TCU Horned Frogs",
-    "home": "Arizona Wildcats",
-    "start": "2026-11-07T03:15:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -6.5,
-      "ours": -8.2,
-      "gap": 1.7,
-      "grade": "",
-      "ev": -6.6,
-      "side": "Arizona Wildcats -6.5"
+      "fd": -2.5,
+      "ours": -7.2,
+      "gap": 4.7,
+      "grade": "C",
+      "ev": -6.2,
+      "side": "Texas Longhorns -2.5"
      }
     }
    },
@@ -4580,13 +6560,38 @@
     "home": "Utah Utes",
     "start": "2026-11-07T17:00:00Z",
     "markets": {
+     "Total": {
+      "fd": 49.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -4.7,
+      "side": "Under 49.5"
+     },
      "Spread": {
       "fd": -4.5,
-      "ours": -6.0,
-      "gap": 1.5,
-      "grade": "",
-      "ev": -1.9,
+      "ours": -5.9,
+      "gap": 1.4,
+      "grade": "C",
+      "ev": -2.3,
       "side": "Utah Utes -4.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "UCLA Bruins @ Minnesota Golden Gophers",
+    "away": "UCLA Bruins",
+    "home": "Minnesota Golden Gophers",
+    "start": "2026-11-07T17:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 38.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.0,
+      "side": "Under 38.5"
      }
     }
    },
@@ -4597,12 +6602,20 @@
     "home": "Baylor Bears",
     "start": "2026-11-07T17:00:00Z",
     "markets": {
+     "Total": {
+      "fd": 50.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -7.2,
+      "side": "Under 50.5"
+     },
      "Spread": {
       "fd": -9.5,
-      "ours": -11.5,
-      "gap": 2.0,
-      "grade": "",
-      "ev": -4.9,
+      "ours": -11.6,
+      "gap": 2.1,
+      "grade": "C",
+      "ev": -7.1,
       "side": "Baylor Bears -9.5"
      }
     }
@@ -4614,13 +6627,13 @@
     "home": "Boston College Eagles",
     "start": "2026-11-07T17:00:00Z",
     "markets": {
-     "Spread": {
-      "fd": -5.5,
-      "ours": -9.5,
-      "gap": 4.0,
-      "grade": "B",
-      "ev": 2.2,
-      "side": "Florida State Seminoles -5.5"
+     "Total": {
+      "fd": 52.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.3,
+      "side": "Over 52.5"
      }
     }
    },
@@ -4633,62 +6646,19 @@
     "markets": {
      "Spread": {
       "fd": 2.5,
-      "ours": 2.3,
-      "gap": 0.2,
-      "grade": "",
-      "ev": -4.2,
-      "side": "Syracuse Orange +2.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "UCLA Bruins @ Minnesota Golden Gophers",
-    "away": "UCLA Bruins",
-    "home": "Minnesota Golden Gophers",
-    "start": "2026-11-07T17:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -3.5,
-      "ours": -7.0,
-      "gap": 3.5,
+      "ours": 2.0,
+      "gap": 0.5,
       "grade": "C",
-      "ev": 1.0,
-      "side": "UCLA Bruins -3.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Texas Longhorns @ Missouri Tigers",
-    "away": "Texas Longhorns",
-    "home": "Missouri Tigers",
-    "start": "2026-11-07T17:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -2.5,
-      "ours": -7.2,
-      "gap": 4.7,
-      "grade": "",
-      "ev": -3.9,
-      "side": "Texas Longhorns -2.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "North Carolina Tar Heels @ UConn Huskies",
-    "away": "North Carolina Tar Heels",
-    "home": "UConn Huskies",
-    "start": "2026-11-07T17:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -7.5,
-      "ours": -11.6,
-      "gap": 4.1,
-      "grade": "",
-      "ev": -0.3,
-      "side": "North Carolina Tar Heels -7.5"
+      "ev": -4.3,
+      "side": "Syracuse Orange +2.5"
+     },
+     "Total": {
+      "fd": 49.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.7,
+      "side": "Over 49.5"
      }
     }
    },
@@ -4703,26 +6673,26 @@
       "fd": 2.5,
       "ours": -1.3,
       "gap": 3.8,
-      "grade": "B",
-      "ev": 3.6,
+      "grade": "C",
+      "ev": 0.3,
       "side": "Tulane Green Wave +2.5"
      }
     }
    },
    {
     "sport": "NCAAF",
-    "game": "Duke Blue Devils @ NC State Wolfpack",
-    "away": "Duke Blue Devils",
-    "home": "NC State Wolfpack",
-    "start": "2026-11-07T17:30:00Z",
+    "game": "North Carolina Tar Heels @ UConn Huskies",
+    "away": "North Carolina Tar Heels",
+    "home": "UConn Huskies",
+    "start": "2026-11-07T17:00:00Z",
     "markets": {
-     "Spread": {
-      "fd": -4.5,
-      "ours": -6.7,
-      "gap": 2.2,
-      "grade": "",
-      "ev": -1.9,
-      "side": "Duke Blue Devils -4.5"
+     "Total": {
+      "fd": 54.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.3,
+      "side": "Over 54.5"
      }
     }
    },
@@ -4733,13 +6703,13 @@
     "home": "Purdue Boilermakers",
     "start": "2026-11-07T17:30:00Z",
     "markets": {
-     "Spread": {
-      "fd": -5.5,
-      "ours": -8.9,
-      "gap": 3.4,
-      "grade": "",
-      "ev": -2.4,
-      "side": "Purdue Boilermakers -5.5"
+     "Total": {
+      "fd": 57.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.2,
+      "side": "Under 57.5"
      }
     }
    },
@@ -4750,30 +6720,13 @@
     "home": "Auburn Tigers",
     "start": "2026-11-07T17:45:00Z",
     "markets": {
-     "Spread": {
-      "fd": -10.5,
-      "ours": -11.4,
-      "gap": 0.9,
-      "grade": "",
-      "ev": -1.0,
-      "side": "Auburn Tigers -10.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Old Dominion Monarchs @ Coastal Carolina Chanticleers",
-    "away": "Old Dominion Monarchs",
-    "home": "Coastal Carolina Chanticleers",
-    "start": "2026-11-07T18:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -6.5,
-      "ours": -8.6,
-      "gap": 2.1,
-      "grade": "",
-      "ev": -5.1,
-      "side": "Coastal Carolina Chanticleers -6.5"
+     "Total": {
+      "fd": 53.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.9,
+      "side": "Over 53.5"
      }
     }
    },
@@ -4784,13 +6737,38 @@
     "home": "Kansas State Wildcats",
     "start": "2026-11-07T18:00:00Z",
     "markets": {
+     "Total": {
+      "fd": 62.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -1.7,
+      "side": "Over 62.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Old Dominion Monarchs @ Coastal Carolina Chanticleers",
+    "away": "Old Dominion Monarchs",
+    "home": "Coastal Carolina Chanticleers",
+    "start": "2026-11-07T18:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 44.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.6,
+      "side": "Under 44.5"
+     },
      "Spread": {
-      "fd": 6.5,
-      "ours": 3.4,
-      "gap": 3.1,
-      "grade": "",
-      "ev": -0.1,
-      "side": "Kansas State Wildcats +6.5"
+      "fd": -6.5,
+      "ours": -8.7,
+      "gap": 2.2,
+      "grade": "C",
+      "ev": -7.3,
+      "side": "Coastal Carolina Chanticleers -6.5"
      }
     }
    },
@@ -4801,13 +6779,47 @@
     "home": "Appalachian State Mountaineers",
     "start": "2026-11-07T19:30:00Z",
     "markets": {
+     "Total": {
+      "fd": 54.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -2.8,
+      "side": "Under 54.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Delaware Blue Hens @ Kennesaw State Owls",
+    "away": "Delaware Blue Hens",
+    "home": "Kennesaw State Owls",
+    "start": "2026-11-07T20:00:00Z",
+    "markets": {
      "Spread": {
-      "fd": 6.5,
-      "ours": 3.3,
-      "gap": 3.2,
-      "grade": "B",
-      "ev": 2.2,
-      "side": "Georgia State Panthers +6.5"
+      "fd": 1.5,
+      "ours": 0.5,
+      "gap": 1.0,
+      "grade": "C",
+      "ev": -0.8,
+      "side": "Kennesaw State Owls +1.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Texas A&M Aggies @ South Carolina Gamecocks",
+    "away": "Texas A&M Aggies",
+    "home": "South Carolina Gamecocks",
+    "start": "2026-11-07T20:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 52.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -2.8,
+      "side": "Over 52.5"
      }
     }
    },
@@ -4823,59 +6835,8 @@
       "ours": -19.2,
       "gap": 4.7,
       "grade": "C",
-      "ev": 0.4,
+      "ev": -5.5,
       "side": "Arkansas State Red Wolves -14.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Delaware Blue Hens @ Kennesaw State Owls",
-    "away": "Delaware Blue Hens",
-    "home": "Kennesaw State Owls",
-    "start": "2026-11-07T20:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 1.5,
-      "ours": 0.5,
-      "gap": 1.0,
-      "grade": "",
-      "ev": -0.3,
-      "side": "Kennesaw State Owls +1.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Texas A&M Aggies @ South Carolina Gamecocks",
-    "away": "Texas A&M Aggies",
-    "home": "South Carolina Gamecocks",
-    "start": "2026-11-07T20:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 6.5,
-      "ours": 2.2,
-      "gap": 4.3,
-      "grade": "A",
-      "ev": 3.9,
-      "side": "Texas A&M Aggies +6.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Alabama Crimson Tide @ LSU Tigers",
-    "away": "Alabama Crimson Tide",
-    "home": "LSU Tigers",
-    "start": "2026-11-07T20:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 6.5,
-      "ours": 2.7,
-      "gap": 3.8,
-      "grade": "",
-      "ev": -1.1,
-      "side": "Alabama Crimson Tide +6.5"
      }
     }
    },
@@ -4886,81 +6847,63 @@
     "home": "UAB Blazers",
     "start": "2026-11-07T20:30:00Z",
     "markets": {
-     "Spread": {
-      "fd": -8.5,
-      "ours": -8.8,
-      "gap": 0.3,
-      "grade": "",
-      "ev": -1.6,
-      "side": "UAB Blazers -8.5"
+     "Total": {
+      "fd": 47.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.6,
+      "side": "Under 47.5"
      }
     }
    },
    {
     "sport": "NCAAF",
-    "game": "Cincinnati Bearcats @ Houston Cougars",
-    "away": "Cincinnati Bearcats",
-    "home": "Houston Cougars",
+    "game": "Penn State Nittany Lions @ Washington Huskies",
+    "away": "Penn State Nittany Lions",
+    "home": "Washington Huskies",
     "start": "2026-11-07T20:30:00Z",
     "markets": {
-     "Spread": {
-      "fd": -10.5,
-      "ours": -11.9,
-      "gap": 1.4,
-      "grade": "",
-      "ev": -4.4,
-      "side": "Houston Cougars -10.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Marshall Thundering Herd @ Georgia Southern Eagles",
-    "away": "Marshall Thundering Herd",
-    "home": "Georgia Southern Eagles",
-    "start": "2026-11-07T20:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -9.5,
-      "ours": -12.6,
-      "gap": 3.1,
-      "grade": "",
-      "ev": -2.5,
-      "side": "Georgia Southern Eagles -9.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Western Kentucky Hilltoppers @ Middle Tennessee Blue Raiders",
-    "away": "Western Kentucky Hilltoppers",
-    "home": "Middle Tennessee Blue Raiders",
-    "start": "2026-11-07T20:30:00Z",
-    "markets": {
+     "Total": {
+      "fd": 44.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -4.6,
+      "side": "Under 44.5"
+     },
      "Spread": {
       "fd": 2.5,
-      "ours": 0.8,
-      "gap": 1.7,
-      "grade": "",
+      "ours": -2.7,
+      "gap": 5.2,
+      "grade": "C",
       "ev": -4.6,
-      "side": "Middle Tennessee Blue Raiders +2.5"
+      "side": "Penn State Nittany Lions +2.5"
      }
     }
    },
    {
     "sport": "NCAAF",
-    "game": "Temple Owls @ Navy Midshipmen",
-    "away": "Temple Owls",
-    "home": "Navy Midshipmen",
+    "game": "Merrimack Warriors @ Wake Forest Demon Deacons",
+    "away": "Merrimack Warriors",
+    "home": "Wake Forest Demon Deacons",
     "start": "2026-11-07T20:30:00Z",
     "markets": {
      "Spread": {
-      "fd": 7.5,
-      "ours": 7.1,
-      "gap": 0.4,
-      "grade": "",
-      "ev": -5.5,
-      "side": "Temple Owls +7.5"
+      "fd": 46.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -9.3,
+      "side": "Merrimack Warriors +46.5"
+     },
+     "Total": {
+      "fd": 58.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -6.8,
+      "side": "Under 58.5"
      }
     }
    },
@@ -4976,25 +6919,100 @@
       "ours": -11.4,
       "gap": 3.9,
       "grade": "C",
-      "ev": 0.5,
+      "ev": -4.5,
       "side": "Ohio State Buckeyes -7.5"
+     },
+     "Total": {
+      "fd": 45.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -4.7,
+      "side": "Under 45.5"
      }
     }
    },
    {
     "sport": "NCAAF",
-    "game": "Penn State Nittany Lions @ Washington Huskies",
-    "away": "Penn State Nittany Lions",
-    "home": "Washington Huskies",
+    "game": "Cincinnati Bearcats @ Houston Cougars",
+    "away": "Cincinnati Bearcats",
+    "home": "Houston Cougars",
     "start": "2026-11-07T20:30:00Z",
     "markets": {
      "Spread": {
-      "fd": 2.5,
-      "ours": -2.6,
-      "gap": 5.1,
+      "fd": -10.5,
+      "ours": -12.0,
+      "gap": 1.5,
       "grade": "C",
-      "ev": 1.4,
-      "side": "Penn State Nittany Lions +2.5"
+      "ev": -6.9,
+      "side": "Houston Cougars -10.5"
+     },
+     "Total": {
+      "fd": 60.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.0,
+      "side": "Over 60.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Alabama Crimson Tide @ LSU Tigers",
+    "away": "Alabama Crimson Tide",
+    "home": "LSU Tigers",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 52.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.4,
+      "side": "Under 52.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Temple Owls @ Navy Midshipmen",
+    "away": "Temple Owls",
+    "home": "Navy Midshipmen",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Spread": {
+      "fd": 7.5,
+      "ours": 7.1,
+      "gap": 0.4,
+      "grade": "C",
+      "ev": -4.9,
+      "side": "Temple Owls +7.5"
+     },
+     "Total": {
+      "fd": 54.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.4,
+      "side": "Over 54.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Western Kentucky Hilltoppers @ Middle Tennessee Blue Raiders",
+    "away": "Western Kentucky Hilltoppers",
+    "home": "Middle Tennessee Blue Raiders",
+    "start": "2026-11-07T20:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 53.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -6.4,
+      "side": "Over 53.5"
      }
     }
    },
@@ -5005,30 +7023,21 @@
     "home": "Kansas Jayhawks",
     "start": "2026-11-07T20:45:00Z",
     "markets": {
+     "Total": {
+      "fd": 48.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.6,
+      "side": "Under 48.5"
+     },
      "Spread": {
       "fd": -3.5,
       "ours": -4.1,
       "gap": 0.6,
-      "grade": "",
-      "ev": -1.6,
+      "grade": "C",
+      "ev": -5.4,
       "side": "Kansas Jayhawks -3.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Missouri State Bears @ Florida International Panthers",
-    "away": "Missouri State Bears",
-    "home": "Florida International Panthers",
-    "start": "2026-11-07T21:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 4.5,
-      "ours": 4.4,
-      "gap": 0.1,
-      "grade": "",
-      "ev": -7.4,
-      "side": "Missouri State Bears +4.5"
      }
     }
    },
@@ -5039,13 +7048,38 @@
     "home": "Troy Trojans",
     "start": "2026-11-07T21:00:00Z",
     "markets": {
+     "Total": {
+      "fd": 47.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.6,
+      "side": "Over 47.5"
+     },
      "Spread": {
       "fd": 5.5,
       "ours": 5.3,
       "gap": 0.2,
-      "grade": "",
-      "ev": -5.3,
+      "grade": "C",
+      "ev": -6.3,
       "side": "Troy Trojans +5.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Northern Illinois Huskies @ San Jose State Spartans",
+    "away": "Northern Illinois Huskies",
+    "home": "San Jose State Spartans",
+    "start": "2026-11-07T21:00:00Z",
+    "markets": {
+     "Total": {
+      "fd": 52.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -1.7,
+      "side": "Over 52.5"
      }
     }
    },
@@ -5060,43 +7094,9 @@
       "fd": -16.5,
       "ours": -19.4,
       "gap": 2.9,
-      "grade": "",
-      "ev": -3.8,
+      "grade": "C",
+      "ev": -8.5,
       "side": "North Texas Mean Green -16.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Northern Illinois Huskies @ San Jose State Spartans",
-    "away": "Northern Illinois Huskies",
-    "home": "San Jose State Spartans",
-    "start": "2026-11-07T21:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -10.5,
-      "ours": -11.9,
-      "gap": 1.4,
-      "grade": "",
-      "ev": -2.1,
-      "side": "San Jose State Spartans -10.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Vanderbilt Commodores @ Mississippi State Bulldogs",
-    "away": "Vanderbilt Commodores",
-    "home": "Mississippi State Bulldogs",
-    "start": "2026-11-07T21:15:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -2.5,
-      "ours": -9.9,
-      "gap": 7.4,
-      "grade": "B",
-      "ev": 1.8,
-      "side": "Mississippi State Bulldogs -2.5"
      }
     }
    },
@@ -5107,13 +7107,13 @@
     "home": "Wisconsin Badgers",
     "start": "2026-11-07T21:15:00Z",
     "markets": {
-     "Spread": {
-      "fd": 17.5,
-      "ours": 15.1,
-      "gap": 2.4,
-      "grade": "",
-      "ev": -3.7,
-      "side": "Rutgers Scarlet Knights +17.5"
+     "Total": {
+      "fd": 45.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.0,
+      "side": "Under 45.5"
      }
     }
    },
@@ -5124,30 +7124,13 @@
     "home": "Louisiana Ragin Cajuns",
     "start": "2026-11-07T22:00:00Z",
     "markets": {
-     "Spread": {
-      "fd": -7.5,
-      "ours": -9.5,
-      "gap": 2.0,
-      "grade": "",
-      "ev": -1.1,
-      "side": "Louisiana Ragin Cajuns -7.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Boise State Broncos @ Colorado State Rams",
-    "away": "Boise State Broncos",
-    "home": "Colorado State Rams",
-    "start": "2026-11-07T23:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -16.5,
-      "ours": -21.3,
-      "gap": 4.8,
-      "grade": "B",
-      "ev": 2.0,
-      "side": "Boise State Broncos -16.5"
+     "Total": {
+      "fd": 56.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.7,
+      "side": "Over 56.5"
      }
     }
    },
@@ -5158,12 +7141,20 @@
     "home": "Tennessee Volunteers",
     "start": "2026-11-07T23:15:00Z",
     "markets": {
+     "Total": {
+      "fd": 49.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.6,
+      "side": "Under 49.5"
+     },
      "Spread": {
       "fd": -5.5,
       "ours": -6.2,
       "gap": 0.7,
-      "grade": "",
-      "ev": -5.0,
+      "grade": "C",
+      "ev": -5.5,
       "side": "Tennessee Volunteers -5.5"
      }
     }
@@ -5175,47 +7166,38 @@
     "home": "Jacksonville State Gamecocks",
     "start": "2026-11-08T00:00:00Z",
     "markets": {
-     "Spread": {
-      "fd": 16.5,
-      "ours": 15.1,
-      "gap": 1.4,
-      "grade": "",
-      "ev": -1.3,
-      "side": "Sam Houston State Bearkats +16.5"
+     "Total": {
+      "fd": 45.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.8,
+      "side": "Under 45.5"
      }
     }
    },
    {
     "sport": "NCAAF",
-    "game": "Air Force Falcons @ Army Black Knights",
-    "away": "Air Force Falcons",
-    "home": "Army Black Knights",
+    "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
+    "away": "Louisville Cardinals",
+    "home": "Georgia Tech Yellow Jackets",
     "start": "2026-11-08T00:30:00Z",
     "markets": {
      "Spread": {
-      "fd": -3.5,
-      "ours": -4.1,
-      "gap": 0.6,
-      "grade": "",
-      "ev": -4.2,
-      "side": "Army Black Knights -3.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Colorado Buffaloes @ Arizona State Sun Devils",
-    "away": "Colorado Buffaloes",
-    "home": "Arizona State Sun Devils",
-    "start": "2026-11-08T00:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -3.5,
-      "ours": -4.8,
+      "fd": -14.5,
+      "ours": -15.8,
       "gap": 1.3,
-      "grade": "",
-      "ev": -2.1,
-      "side": "Arizona State Sun Devils -3.5"
+      "grade": "C",
+      "ev": -3.2,
+      "side": "Louisville Cardinals -14.5"
+     },
+     "Total": {
+      "fd": 62.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -3.3,
+      "side": "Over 62.5"
      }
     }
    },
@@ -5230,43 +7212,59 @@
       "fd": 3.5,
       "ours": 1.5,
       "gap": 2.0,
-      "grade": "",
-      "ev": -1.5,
+      "grade": "C",
+      "ev": -4.5,
       "side": "Ole Miss Rebels +3.5"
+     },
+     "Total": {
+      "fd": 56.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -5.0,
+      "side": "Over 56.5"
      }
     }
    },
    {
     "sport": "NCAAF",
-    "game": "Louisville Cardinals @ Georgia Tech Yellow Jackets",
-    "away": "Louisville Cardinals",
-    "home": "Georgia Tech Yellow Jackets",
+    "game": "Colorado Buffaloes @ Arizona State Sun Devils",
+    "away": "Colorado Buffaloes",
+    "home": "Arizona State Sun Devils",
     "start": "2026-11-08T00:30:00Z",
     "markets": {
-     "Spread": {
-      "fd": -14.5,
-      "ours": -15.5,
-      "gap": 1.0,
-      "grade": "",
+     "Total": {
+      "fd": 48.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
       "ev": -3.7,
-      "side": "Louisville Cardinals -14.5"
+      "side": "Under 48.5"
+     },
+     "Spread": {
+      "fd": -3.5,
+      "ours": -4.8,
+      "gap": 1.3,
+      "grade": "C",
+      "ev": 1.0,
+      "side": "Arizona State Sun Devils -3.5"
      }
     }
    },
    {
     "sport": "NCAAF",
-    "game": "Iowa Hawkeyes @ Northwestern Wildcats",
-    "away": "Iowa Hawkeyes",
-    "home": "Northwestern Wildcats",
+    "game": "Michigan State Spartans @ Michigan Wolverines",
+    "away": "Michigan State Spartans",
+    "home": "Michigan Wolverines",
     "start": "2026-11-08T00:30:00Z",
     "markets": {
-     "Spread": {
-      "fd": 1.5,
-      "ours": -2.2,
-      "gap": 3.7,
-      "grade": "",
-      "ev": -1.5,
-      "side": "Northwestern Wildcats +1.5"
+     "Total": {
+      "fd": 39.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -6.8,
+      "side": "Under 39.5"
      }
     }
    },
@@ -5281,26 +7279,9 @@
       "fd": 7.5,
       "ours": 2.9,
       "gap": 4.6,
-      "grade": "",
-      "ev": -3.3,
+      "grade": "C",
+      "ev": -8.7,
       "side": "Miami Hurricanes +7.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Michigan State Spartans @ Michigan Wolverines",
-    "away": "Michigan State Spartans",
-    "home": "Michigan Wolverines",
-    "start": "2026-11-08T00:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 14.5,
-      "ours": 12.9,
-      "gap": 1.6,
-      "grade": "",
-      "ev": -3.2,
-      "side": "Michigan State Spartans +14.5"
      }
     }
    },
@@ -5311,13 +7292,13 @@
     "home": "Florida Gators",
     "start": "2026-11-08T00:45:00Z",
     "markets": {
-     "Spread": {
-      "fd": 5.5,
-      "ours": 4.5,
-      "gap": 1.0,
-      "grade": "",
-      "ev": -1.5,
-      "side": "Oklahoma Sooners +5.5"
+     "Total": {
+      "fd": 44.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -6.1,
+      "side": "Under 44.5"
      }
     }
    },
@@ -5329,46 +7310,20 @@
     "start": "2026-11-08T01:00:00Z",
     "markets": {
      "Spread": {
-      "fd": -16.5,
-      "ours": -18.2,
-      "gap": 1.7,
-      "grade": "",
-      "ev": -1.3,
-      "side": "Liberty Flames -16.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Fresno State Bulldogs @ Utah State Aggies",
-    "away": "Fresno State Bulldogs",
-    "home": "Utah State Aggies",
-    "start": "2026-11-08T02:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -2.5,
-      "ours": -4.4,
-      "gap": 1.9,
-      "grade": "",
-      "ev": -4.3,
-      "side": "Fresno State Bulldogs -2.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAF",
-    "game": "Hawaii Rainbow Warriors @ UTEP Miners",
-    "away": "Hawaii Rainbow Warriors",
-    "home": "UTEP Miners",
-    "start": "2026-11-08T02:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -8.5,
-      "ours": -12.6,
-      "gap": 4.1,
-      "grade": "B",
-      "ev": 2.1,
-      "side": "Hawaii Rainbow Warriors -8.5"
+      "fd": -15.5,
+      "ours": -18.1,
+      "gap": 2.6,
+      "grade": "C",
+      "ev": -2.4,
+      "side": "Liberty Flames -15.5"
+     },
+     "Total": {
+      "fd": 46.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -2.5,
+      "side": "Under 46.5"
      }
     }
    },
@@ -5383,9 +7338,34 @@
       "fd": -16.5,
       "ours": -17.7,
       "gap": 1.2,
-      "grade": "",
-      "ev": -4.2,
+      "grade": "C",
+      "ev": -4.4,
       "side": "Texas Tech Red Raiders -16.5"
+     },
+     "Total": {
+      "fd": 65.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -8.1,
+      "side": "Over 65.5"
+     }
+    }
+   },
+   {
+    "sport": "NCAAF",
+    "game": "Fresno State Bulldogs @ Utah State Aggies",
+    "away": "Fresno State Bulldogs",
+    "home": "Utah State Aggies",
+    "start": "2026-11-08T02:30:00Z",
+    "markets": {
+     "Total": {
+      "fd": 43.5,
+      "ours": null,
+      "gap": null,
+      "grade": "C",
+      "ev": -6.4,
+      "side": "Over 43.5"
      }
     }
    },
@@ -5400,8 +7380,8 @@
       "fd": 6.5,
       "ours": 6.2,
       "gap": 0.3,
-      "grade": "",
-      "ev": -3.4,
+      "grade": "C",
+      "ev": -2.4,
       "side": "Texas State Bobcats +6.5"
      }
     }
@@ -5413,1037 +7393,13 @@
     "home": "UNLV Rebels",
     "start": "2026-11-08T03:30:00Z",
     "markets": {
-     "Spread": {
-      "fd": -4.5,
-      "ours": -12.0,
-      "gap": 7.5,
-      "grade": "A",
-      "ev": 5.5,
-      "side": "UNLV Rebels -4.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "South Carolina St Bulldogs @ South Carolina Upstate Spartans",
-    "away": "South Carolina St Bulldogs",
-    "home": "South Carolina Upstate Spartans",
-    "start": "2026-11-06T23:40:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 3.5,
-      "ours": -14.4,
-      "gap": 17.9,
-      "grade": "A",
-      "ev": 27.2,
-      "side": "South Carolina St Bulldogs +3.5"
-     },
      "Total": {
-      "fd": 148.5,
-      "ours": 142.0,
-      "gap": 6.5,
-      "grade": "A",
-      "ev": 6.4,
-      "side": "Under 148.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "American Eagles @ Clemson Tigers",
-    "away": "American Eagles",
-    "home": "Clemson Tigers",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -15.5,
-      "ours": -22.4,
-      "gap": 6.9,
-      "grade": "A",
-      "ev": 9.3,
-      "side": "Clemson Tigers -15.5"
-     },
-     "Total": {
-      "fd": 141.5,
-      "ours": 138.1,
-      "gap": 3.4,
-      "grade": "",
-      "ev": -0.9,
-      "side": "Under 141.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Austin Peay Governors @ Kennesaw St Owls",
-    "away": "Austin Peay Governors",
-    "home": "Kennesaw St Owls",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 5.5,
-      "ours": 5.4,
-      "gap": 0.1,
-      "grade": "",
-      "ev": -2.1,
-      "side": "Austin Peay Governors +5.5"
-     },
-     "Total": {
-      "fd": 161.5,
-      "ours": 160.2,
-      "gap": 1.3,
-      "grade": "",
-      "ev": -1.3,
-      "side": "Under 161.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Indiana St Sycamores @ Ball State Cardinals",
-    "away": "Indiana St Sycamores",
-    "home": "Ball State Cardinals",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 1.5,
-      "ours": -17.6,
-      "gap": 19.1,
-      "grade": "A",
-      "ev": 31.0,
-      "side": "Indiana St Sycamores +1.5"
-     },
-     "Total": {
-      "fd": 146.5,
-      "ours": 136.1,
-      "gap": 10.4,
-      "grade": "A",
-      "ev": 9.7,
-      "side": "Under 146.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Coppin St Eagles @ George Mason Patriots",
-    "away": "Coppin St Eagles",
-    "home": "George Mason Patriots",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 140.5,
-      "ours": 136.3,
-      "gap": 4.2,
-      "grade": "B",
-      "ev": 2.9,
-      "side": "Under 140.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "East Tennessee St Buccaneers @ NC State Wolfpack",
-    "away": "East Tennessee St Buccaneers",
-    "home": "NC State Wolfpack",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -17.5,
-      "ours": -17.6,
-      "gap": 0.1,
-      "grade": "",
-      "ev": -4.8,
-      "side": "NC State Wolfpack -17.5"
-     },
-     "Total": {
-      "fd": 151.5,
-      "ours": 149.3,
-      "gap": 2.2,
-      "grade": "",
-      "ev": -3.1,
-      "side": "Under 151.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Eastern Michigan Eagles @ Xavier Musketeers",
-    "away": "Eastern Michigan Eagles",
-    "home": "Xavier Musketeers",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 151.5,
-      "ours": 153.7,
-      "gap": 2.2,
-      "grade": "",
-      "ev": 0.9,
-      "side": "Over 151.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "UNC Greensboro Spartans @ Elon Phoenix",
-    "away": "UNC Greensboro Spartans",
-    "home": "Elon Phoenix",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -8.5,
-      "ours": -8.9,
-      "gap": 0.4,
-      "grade": "",
-      "ev": -4.3,
-      "side": "Elon Phoenix -8.5"
-     },
-     "Total": {
-      "fd": 152.5,
-      "ours": 156.3,
-      "gap": 3.8,
-      "grade": "",
-      "ev": -1.8,
-      "side": "Over 152.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Troy Trojans @ Florida St Seminoles",
-    "away": "Troy Trojans",
-    "home": "Florida St Seminoles",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 157.5,
-      "ours": 150.5,
-      "gap": 7.0,
-      "grade": "A",
-      "ev": 3.2,
-      "side": "Under 157.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Presbyterian Blue Hose @ Georgia Bulldogs",
-    "away": "Presbyterian Blue Hose",
-    "home": "Georgia Bulldogs",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 157.5,
-      "ours": 156.0,
-      "gap": 1.5,
-      "grade": "",
-      "ev": 0.9,
-      "side": "Under 157.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Georgia Southern Eagles @ Georgia Tech Yellow Jackets",
-    "away": "Georgia Southern Eagles",
-    "home": "Georgia Tech Yellow Jackets",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 17.5,
-      "ours": 11.2,
-      "gap": 6.3,
-      "grade": "A",
-      "ev": 6.4,
-      "side": "Georgia Southern Eagles +17.5"
-     },
-     "Total": {
-      "fd": 159.5,
-      "ours": 160.5,
-      "gap": 1.0,
-      "grade": "",
-      "ev": -3.1,
-      "side": "Over 159.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Holy Cross Crusaders @ Villanova Wildcats",
-    "away": "Holy Cross Crusaders",
-    "home": "Villanova Wildcats",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 151.5,
-      "ours": 140.4,
-      "gap": 11.1,
-      "grade": "A",
-      "ev": 9.2,
-      "side": "Under 151.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "James Madison Dukes @ Kentucky Wildcats",
-    "away": "James Madison Dukes",
-    "home": "Kentucky Wildcats",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 156.5,
-      "ours": 149.8,
-      "gap": 6.7,
-      "grade": "A",
-      "ev": 6.9,
-      "side": "Under 156.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Missouri Tigers @ Saint Louis Billikens",
-    "away": "Missouri Tigers",
-    "home": "Saint Louis Billikens",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 3.5,
-      "ours": -9.4,
-      "gap": 12.9,
-      "grade": "A",
-      "ev": 17.2,
-      "side": "Saint Louis Billikens +3.5"
-     },
-     "Total": {
-      "fd": 161.5,
-      "ours": 160.4,
-      "gap": 1.1,
-      "grade": "",
-      "ev": -3.3,
-      "side": "Under 161.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "New Haven Chargers @ Rutgers Scarlet Knights",
-    "away": "New Haven Chargers",
-    "home": "Rutgers Scarlet Knights",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 137.5,
-      "ours": 127.1,
-      "gap": 10.4,
-      "grade": "A",
-      "ev": 7.6,
-      "side": "Under 137.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Wofford Terriers @ North Carolina Tar Heels",
-    "away": "Wofford Terriers",
-    "home": "North Carolina Tar Heels",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 156.5,
-      "ours": 151.2,
-      "gap": 5.3,
-      "grade": "A",
-      "ev": 5.8,
-      "side": "Under 156.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Stetson Hatters @ West Virginia Mountaineers",
-    "away": "Stetson Hatters",
-    "home": "West Virginia Mountaineers",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 141.5,
-      "ours": 133.1,
-      "gap": 8.4,
-      "grade": "A",
-      "ev": 11.7,
-      "side": "Under 141.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Yale Bulldogs @ UCF Knights",
-    "away": "Yale Bulldogs",
-    "home": "UCF Knights",
-    "start": "2026-11-07T00:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 9.5,
-      "ours": 6.5,
-      "gap": 3.0,
-      "grade": "",
-      "ev": -3.0,
-      "side": "Yale Bulldogs +9.5"
-     },
-     "Total": {
-      "fd": 152.5,
-      "ours": 152.1,
-      "gap": 0.4,
-      "grade": "",
-      "ev": -1.9,
-      "side": "Under 152.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Arkansas St Red Wolves @ Alabama Crimson Tide",
-    "away": "Arkansas St Red Wolves",
-    "home": "Alabama Crimson Tide",
-    "start": "2026-11-07T00:30:00Z",
-    "markets": {
-     "Total": {
-      "fd": 177.5,
-      "ours": 186.4,
-      "gap": 8.9,
-      "grade": "A",
-      "ev": 8.4,
-      "side": "Over 177.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Delaware Blue Hens @ Wisconsin Badgers",
-    "away": "Delaware Blue Hens",
-    "home": "Wisconsin Badgers",
-    "start": "2026-11-07T00:30:00Z",
-    "markets": {
-     "Total": {
-      "fd": 156.5,
-      "ours": 146.1,
-      "gap": 10.4,
-      "grade": "A",
-      "ev": 14.6,
-      "side": "Under 156.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Florida Atlantic Owls @ Wright St Raiders",
-    "away": "Florida Atlantic Owls",
-    "home": "Wright St Raiders",
-    "start": "2026-11-07T00:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 3.5,
-      "ours": -1.3,
-      "gap": 4.8,
-      "grade": "A",
-      "ev": 4.3,
-      "side": "Florida Atlantic Owls +3.5"
-     },
-     "Total": {
-      "fd": 156.5,
-      "ours": 153.8,
-      "gap": 2.7,
-      "grade": "C",
-      "ev": 1.6,
-      "side": "Under 156.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Nicholls St Colonels @ UAB Blazers",
-    "away": "Nicholls St Colonels",
-    "home": "UAB Blazers",
-    "start": "2026-11-07T00:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 15.5,
-      "ours": 12.8,
-      "gap": 2.7,
-      "grade": "C",
-      "ev": 4.7,
-      "side": "Nicholls St Colonels +15.5"
-     },
-     "Total": {
-      "fd": 157.5,
-      "ours": 150.3,
-      "gap": 7.2,
-      "grade": "A",
-      "ev": 4.4,
-      "side": "Under 157.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Detroit Mercy Titans @ Marquette Golden Eagles",
-    "away": "Detroit Mercy Titans",
-    "home": "Marquette Golden Eagles",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 154.5,
-      "ours": 148.4,
-      "gap": 6.1,
-      "grade": "A",
-      "ev": 5.8,
-      "side": "Under 154.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Southern Miss Golden Eagles @ Iowa State Cyclones",
-    "away": "Southern Miss Golden Eagles",
-    "home": "Iowa State Cyclones",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 144.5,
-      "ours": 148.0,
-      "gap": 3.5,
-      "grade": "B",
-      "ev": 5.5,
-      "side": "Over 144.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Texas Southern Tigers @ LSU Tigers",
-    "away": "Texas Southern Tigers",
-    "home": "LSU Tigers",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 160.5,
-      "ours": 163.3,
-      "gap": 2.8,
-      "grade": "C",
-      "ev": 1.4,
-      "side": "Over 160.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Texas A&M-CC Islanders @ Louisiana Ragin' Cajuns",
-    "away": "Texas A&M-CC Islanders",
-    "home": "Louisiana Ragin' Cajuns",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 3.5,
-      "ours": -20.0,
-      "gap": 23.5,
-      "grade": "A",
-      "ev": 36.9,
-      "side": "Texas A&M-CC Islanders +3.5"
-     },
-     "Total": {
-      "fd": 129.5,
-      "ours": 146.0,
-      "gap": 16.5,
-      "grade": "A",
-      "ev": 18.8,
-      "side": "Over 129.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "UConn Huskies @ Michigan Wolverines",
-    "away": "UConn Huskies",
-    "home": "Michigan Wolverines",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 7.5,
-      "ours": -6.7,
-      "gap": 14.2,
-      "grade": "A",
-      "ev": 18.8,
-      "side": "Michigan Wolverines +7.5"
-     },
-     "Total": {
-      "fd": 142.5,
-      "ours": 147.7,
-      "gap": 5.2,
-      "grade": "A",
-      "ev": 5.3,
-      "side": "Over 142.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "St. Thomas (MN) Tommies @ Minnesota Golden Gophers",
-    "away": "St. Thomas (MN) Tommies",
-    "home": "Minnesota Golden Gophers",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 14.5,
-      "ours": 8.4,
-      "gap": 6.1,
-      "grade": "A",
-      "ev": 5.9,
-      "side": "St. Thomas (MN) Tommies +14.5"
-     },
-     "Total": {
-      "fd": 149.5,
-      "ours": 138.6,
-      "gap": 10.9,
-      "grade": "A",
-      "ev": 12.5,
-      "side": "Under 149.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Northern Kentucky Norse @ Texas A&M Aggies",
-    "away": "Northern Kentucky Norse",
-    "home": "Texas A&M Aggies",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 171.5,
-      "ours": 168.6,
-      "gap": 2.9,
-      "grade": "C",
-      "ev": 2.1,
-      "side": "Under 171.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Stony Brook Seawolves @ Northwestern Wildcats",
-    "away": "Stony Brook Seawolves",
-    "home": "Northwestern Wildcats",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -12.5,
-      "ours": -18.4,
-      "gap": 5.9,
-      "grade": "A",
-      "ev": 8.8,
-      "side": "Northwestern Wildcats -12.5"
-     },
-     "Total": {
-      "fd": 144.5,
-      "ours": 137.5,
-      "gap": 7.0,
-      "grade": "A",
-      "ev": 6.6,
-      "side": "Under 144.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Southern Jaguars @ TCU Horned Frogs",
-    "away": "Southern Jaguars",
-    "home": "TCU Horned Frogs",
-    "start": "2026-11-07T01:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 152.5,
-      "ours": 158.4,
-      "gap": 5.9,
-      "grade": "A",
-      "ev": 6.3,
-      "side": "Over 152.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Central Arkansas Bears @ Ole Miss Rebels",
-    "away": "Central Arkansas Bears",
-    "home": "Ole Miss Rebels",
-    "start": "2026-11-07T01:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 17.5,
-      "ours": 14.3,
-      "gap": 3.2,
-      "grade": "C",
-      "ev": 0.3,
-      "side": "Central Arkansas Bears +17.5"
-     },
-     "Total": {
-      "fd": 154.5,
-      "ours": 146.8,
-      "gap": 7.7,
-      "grade": "A",
-      "ev": 8.2,
-      "side": "Under 154.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Eastern Illinois Panthers @ Iowa Hawkeyes",
-    "away": "Eastern Illinois Panthers",
-    "home": "Iowa Hawkeyes",
-    "start": "2026-11-07T01:30:00Z",
-    "markets": {
-     "Total": {
-      "fd": 134.5,
-      "ours": 129.4,
-      "gap": 5.1,
-      "grade": "B",
-      "ev": 1.7,
-      "side": "Under 134.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Idaho State Bengals @ Wyoming Cowboys",
-    "away": "Idaho State Bengals",
-    "home": "Wyoming Cowboys",
-    "start": "2026-11-07T01:30:00Z",
-    "markets": {
-     "Total": {
-      "fd": 145.5,
-      "ours": 150.7,
-      "gap": 5.2,
-      "grade": "A",
-      "ev": 5.2,
-      "side": "Over 145.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Omaha Mavericks @ BYU Cougars",
-    "away": "Omaha Mavericks",
-    "home": "BYU Cougars",
-    "start": "2026-11-07T02:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 160.5,
-      "ours": 155.8,
-      "gap": 4.7,
-      "grade": "",
-      "ev": -3.9,
-      "side": "Under 160.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "CSU Northridge Matadors @ Kansas St Wildcats",
-    "away": "CSU Northridge Matadors",
-    "home": "Kansas St Wildcats",
-    "start": "2026-11-07T02:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -10.5,
-      "ours": -23.4,
-      "gap": 12.9,
-      "grade": "A",
-      "ev": 18.2,
-      "side": "Kansas St Wildcats -10.5"
-     },
-     "Total": {
-      "fd": 163.5,
-      "ours": 157.3,
-      "gap": 6.2,
-      "grade": "C",
-      "ev": 0.1,
-      "side": "Under 163.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Idaho Vandals @ Colorado St Rams",
-    "away": "Idaho Vandals",
-    "home": "Colorado St Rams",
-    "start": "2026-11-07T02:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 16.5,
-      "ours": 12.3,
-      "gap": 4.2,
-      "grade": "A",
-      "ev": 4.0,
-      "side": "Idaho Vandals +16.5"
-     },
-     "Total": {
-      "fd": 151.5,
-      "ours": 154.3,
-      "gap": 2.8,
-      "grade": "",
-      "ev": -0.2,
-      "side": "Over 151.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Middle Tennessee Blue Raiders @ Kansas Jayhawks",
-    "away": "Middle Tennessee Blue Raiders",
-    "home": "Kansas Jayhawks",
-    "start": "2026-11-07T02:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 156.5,
-      "ours": 142.4,
-      "gap": 14.1,
-      "grade": "A",
-      "ev": 13.7,
-      "side": "Under 156.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Wagner Seahawks @ Miami Hurricanes",
-    "away": "Wagner Seahawks",
-    "home": "Miami Hurricanes",
-    "start": "2026-11-07T02:00:00Z",
-    "markets": {
-     "Total": {
-      "fd": 146.5,
-      "ours": 144.0,
-      "gap": 2.5,
-      "grade": "C",
-      "ev": 0.8,
-      "side": "Under 146.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Queens University Royals @ Oklahoma St Cowboys",
-    "away": "Queens University Royals",
-    "home": "Oklahoma St Cowboys",
-    "start": "2026-11-07T02:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -17.5,
-      "ours": -18.3,
-      "gap": 0.8,
-      "grade": "",
-      "ev": -6.1,
-      "side": "Oklahoma St Cowboys -17.5"
-     },
-     "Total": {
-      "fd": 177.5,
-      "ours": 167.0,
-      "gap": 10.5,
-      "grade": "A",
-      "ev": 8.8,
-      "side": "Under 177.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Portland Pilots @ UT-Arlington Mavericks",
-    "away": "Portland Pilots",
-    "home": "UT-Arlington Mavericks",
-    "start": "2026-11-07T02:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 1.5,
-      "ours": -4.0,
-      "gap": 5.5,
-      "grade": "A",
-      "ev": 4.7,
-      "side": "UT-Arlington Mavericks +1.5"
-     },
-     "Total": {
-      "fd": 150.5,
-      "ours": 137.5,
-      "gap": 13.0,
-      "grade": "A",
-      "ev": 12.6,
-      "side": "Under 150.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Tarleton State Texans @ San Diego Toreros",
-    "away": "Tarleton State Texans",
-    "home": "San Diego Toreros",
-    "start": "2026-11-07T02:30:00Z",
-    "markets": {
-     "Spread": {
-      "fd": 7.5,
-      "ours": 4.4,
-      "gap": 3.1,
-      "grade": "C",
-      "ev": 1.5,
-      "side": "Tarleton State Texans +7.5"
-     },
-     "Total": {
-      "fd": 148.5,
-      "ours": 155.1,
-      "gap": 6.6,
-      "grade": "A",
-      "ev": 4.8,
-      "side": "Over 148.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "North Dakota St Bison @ San Francisco Dons",
-    "away": "North Dakota St Bison",
-    "home": "San Francisco Dons",
-    "start": "2026-11-07T03:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -8.5,
-      "ours": -13.9,
-      "gap": 5.4,
-      "grade": "A",
-      "ev": 2.7,
-      "side": "San Francisco Dons -8.5"
-     },
-     "Total": {
-      "fd": 146.5,
-      "ours": 148.4,
-      "gap": 1.9,
-      "grade": "",
-      "ev": -5.7,
-      "side": "Over 146.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "Oakland Golden Grizzlies @ Stanford Cardinal",
-    "away": "Oakland Golden Grizzlies",
-    "home": "Stanford Cardinal",
-    "start": "2026-11-07T03:00:00Z",
-    "markets": {
-     "Spread": {
-      "fd": -13.5,
-      "ours": -14.1,
-      "gap": 0.6,
-      "grade": "",
-      "ev": -6.4,
-      "side": "Stanford Cardinal -13.5"
-     },
-     "Total": {
-      "fd": 145.5,
-      "ours": 158.0,
-      "gap": 12.5,
-      "grade": "A",
-      "ev": 15.4,
-      "side": "Over 145.5"
-     }
-    }
-   },
-   {
-    "sport": "NCAAM",
-    "game": "North Florida Ospreys @ UCLA Bruins",
-    "away": "North Florida Ospreys",
-    "home": "UCLA Bruins",
-    "start": "2026-11-07T03:30:00Z",
-    "markets": {
-     "Total": {
-      "fd": 155.5,
-      "ours": 160.5,
-      "gap": 5.0,
-      "grade": "A",
-      "ev": 3.8,
-      "side": "Over 155.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Columbus Blue Jackets @ Buffalo Sabres",
-    "away": "Columbus Blue Jackets",
-    "home": "Buffalo Sabres",
-    "start": "2026-11-07T00:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": 150,
+      "fd": 49.5,
       "ours": null,
-      "gap": 7.0,
+      "gap": null,
       "grade": "C",
-      "ev": 0.1,
-      "side": "Columbus Blue Jackets ML"
-     },
-     "Total": {
-      "fd": 6.5,
-      "ours": 6.2,
-      "gap": 0.35,
-      "grade": "",
-      "ev": -1.3,
-      "side": "Under 6.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "Anaheim Ducks @ Calgary Flames",
-    "away": "Anaheim Ducks",
-    "home": "Calgary Flames",
-    "start": "2026-11-07T01:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": 122,
-      "ours": null,
-      "gap": 12.2,
-      "grade": "B",
-      "ev": 2.5,
-      "side": "Anaheim Ducks ML"
-     },
-     "Total": {
-      "fd": 6.5,
-      "ours": 6.8,
-      "gap": 0.29,
-      "grade": "",
-      "ev": -4.9,
-      "side": "Under 6.5"
-     }
-    }
-   },
-   {
-    "sport": "NHL",
-    "game": "San Jose Sharks @ Minnesota Wild",
-    "away": "San Jose Sharks",
-    "home": "Minnesota Wild",
-    "start": "2026-11-07T01:10:00Z",
-    "markets": {
-     "Moneyline": {
-      "fd": 225,
-      "ours": null,
-      "gap": 1.8,
-      "grade": "",
-      "ev": -8.9,
-      "side": "San Jose Sharks ML"
-     },
-     "Total": {
-      "fd": 6.5,
-      "ours": 6.4,
-      "gap": 0.12,
-      "grade": "",
-      "ev": -1.9,
-      "side": "Under 6.5"
+      "ev": -6.6,
+      "side": "Over 49.5"
      }
     }
    }

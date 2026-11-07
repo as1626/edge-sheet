@@ -1,10 +1,14 @@
 {
- "cmd": "probe4",
+ "cmd": "cfbday",
  "ok": true,
- "at": "2026-11-07T12:19:06.600495+00:00",
+ "at": "2026-11-07T12:21:04.586777+00:00",
  "log": [
-  "BLOCK rounded-lg border border-neutral-400 bg-bg-light p-3 sm:p-4 dark:border-neutral-550\"> | Texas @ Missouri | Sat 11/7 \u00b7 12:00 PM ET | Selection | Odds | Handle | Bets | Moneyline | Missouri | +114 | 36% | 25% | Texas | \u2212135 | 64% | 75% | Spread | Texas -2.5 | \u2212118 | 72% | 53% | Missouri +2.5 | \u2212102 | 28% | 47% | Total | Over 42.5 | \u2212108 | 31% | 69% | Under 42.5 | \u2212112 | 69% | 31% | Texas Longhorns vs. Missouri Tigers pick, prediction for College Football Week 10 on Saturday 11/7/26 | ",
-  "BLOCK rounded-lg border border-neutral-400 bg-bg-light p-3 sm:p-4 dark:border-neutral-550\"> | BYU @ Utah | Sat 11/7 \u00b7 12:00 PM ET | Selection | Odds | Handle | Bets | Moneyline | Utah | \u2212185 | 77% | 71% | BYU | +154 | 23% | 29% | Spread | Utah -4.5 | \u2212105 | 40% | 41% | BYU +4.5 | \u2212115 | 60% | 59% | Total | Over 49.5 | \u2212105 | 20% | 58% | Under 49.5 | \u2212115 | 80% | 42% | BYU Cougars at Utah Utes Prediction and Pick for Saturday 11/7/26 | ",
-  "pages ['1', '2', '3', '4', '5'] n blocks 10"
+  "odds americanfootball_ncaaf: 51 pregame games, credits remaining 201",
+  "FPI college-football: 138 teams ('Notre Dame Fighting Irish', {'fpi': 26.784, 'g': 8.0})",
+  "dk splits NCAAF: 50 games",
+  "AN ncaaf: 63 games, opens on 63",
+  "cfb card: 61 graded (0 A, 0 B), dk matched 47/51",
+  "price scan NCAAF: 0 flags",
+  "staked: []"
  ]
 }
