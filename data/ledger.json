@@ -2825,9 +2825,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Washington Wizards 132, Atlanta Hawks 139",
+   "result_units": -0.5
   },
   {
    "id": "2026-11-06|Utah Jazz @ Dallas Mavericks|Total",
@@ -2861,9 +2861,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Utah Jazz 100, Dallas Mavericks 112",
+   "result_units": -0.5
   },
   {
    "id": "2026-11-06|Oklahoma City Thunder @ Memphis Grizzlies|Spread",
@@ -2897,9 +2897,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Oklahoma City Thunder 128, Memphis Grizzlies 97",
+   "result_units": 0.472
   },
   {
    "id": "2026-11-06|Jerami Grant|pts",
@@ -2932,9 +2932,9 @@
    "mkt_src": "Consensus (3)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Jerami Grant: 10 PTS",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-06|Keldon Johnson|pts",
@@ -2967,9 +2967,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Keldon Johnson: 3 PTS",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-06|Dyson Daniels|ast",
@@ -3002,9 +3002,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Dyson Daniels: 12 AST",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-06|Anaheim Ducks @ Calgary Flames|Moneyline",
@@ -3034,9 +3034,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Anaheim Ducks 5, Calgary Flames 3",
+   "result_units": 0.312,
    "note": null
   },
   {
@@ -3071,9 +3071,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Philadelphia 76ers 95, Cleveland Cavaliers 119",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-06|Toronto Raptors @ Milwaukee Bucks|Spread",
@@ -3107,9 +3107,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Toronto Raptors 121, Milwaukee Bucks 107",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-06|Boston Celtics @ Charlotte Hornets|Spread",
@@ -3143,9 +3143,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Boston Celtics 119, Charlotte Hornets 80",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-06|Tyler Herro|pts",
@@ -3178,9 +3178,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Tyler Herro: 23 PTS",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-06|Ayo Dosunmu|ast",
@@ -3213,9 +3213,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Ayo Dosunmu: 4 AST",
+   "result_units": 0.138
   },
   {
    "id": "2026-11-06|Derrick White|pts",
@@ -3248,9 +3248,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Derrick White: 18 PTS",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-06|Jayson Tatum|pts",
@@ -3283,9 +3283,9 @@
    "mkt_src": "Consensus (4)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Jayson Tatum: 34 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-06|AJ Dybantsa|pts",
@@ -3318,9 +3318,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "AJ Dybantsa: 11 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-06|Cooper Flagg|pts",
@@ -3353,9 +3353,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Cooper Flagg: 21 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-06|Grayson Allen|pts",
@@ -3388,9 +3388,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Grayson Allen: 0 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-06|Ajay Mitchell|pts",
@@ -3423,9 +3423,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Ajay Mitchell: 35 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-06|Luka Don\u010di\u0107|pts",
@@ -3458,9 +3458,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Luka Don\u010di\u0107: 53 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-06|Ty Jerome|ast",
@@ -3493,9 +3493,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Ty Jerome: 5 AST",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-06|Dyson Daniels|pts",
@@ -3528,9 +3528,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Dyson Daniels: 13 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-06|Neemias Queta|pts",
@@ -3563,9 +3563,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Neemias Queta: 4 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-06|Jonathan Kuminga|pts",
@@ -3598,9 +3598,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Jonathan Kuminga: 17 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-06|Columbus Blue Jackets @ Buffalo Sabres|Moneyline",
@@ -3630,9 +3630,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Columbus Blue Jackets 2, Buffalo Sabres 5",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -4191,9 +4191,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "UConn Huskies 85, Michigan Wolverines 77",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -4257,9 +4257,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Northern Kentucky Norse 67, Texas A&M Aggies 104",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -4323,9 +4323,9 @@
    "market_signal": "neutral",
    "close_line": 7.5,
    "close_src": "Pinnacle close",
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Tarleton State Texans 90, San Diego Toreros 96",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated",
    "close_price": -108
   }
@@ -4344,7 +4344,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Fri Nov 6 \u00b7 9:20 PM ET",
+ "updated_label": "Sat Nov 7 \u00b7 7:17 AM ET",
  "slate_date": "2026-11-06",
  "slate_label": "Fri Nov 6",
  "run_note": "Props priced for 9 games.",

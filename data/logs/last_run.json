@@ -1,8 +1,18 @@
 {
  "cmd": "grade",
  "ok": true,
- "at": "2026-11-07T00:16:14.211193+00:00",
+ "at": "2026-11-07T12:17:30.655840+00:00",
  "log": [
-  "auto -> grade (19:16 ET)"
+  "graded Atlanta Hawks -8.5: lost -0.50u",
+  "graded Over 226.5: lost -0.50u",
+  "graded Oklahoma City Thunder -4.5: won +0.47u",
+  "graded Anaheim Ducks ML: won +0.31u",
+  "graded Cleveland Cavaliers +2.5: won +0.00u",
+  "graded Toronto Raptors -4.5: won +0.00u",
+  "graded Charlotte Hornets +9.5: lost -0.00u",
+  "graded Columbus Blue Jackets ML: lost -0.00u",
+  "graded Michigan Wolverines +7.5: lost -0.00u",
+  "graded Under 171.5: won +0.00u",
+  "graded Tarleton State Texans +7.5: won +0.00u"
  ]
 }
