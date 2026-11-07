@@ -1,14 +1,6 @@
 {
- "cmd": "cfbday",
+ "cmd": "page",
  "ok": true,
- "at": "2026-11-07T12:21:04.586777+00:00",
- "log": [
-  "odds americanfootball_ncaaf: 51 pregame games, credits remaining 201",
-  "FPI college-football: 138 teams ('Notre Dame Fighting Irish', {'fpi': 26.784, 'g': 8.0})",
-  "dk splits NCAAF: 50 games",
-  "AN ncaaf: 63 games, opens on 63",
-  "cfb card: 61 graded (0 A, 0 B), dk matched 47/51",
-  "price scan NCAAF: 0 flags",
-  "staked: []"
- ]
+ "at": "2026-11-07T12:30:34.298084+00:00",
+ "log": []
 }
