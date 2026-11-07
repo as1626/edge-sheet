@@ -1,9 +1,8 @@
 {
- "cmd": "card",
+ "cmd": "grade",
  "ok": true,
- "at": "2026-11-06T23:44:35.437229+00:00",
+ "at": "2026-11-07T00:16:14.211193+00:00",
  "log": [
-  "auto -> card (18:44 ET)",
-  "card for 2026-11-06 already built; scheduled retry skipped"
+  "auto -> grade (19:16 ET)"
  ]
 }
