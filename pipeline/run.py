@@ -593,6 +593,13 @@ if __name__ == "__main__":
             model = [bet_from_multi(r, X.STAKE_POLICY.get("NFL", 0)) for r in sorted(rows, key=lambda r: -r["ev"]) if r["grade"] in ("A", "B", "C")][:6]
             add_multi(L, model + scans + nfl_props(hours=14, max_plays=8), ds)
             L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
+        elif cmd == "all":         # on demand: spend down credits for NFL props, then the full card for every sport
+            global PROP_CREDIT_FLOOR
+            PROP_CREDIT_FLOOR = 10
+            L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
+            bets = nfl_props(hours=14, max_plays=8); log("nfl prop plays:", [(b["pick"], b["price"], b["ev_pct"], b["stake"]) for b in bets])
+            add_multi(L, bets, ds, refresh=False); L["credits"] = S.CREDITS["remaining"]; save_games(L, ds); save(LEDGER, L)
+            card()
         elif cmd == "nflprops":
             L = load(LEDGER, {"bets": []}); ds = now_et().date().isoformat()
             bets = nfl_props(); log("nfl prop plays:", [(b["pick"], b["price"], b["ev_pct"], b["stake"]) for b in bets])
