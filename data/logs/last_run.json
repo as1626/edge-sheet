@@ -1,13 +1,6 @@
 {
- "cmd": "nflday",
+ "cmd": "page",
  "ok": true,
- "at": "2026-11-08T14:17:53.484847+00:00",
- "log": [
-  "odds americanfootball_nfl: 13 pregame games, credits remaining 150",
-  "price scan NFL: 0 flags",
-  "FPI nfl: 32 teams ('San Francisco 49ers', {'fpi': 5.913, 'g': 7.0})",
-  "NFL model: 13 priced, 3 A/B",
-  "odds americanfootball_nfl: 14 pregame games, credits remaining 147",
-  "nfl props skipped: 147 credits"
- ]
+ "at": "2026-11-08T14:23:56.093306+00:00",
+ "log": []
 }
