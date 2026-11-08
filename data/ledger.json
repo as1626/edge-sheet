@@ -4130,8 +4130,8 @@
      "price": -104,
      "start": "2026-11-08T00:45:00Z",
      "note": "Sharp money + expert read + best price o",
-     "status": "pending",
-     "score": null
+     "status": "won",
+     "score": "Oklahoma Sooners 23, Florida Gators 7"
     },
     {
      "pick": "Under 49.5 (BYU\u2013Utah)",
@@ -4144,8 +4144,8 @@
      "price": -115,
      "start": "2026-11-07T17:00:00Z",
      "note": "Rivalry game, sharp money on the under, ",
-     "status": "pending",
-     "score": null
+     "status": "won",
+     "score": "BYU Cougars 20, Utah Utes 28"
     },
     {
      "pick": "Under 42.5 (Texas\u2013Missouri)",
@@ -4158,8 +4158,8 @@
      "price": -112,
      "start": "2026-11-07T17:00:00Z",
      "note": "Sharp under, but the total already fell ",
-     "status": "pending",
-     "score": null
+     "status": "lost",
+     "score": "Texas Longhorns 34, Missouri Tigers 20"
     }
    ],
    "model_line": null,
@@ -4171,9 +4171,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
+   "status": "lost",
    "score": null,
-   "result_units": null
+   "result_units": -0.1
   },
   {
    "id": "2026-11-07|Clemson Tigers @ Syracuse Orange|Spread|cfb",
@@ -6163,7 +6163,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Sun Nov 8 \u00b7 7:52 AM ET",
+ "updated_label": "Sun Nov 8 \u00b7 7:53 AM ET",
  "slate_date": "2026-11-07",
  "slate_label": "Sat Nov 7",
  "run_note": "Props priced for 7 games.",
