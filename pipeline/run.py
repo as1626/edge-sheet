@@ -483,8 +483,35 @@ def grade():
         b["status"] = "won" if diff > 0 else "lost" if diff < 0 else "push"
         b["result_units"] = settle(None, b["price"], b["stake"], b["status"])
         log(f"graded {b['pick']}: {b['status']} {b['result_units']:+.2f}u")
+    settle_parlays(L, cache)
     L["updated_label"] = now_et().strftime("%a %b %-d · %-I:%M %p ET")
     save(LEDGER, L)
+
+def settle_parlays(L, cache):
+    same = lambda x, y: S.pname(x) == S.pname(y) or S.pname(x).startswith(S.pname(y) + " ") or S.pname(y).startswith(S.pname(x) + " ")
+    paths = {"NCAAF": "football/college-football", "NBA": "basketball/nba", "NCAAM": "basketball/mens-college-basketball", "NFL": "football/nfl"}
+    for p in L["bets"]:
+        if p.get("engine") != "Parlay" or p["status"] != "pending" or not p.get("legs"): continue
+        for l in p["legs"]:
+            if l["status"] != "pending" or (now_et() - to_et(l["start"])).total_seconds() < 3.5 * 3600: continue
+            d = to_et(l["start"]).date(); key = (p["sport"], d)
+            if key not in cache:
+                try: cache[key] = S.espn_scoreboard(d, paths.get(p["sport"], "football/college-football"))
+                except Exception: cache[key] = []
+            g = next((x for x in cache[key] if same(x["home"], l["home"]) and same(x["away"], l["away"])), None)
+            if not g or not g["final"]: continue
+            hp, ap = g["home_pts"], g["away_pts"]
+            if l.get("market") == "Total": diff = (hp + ap - l["line"]) * (1 if l["side"] == "over" else -1)
+            else:
+                mine, theirs = (hp, ap) if same(l["pick_team"], g["home"]) else (ap, hp); diff = mine - theirs + l["line"]
+            l["status"] = "won" if diff > 0 else "lost" if diff < 0 else "push"; l["score"] = f'{l["away"]} {ap}, {l["home"]} {hp}'
+        if any(l["status"] == "lost" for l in p["legs"]): p["status"], p["result_units"] = "lost", -p["stake"]
+        elif all(l["status"] != "pending" for l in p["legs"]):
+            dd = 1.0
+            for l in p["legs"]:
+                if l["status"] == "won": dd *= am_to_dec(l["price"])
+            p["status"] = "won" if dd > 1 else "push"; p["result_units"] = round(p["stake"] * (dd - 1), 3)
+        log(f"parlay {p['id']}: {p['status']}")
 
 def dry():
     """Exercise every non-odds source and the rest/injury logic."""
