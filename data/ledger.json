@@ -3663,9 +3663,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Tulsa Golden Hurricane 60, Tulane Green Wave 10",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -3696,9 +3696,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Florida State Seminoles 31, Boston College Eagles 24",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -3729,9 +3729,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "UCLA Bruins 34, Minnesota Golden Gophers 20",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -4030,9 +4030,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Oklahoma Sooners 23, Florida Gators 7",
+   "result_units": 0.24
   },
   {
    "id": "2026-11-07|BYU Cougars @ Utah Utes|Total|read",
@@ -4064,9 +4064,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "BYU Cougars 20, Utah Utes 28",
+   "result_units": 0.217
   },
   {
    "id": "2026-11-07|Texas Longhorns @ Missouri Tigers|Total|read",
@@ -4098,9 +4098,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Texas Longhorns 34, Missouri Tigers 20",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-07|Parlay|CFB unders",
@@ -4207,9 +4207,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Clemson Tigers 18, Syracuse Orange 13",
+   "result_units": -0.0,
    "note": null
   },
   {
@@ -4244,9 +4244,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Iowa State Cyclones 31, Baylor Bears 42",
+   "result_units": -0.0,
    "note": null
   },
   {
@@ -4281,9 +4281,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "UCLA Bruins 34, Minnesota Golden Gophers 20",
+   "result_units": -0.0,
    "note": null
   },
   {
@@ -4317,9 +4317,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "BYU Cougars 20, Utah Utes 28",
+   "result_units": 0.118,
    "note": null
   },
   {
@@ -4353,9 +4353,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Merrimack Warriors 0, Wake Forest Demon Deacons 77",
+   "result_units": -0.125,
    "note": null
   },
   {
@@ -4389,9 +4389,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Merrimack Warriors 0, Wake Forest Demon Deacons 77",
+   "result_units": -0.125,
    "note": null
   },
   {
@@ -4425,9 +4425,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Arkansas Razorbacks 23, Auburn Tigers 26",
+   "result_units": -0.0,
    "note": null
   },
   {
@@ -4461,9 +4461,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Oklahoma State Cowboys 66, Kansas State Wildcats 28",
+   "result_units": 0.0,
    "note": null
   },
   {
@@ -4497,9 +4497,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "North Carolina Tar Heels 38, UConn Huskies 21",
+   "result_units": 0.0,
    "note": null
   },
   {
@@ -4533,9 +4533,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Clemson Tigers 18, Syracuse Orange 13",
+   "result_units": -0.0,
    "note": null
   },
   {
@@ -4568,9 +4568,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Old Dominion Monarchs 21, Coastal Carolina Chanticleers 8",
+   "result_units": -0.0,
    "note": null
   },
   {
@@ -4603,9 +4603,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Duke Blue Devils 41, NC State Wolfpack 3",
+   "result_units": 0.0,
    "note": null
   },
   {
@@ -4638,9 +4638,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Iowa State Cyclones 31, Baylor Bears 42",
+   "result_units": 0.0,
    "note": null
   },
   {
@@ -4673,9 +4673,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Maryland Terrapins 34, Purdue Boilermakers 29",
+   "result_units": -0.0,
    "note": null
   },
   {
@@ -4710,9 +4710,9 @@
    "market_signal": "with us",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Old Dominion Monarchs 21, Coastal Carolina Chanticleers 8",
+   "result_units": 0.0,
    "note": null
   },
   {
@@ -4742,9 +4742,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Rutgers Scarlet Knights 10, Wisconsin Badgers 31",
+   "result_units": -0.05
   },
   {
    "id": "2026-11-07|Washington Wizards @ Oklahoma City Thunder|Spread",
@@ -4776,9 +4776,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Washington Wizards 75, Oklahoma City Thunder 114",
+   "result_units": 0.217
   },
   {
    "id": "2026-11-07|New York Knicks @ Cleveland Cavaliers|Spread",
@@ -4812,9 +4812,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "New York Knicks 109, Cleveland Cavaliers 97",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Orlando Magic @ Golden State Warriors|Total",
@@ -4848,9 +4848,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Orlando Magic 119, Golden State Warriors 126",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-07|Houston Rockets @ Phoenix Suns|Total",
@@ -4882,11 +4882,12 @@
    "projection": "94 possessions, total 223.3 (bias-adjusted -4.8)",
    "market_signal": "against us",
    "mkt_src": "Pinnacle",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "close_line": 223.5,
+   "close_src": "Pinnacle close",
+   "status": "won",
+   "score": "Houston Rockets 99, Phoenix Suns 102",
+   "result_units": 0.0,
+   "close_price": -107
   },
   {
    "id": "2026-11-07|Brooklyn Nets @ Atlanta Hawks|Total",
@@ -4920,9 +4921,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Brooklyn Nets 121, Atlanta Hawks 124",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Brooklyn Nets @ Atlanta Hawks|Spread",
@@ -4956,9 +4957,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Brooklyn Nets 121, Atlanta Hawks 124",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-07|Washington Wizards @ Oklahoma City Thunder|Total",
@@ -4992,9 +4993,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Washington Wizards 75, Oklahoma City Thunder 114",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Denver Nuggets @ Indiana Pacers|Total",
@@ -5026,9 +5027,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Denver Nuggets 114, Indiana Pacers 102",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Denver Nuggets @ Indiana Pacers|Spread",
@@ -5062,9 +5063,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Denver Nuggets 114, Indiana Pacers 102",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-07|Bilal Coulibaly|reb",
@@ -5097,9 +5098,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Bilal Coulibaly: 5 REB",
+   "result_units": 0.172
   },
   {
    "id": "2026-11-07|Franz Wagner|ast",
@@ -5132,9 +5133,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Franz Wagner: 11 AST",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-07|James Harden|ast",
@@ -5167,9 +5168,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "James Harden: 5 AST",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Anthony Black|ast",
@@ -5202,9 +5203,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Anthony Black: 6 AST",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Nolan Traor\u00e9|pts",
@@ -5237,9 +5238,9 @@
    "mkt_src": "Consensus (4)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Nolan Traor\u00e9: 19 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Peyton Watson|pts",
@@ -5272,9 +5273,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Peyton Watson: 12 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-07|Oso Ighodaro|pts",
@@ -5307,9 +5308,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Oso Ighodaro: 4 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-07|Mikel Brown Jr.|reb",
@@ -5342,9 +5343,9 @@
    "mkt_src": "Consensus (1)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Mikel Brown Jr.: 1 REB",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-07|Kyshawn George|ast",
@@ -5377,9 +5378,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Kyshawn George: 6 AST",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-07|Aaron Nesmith|pts",
@@ -5412,9 +5413,9 @@
    "mkt_src": "Consensus (2)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Aaron Nesmith: 8 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-07|Stephen Curry|ast",
@@ -5447,9 +5448,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Stephen Curry: 6 AST",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Stephen Curry|pts",
@@ -5482,9 +5483,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Stephen Curry: 41 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-07|Tampa Bay Lightning @ Minnesota Wild|Total",
@@ -5514,9 +5515,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Tampa Bay Lightning 4, Minnesota Wild 3",
+   "result_units": -0.12,
    "note": null
   },
   {
@@ -5547,9 +5548,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Tampa Bay Lightning 4, Minnesota Wild 3",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5580,9 +5581,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "San Jose Sharks 3, Dallas Stars 4",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5710,12 +5711,13 @@
    "projection": "FPI UNLV Rebels -3.3, Wyoming Cowboys -12.7",
    "signals": [],
    "market_signal": "neutral",
-   "close_line": null,
-   "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
-   "note": "Tracked until this model is validated"
+   "close_line": -3.0,
+   "close_src": "Pinnacle close",
+   "status": "lost",
+   "score": "Wyoming Cowboys 41, UNLV Rebels 35",
+   "result_units": -0.0,
+   "note": "Tracked until this model is validated",
+   "close_price": -111
   },
   {
    "id": "2026-11-07|Vanderbilt Commodores @ Mississippi State Bulldogs|Spread",
@@ -5745,9 +5747,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Vanderbilt Commodores 25, Mississippi State Bulldogs 23",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5778,9 +5780,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Iowa Hawkeyes 24, Northwestern Wildcats 10",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5811,9 +5813,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Marshall Thundering Herd 13, Georgia Southern Eagles 49",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5844,9 +5846,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Penn State Nittany Lions 28, Washington Huskies 25",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5877,9 +5879,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Boise State Broncos 64, Colorado State Rams 38",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5910,9 +5912,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Lamar Cardinals 81, Abilene Christian Wildcats 83",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -5943,9 +5945,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Northern Iowa Panthers 83, Furman Paladins 98",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -6042,9 +6044,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Old Dominion Monarchs 82, Bucknell Bison 62",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -6108,9 +6110,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Western Carolina Catamounts 83, UNC Asheville Bulldogs 75",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -6141,9 +6143,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "UNC Wilmington Seahawks 78, East Carolina Pirates 75",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   }
  ],
@@ -6161,7 +6163,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Sat Nov 7 \u00b7 1:17 PM ET",
+ "updated_label": "Sun Nov 8 \u00b7 7:52 AM ET",
  "slate_date": "2026-11-07",
  "slate_label": "Sat Nov 7",
  "run_note": "Props priced for 7 games.",
