@@ -6147,6 +6147,43 @@
    "score": null,
    "result_units": null,
    "note": "Tracked until this model is validated"
+  },
+  {
+   "id": "2026-11-08|Cincinnati Bengals @ Atlanta Falcons|Spread|analyst",
+   "date": "2026-11-08",
+   "start": "2026-11-08T14:30:00Z",
+   "sport": "NFL",
+   "engine": "Analyst read",
+   "game": "Cincinnati Bengals @ Atlanta Falcons",
+   "away": "Cincinnati Bengals",
+   "home": "Atlanta Falcons",
+   "market": "Spread",
+   "pick": "Cincinnati Bengals -3.5",
+   "pick_team": "Cincinnati Bengals",
+   "side": "away",
+   "line": -3.5,
+   "price": 100,
+   "grade": "B",
+   "stake": 0.5,
+   "model_line": -6.2,
+   "fair_line": -4.5,
+   "pinnacle_open": -3.9,
+   "ev_pct": 5.8,
+   "gap": 2.7,
+   "why": "Model fair -4.5 (-7.7 with no home edge in Madrid); best price at +100; experts Bengals by 7-10; public split 50/50",
+   "projection": "FPI Atlanta Falcons -3.9, Cincinnati Bengals +3.8",
+   "signals": [
+    "experts Bengals by 7-10",
+    "public 50/50",
+    "neutral site"
+   ],
+   "market_signal": "neutral",
+   "close_line": null,
+   "close_src": null,
+   "status": "pending",
+   "score": null,
+   "result_units": null,
+   "note": "Analyst read \u00b7 Bengals WR depth thin (Iosivas out, Young Q)"
   }
  ],
  "snapshots": [
