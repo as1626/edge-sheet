@@ -3,5 +3,10 @@
   "close_line": 223.5,
   "close_price": -107,
   "close_src": "Pinnacle close"
+ },
+ "2026-11-07|Wyoming Cowboys @ UNLV Rebels|Spread": {
+  "close_line": -3.0,
+  "close_price": -111,
+  "close_src": "Pinnacle close"
  }
 }
