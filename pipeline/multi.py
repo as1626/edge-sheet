@@ -336,6 +336,7 @@ def cfb_card(odds, fpi, dk, an, label="NCAAF"):
         model_margin = (fpi[rh]["fpi"] - fpi[ra]["fpi"] + cfg["hfa"]) if rh and ra else None
         sp = fd.get("spreads"); to = fd.get("totals")
         cands = []
+        if sp and len(sp) == 2 and abs(sp["home"]["point"]) > 28: continue   # skip FCS/blowout mismatches (Merrimack +47.5 lost 77-0)
         if sp and len(sp) == 2:
             for side in ("home", "away"):
                 line = sp[side]["point"]; price = sp[side]["price"]; tm = m[side]

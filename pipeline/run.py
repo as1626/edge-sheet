@@ -312,7 +312,8 @@ def card():
     L = load(LEDGER, {"bets": [], "snapshots": []})
     started = lambda b: to_et(b["start"]) <= now_et()
     # posted staked plays are permanent; only unstaked (tracked) entries are refreshed
-    L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and not started(b) and b["stake"] == 0)]
+    L["bets"] = [b for b in L["bets"] if not (b["date"] == ds and b["status"] == "pending" and not started(b) and b["stake"] == 0
+                                               and b.get("engine") not in ("Analyst read", "CFB card"))]
     have = {b["id"] for b in L["bets"]}
     new = [bet_from_side(r, ds) for r in sides if r["grade"]] + [bet_from_prop(r, ds) for r in props if r["grade"] in ("A", "B")]
     new += [bet_from_prop(r, ds) for r in [x for x in props if x["grade"] == "C"][:10]]
