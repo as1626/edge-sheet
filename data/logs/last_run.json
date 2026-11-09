@@ -1,17 +1,9 @@
 {
- "cmd": "grade",
+ "cmd": "rebuild",
  "ok": true,
- "at": "2026-11-09T23:50:48.034330+00:00",
+ "at": "2026-11-09T23:51:59.940758+00:00",
  "log": [
-  "graded New York Jets ML: lost -0.32u",
-  "graded Cincinnati Bengals -3.5: won +0.00u",
-  "graded Cincinnati Bengals -3.5: won +0.50u",
-  "graded Minnesota Timberwolves -11.5: won +0.48u",
-  "graded Over 224.5: lost -0.25u",
-  "graded Los Angeles Clippers +1.5: won +0.23u",
-  "graded Detroit Pistons -4.5: lost -0.50u",
-  "graded Chicago Bulls +9.5: won +0.00u",
-  "graded Los Angeles Chargers +5.5: lost -0.00u",
-  "graded Philadelphia Eagles +3: lost -0.00u"
+  "bbref players 2027: 462",
+  "rebuild: props A 0, B 0, held 0"
  ]
 }
