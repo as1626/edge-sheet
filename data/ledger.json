@@ -346,9 +346,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "New York Jets 12, Kansas City Chiefs 35",
+   "result_units": -0.32
   },
   {
    "id": "2026-11-03|Parlay|Lotto5",
@@ -6077,9 +6077,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Cincinnati Bengals 34, Atlanta Falcons 17",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -6114,9 +6114,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Cincinnati Bengals 34, Atlanta Falcons 17",
+   "result_units": 0.5,
    "note": "Analyst read \u00b7 Bengals WR depth thin (Iosivas out, Young Q)"
   },
   {
@@ -6149,9 +6149,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Quinshon Judkins: 1 RECEPTIONS",
+   "result_units": -0.12
   },
   {
    "id": "2026-11-08|Malik Washington|rec_yds|scan",
@@ -6183,9 +6183,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Malik Washington: 21 REC YDS",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-08|Utah Jazz @ Minnesota Timberwolves|Spread",
@@ -6219,9 +6219,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Utah Jazz 100, Minnesota Timberwolves 115",
+   "result_units": 0.476
   },
   {
    "id": "2026-11-08|Utah Jazz @ Minnesota Timberwolves|Total",
@@ -6253,9 +6253,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Utah Jazz 100, Minnesota Timberwolves 115",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-08|New Orleans Pelicans @ Los Angeles Clippers|Spread",
@@ -6287,9 +6287,9 @@
    "mkt_src": "Pinnacle",
    "close_line": 1.5,
    "close_src": "Pinnacle close",
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "New Orleans Pelicans 123, Los Angeles Clippers 139",
+   "result_units": 0.227,
    "close_price": -101
   },
   {
@@ -6324,9 +6324,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Los Angeles Lakers 121, Detroit Pistons 116",
+   "result_units": -0.5
   },
   {
    "id": "2026-11-08|Philadelphia 76ers @ Chicago Bulls|Spread",
@@ -6360,9 +6360,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Philadelphia 76ers 127, Chicago Bulls 121",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-08|Jonathan Kuminga|ast",
@@ -6395,9 +6395,9 @@
    "mkt_src": "Consensus (4)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Jonathan Kuminga: 0 AST",
+   "result_units": -0.125
   },
   {
    "id": "2026-11-08|Domantas Sabonis|reb",
@@ -6430,9 +6430,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "push",
+   "score": "Did not play (void)",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-08|Kris Dunn|ast",
@@ -6465,9 +6465,9 @@
    "mkt_src": "Consensus (3)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Kris Dunn: 4 AST",
+   "result_units": 0.128
   },
   {
    "id": "2026-11-08|Brayden Burries|pts",
@@ -6500,9 +6500,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Brayden Burries: 13 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Austin Reaves|pts",
@@ -6535,9 +6535,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Austin Reaves: 43 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Michael Porter Jr.|pts",
@@ -6570,9 +6570,9 @@
    "mkt_src": "Consensus (3)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Michael Porter Jr.: 19 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Jayson Tatum|pts",
@@ -6605,9 +6605,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Jayson Tatum: 21 PTS",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-08|Ayo Dosunmu|ast",
@@ -6640,9 +6640,9 @@
    "mkt_src": "Consensus (4)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Ayo Dosunmu: 1 AST",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-08|Cooper Flagg|pts",
@@ -6675,9 +6675,9 @@
    "mkt_src": "Consensus (3)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Cooper Flagg: 25 PTS",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Giannis Antetokounmpo|reb",
@@ -6710,9 +6710,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Giannis Antetokounmpo: 14 REB",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Neemias Queta|reb",
@@ -6745,9 +6745,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Neemias Queta: 9 REB",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Julius Randle|ast",
@@ -6780,9 +6780,9 @@
    "mkt_src": "Consensus (4)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Julius Randle: 4 AST",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-08|Jaxson Hayes|reb",
@@ -6815,9 +6815,9 @@
    "mkt_src": "Consensus (4)",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Jaxson Hayes: 6 REB",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-08|Houston Texans @ Los Angeles Chargers|Spread",
@@ -6847,9 +6847,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "Houston Texans 44, Los Angeles Chargers 22",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -6880,9 +6880,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "lost",
+   "score": "New York Giants 19, Philadelphia Eagles 11",
+   "result_units": -0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -7580,7 +7580,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Mon Nov 9 \u00b7 1:57 PM ET",
+ "updated_label": "Mon Nov 9 \u00b7 6:50 PM ET",
  "slate_date": "2026-11-09",
  "slate_label": "Mon Nov 9",
  "run_note": "Props skipped: 33 Odds API credits left (floor 120).",
