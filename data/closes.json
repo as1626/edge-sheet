@@ -8,5 +8,10 @@
   "close_line": -3.0,
   "close_price": -111,
   "close_src": "Pinnacle close"
+ },
+ "2026-11-08|New Orleans Pelicans @ Los Angeles Clippers|Spread": {
+  "close_line": 1.5,
+  "close_price": -101,
+  "close_src": "Pinnacle close"
  }
 }
