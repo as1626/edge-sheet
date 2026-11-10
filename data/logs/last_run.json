@@ -1,8 +1,18 @@
 {
  "cmd": "grade",
  "ok": true,
- "at": "2026-11-10T02:53:55.590349+00:00",
+ "at": "2026-11-10T16:30:33.636403+00:00",
  "log": [
-  "auto -> grade (21:53 ET)"
+  "auto -> grade (11:30 ET)",
+  "graded Detroit Pistons -10.5: won +0.23u",
+  "graded Charlotte Hornets +8.5: won +0.00u",
+  "graded Toronto Raptors -2.5: lost -0.25u",
+  "graded Over 214.5: won +0.00u",
+  "graded Denver Nuggets +8.5: lost -0.00u",
+  "graded Over 220.5: lost -0.00u",
+  "graded Phoenix Suns +8.5: lost -0.00u",
+  "graded Over 218.5: won +0.00u",
+  "graded Under 144.5: won +0.00u",
+  "graded Under 140.5: won +0.00u"
  ]
 }

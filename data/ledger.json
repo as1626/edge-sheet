@@ -6915,9 +6915,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Washington Wizards 111, Detroit Pistons 122",
+   "result_units": 0.227
   },
   {
    "id": "2026-11-09|Cleveland Cavaliers @ Charlotte Hornets|Spread",
@@ -6951,9 +6951,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Cleveland Cavaliers 112, Charlotte Hornets 124",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-09|Memphis Grizzlies @ Toronto Raptors|Spread",
@@ -6985,9 +6985,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Memphis Grizzlies 118, Toronto Raptors 102",
+   "result_units": -0.25
   },
   {
    "id": "2026-11-09|Cleveland Cavaliers @ Charlotte Hornets|Total",
@@ -7021,9 +7021,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Cleveland Cavaliers 112, Charlotte Hornets 124",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-09|Denver Nuggets @ Houston Rockets|Spread",
@@ -7057,9 +7057,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Denver Nuggets 100, Houston Rockets 110",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-09|Denver Nuggets @ Houston Rockets|Total",
@@ -7093,9 +7093,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "Denver Nuggets 100, Houston Rockets 110",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-09|San Antonio Spurs @ Phoenix Suns|Spread",
@@ -7129,9 +7129,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "lost",
+   "score": "San Antonio Spurs 122, Phoenix Suns 96",
+   "result_units": -0.0
   },
   {
    "id": "2026-11-09|Washington Wizards @ Detroit Pistons|Total",
@@ -7165,9 +7165,9 @@
    "mkt_src": "Pinnacle",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null
+   "status": "won",
+   "score": "Washington Wizards 111, Detroit Pistons 122",
+   "result_units": 0.0
   },
   {
    "id": "2026-11-15|Miami Dolphins @ Indianapolis Colts|Spread",
@@ -7461,9 +7461,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Minnesota Golden Gophers 63, Cincinnati Bearcats 61",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -7527,9 +7527,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Wagner Seahawks 41, UConn Huskies 83",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -7580,7 +7580,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Mon Nov 9 \u00b7 9:53 PM ET",
+ "updated_label": "Tue Nov 10 \u00b7 11:30 AM ET",
  "slate_date": "2026-11-09",
  "slate_label": "Mon Nov 9",
  "run_note": "Props skipped: 33 Odds API credits left (floor 120).",
