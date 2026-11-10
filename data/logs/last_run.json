@@ -1,9 +1,8 @@
 {
- "cmd": "rebuild",
+ "cmd": "grade",
  "ok": true,
- "at": "2026-11-09T23:51:59.940758+00:00",
+ "at": "2026-11-10T02:10:54.205024+00:00",
  "log": [
-  "bbref players 2027: 462",
-  "rebuild: props A 0, B 0, held 0"
+  "auto -> grade (21:10 ET)"
  ]
 }
