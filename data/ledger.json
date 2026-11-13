@@ -7263,9 +7263,9 @@
    "market_signal": "neutral",
    "close_line": null,
    "close_src": null,
-   "status": "pending",
-   "score": null,
-   "result_units": null,
+   "status": "won",
+   "score": "Louisiana Ragin Cajuns 42, UL Monroe Warhawks 21",
+   "result_units": 0.0,
    "note": "Tracked until this model is validated"
   },
   {
@@ -7580,7 +7580,7 @@
    "note": "Voided 15 plays added by the 8:49 PM card run after their games had started (live odds priced as pregame). Bug fixed: started games are now excluded everywhere."
   }
  ],
- "updated_label": "Thu Nov 12 \u00b7 8:26 PM ET",
+ "updated_label": "Fri Nov 13 \u00b7 11:35 AM ET",
  "slate_date": "2026-11-09",
  "slate_label": "Mon Nov 9",
  "run_note": "Props skipped: 33 Odds API credits left (floor 120).",
